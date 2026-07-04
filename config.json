@@ -1,0 +1,28 @@
+{
+  "provider_order": [
+    "recommendation",
+    "weread",
+    "openlibrary",
+    "googlebooks"
+  ],
+  "book_count": 3,
+  "min_rating": 7.5,
+  "summary_max_length": 800,
+  "cover_check_timeout": 3,
+  "pages_per_tag": 2,
+  "theme_source": "config.json 主题发现策略 + 豆瓣标签页联网发现",
+  "theme_strategies": {
+    "认知升级": {
+      "tags": [
+        "思维",
+        "认知科学",
+        "心理学",
+        "决策"
+      ],
+      "keywords": [
+        "认知升级 书单",
+        "思维升级 书单"
+      ]
+    }
+  }
+}
