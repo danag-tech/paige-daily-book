@@ -8,6 +8,7 @@ from email_sender import send_email
 from html_email_builder import build_book_email_html
 from prompt_builder import build_summary_prompt
 from providers.manager import ProviderManager
+from sent_books import append_sent_books, filter_unsent_books, load_sent_books, save_sent_books
 from summary_generator import SummaryGenerationError, generate_summary
 from theme_picker import get_today_theme
 
@@ -29,15 +30,29 @@ def print_books(theme: str) -> None:
     try:
         deepseek_config = get_deepseek_config()
         app_config = load_config()
+        book_count = app_config["book_count"]
+        candidate_count = max(book_count * 3, 9)
         manager = ProviderManager(app_config)
-        result = manager.search(theme, app_config["book_count"])
-        prompt = build_summary_prompt(result.books)
+        result = manager.search(theme, candidate_count)
+        sent_records = load_sent_books()
+        unsent_books = filter_unsent_books(result.books, sent_records)
+        selected_books = unsent_books[:book_count]
+        if len(selected_books) < book_count:
+            raise RuntimeError("Not enough unsent books found for today's theme.")
+
+        print("Selected books:")
+        for index, book in enumerate(selected_books, start=1):
+            print(f"{index}. {book.title}")
+
+        prompt = build_summary_prompt(selected_books)
         summary = generate_summary(prompt, deepseek_config)
-        cover_images = download_cover_images(result.books)
+        cover_images = download_cover_images(selected_books)
         cover_cids = [image["cid"] if image else None for image in cover_images]
-        html_body = build_book_email_html(theme, result.books, summary, cover_cids)
+        html_body = build_book_email_html(theme, selected_books, summary, cover_cids)
         print(summary)
         send_email(f"今日荐书：{theme}", summary, html_body, cover_images)
+        updated_records = append_sent_books(sent_records, selected_books, theme)
+        save_sent_books(updated_records)
     except ConfigError as exc:
         print(f"配置错误：{exc}")
         return
@@ -49,6 +64,7 @@ def print_books(theme: str) -> None:
         return
 
     print("Email sent successfully.")
+    print("Sent history updated.")
 
 
 if __name__ == "__main__":

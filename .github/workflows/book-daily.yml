@@ -3,6 +3,9 @@ name: Book Daily
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   book-daily:
     runs-on: ubuntu-latest
@@ -10,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,3 +34,19 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python main.py
+
+      - name: Commit sent books history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f sent_books.json ]; then
+            git add sent_books.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Update sent books history"
+              git push
+            else
+              echo "No sent books history changes to commit."
+            fi
+          else
+            echo "No sent_books.json found."
+          fi
