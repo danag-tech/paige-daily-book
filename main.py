@@ -7,6 +7,7 @@ from email_sender import send_email
 from prompt_builder import build_summary_prompt
 from providers.manager import ProviderManager
 from summary_generator import SummaryGenerationError, generate_summary
+from theme_picker import get_today_theme
 
 
 CONFIG_PATH = Path(__file__).with_name("config.json")
@@ -21,6 +22,8 @@ def print_books(theme: str) -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
+    print(f"Today theme: {theme}")
+
     try:
         deepseek_config = get_deepseek_config()
         app_config = load_config()
@@ -29,7 +32,7 @@ def print_books(theme: str) -> None:
         prompt = build_summary_prompt(result.books)
         summary = generate_summary(prompt, deepseek_config)
         print(summary)
-        send_email("Project Paige 每日荐书", summary)
+        send_email(f"今日荐书：{theme}", summary)
     except ConfigError as exc:
         print(f"配置错误：{exc}")
         return
@@ -44,5 +47,5 @@ def print_books(theme: str) -> None:
 
 
 if __name__ == "__main__":
-    theme = "认知升级"
+    theme = get_today_theme()
     print_books(theme)
