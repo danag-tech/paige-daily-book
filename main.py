@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 
 from config import ConfigError, get_deepseek_config
+from prompt_builder import build_summary_prompt
 from providers.manager import ProviderManager
 from summary_generator import SummaryGenerationError, generate_summary
 
@@ -37,24 +38,6 @@ def print_books(theme: str) -> None:
         return
 
     print(summary)
-
-
-def build_summary_prompt(books: list) -> str:
-    book_sections = []
-    for index, book in enumerate(books, start=1):
-        book_sections.append(
-            "\n".join(
-                [
-                    f"{index}. 书名：{book.title}",
-                    f"作者：{book.author}",
-                    f"ISBN：{book.isbn or '暂无 ISBN'}",
-                    f"评分：{book.rating or '暂无评分'}",
-                    f"简介：{book.summary}",
-                ]
-            )
-        )
-
-    return "\n\n".join(book_sections)
 
 
 if __name__ == "__main__":
