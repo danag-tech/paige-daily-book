@@ -3,7 +3,9 @@ import sys
 from pathlib import Path
 
 from config import ConfigError, get_deepseek_config
+from cover_image import download_cover_images
 from email_sender import send_email
+from html_email_builder import build_book_email_html
 from prompt_builder import build_summary_prompt
 from providers.manager import ProviderManager
 from summary_generator import SummaryGenerationError, generate_summary
@@ -31,8 +33,11 @@ def print_books(theme: str) -> None:
         result = manager.search(theme, app_config["book_count"])
         prompt = build_summary_prompt(result.books)
         summary = generate_summary(prompt, deepseek_config)
+        cover_images = download_cover_images(result.books)
+        cover_cids = [image["cid"] if image else None for image in cover_images]
+        html_body = build_book_email_html(theme, result.books, summary, cover_cids)
         print(summary)
-        send_email(f"今日荐书：{theme}", summary)
+        send_email(f"今日荐书：{theme}", summary, html_body, cover_images)
     except ConfigError as exc:
         print(f"配置错误：{exc}")
         return
