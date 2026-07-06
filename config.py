@@ -12,7 +12,14 @@ class DeepSeekConfig:
     model: str
 
 
-def get_deepseek_config() -> DeepSeekConfig:
+@dataclass(frozen=True)
+class EmailConfig:
+    email_user: str
+    email_password: str
+    email_to: str
+
+
+def _load_env() -> None:
     try:
         from dotenv import load_dotenv
     except ImportError as exc:
@@ -20,11 +27,41 @@ def get_deepseek_config() -> DeepSeekConfig:
 
     load_dotenv()
 
+
+def get_deepseek_config() -> DeepSeekConfig:
+    _load_env()
+
     api_key = os.getenv("DEEPSEEK_API_KEY")
     if not api_key:
         raise ConfigError("DEEPSEEK_API_KEY is missing. Please set it in .env before running the program.")
 
+    model = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+    if not model:
+        raise ConfigError("DEEPSEEK_MODEL is missing. Please set it in .env before running the program.")
+
     return DeepSeekConfig(
         api_key=api_key,
-        model=os.getenv("DEEPSEEK_MODEL", "deepseek-chat"),
+        model=model,
+    )
+
+
+def get_email_config() -> EmailConfig:
+    _load_env()
+
+    email_user = os.getenv("EMAIL_USER")
+    if not email_user:
+        raise ConfigError("EMAIL_USER is missing. Please set it in .env before sending email.")
+
+    email_password = os.getenv("EMAIL_PASSWORD")
+    if not email_password:
+        raise ConfigError("EMAIL_PASSWORD is missing. Please set it in .env before sending email.")
+
+    email_to = os.getenv("EMAIL_TO")
+    if not email_to:
+        raise ConfigError("EMAIL_TO is missing. Please set it in .env before sending email.")
+
+    return EmailConfig(
+        email_user=email_user,
+        email_password=email_password,
+        email_to=email_to,
     )

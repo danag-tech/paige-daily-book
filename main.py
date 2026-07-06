@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 
 from config import ConfigError, get_deepseek_config
+from email_sender import send_email
 from prompt_builder import build_summary_prompt
 from providers.manager import ProviderManager
 from summary_generator import SummaryGenerationError, generate_summary
@@ -27,17 +28,19 @@ def print_books(theme: str) -> None:
         result = manager.search(theme, app_config["book_count"])
         prompt = build_summary_prompt(result.books)
         summary = generate_summary(prompt, deepseek_config)
+        print(summary)
+        send_email("Project Paige 每日荐书", summary)
     except ConfigError as exc:
         print(f"配置错误：{exc}")
         return
     except SummaryGenerationError as exc:
-        print(f"DeepSeek 总结生成失败：{exc}")
+        print(f"总结生成失败：{exc}")
         return
     except Exception as exc:
         print(f"程序运行失败：{exc}")
         return
 
-    print(summary)
+    print("Email sent successfully.")
 
 
 if __name__ == "__main__":
