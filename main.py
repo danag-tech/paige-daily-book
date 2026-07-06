@@ -2,7 +2,9 @@ import json
 import sys
 from pathlib import Path
 
+from config import ConfigError, get_deepseek_config
 from providers.manager import ProviderManager
+from summary_generator import SummaryGenerationError, generate_summary
 
 
 CONFIG_PATH = Path(__file__).with_name("config.json")
@@ -17,44 +19,42 @@ def print_books(theme: str) -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
-    config = load_config()
-    manager = ProviderManager(config)
-    result = manager.search(theme, config["book_count"])
+    try:
+        deepseek_config = get_deepseek_config()
+        app_config = load_config()
+        manager = ProviderManager(app_config)
+        result = manager.search(theme, app_config["book_count"])
+        prompt = build_summary_prompt(result.books)
+        summary = generate_summary(prompt, deepseek_config)
+    except ConfigError as exc:
+        print(f"配置错误：{exc}")
+        return
+    except SummaryGenerationError as exc:
+        print(f"DeepSeek 总结生成失败：{exc}")
+        return
+    except Exception as exc:
+        print(f"程序运行失败：{exc}")
+        return
 
-    print("今日主题：")
-    print()
-    print(theme)
-    print()
-    print("主题来源：")
-    print()
-    print(result.theme_source)
-    print()
-    print("书籍信息来源：")
-    print()
-    print(result.book_info_source)
-    print()
-
-    for index, book in enumerate(result.books, start=1):
-        print(_number_label(index))
-        print(f"书名：{book.title}")
-        print(f"作者：{book.author}")
-        print(f"ISBN：{book.isbn or '暂无 ISBN'}")
-        print(f"评分：{book.rating or '暂无评分'}")
-        print(f"封面 URL：{book.cover or '暂无封面'}")
-        print(f"简介：{book.summary}")
-        print()
-
-    print("Provider 失败原因：")
-    if result.failures:
-        for failure in result.failures:
-            print(f"- {failure}")
-    else:
-        print("无。")
+    print(summary)
 
 
-def _number_label(index: int) -> str:
-    labels = {1: "①", 2: "②", 3: "③"}
-    return labels.get(index, str(index))
+def build_summary_prompt(books: list) -> str:
+    book_sections = []
+    for index, book in enumerate(books, start=1):
+        book_sections.append(
+            "\n".join(
+                [
+                    f"{index}. 书名：{book.title}",
+                    f"作者：{book.author}",
+                    f"ISBN：{book.isbn or '暂无 ISBN'}",
+                    f"评分：{book.rating or '暂无评分'}",
+                    f"简介：{book.summary}",
+                ]
+            )
+        )
+
+    return "\n\n".join(book_sections)
 
 
 if __name__ == "__main__":
