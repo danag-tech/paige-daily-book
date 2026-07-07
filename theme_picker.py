@@ -23,3 +23,9 @@ def get_today_theme() -> str:
     today = date.today()
     index = today.toordinal() % len(THEMES)
     return THEMES[index]
+
+
+def get_ordered_themes() -> list[str]:
+    today = date.today()
+    index = today.toordinal() % len(THEMES)
+    return THEMES[index:] + THEMES[:index]
