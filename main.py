@@ -55,13 +55,13 @@ def print_books(theme: str) -> None:
         save_sent_books(updated_records)
     except ConfigError as exc:
         print(f"配置错误：{exc}")
-        return
+        sys.exit(1)
     except SummaryGenerationError as exc:
         print(f"总结生成失败：{exc}")
-        return
+        sys.exit(1)
     except Exception as exc:
         print(f"程序运行失败：{exc}")
-        return
+        sys.exit(1)
 
     print("Email sent successfully.")
     print("Sent history updated.")

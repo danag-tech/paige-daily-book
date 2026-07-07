@@ -1,23 +1,22 @@
+import json
 from datetime import date
+from pathlib import Path
 
 
-THEMES = [
-    "历史与文明",
-    "心理学与自我理解",
-    "社会观察",
-    "认知升级",
-    "商业与经济",
-    "科技与未来",
-    "文学经典",
-    "女性成长",
-    "生活方式",
-    "传记与人物",
-    "哲学入门",
-    "沟通与关系",
-    "城市与旅行",
-    "艺术与审美",
-    "工作方法",
-]
+CONFIG_PATH = Path(__file__).with_name("config.json")
+
+
+def _load_configured_themes() -> list[str]:
+    with CONFIG_PATH.open("r", encoding="utf-8") as file:
+        config = json.load(file)
+
+    themes = list(config.get("theme_strategies", {}).keys())
+    if not themes:
+        raise RuntimeError("未配置任何可用主题发现策略")
+    return themes
+
+
+THEMES = _load_configured_themes()
 
 
 def get_today_theme() -> str:
