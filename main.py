@@ -37,7 +37,12 @@ def print_books() -> None:
         selected_books = []
         for theme in get_ordered_themes():
             print(f"Trying theme: {theme}")
-            result = manager.search(theme, candidate_count)
+            try:
+                result = manager.search(theme, candidate_count)
+            except Exception as exc:
+                print(f"Theme failed: {theme}: {exc}")
+                continue
+
             unsent_books = filter_unsent_books(result.books, sent_records)
             selected_books = unsent_books[:book_count]
             if len(selected_books) >= book_count:
