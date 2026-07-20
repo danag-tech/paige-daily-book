@@ -3,6 +3,10 @@ name: Book Daily
 on:
   workflow_dispatch:
 
+concurrency:
+  group: book-daily
+  cancel-in-progress: false
+
 permissions:
   contents: write
 

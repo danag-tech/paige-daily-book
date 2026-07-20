@@ -35,13 +35,19 @@ def _build_book_card(book, cover_cid: str | None) -> str:
     if cover_cid:
         safe_cid = escape(cover_cid)
         cover_html = (
-            f'<img src="cid:{safe_cid}" alt="《{title}》封面" '
-            'style="display:block; max-width:150px; width:42%; min-width:112px; height:auto; border-radius:4px; border:1px solid #ddd; margin:14px auto 20px;">'
+            '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:14px 0 20px;">'
+            '<tr><td align="center" style="text-align:center;">'
+            f'<img src="cid:{safe_cid}" alt="《{title}》封面" width="150" '
+            'style="display:block; width:150px; max-width:42%; min-width:112px; height:auto; border-radius:4px; border:1px solid #ddd; margin:0 auto;">'
+            '</td></tr></table>'
         )
     else:
         cover_html = (
-            '<div style="width:42%; max-width:150px; min-width:112px; min-height:160px; border:1px solid #ddd; border-radius:4px; '
-            'display:flex; align-items:center; justify-content:center; color:#777; font-size:14px; margin:14px auto 20px;">暂无封面</div>'
+            '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:14px 0 20px;">'
+            '<tr><td align="center" style="text-align:center;">'
+            '<div style="width:150px; max-width:42%; min-width:112px; min-height:160px; border:1px solid #ddd; border-radius:4px; '
+            'display:flex; align-items:center; justify-content:center; color:#777; font-size:14px; margin:0 auto;">暂无封面</div>'
+            '</td></tr></table>'
         )
 
     return f"""
