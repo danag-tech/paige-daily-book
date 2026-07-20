@@ -55,15 +55,9 @@ def _build_book_card(book, cover_cid: str | None) -> str:
 
     return f"""
     <div style="border:1px solid #e5e5e5; border-radius:8px; padding:16px; margin:0 0 16px;">
-      <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%; border-collapse:collapse;">
-        <tr>
-          <td style="width:140px; vertical-align:top; padding-right:16px;">{cover_html}</td>
-          <td style="vertical-align:top;">
-            <h3 style="font-size:18px; margin:0 0 8px;">《{title}》</h3>
-            <p style="margin:0 0 6px; color:#444;">作者：{author}</p>
-            <p style="margin:0; color:#444;">评分：{rating}</p>
-          </td>
-        </tr>
-      </table>
+      <h3 style="font-size:18px; margin:0 0 8px;">《{title}》</h3>
+      <p style="margin:0 0 6px; color:#444;">作者：{author}</p>
+      <p style="margin:0 0 12px; color:#444;">评分：{rating}</p>
+      {cover_html}
     </div>
     """
