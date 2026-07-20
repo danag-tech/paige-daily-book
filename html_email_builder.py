@@ -36,21 +36,25 @@ def _build_book_card(book, cover_cid: str | None) -> str:
         safe_cid = escape(cover_cid)
         cover_html = (
             f'<img src="cid:{safe_cid}" alt="《{title}》封面" '
-            'style="display:block; max-width:120px; width:120px; height:auto; border-radius:4px; border:1px solid #ddd; margin:0 0 12px;">'
+            'style="display:block; max-width:150px; width:42%; min-width:112px; height:auto; border-radius:4px; border:1px solid #ddd; margin:14px auto 20px;">'
         )
     else:
         cover_html = (
-            '<div style="width:120px; min-height:160px; border:1px solid #ddd; border-radius:4px; '
-            'display:flex; align-items:center; justify-content:center; color:#777; font-size:14px; margin:0 0 12px;">暂无封面</div>'
+            '<div style="width:42%; max-width:150px; min-width:112px; min-height:160px; border:1px solid #ddd; border-radius:4px; '
+            'display:flex; align-items:center; justify-content:center; color:#777; font-size:14px; margin:14px auto 20px;">暂无封面</div>'
         )
 
     return f"""
     <div style="border:1px solid #e5e5e5; border-radius:8px; padding:16px; margin:0 0 16px;">
-      <h3 style="font-size:18px; margin:0 0 8px;">《{title}》</h3>
-      <p style="margin:0 0 6px; color:#444;">作者：{author}</p>
-      <p style="margin:0 0 12px; color:#444;">评分：{rating}</p>
-      {cover_html}
-      <p style="margin:0 0 6px; color:#444; font-weight:bold;">简介：</p>
-      {summary_html}
+      <div style="text-align:center;">
+        <h3 style="font-size:18px; margin:0 0 10px;">《{title}》</h3>
+        <p style="margin:0 0 6px; color:#444;">作者：{author}</p>
+        <p style="margin:0; color:#444;">评分：{rating}</p>
+        {cover_html}
+      </div>
+      <div style="text-align:left;">
+        <p style="margin:0 0 6px; color:#444; font-weight:bold;">简介：</p>
+        {summary_html}
+      </div>
     </div>
     """
