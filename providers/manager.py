@@ -42,6 +42,8 @@ class ProviderManager:
                 books = provider.search(theme, count)
             except Exception as exc:
                 failures.append(f"{provider.name}: {exc}")
+                if provider.name == "recommendation":
+                    print("Douban unavailable, switching to fallback provider")
                 continue
 
             unique_books = self._dedupe(books)
@@ -56,6 +58,8 @@ class ProviderManager:
                 )
 
             failures.append(f"{provider.name}: 主题推荐结果不足，仅返回 {len(unique_books)} 本")
+            if provider.name == "recommendation":
+                print("Douban unavailable, switching to fallback provider")
 
         if failures:
             error_message = "没有 Provider 成功返回足够的主题推荐书籍。 " + " | ".join(failures)
@@ -77,6 +81,12 @@ class ProviderManager:
                         summary_max_length=self.config.get("summary_max_length", 800),
                         theme_strategies=self.config.get("theme_strategies", {}),
                         pages_per_tag=self.config.get("pages_per_tag", 2),
+                    )
+                )
+            elif provider_name in {"openlibrary", "googlebooks"}:
+                providers.append(
+                    provider_class(
+                        theme_strategies=self.config.get("theme_strategies", {}),
                     )
                 )
             else:

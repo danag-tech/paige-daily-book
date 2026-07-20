@@ -35,17 +35,17 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python main.py
 
-      - name: Commit sent books history
+      - name: Commit sent books history and book pool
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -f sent_books.json ]; then
-            git add sent_books.json
+            git add sent_books.json data/book_pool.json
             if ! git diff --cached --quiet; then
               git commit -m "Update sent books history"
               git push
             else
-              echo "No sent books history changes to commit."
+              echo "No sent books history or book pool changes to commit."
             fi
           else
             echo "No sent_books.json found."
