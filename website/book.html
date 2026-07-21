@@ -105,13 +105,8 @@
         link.href = wereadUrl;
         link.target = "_blank";
         link.rel = "noopener noreferrer";
-        link.textContent = "打开阅读入口";
+        link.textContent = "微信读书查看";
         actions.appendChild(link);
-      } else {
-        const note = document.createElement("p");
-        note.className = "empty-note";
-        note.textContent = "暂无阅读入口";
-        actions.appendChild(note);
       }
 
       content.append(date, name, author, rating, summaryTitle, summary, actions);

@@ -1,6 +1,9 @@
 import json
 import re
+
+import requests
 from pathlib import Path
+from urllib.parse import quote
 
 from book_pool import load_book_pool
 from sent_books import build_record_keys, load_sent_books
@@ -148,16 +151,17 @@ def _to_public_record(record: dict) -> dict | None:
     title = _clean_text(record.get("title"))
     if not title:
         return None
+    isbn = _clean_text(record.get("isbn"))
 
     return {
         "title": title,
         "author": _clean_text(record.get("author")) or "暂无作者",
         "rating": _clean_text(record.get("rating")) or "暂无评分",
-        "cover": _safe_public_url(record.get("cover")),
+        "cover": _resolve_cover(record, isbn, title),
         "summary": _clean_summary(record.get("summary")) or "暂无简介",
         "recommended_date": _clean_text(record.get("sent_date")) or "暂无日期",
         "detail_url": "",
-        "weread_url": _safe_public_url(record.get("weread_url")) or "",
+        "weread_url": _resolve_weread_url(record, title),
     }
 
 
@@ -200,6 +204,44 @@ def _safe_public_url(value) -> str | None:
         return url
     return None
 
+
+
+def _resolve_cover(record: dict, isbn: str, title: str) -> str | None:
+    cover = _safe_public_url(record.get("cover"))
+    if cover:
+        return cover
+    if isbn:
+        return f"https://covers.openlibrary.org/b/isbn/{quote(isbn, safe="")}-L.jpg"
+    return _find_cover_by_title(title)
+
+def _find_cover_by_title(title: str) -> str | None:
+    if not title:
+        return None
+
+    try:
+        response = requests.get(
+            "https://www.googleapis.com/books/v1/volumes",
+            params={"q": f"intitle:{title}", "langRestrict": "zh", "maxResults": 5},
+            timeout=10,
+        )
+        response.raise_for_status()
+        items = response.json().get("items") or []
+    except (requests.RequestException, ValueError):
+        return None
+
+    for item in items:
+        volume_info = item.get("volumeInfo") or {}
+        image_links = volume_info.get("imageLinks") or {}
+        cover = _safe_public_url(image_links.get("thumbnail") or image_links.get("smallThumbnail"))
+        if cover:
+            return cover.replace("http://", "https://", 1)
+    return None
+
+def _resolve_weread_url(record: dict, title: str) -> str:
+    weread_url = _safe_public_url(record.get("weread_url"))
+    if weread_url:
+        return weread_url
+    return f"https://weread.qq.com/web/search/books?keyword={quote(title, safe="")}"
 
 def _fallback_key(record: dict) -> str:
     return f"{record.get('title', '')}|{record.get('author', '')}".lower()
