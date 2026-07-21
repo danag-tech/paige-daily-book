@@ -2,6 +2,7 @@ import json
 import re
 from pathlib import Path
 
+from book_pool import load_book_pool
 from sent_books import build_record_keys, load_sent_books
 
 
@@ -24,7 +25,7 @@ SECRET_FIELD_NAMES = {
     "secret",
     "api_key",
 }
-PROMOTIONAL_LINE_PATTERN = re.compile(r"^(❖.*?❖|[★☆]+|编辑推荐[:：]?|推荐语[:：]?)")
+PROMOTIONAL_LINE_PATTERN = re.compile(r"^(❖.*?❖|[★☆·•◌⋄]+|【?内容简介】?|【?媒体推荐】?|【?学人推荐】?|编辑推荐[:：]?|推荐语[:：]?)")
 MARKDOWN_PREFIX_PATTERN = re.compile(r"^\s{0,3}(#{1,6}\s+|[-*+]\s+|>\s*|\d+[.)]\s+)")
 MARKDOWN_LINK_PATTERN = re.compile(r"\[([^\]]+)\]\([^)]*\)")
 PROMOTIONAL_PHRASES = (
@@ -43,13 +44,15 @@ PROMOTIONAL_PHRASES = (
 
 def generate_website_books(records: list[dict] | None = None, limit: int = PUBLIC_BOOK_LIMIT) -> list[dict]:
     source_records = records if records is not None else load_sent_books()
-    normalized_records = _normalize_records(source_records)
+    supplement_lookup = {} if records is not None else _build_supplement_lookup(load_book_pool())
+    normalized_records = _normalize_records(source_records, supplement_lookup)
     return _select_public_books(normalized_records, limit)
 
 
 def generate_today_books(records: list[dict] | None = None, limit: int = TODAY_BOOK_LIMIT) -> list[dict]:
     source_records = records if records is not None else load_sent_books()
-    normalized_records = _normalize_records(source_records)
+    supplement_lookup = {} if records is not None else _build_supplement_lookup(load_book_pool())
+    normalized_records = _normalize_records(source_records, supplement_lookup)
     if not normalized_records:
         return []
 
@@ -78,18 +81,48 @@ def update_website_books() -> list[dict]:
     return books
 
 
-def _normalize_records(records: list[dict]) -> list[tuple[str, int, dict, dict]]:
+def _normalize_records(records: list[dict], supplement_lookup: dict[str, dict] | None = None) -> list[tuple[str, int, dict, dict]]:
     normalized_records = []
 
     for index, record in enumerate(records):
         if not isinstance(record, dict):
             continue
-        public_record = _to_public_record(record)
+        public_record = _to_public_record(_merge_supplement(record, supplement_lookup or {}))
         if public_record:
             normalized_records.append((record.get("sent_date") or "", index, record, public_record))
 
     normalized_records.sort(key=lambda item: (item[0], item[1]), reverse=True)
     return normalized_records
+
+
+def _build_supplement_lookup(records: list[dict]) -> dict[str, dict]:
+    lookup: dict[str, dict] = {}
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        for key in build_record_keys(record):
+            lookup.setdefault(key, record)
+    return lookup
+
+
+def _merge_supplement(record: dict, supplement_lookup: dict[str, dict]) -> dict:
+    if not supplement_lookup:
+        return record
+
+    supplement = None
+    for key in build_record_keys(record):
+        supplement = supplement_lookup.get(key)
+        if supplement:
+            break
+
+    if not supplement:
+        return record
+
+    merged = dict(record)
+    for field in ("rating", "cover", "summary", "weread_url"):
+        if not merged.get(field) and supplement.get(field):
+            merged[field] = supplement[field]
+    return merged
 
 
 def _select_public_books(normalized_records: list[tuple[str, int, dict, dict]], limit: int) -> list[dict]:

@@ -3,18 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Paige 每日荐书</title>
+  <title>Paige每日荐书</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page-shell">
+  <nav class="top-nav" aria-label="页面导航">
+    <a class="nav-brand" href="#top">Paige每日荐书</a>
+    <div class="nav-actions">
+      <a href="#today">今日推荐</a>
+      <a href="#recent">近期荐书</a>
+    </div>
+  </nav>
+
+  <main id="top" class="page-shell">
     <header class="site-header">
-      <p class="eyebrow">Paige Book Daily</p>
-      <h1>每日中文荐书库</h1>
-      <p class="intro">一份克制的中文阅读记录，沉淀每天推荐过的书。</p>
+      <p class="eyebrow">PAIGE BOOK DAILY</p>
+      <h1>Paige每日荐书</h1>
+      <p class="intro">每天推荐三本好书，记录持续积累的阅读选择。</p>
     </header>
 
-    <section class="home-section today-section" aria-labelledby="today-heading">
+    <section id="today" class="home-section today-section" aria-labelledby="today-heading">
       <div class="section-head">
         <p class="eyebrow">Today</p>
         <h2 id="today-heading">今日推荐</h2>
@@ -36,7 +44,7 @@
       </form>
     </section>
 
-    <section class="home-section" aria-labelledby="recent-heading">
+    <section id="recent" class="home-section" aria-labelledby="recent-heading">
       <div class="section-head">
         <p class="eyebrow">Archive</p>
         <h2 id="recent-heading">最近 15 本荐书</h2>
