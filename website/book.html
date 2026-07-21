@@ -10,7 +10,6 @@
   <main class="page-shell detail-shell">
     <header class="site-header detail-header">
       <a class="back-link" href="index.html">返回书库</a>
-      <p class="eyebrow">Book Detail</p>
       <h1 id="detail-title">图书详情</h1>
     </header>
 
@@ -72,14 +71,6 @@
       const content = document.createElement("div");
       content.className = "detail-content";
 
-      const date = document.createElement("p");
-      date.className = "book-date";
-      date.textContent = normalizeText(book.recommended_date, "暂无日期");
-
-      const name = document.createElement("h2");
-      name.className = "detail-book-title";
-      name.textContent = `《${bookTitle}》`;
-
       const author = document.createElement("p");
       author.className = "book-meta";
       author.textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
@@ -109,8 +100,8 @@
         actions.appendChild(link);
       }
 
-      content.append(date, name, author, rating, summaryTitle, summary, actions);
-      detail.append(media, content);
+      content.append(author, rating, media, summaryTitle, summary, actions);
+      detail.append(content);
     }
 
     fetch("books.json", { cache: "no-store" })

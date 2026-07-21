@@ -123,7 +123,9 @@
     function createBookCard(book, index, options = {}) {
       const node = template.content.cloneNode(true);
       const detailUrl = normalizeText(book.detail_url, `book.html?id=${index}`);
-      node.querySelector(".cover-wrap").appendChild(createCover(book));
+      const card = node.querySelector(".book-card");
+      const coverWrap = node.querySelector(".cover-wrap");
+      coverWrap.appendChild(createCover(book));
       node.querySelector(".book-date").textContent = normalizeText(book.recommended_date, "暂无日期");
       node.querySelector(".book-title").textContent = `《${normalizeText(book.title, "未命名书籍")}》`;
       node.querySelector(".book-meta").textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
@@ -132,6 +134,11 @@
         ? normalizeText(book.summary, "暂无简介")
         : createSummaryExcerpt(book.summary);
       node.querySelector(".detail-link").href = detailUrl;
+      if (options.todayLayout) {
+        card.classList.add("book-card--today");
+        node.querySelector(".book-date").remove();
+        node.querySelector(".book-rating").after(coverWrap);
+      }
       return node;
     }
 
@@ -219,7 +226,7 @@
 
     Promise.all([loadJson("today.json"), loadJson("books.json")])
       .then(([todayBooks, recentBooks]) => {
-        renderBookList(todayList, todayBooks, "今日推荐还没有生成。", 3, { fullSummary: true });
+        renderBookList(todayList, todayBooks, "今日推荐还没有生成。", 3, { fullSummary: true, todayLayout: true });
         renderBookList(recentList, recentBooks, "还没有可公开展示的荐书记录。", 15);
       })
       .catch(() => {
