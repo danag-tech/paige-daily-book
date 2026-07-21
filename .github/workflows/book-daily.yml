@@ -9,6 +9,8 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   book-daily:
@@ -39,14 +41,15 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python main.py
 
-      - name: Commit sent books history and book pool
+      - name: Commit sent books history, book pool, and website data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -f sent_books.json ]; then
-            git add sent_books.json data/book_pool.json
+            git add sent_books.json data/book_pool.json website/books.json
             if ! git diff --cached --quiet; then
               git commit -m "Update sent books history"
+              git pull --rebase origin main
               git push
             else
               echo "No sent books history or book pool changes to commit."
@@ -54,3 +57,13 @@ jobs:
           else
             echo "No sent_books.json found."
           fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website
+
+      - name: Deploy GitHub Pages
+        uses: actions/deploy-pages@v4

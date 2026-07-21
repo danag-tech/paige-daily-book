@@ -100,6 +100,10 @@ def append_sent_books(records: list[dict], books: list, theme: str) -> list[dict
                 "author": book.author,
                 "isbn": book.isbn,
                 "theme": theme,
+                "rating": book.rating,
+                "cover": book.cover,
+                "summary": book.summary,
+                "source": book.source,
                 "sent_date": sent_date,
             }
         )

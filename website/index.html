@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paige 每日荐书</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <p class="eyebrow">Paige Book Daily</p>
+      <h1>最近推荐</h1>
+      <p class="intro">一份克制的中文阅读记录，收录最近 15 本每日荐书。</p>
+    </header>
+
+    <section id="book-list" class="book-list" aria-live="polite">
+      <p class="loading">正在加载书单...</p>
+    </section>
+  </main>
+
+  <template id="book-card-template">
+    <article class="book-card">
+      <div class="cover-wrap"></div>
+      <div class="book-content">
+        <p class="book-date"></p>
+        <h2 class="book-title"></h2>
+        <p class="book-meta"></p>
+        <p class="book-rating"></p>
+        <p class="book-summary"></p>
+      </div>
+    </article>
+  </template>
+
+  <script>
+    const list = document.querySelector("#book-list");
+    const template = document.querySelector("#book-card-template");
+
+    function normalizeText(value, fallback) {
+      if (typeof value !== "string") {
+        return fallback;
+      }
+      const text = value.trim();
+      return text || fallback;
+    }
+
+    function createCover(book) {
+      const cover = normalizeText(book.cover, "");
+      if (!cover) {
+        const placeholder = document.createElement("div");
+        placeholder.className = "cover-placeholder";
+        placeholder.textContent = "暂无封面";
+        return placeholder;
+      }
+
+      const image = document.createElement("img");
+      image.className = "book-cover";
+      image.src = cover;
+      image.alt = `《${normalizeText(book.title, "未命名书籍")}》封面`;
+      image.loading = "lazy";
+      image.referrerPolicy = "no-referrer";
+      image.onerror = () => {
+        const placeholder = document.createElement("div");
+        placeholder.className = "cover-placeholder";
+        placeholder.textContent = "暂无封面";
+        image.replaceWith(placeholder);
+      };
+      return image;
+    }
+
+    function renderBooks(books) {
+      list.innerHTML = "";
+      if (!Array.isArray(books) || books.length === 0) {
+        list.innerHTML = '<p class="empty">还没有可公开展示的荐书记录。</p>';
+        return;
+      }
+
+      books.slice(0, 15).forEach((book) => {
+        const node = template.content.cloneNode(true);
+        node.querySelector(".cover-wrap").appendChild(createCover(book));
+        node.querySelector(".book-date").textContent = normalizeText(book.recommended_date, "暂无日期");
+        node.querySelector(".book-title").textContent = `《${normalizeText(book.title, "未命名书籍")}》`;
+        node.querySelector(".book-meta").textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
+        node.querySelector(".book-rating").textContent = `评分：${normalizeText(book.rating, "暂无评分")}`;
+        node.querySelector(".book-summary").textContent = normalizeText(book.summary, "暂无简介");
+        list.appendChild(node);
+      });
+    }
+
+    fetch("books.json", { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(renderBooks)
+      .catch(() => {
+        list.innerHTML = '<p class="empty">书单暂时无法加载，请稍后再试。</p>';
+      });
+  </script>
+</body>
+</html>

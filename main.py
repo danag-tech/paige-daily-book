@@ -85,6 +85,7 @@ def print_books() -> None:
         save_sent_books(updated_records)
         pool_records = refresh_book_pool(pool_records, selected_theme, discovered_books, updated_records, selected_books)
         save_book_pool(pool_records)
+        _update_website_data_safely()
     except ConfigError as exc:
         print(f"配置错误：{exc}")
         sys.exit(1)
@@ -98,6 +99,14 @@ def print_books() -> None:
     print("Email sent successfully.")
     print("Sent history updated.")
 
+
+def _update_website_data_safely() -> None:
+    try:
+        from generate_website_data import update_website_books
+
+        update_website_books()
+    except Exception as exc:
+        print(f"Website data update failed: {exc}")
 
 def _unique_books(books: list) -> list:
     unique_books = []
