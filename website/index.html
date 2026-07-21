@@ -36,11 +36,12 @@
       <div>
         <p class="eyebrow">Email Digest</p>
         <h2 id="subscribe-heading">邮箱订阅</h2>
-        <p class="subscribe-copy">每日荐书目前由 Paige 自动发送到维护者邮箱。公开订阅入口准备中，之后会开放给更多读者。</p>
+        <p class="subscribe-copy">输入邮箱订阅每日荐书，发布后会收到 Paige 自动发送的阅读邮件。</p>
       </div>
-      <form class="subscribe-form" aria-label="邮箱订阅展示表单">
-        <input type="email" placeholder="your@email.com" aria-label="邮箱地址" disabled>
-        <button type="button" disabled>暂未开放</button>
+      <form id="subscribe-form" class="subscribe-form" aria-label="邮箱订阅表单">
+        <input id="subscribe-email" type="email" placeholder="your@email.com" aria-label="邮箱地址" autocomplete="email" required>
+        <button id="subscribe-button" type="submit">订阅</button>
+        <p id="subscribe-status" class="subscribe-status" role="status" aria-live="polite"></p>
       </form>
     </section>
 
@@ -69,10 +70,15 @@
     </article>
   </template>
 
+  <script src="site_config.js"></script>
   <script>
     const recentList = document.querySelector("#book-list");
     const todayList = document.querySelector("#today-list");
     const template = document.querySelector("#book-card-template");
+    const subscribeForm = document.querySelector("#subscribe-form");
+    const subscribeEmail = document.querySelector("#subscribe-email");
+    const subscribeButton = document.querySelector("#subscribe-button");
+    const subscribeStatus = document.querySelector("#subscribe-status");
 
     function normalizeText(value, fallback) {
       if (typeof value !== "string") {
@@ -136,6 +142,67 @@
 
       books.slice(0, limit).forEach((book, index) => {
         container.appendChild(createBookCard(book, index));
+      });
+    }
+
+
+    function getSubscribeConfig() {
+      const config = window.PAIGE_SITE_CONFIG || {};
+      return {
+        supabaseUrl: normalizeText(config.supabaseUrl, "").replace(/\/$/, ""),
+        supabaseAnonKey: normalizeText(config.supabaseAnonKey, "")
+      };
+    }
+
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    async function submitSubscription(email) {
+      const { supabaseUrl, supabaseAnonKey } = getSubscribeConfig();
+      if (!supabaseUrl || !supabaseAnonKey) {
+        throw new Error("订阅服务暂未配置。");
+      }
+
+      const response = await fetch(`${supabaseUrl}/rest/v1/subscribers`, {
+        method: "POST",
+        headers: {
+          apikey: supabaseAnonKey,
+          Authorization: `Bearer ${supabaseAnonKey}`,
+          "Content-Type": "application/json",
+          Prefer: "return=minimal"
+        },
+        body: JSON.stringify({ email, active: true })
+      });
+
+      if (response.status === 409) {
+        return "这个邮箱已经订阅。";
+      }
+      if (!response.ok) {
+        throw new Error("订阅保存失败，请稍后再试。");
+      }
+      return "订阅成功。";
+    }
+
+    if (subscribeForm) {
+      subscribeForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const email = normalizeText(subscribeEmail.value, "").toLowerCase();
+        if (!isValidEmail(email)) {
+          subscribeStatus.textContent = "请输入有效邮箱。";
+          return;
+        }
+
+        subscribeButton.disabled = true;
+        subscribeStatus.textContent = "正在提交...";
+        try {
+          subscribeStatus.textContent = await submitSubscription(email);
+          subscribeForm.reset();
+        } catch (error) {
+          subscribeStatus.textContent = error.message || "订阅失败，请稍后再试。";
+        } finally {
+          subscribeButton.disabled = false;
+        }
       });
     }
 

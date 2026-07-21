@@ -46,7 +46,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -f sent_books.json ]; then
-            git add sent_books.json data/book_pool.json website/books.json website/today.json
+            git add sent_books.json data/book_pool.json website/books.json website/today.json website/covers
             if ! git diff --cached --quiet; then
               git commit -m "Update sent books history"
               git pull --rebase origin main
@@ -57,6 +57,17 @@ jobs:
           else
             echo "No sent_books.json found."
           fi
+      - name: Create website site config
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          if [ -n "$SUPABASE_URL" ] && [ -n "$SUPABASE_ANON_KEY" ]; then
+            python -c 'import json, os; from pathlib import Path; config={"supabaseUrl": os.environ["SUPABASE_URL"], "supabaseAnonKey": os.environ["SUPABASE_ANON_KEY"]}; Path("website/site_config.js").write_text("window.PAIGE_SITE_CONFIG = " + json.dumps(config) + ";\n", encoding="utf-8")'
+          else
+            echo "Supabase website subscription config is not set."
+          fi
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 

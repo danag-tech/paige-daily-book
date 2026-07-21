@@ -1,11 +1,14 @@
+import hashlib
 import json
 import re
 
 import requests
+from html import escape as html_escape
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 from book_pool import load_book_pool
+from cover_image import COVER_HEADERS, _detect_image_subtype
 from sent_books import build_record_keys, load_sent_books
 
 
@@ -14,6 +17,8 @@ TODAY_BOOK_LIMIT = 3
 WEBSITE_DIR = Path(__file__).with_name("website")
 WEBSITE_BOOKS_PATH = WEBSITE_DIR / "books.json"
 WEBSITE_TODAY_PATH = WEBSITE_DIR / "today.json"
+WEBSITE_COVERS_DIR = WEBSITE_DIR / "covers"
+PUBLIC_SITE_BASE_URL = "https://danag-tech.github.io/paige-daily-book"
 LOCAL_PATH_PATTERN = re.compile(r"([A-Za-z]:\\|/home/|/Users/|\\\\)")
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 SECRET_FIELD_NAMES = {
@@ -66,13 +71,16 @@ def generate_today_books(records: list[dict] | None = None, limit: int = TODAY_B
 
 def save_website_books(books: list[dict], today_books: list[dict] | None = None) -> None:
     WEBSITE_DIR.mkdir(parents=True, exist_ok=True)
+    public_books = _with_public_cover_assets(books[:PUBLIC_BOOK_LIMIT])
+    current_today_books = today_books if today_books is not None else public_books[:TODAY_BOOK_LIMIT]
+    public_today_books = _with_public_cover_assets(current_today_books[:TODAY_BOOK_LIMIT])
+
     with WEBSITE_BOOKS_PATH.open("w", encoding="utf-8") as file:
-        json.dump(books[:PUBLIC_BOOK_LIMIT], file, ensure_ascii=False, indent=2)
+        json.dump(public_books, file, ensure_ascii=False, indent=2)
         file.write("\n")
 
-    current_today_books = today_books if today_books is not None else books[:TODAY_BOOK_LIMIT]
     with WEBSITE_TODAY_PATH.open("w", encoding="utf-8") as file:
-        json.dump(current_today_books[:TODAY_BOOK_LIMIT], file, ensure_ascii=False, indent=2)
+        json.dump(public_today_books, file, ensure_ascii=False, indent=2)
         file.write("\n")
 
 
@@ -127,6 +135,67 @@ def _merge_supplement(record: dict, supplement_lookup: dict[str, dict]) -> dict:
             merged[field] = supplement[field]
     return merged
 
+
+
+def _with_public_cover_assets(books: list[dict]) -> list[dict]:
+    WEBSITE_COVERS_DIR.mkdir(parents=True, exist_ok=True)
+    public_books = []
+    for book in books:
+        public_book = dict(book)
+        public_book["cover"] = _build_public_cover_asset(public_book)
+        public_books.append(public_book)
+    return public_books
+
+
+def _build_public_cover_asset(book: dict) -> str:
+    title = _clean_text(book.get("title")) or "book"
+    author = _clean_text(book.get("author"))
+    base_name = hashlib.sha1(f"{title}|{author}".encode("utf-8")).hexdigest()[:16]
+    cover_url = _safe_public_url(book.get("cover"))
+    if cover_url:
+        image = _download_cover_asset(cover_url)
+        if image:
+            filename = f"{base_name}.{image['subtype']}"
+            (WEBSITE_COVERS_DIR / filename).write_bytes(image["image_bytes"])
+            return f"{PUBLIC_SITE_BASE_URL}/covers/{filename}"
+
+    filename = f"{base_name}.svg"
+    (WEBSITE_COVERS_DIR / filename).write_text(_build_cover_placeholder_svg(title, author), encoding="utf-8")
+    return f"{PUBLIC_SITE_BASE_URL}/covers/{filename}"
+
+
+def _download_cover_asset(url: str) -> dict | None:
+    try:
+        response = requests.get(url, headers=COVER_HEADERS, timeout=15)
+    except requests.RequestException:
+        return None
+
+    if response.status_code != 200 or not response.content:
+        return None
+
+    subtype = _detect_image_subtype(response.headers.get("Content-Type", ""), response.content)
+    if not subtype or len(response.content) < 1000:
+        return None
+    if subtype == "jpeg":
+        subtype = "jpg"
+    return {"image_bytes": response.content, "subtype": subtype}
+
+
+def _build_cover_placeholder_svg(title: str, author: str) -> str:
+    safe_title = html_escape(title)
+    safe_author = html_escape(author or "Paige Book Daily")
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="630" viewBox="0 0 420 630">
+  <rect width="420" height="630" fill="#efe7da"/>
+  <rect x="28" y="28" width="364" height="574" rx="18" fill="#fffdf8" stroke="#dccdb9" stroke-width="2"/>
+  <text x="210" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a4f2c" letter-spacing="2">PAIGE BOOK DAILY</text>
+  <foreignObject x="56" y="170" width="308" height="230">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, 'Microsoft YaHei', sans-serif; color: #23201c; font-size: 34px; line-height: 1.35; text-align: center; font-weight: 700; word-break: break-word;">{safe_title}</div>
+  </foreignObject>
+  <foreignObject x="70" y="430" width="280" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, 'Microsoft YaHei', sans-serif; color: #71695f; font-size: 22px; line-height: 1.4; text-align: center; word-break: break-word;">{safe_author}</div>
+  </foreignObject>
+  <line x1="126" y1="548" x2="294" y2="548" stroke="#d4b895" stroke-width="2"/>
+</svg>'''
 
 def _select_public_books(normalized_records: list[tuple[str, int, dict, dict]], limit: int) -> list[dict]:
     books = []
@@ -211,8 +280,11 @@ def _resolve_cover(record: dict, isbn: str, title: str) -> str | None:
     if cover:
         return cover
     if isbn:
-        return f"https://covers.openlibrary.org/b/isbn/{quote(isbn, safe="")}-L.jpg"
+        return f"https://covers.openlibrary.org/b/isbn/{_url_encode(isbn)}-L.jpg"
+    if cover:
+        return _normalize_cover_url(cover)
     return _find_cover_by_title(title)
+
 
 def _find_cover_by_title(title: str) -> str | None:
     if not title:
@@ -234,14 +306,32 @@ def _find_cover_by_title(title: str) -> str | None:
         image_links = volume_info.get("imageLinks") or {}
         cover = _safe_public_url(image_links.get("thumbnail") or image_links.get("smallThumbnail"))
         if cover:
-            return cover.replace("http://", "https://", 1)
+            return _normalize_cover_url(cover)
     return None
+
+
+
+def _is_douban_cover(url: str) -> bool:
+    return urlparse(url).netloc.endswith("doubanio.com")
+
+def _normalize_cover_url(url: str) -> str:
+    parsed_url = urlparse(url)
+    if parsed_url.netloc.endswith("doubanio.com"):
+        source_url = url
+        if parsed_url.query:
+            source_url = f"{source_url}?{parsed_url.query}"
+        return f"https://images.weserv.nl/?url={_url_encode(source_url)}"
+    return url.replace("http://", "https://", 1)
+
+
+def _url_encode(value: str) -> str:
+    return quote(value, safe="")
 
 def _resolve_weread_url(record: dict, title: str) -> str:
     weread_url = _safe_public_url(record.get("weread_url"))
     if weread_url:
         return weread_url
-    return f"https://weread.qq.com/web/search/books?keyword={quote(title, safe="")}"
+    return f"https://weread.qq.com/web/search/books?keyword={_url_encode(title)}"
 
 def _fallback_key(record: dict) -> str:
     return f"{record.get('title', '')}|{record.get('author', '')}".lower()
