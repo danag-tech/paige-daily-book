@@ -386,7 +386,7 @@ h1 {
   }
 
   .book-card {
-    grid-template-columns: 120px minmax(0, 1fr);
+    grid-template-columns: 200px minmax(0, 1fr);
     gap: 20px;
     padding: 18px;
   }
@@ -394,7 +394,11 @@ h1 {
   .cover-wrap,
   .book-cover,
   .cover-placeholder {
-    width: 120px;
+    width: 200px;
+  }
+
+  .book-cover {
+    object-fit: contain;
   }
 
   .book-title {

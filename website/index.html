@@ -120,7 +120,7 @@
       return image;
     }
 
-    function createBookCard(book, index) {
+    function createBookCard(book, index, options = {}) {
       const node = template.content.cloneNode(true);
       const detailUrl = normalizeText(book.detail_url, `book.html?id=${index}`);
       node.querySelector(".cover-wrap").appendChild(createCover(book));
@@ -128,12 +128,14 @@
       node.querySelector(".book-title").textContent = `《${normalizeText(book.title, "未命名书籍")}》`;
       node.querySelector(".book-meta").textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
       node.querySelector(".book-rating").textContent = `评分：${normalizeText(book.rating, "暂无评分")}`;
-      node.querySelector(".book-summary").textContent = createSummaryExcerpt(book.summary);
+      node.querySelector(".book-summary").textContent = options.fullSummary
+        ? normalizeText(book.summary, "暂无简介")
+        : createSummaryExcerpt(book.summary);
       node.querySelector(".detail-link").href = detailUrl;
       return node;
     }
 
-    function renderBookList(container, books, emptyText, limit) {
+    function renderBookList(container, books, emptyText, limit, options = {}) {
       container.innerHTML = "";
       if (!Array.isArray(books) || books.length === 0) {
         container.innerHTML = `<p class="empty">${emptyText}</p>`;
@@ -141,7 +143,7 @@
       }
 
       books.slice(0, limit).forEach((book, index) => {
-        container.appendChild(createBookCard(book, index));
+        container.appendChild(createBookCard(book, index, options));
       });
     }
 
@@ -217,7 +219,7 @@
 
     Promise.all([loadJson("today.json"), loadJson("books.json")])
       .then(([todayBooks, recentBooks]) => {
-        renderBookList(todayList, todayBooks, "今日推荐还没有生成。", 3);
+        renderBookList(todayList, todayBooks, "今日推荐还没有生成。", 3, { fullSummary: true });
         renderBookList(recentList, recentBooks, "还没有可公开展示的荐书记录。", 15);
       })
       .catch(() => {
