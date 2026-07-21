@@ -144,6 +144,7 @@ h1 {
 .book-card {
   display: grid;
   grid-template-columns: 96px minmax(0, 1fr);
+  align-items: center;
   gap: 14px;
   padding: 14px;
   background: var(--paper);
@@ -287,6 +288,20 @@ h1 {
   font-size: 14px;
 }
 
+.detail-header .back-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 20;
+  margin: 0;
+  padding: 8px 13px;
+  color: var(--accent-dark);
+  background: rgba(255, 251, 245, 0.94);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  box-shadow: 0 8px 22px rgba(42, 35, 28, 0.12);
+}
+
 .detail-card {
   display: grid;
   gap: 18px;
@@ -304,7 +319,7 @@ h1 {
 
 .detail-cover,
 .detail-cover-placeholder {
-  width: min(58vw, 190px);
+  width: min(88vw, 320px);
   aspect-ratio: 2 / 3;
   border-radius: 5px;
   border: 1px solid var(--line);
@@ -313,7 +328,7 @@ h1 {
 
 .detail-cover {
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .detail-book-title {
@@ -350,6 +365,14 @@ h1 {
   padding: 22px 0;
   color: var(--muted);
   font-size: 15px;
+}
+
+@media (max-width: 719px) {
+  .today-list .book-title,
+  .today-list .book-meta,
+  .today-list .book-rating {
+    text-align: center;
+  }
 }
 
 @media (min-width: 720px) {
@@ -416,14 +439,14 @@ h1 {
   }
 
   .detail-card {
-    grid-template-columns: 220px minmax(0, 1fr);
+    grid-template-columns: 300px minmax(0, 1fr);
     gap: 28px;
     padding: 22px;
   }
 
   .detail-cover,
   .detail-cover-placeholder {
-    width: 190px;
+    width: 300px;
   }
 }
 
