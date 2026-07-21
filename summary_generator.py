@@ -1,3 +1,7 @@
+import json
+import re
+from dataclasses import dataclass
+
 import requests
 
 from config import DeepSeekConfig
@@ -10,7 +14,22 @@ class SummaryGenerationError(RuntimeError):
     pass
 
 
+@dataclass(frozen=True)
+class GeneratedSummary:
+    daily_text: str
+    book_summaries: list[str]
+
+
 def generate_summary(prompt: str, config: DeepSeekConfig) -> str:
+    return generate_summary_result(prompt, config).daily_text
+
+
+def generate_summary_result(prompt: str, config: DeepSeekConfig) -> GeneratedSummary:
+    content = _request_summary_content(prompt, config)
+    return _parse_generated_summary(content)
+
+
+def _request_summary_content(prompt: str, config: DeepSeekConfig) -> str:
     if not config.api_key:
         raise SummaryGenerationError("DEEPSEEK_API_KEY is missing. Please set it in .env before running the program.")
 
@@ -62,3 +81,53 @@ def generate_summary(prompt: str, config: DeepSeekConfig) -> str:
         raise SummaryGenerationError("DeepSeek API returned empty summary content.")
 
     return content.strip()
+
+
+def _parse_generated_summary(content: str) -> GeneratedSummary:
+    json_text = _extract_json_object(content)
+    try:
+        data = json.loads(json_text)
+    except ValueError as exc:
+        raise SummaryGenerationError("DeepSeek summary content is not valid JSON.") from exc
+
+    if not isinstance(data, dict):
+        raise SummaryGenerationError("DeepSeek summary JSON must be an object.")
+
+    daily_text = data.get("daily_text")
+    if not isinstance(daily_text, str) or not daily_text.strip():
+        raise SummaryGenerationError("DeepSeek summary JSON is missing non-empty daily_text.")
+
+    books = data.get("books")
+    if not isinstance(books, list) or len(books) != 3:
+        raise SummaryGenerationError("DeepSeek summary JSON must include exactly 3 books.")
+
+    book_summaries: list[str] = []
+    for index, item in enumerate(books, start=1):
+        if not isinstance(item, dict):
+            raise SummaryGenerationError(f"DeepSeek summary JSON books[{index}] must be an object.")
+        summary = item.get("summary")
+        if not isinstance(summary, str) or not summary.strip():
+            raise SummaryGenerationError(f"DeepSeek summary JSON books[{index}].summary is empty.")
+        book_summaries.append(summary.strip())
+
+    return GeneratedSummary(
+        daily_text=daily_text.strip(),
+        book_summaries=book_summaries,
+    )
+
+
+def _extract_json_object(content: str) -> str:
+    text = content.strip()
+    fenced_match = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", text, re.DOTALL | re.IGNORECASE)
+    if fenced_match:
+        text = fenced_match.group(1).strip()
+
+    if text.startswith("{") and text.endswith("}"):
+        return text
+
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        raise SummaryGenerationError("DeepSeek summary content does not contain a JSON object.")
+
+    return text[start : end + 1]

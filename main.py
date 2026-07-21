@@ -10,7 +10,7 @@ from html_email_builder import build_book_email_html
 from prompt_builder import build_summary_prompt
 from providers.manager import ProviderManager
 from sent_books import append_sent_books, build_book_keys, filter_unsent_books, load_sent_books, save_sent_books
-from summary_generator import SummaryGenerationError, generate_summary
+from summary_generator import SummaryGenerationError, generate_summary_result
 from theme_picker import get_ordered_themes
 
 
@@ -75,7 +75,9 @@ def print_books() -> None:
             print(f"{index}. {book.title}")
 
         prompt = build_summary_prompt(selected_books)
-        summary = generate_summary(prompt, deepseek_config)
+        generated_summary = generate_summary_result(prompt, deepseek_config)
+        _apply_generated_summaries(selected_books, generated_summary.book_summaries)
+        summary = generated_summary.daily_text
         cover_images = download_cover_images(selected_books)
         cover_cids = [image["cid"] if image else None for image in cover_images]
         html_body = build_book_email_html(selected_theme, selected_books, summary, cover_cids)
@@ -98,6 +100,14 @@ def print_books() -> None:
 
     print("Email sent successfully.")
     print("Sent history updated.")
+
+
+def _apply_generated_summaries(books: list, summaries: list[str]) -> None:
+    if len(summaries) < len(books):
+        raise SummaryGenerationError("DeepSeek summary result does not include enough book summaries.")
+
+    for book, summary in zip(books, summaries):
+        book.summary = summary
 
 
 def _update_website_data_safely() -> None:
