@@ -6,6 +6,7 @@
   --muted: #71695f;
   --line: #e4ddd2;
   --accent: #7a4f2c;
+  --accent-dark: #5f3a1e;
 }
 
 * {
@@ -39,6 +40,12 @@ body {
   text-transform: uppercase;
 }
 
+h1,
+h2,
+h3 {
+  letter-spacing: 0;
+}
+
 h1 {
   margin: 0;
   font-size: 34px;
@@ -52,10 +59,25 @@ h1 {
   font-size: 15px;
 }
 
-.book-list {
+.home-section {
+  margin-top: 28px;
+}
+
+.section-head {
+  margin-bottom: 14px;
+}
+
+.section-head h2,
+.subscribe-panel h2 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.book-list,
+.today-list {
   display: grid;
   gap: 16px;
-  margin-top: 22px;
 }
 
 .book-card {
@@ -66,6 +88,10 @@ h1 {
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.today-list .book-card:first-child {
+  border-color: #d4b895;
 }
 
 .cover-wrap {
@@ -86,7 +112,8 @@ h1 {
   object-fit: cover;
 }
 
-.cover-placeholder {
+.cover-placeholder,
+.detail-cover-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,13 +147,140 @@ h1 {
 }
 
 .book-summary {
-  display: -webkit-box;
   margin: 10px 0 0;
   color: #3b3630;
   font-size: 14px;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+}
+
+.detail-link,
+.primary-link,
+.back-link {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.detail-link,
+.primary-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 36px;
+  margin-top: 12px;
+  padding: 6px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: #fbf4eb;
+  font-size: 14px;
+}
+
+.subscribe-panel {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  background: #efe7da;
+  border: 1px solid #dccdb9;
+  border-radius: 8px;
+}
+
+.subscribe-copy {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.subscribe-form {
+  display: grid;
+  gap: 10px;
+}
+
+.subscribe-form input,
+.subscribe-form button {
+  width: 100%;
+  min-height: 42px;
+  border-radius: 999px;
+  font: inherit;
+}
+
+.subscribe-form input {
+  padding: 0 14px;
+  color: var(--muted);
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.subscribe-form button {
+  color: #f8f0e6;
+  background: var(--accent-dark);
+  border: 1px solid var(--accent-dark);
+}
+
+.subscribe-form input:disabled,
+.subscribe-form button:disabled {
+  opacity: 0.72;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.detail-card {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+  padding: 16px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.detail-media {
+  display: flex;
+  justify-content: center;
+}
+
+.detail-cover,
+.detail-cover-placeholder {
+  width: min(58vw, 190px);
+  aspect-ratio: 2 / 3;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  background: #e9e0d4;
+}
+
+.detail-cover {
+  display: block;
+  object-fit: cover;
+}
+
+.detail-book-title {
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.section-title {
+  margin: 22px 0 8px;
+  font-size: 17px;
+}
+
+.detail-summary {
+  margin: 0;
+  color: #342f29;
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.detail-actions {
+  margin-top: 18px;
+}
+
+.empty-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .loading,
@@ -142,7 +296,8 @@ h1 {
     padding: 48px 24px 64px;
   }
 
-  .book-list {
+  .book-list,
+  .today-list {
     gap: 18px;
   }
 
@@ -164,5 +319,22 @@ h1 {
 
   .book-summary {
     font-size: 15px;
+  }
+
+  .subscribe-panel {
+    grid-template-columns: 1fr minmax(260px, 340px);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .detail-card {
+    grid-template-columns: 220px 1fr;
+    gap: 28px;
+    padding: 22px;
+  }
+
+  .detail-cover,
+  .detail-cover-placeholder {
+    width: 190px;
   }
 }

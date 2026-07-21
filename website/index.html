@@ -10,12 +10,40 @@
   <main class="page-shell">
     <header class="site-header">
       <p class="eyebrow">Paige Book Daily</p>
-      <h1>最近推荐</h1>
-      <p class="intro">一份克制的中文阅读记录，收录最近 15 本每日荐书。</p>
+      <h1>每日中文荐书库</h1>
+      <p class="intro">一份克制的中文阅读记录，沉淀每天推荐过的书。</p>
     </header>
 
-    <section id="book-list" class="book-list" aria-live="polite">
-      <p class="loading">正在加载书单...</p>
+    <section class="home-section today-section" aria-labelledby="today-heading">
+      <div class="section-head">
+        <p class="eyebrow">Today</p>
+        <h2 id="today-heading">今日推荐</h2>
+      </div>
+      <div id="today-list" class="today-list" aria-live="polite">
+        <p class="loading">正在加载今日推荐...</p>
+      </div>
+    </section>
+
+    <section class="home-section subscribe-panel" aria-labelledby="subscribe-heading">
+      <div>
+        <p class="eyebrow">Email Digest</p>
+        <h2 id="subscribe-heading">邮箱订阅</h2>
+        <p class="subscribe-copy">每日荐书目前由 Paige 自动发送到维护者邮箱。公开订阅入口准备中，之后会开放给更多读者。</p>
+      </div>
+      <form class="subscribe-form" aria-label="邮箱订阅展示表单">
+        <input type="email" placeholder="your@email.com" aria-label="邮箱地址" disabled>
+        <button type="button" disabled>暂未开放</button>
+      </form>
+    </section>
+
+    <section class="home-section" aria-labelledby="recent-heading">
+      <div class="section-head">
+        <p class="eyebrow">Archive</p>
+        <h2 id="recent-heading">最近 15 本荐书</h2>
+      </div>
+      <div id="book-list" class="book-list" aria-live="polite">
+        <p class="loading">正在加载书单...</p>
+      </div>
     </section>
   </main>
 
@@ -24,16 +52,18 @@
       <div class="cover-wrap"></div>
       <div class="book-content">
         <p class="book-date"></p>
-        <h2 class="book-title"></h2>
+        <h3 class="book-title"></h3>
         <p class="book-meta"></p>
         <p class="book-rating"></p>
         <p class="book-summary"></p>
+        <a class="detail-link" href="book.html">查看详情</a>
       </div>
     </article>
   </template>
 
   <script>
-    const list = document.querySelector("#book-list");
+    const recentList = document.querySelector("#book-list");
+    const todayList = document.querySelector("#today-list");
     const template = document.querySelector("#book-card-template");
 
     function normalizeText(value, fallback) {
@@ -42,6 +72,14 @@
       }
       const text = value.trim();
       return text || fallback;
+    }
+
+    function createSummaryExcerpt(summary) {
+      const text = normalizeText(summary, "暂无简介");
+      if (text.length <= 120) {
+        return text;
+      }
+      return `${text.slice(0, 120)}…`;
     }
 
     function createCover(book) {
@@ -68,35 +106,48 @@
       return image;
     }
 
-    function renderBooks(books) {
-      list.innerHTML = "";
+    function createBookCard(book, index) {
+      const node = template.content.cloneNode(true);
+      const detailUrl = normalizeText(book.detail_url, `book.html?id=${index}`);
+      node.querySelector(".cover-wrap").appendChild(createCover(book));
+      node.querySelector(".book-date").textContent = normalizeText(book.recommended_date, "暂无日期");
+      node.querySelector(".book-title").textContent = `《${normalizeText(book.title, "未命名书籍")}》`;
+      node.querySelector(".book-meta").textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
+      node.querySelector(".book-rating").textContent = `评分：${normalizeText(book.rating, "暂无评分")}`;
+      node.querySelector(".book-summary").textContent = createSummaryExcerpt(book.summary);
+      node.querySelector(".detail-link").href = detailUrl;
+      return node;
+    }
+
+    function renderBookList(container, books, emptyText, limit) {
+      container.innerHTML = "";
       if (!Array.isArray(books) || books.length === 0) {
-        list.innerHTML = '<p class="empty">还没有可公开展示的荐书记录。</p>';
+        container.innerHTML = `<p class="empty">${emptyText}</p>`;
         return;
       }
 
-      books.slice(0, 15).forEach((book) => {
-        const node = template.content.cloneNode(true);
-        node.querySelector(".cover-wrap").appendChild(createCover(book));
-        node.querySelector(".book-date").textContent = normalizeText(book.recommended_date, "暂无日期");
-        node.querySelector(".book-title").textContent = `《${normalizeText(book.title, "未命名书籍")}》`;
-        node.querySelector(".book-meta").textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
-        node.querySelector(".book-rating").textContent = `评分：${normalizeText(book.rating, "暂无评分")}`;
-        node.querySelector(".book-summary").textContent = normalizeText(book.summary, "暂无简介");
-        list.appendChild(node);
+      books.slice(0, limit).forEach((book, index) => {
+        container.appendChild(createBookCard(book, index));
       });
     }
 
-    fetch("books.json", { cache: "no-store" })
-      .then((response) => {
+    function loadJson(path) {
+      return fetch(path, { cache: "no-store" }).then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`);
         }
         return response.json();
+      });
+    }
+
+    Promise.all([loadJson("today.json"), loadJson("books.json")])
+      .then(([todayBooks, recentBooks]) => {
+        renderBookList(todayList, todayBooks, "今日推荐还没有生成。", 3);
+        renderBookList(recentList, recentBooks, "还没有可公开展示的荐书记录。", 15);
       })
-      .then(renderBooks)
       .catch(() => {
-        list.innerHTML = '<p class="empty">书单暂时无法加载，请稍后再试。</p>';
+        todayList.innerHTML = '<p class="empty">今日推荐暂时无法加载。</p>';
+        recentList.innerHTML = '<p class="empty">书单暂时无法加载，请稍后再试。</p>';
       });
   </script>
 </body>

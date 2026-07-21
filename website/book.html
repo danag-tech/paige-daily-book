@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>图书详情 - Paige 每日荐书</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell detail-shell">
+    <header class="site-header detail-header">
+      <a class="back-link" href="index.html">返回书库</a>
+      <p class="eyebrow">Book Detail</p>
+      <h1 id="detail-title">图书详情</h1>
+    </header>
+
+    <article id="book-detail" class="detail-card" aria-live="polite">
+      <p class="loading">正在加载图书详情...</p>
+    </article>
+  </main>
+
+  <script>
+    const detail = document.querySelector("#book-detail");
+    const title = document.querySelector("#detail-title");
+
+    function normalizeText(value, fallback) {
+      if (typeof value !== "string") {
+        return fallback;
+      }
+      const text = value.trim();
+      return text || fallback;
+    }
+
+    function getBookId() {
+      const params = new URLSearchParams(window.location.search);
+      const id = Number.parseInt(params.get("id") || "0", 10);
+      return Number.isFinite(id) && id >= 0 ? id : 0;
+    }
+
+    function createCover(book) {
+      const cover = normalizeText(book.cover, "");
+      if (!cover) {
+        const placeholder = document.createElement("div");
+        placeholder.className = "detail-cover-placeholder";
+        placeholder.textContent = "暂无封面";
+        return placeholder;
+      }
+
+      const image = document.createElement("img");
+      image.className = "detail-cover";
+      image.src = cover;
+      image.alt = `《${normalizeText(book.title, "未命名书籍")}》封面`;
+      image.referrerPolicy = "no-referrer";
+      image.onerror = () => {
+        const placeholder = document.createElement("div");
+        placeholder.className = "detail-cover-placeholder";
+        placeholder.textContent = "暂无封面";
+        image.replaceWith(placeholder);
+      };
+      return image;
+    }
+
+    function renderBook(book) {
+      const bookTitle = normalizeText(book.title, "未命名书籍");
+      title.textContent = `《${bookTitle}》`;
+      detail.innerHTML = "";
+
+      const media = document.createElement("div");
+      media.className = "detail-media";
+      media.appendChild(createCover(book));
+
+      const content = document.createElement("div");
+      content.className = "detail-content";
+
+      const date = document.createElement("p");
+      date.className = "book-date";
+      date.textContent = normalizeText(book.recommended_date, "暂无日期");
+
+      const name = document.createElement("h2");
+      name.className = "detail-book-title";
+      name.textContent = `《${bookTitle}》`;
+
+      const author = document.createElement("p");
+      author.className = "book-meta";
+      author.textContent = `作者：${normalizeText(book.author, "暂无作者")}`;
+
+      const rating = document.createElement("p");
+      rating.className = "book-rating";
+      rating.textContent = `评分：${normalizeText(book.rating, "暂无评分")}`;
+
+      const summaryTitle = document.createElement("h3");
+      summaryTitle.className = "section-title";
+      summaryTitle.textContent = "简介";
+
+      const summary = document.createElement("p");
+      summary.className = "detail-summary";
+      summary.textContent = normalizeText(book.summary, "暂无简介");
+
+      const actions = document.createElement("div");
+      actions.className = "detail-actions";
+      const wereadUrl = normalizeText(book.weread_url, "");
+      if (wereadUrl) {
+        const link = document.createElement("a");
+        link.className = "primary-link";
+        link.href = wereadUrl;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "打开阅读入口";
+        actions.appendChild(link);
+      } else {
+        const note = document.createElement("p");
+        note.className = "empty-note";
+        note.textContent = "暂无阅读入口";
+        actions.appendChild(note);
+      }
+
+      content.append(date, name, author, rating, summaryTitle, summary, actions);
+      detail.append(media, content);
+    }
+
+    fetch("books.json", { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((books) => {
+        const book = Array.isArray(books) ? books[getBookId()] : null;
+        if (!book) {
+          detail.innerHTML = '<p class="empty">没有找到这本书。</p>';
+          return;
+        }
+        renderBook(book);
+      })
+      .catch(() => {
+        detail.innerHTML = '<p class="empty">图书详情暂时无法加载，请稍后再试。</p>';
+      });
+  </script>
+</body>
+</html>
