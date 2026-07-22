@@ -1,4 +1,5 @@
 import smtplib
+import time
 from email.message import EmailMessage
 
 from config import ConfigError, get_email_config
@@ -69,6 +70,17 @@ def send_email(
                 cid=f"<{image['cid']}>",
             )
 
-    with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as smtp:
-        smtp.login(email_config.email_user, email_config.email_password)
-        smtp.send_message(message)
+    retry_delays = (0, 10, 30)
+    for attempt, delay in enumerate(retry_delays, start=1):
+        if delay:
+            time.sleep(delay)
+        try:
+            with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as smtp:
+                smtp.login(email_config.email_user, email_config.email_password)
+                smtp.send_message(message)
+            return
+        except Exception as exc:
+            if attempt < len(retry_delays):
+                print(f"Email send attempt {attempt} failed; retrying: {exc}")
+                continue
+            print(f"Email send failed:\n{exc}\nWorkflow should continue.")
