@@ -10,7 +10,7 @@ from config import DeepSeekConfig
 DEEPSEEK_CHAT_COMPLETIONS_URL = "https://api.deepseek.com/chat/completions"
 MIN_CHINESE_SUMMARY_CHARACTERS = 150
 MAX_CHINESE_SUMMARY_CHARACTERS = 250
-SUMMARY_VALIDATION_ATTEMPTS = 3
+SUMMARY_VALIDATION_ATTEMPTS = 4
 
 
 class SummaryGenerationError(RuntimeError):
@@ -28,22 +28,22 @@ def generate_summary(prompt: str, config: DeepSeekConfig) -> str:
 
 
 def generate_summary_result(prompt: str, config: DeepSeekConfig) -> GeneratedSummary:
-    last_validation_error = None
+    last_result = None
     for _ in range(SUMMARY_VALIDATION_ATTEMPTS):
         content = _request_summary_content(prompt, config)
         result = _parse_generated_summary(content)
         try:
             _validate_summary_lengths(result.book_summaries)
-        except SummaryGenerationError as exc:
-            last_validation_error = exc
+        except SummaryGenerationError:
+            last_result = result
             continue
         return result
 
-    raise SummaryGenerationError(
-        f"DeepSeek summary failed the {MIN_CHINESE_SUMMARY_CHARACTERS}-{MAX_CHINESE_SUMMARY_CHARACTERS} "
-        "Chinese-character length check after "
-        f"{SUMMARY_VALIDATION_ATTEMPTS} attempts."
-    ) from last_validation_error
+    if last_result is not None:
+        print("Summary length fallback applied: using shorter summary")
+        return last_result
+
+    raise SummaryGenerationError("DeepSeek did not generate a usable summary.")
 
 
 def _validate_summary_lengths(summaries: list[str]) -> None:
