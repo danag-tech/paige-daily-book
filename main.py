@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 
 from book_pool import get_pool_books, load_book_pool, refresh_book_pool, save_book_pool
+from book_quality_filter import filter_quality_books
 from config import ConfigError, get_deepseek_config
 from cover_image import download_cover_images
 from email_sender import send_email
@@ -41,7 +42,8 @@ def print_books() -> None:
 
         for theme in get_ordered_themes():
             print(f"Trying theme: {theme}")
-            pool_books = filter_unsent_books(get_pool_books(pool_records, theme), sent_records)
+            pool_candidates = filter_quality_books(get_pool_books(pool_records, theme), "book_pool")
+            pool_books = filter_unsent_books(pool_candidates, sent_records)
             selected_books = pool_books[:book_count]
             if len(selected_books) >= book_count:
                 selected_theme = theme
@@ -54,7 +56,8 @@ def print_books() -> None:
                 print(f"Theme failed: {theme}: {exc}")
                 continue
 
-            candidate_books = filter_unsent_books(result.books, sent_records)
+            quality_books = filter_quality_books(result.books, "provider")
+            candidate_books = filter_unsent_books(quality_books, sent_records)
             combined_books = _unique_books(pool_books + candidate_books)
             selected_books = combined_books[:book_count]
             if len(selected_books) >= book_count:

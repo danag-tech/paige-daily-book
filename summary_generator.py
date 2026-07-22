@@ -8,6 +8,9 @@ from config import DeepSeekConfig
 
 
 DEEPSEEK_CHAT_COMPLETIONS_URL = "https://api.deepseek.com/chat/completions"
+MIN_CHINESE_SUMMARY_CHARACTERS = 150
+MAX_CHINESE_SUMMARY_CHARACTERS = 250
+SUMMARY_VALIDATION_ATTEMPTS = 3
 
 
 class SummaryGenerationError(RuntimeError):
@@ -25,8 +28,42 @@ def generate_summary(prompt: str, config: DeepSeekConfig) -> str:
 
 
 def generate_summary_result(prompt: str, config: DeepSeekConfig) -> GeneratedSummary:
-    content = _request_summary_content(prompt, config)
-    return _parse_generated_summary(content)
+    last_validation_error = None
+    for _ in range(SUMMARY_VALIDATION_ATTEMPTS):
+        content = _request_summary_content(prompt, config)
+        result = _parse_generated_summary(content)
+        try:
+            _validate_summary_lengths(result.book_summaries)
+        except SummaryGenerationError as exc:
+            last_validation_error = exc
+            continue
+        return result
+
+    raise SummaryGenerationError(
+        f"DeepSeek summary failed the {MIN_CHINESE_SUMMARY_CHARACTERS}-{MAX_CHINESE_SUMMARY_CHARACTERS} "
+        "Chinese-character length check after "
+        f"{SUMMARY_VALIDATION_ATTEMPTS} attempts."
+    ) from last_validation_error
+
+
+def _validate_summary_lengths(summaries: list[str]) -> None:
+    invalid_summaries = []
+    for index, summary in enumerate(summaries, start=1):
+        chinese_character_count = _count_chinese_characters(summary)
+        if not MIN_CHINESE_SUMMARY_CHARACTERS <= chinese_character_count <= MAX_CHINESE_SUMMARY_CHARACTERS:
+            invalid_summaries.append(f"books[{index}]={chinese_character_count}")
+
+    if invalid_summaries:
+        details = ", ".join(invalid_summaries)
+        raise SummaryGenerationError(
+            "Summary length must be "
+            f"{MIN_CHINESE_SUMMARY_CHARACTERS}-{MAX_CHINESE_SUMMARY_CHARACTERS} "
+            f"Chinese characters: {details}."
+        )
+
+
+def _count_chinese_characters(text: str) -> int:
+    return len(re.findall(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]", text))
 
 
 def _request_summary_content(prompt: str, config: DeepSeekConfig) -> str:
