@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%270.9em%27 font-size=%2790%27%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E">
   <title>图书详情 - Paige 每日荐书</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -59,6 +60,24 @@
       return image;
     }
 
+    function getBookSearchTerm(book) {
+      const isbn = normalizeText(book.isbn || book.ISBN, "").replace(/[\s-]/g, "");
+      return isbn || normalizeText(book.title, "");
+    }
+
+    function buildSearchUrl(baseUrl, book) {
+      return `${baseUrl}${encodeURIComponent(getBookSearchTerm(book))}`;
+    }
+
+    function createReadingLink(label, url) {
+      const link = document.createElement("a");
+      link.className = "primary-link";
+      link.href = url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = label;
+      return link;
+    }
     function renderBook(book) {
       const bookTitle = normalizeText(book.title, "未命名书籍");
       title.textContent = `《${bookTitle}》`;
@@ -89,16 +108,15 @@
 
       const actions = document.createElement("div");
       actions.className = "detail-actions";
-      const wereadUrl = normalizeText(book.weread_url, "");
-      if (wereadUrl) {
-        const link = document.createElement("a");
-        link.className = "primary-link";
-        link.href = wereadUrl;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.textContent = "微信读书查看";
-        actions.appendChild(link);
-      }
+      const readingLabel = document.createElement("span");
+      readingLabel.className = "reading-label";
+      readingLabel.textContent = "\u9605\u8bfb/\u8d2d\u4e70\uff1a";
+      actions.append(
+        readingLabel,
+        createReadingLink("\u5fae\u4fe1\u8bfb\u4e66", buildSearchUrl("https://weread.qq.com/web/search/books?keyword=", book)),
+        createReadingLink("\u8c46\u74e3\u8bfb\u4e66", buildSearchUrl("https://search.douban.com/book/subject_search?search_text=", book)),
+        createReadingLink("\u4eac\u4e1c\u56fe\u4e66", buildSearchUrl("https://search.jd.com/Search?keyword=", book))
+      );
 
       content.append(author, rating, media, summaryTitle, summary, actions);
       detail.append(content);
