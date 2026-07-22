@@ -49,4 +49,5 @@ def get_active_subscriber_emails() -> list[str]:
         seen.add(normalized_email)
         emails.append(normalized_email)
 
+    print(f"Active subscribers count: {len(emails)}")
     return emails

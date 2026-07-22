@@ -40,6 +40,7 @@ def send_email(
 ) -> None:
     email_config = get_email_config()
     recipients = _resolve_recipients(email_config.email_to)
+    print(f"Email recipient count: {len(recipients)}")
 
     message = EmailMessage()
     message["Subject"] = subject
