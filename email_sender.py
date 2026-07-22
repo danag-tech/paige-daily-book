@@ -1,11 +1,35 @@
 import smtplib
 from email.message import EmailMessage
 
-from config import get_email_config
+from config import ConfigError, get_email_config
+from subscribers import get_active_subscriber_emails
 
 
 SMTP_HOST = "smtp.qq.com"
 SMTP_PORT = 465
+
+
+def _fallback_recipients(email_to: str) -> list[str]:
+    return [
+        recipient.strip()
+        for recipient in email_to.replace(";", ",").split(",")
+        if recipient.strip()
+    ]
+
+
+def _resolve_recipients(email_to: str) -> list[str]:
+    try:
+        subscriber_emails = get_active_subscriber_emails()
+    except Exception:
+        subscriber_emails = []
+
+    if subscriber_emails:
+        return subscriber_emails
+
+    fallback_recipients = _fallback_recipients(email_to)
+    if not fallback_recipients:
+        raise ConfigError("No active subscribers found and EMAIL_TO is missing.")
+    return fallback_recipients
 
 
 def send_email(
@@ -15,11 +39,12 @@ def send_email(
     inline_images: list[dict | None] | None = None,
 ) -> None:
     email_config = get_email_config()
+    recipients = _resolve_recipients(email_config.email_to)
 
     message = EmailMessage()
     message["Subject"] = subject
     message["From"] = email_config.email_user
-    message["To"] = email_config.email_to
+    message["To"] = ", ".join(recipients)
     message.set_content(text_body, subtype="plain", charset="utf-8")
 
     if html_body is not None:

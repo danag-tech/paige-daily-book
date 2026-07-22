@@ -56,12 +56,8 @@ def get_email_config() -> EmailConfig:
     if not email_password:
         raise ConfigError("EMAIL_PASSWORD is missing. Please set it in .env before sending email.")
 
-    email_to = os.getenv("EMAIL_TO")
-    if not email_to:
-        raise ConfigError("EMAIL_TO is missing. Please set it in .env before sending email.")
-
     return EmailConfig(
         email_user=email_user,
         email_password=email_password,
-        email_to=email_to,
+        email_to=os.getenv("EMAIL_TO", "").strip(),
     )
