@@ -3,12 +3,11 @@ import json
 import re
 
 import requests
-from html import escape as html_escape
 from pathlib import Path
 from urllib.parse import quote, urlparse
 
 from book_pool import load_book_pool
-from cover_image import COVER_HEADERS, _detect_image_subtype
+from cover_image import COVER_HEADERS, _detect_image_subtype, build_placeholder_cover_png
 from sent_books import build_record_keys, load_sent_books
 
 
@@ -159,8 +158,8 @@ def _build_public_cover_asset(book: dict) -> str:
             (WEBSITE_COVERS_DIR / filename).write_bytes(image["image_bytes"])
             return f"{PUBLIC_SITE_BASE_URL}/covers/{filename}"
 
-    filename = f"{base_name}.svg"
-    (WEBSITE_COVERS_DIR / filename).write_text(_build_cover_placeholder_svg(title, author), encoding="utf-8")
+    filename = f"{base_name}.png"
+    (WEBSITE_COVERS_DIR / filename).write_bytes(build_placeholder_cover_png(title, author))
     return f"{PUBLIC_SITE_BASE_URL}/covers/{filename}"
 
 
@@ -180,22 +179,6 @@ def _download_cover_asset(url: str) -> dict | None:
         subtype = "jpg"
     return {"image_bytes": response.content, "subtype": subtype}
 
-
-def _build_cover_placeholder_svg(title: str, author: str) -> str:
-    safe_title = html_escape(title)
-    safe_author = html_escape(author or "Paige Book Daily")
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="630" viewBox="0 0 420 630">
-  <rect width="420" height="630" fill="#efe7da"/>
-  <rect x="28" y="28" width="364" height="574" rx="18" fill="#fffdf8" stroke="#dccdb9" stroke-width="2"/>
-  <text x="210" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a4f2c" letter-spacing="2">PAIGE BOOK DAILY</text>
-  <foreignObject x="56" y="170" width="308" height="230">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, 'Microsoft YaHei', sans-serif; color: #23201c; font-size: 34px; line-height: 1.35; text-align: center; font-weight: 700; word-break: break-word;">{safe_title}</div>
-  </foreignObject>
-  <foreignObject x="70" y="430" width="280" height="90">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, 'Microsoft YaHei', sans-serif; color: #71695f; font-size: 22px; line-height: 1.4; text-align: center; word-break: break-word;">{safe_author}</div>
-  </foreignObject>
-  <line x1="126" y1="548" x2="294" y2="548" stroke="#d4b895" stroke-width="2"/>
-</svg>'''
 
 def _select_public_books(normalized_records: list[tuple[str, int, dict, dict]], limit: int) -> list[dict]:
     books = []

@@ -46,7 +46,7 @@ def _build_book_card(book, cover_cid: str | None) -> str:
             '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:14px 0 20px;">'
             '<tr><td align="center" style="text-align:center;">'
             '<div style="width:150px; max-width:42%; min-width:112px; min-height:160px; border:1px solid #ddd; border-radius:4px; '
-            'display:flex; align-items:center; justify-content:center; color:#777; font-size:14px; margin:0 auto;">暂无封面</div>'
+            'display:flex; align-items:center; justify-content:center; color:#777; font-size:14px; margin:0 auto;"></div>'
             '</td></tr></table>'
         )
 
