@@ -5,7 +5,7 @@ from config import ConfigError, get_email_config
 from subscribers import get_active_subscriber_emails
 
 
-SMTP_HOST = "smtp.qq.com"
+SMTP_HOST = "smtp.163.com"
 SMTP_PORT = 465
 
 
@@ -32,6 +32,14 @@ def _resolve_recipients(email_to: str) -> list[str]:
     return fallback_recipients
 
 
+def _format_subject(subject: str) -> str:
+    legacy_prefix = "\u4eca\u65e5\u8350\u4e66\uff1a"
+    if subject.startswith(legacy_prefix):
+        theme = subject[len(legacy_prefix):].strip()
+        return f"\U0001f4da \u4eca\u65e53\u672c\u7cbe\u9009\uff1a{theme}"
+    return subject
+
+
 def send_email(
     subject: str,
     text_body: str,
@@ -43,7 +51,7 @@ def send_email(
     print(f"Email recipient count: {len(recipients)}")
 
     message = EmailMessage()
-    message["Subject"] = subject
+    message["Subject"] = _format_subject(subject)
     message["From"] = email_config.email_user
     message["To"] = ", ".join(recipients)
     message.set_content(text_body, subtype="plain", charset="utf-8")
