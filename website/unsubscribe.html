@@ -13,6 +13,7 @@
       <p class="eyebrow">Paige Book Daily</p>
       <h1 id="unsubscribe-title">正在处理取消订阅</h1>
       <p id="unsubscribe-message" class="unsubscribe-message">请稍候...</p>
+      <p id="unsubscribe-followup" class="unsubscribe-message"></p>
       <a class="detail-link" href="index.html">返回 Paige 每日荐书</a>
     </section>
   </main>
@@ -22,6 +23,7 @@
   <script>
     const title = document.querySelector("#unsubscribe-title");
     const message = document.querySelector("#unsubscribe-message");
+    const followup = document.querySelector("#unsubscribe-followup");
 
     function getSupabaseConfig() {
       const generatedConfig = window.PAIGE_SITE_CONFIG || {};
@@ -31,22 +33,35 @@
       return { url: url.replace(/\/$/, ""), anonKey };
     }
 
-    function showFailure() {
-      title.textContent = "取消订阅失败";
-      message.textContent = "该取消订阅链接无效或已经处理。";
+    function showResult(resultTitle, resultMessage) {
+      title.textContent = resultTitle;
+      message.textContent = resultMessage;
+      followup.textContent = "";
+    }
+
+    function showInvalidToken() {
+      showResult("取消订阅链接无效", "该链接不存在或已失效。");
+    }
+
+    function showAlreadyUnsubscribed() {
+      showResult("该订阅已经取消", "你已经不会再收到 Paige Daily Book 的每日推荐邮件。");
+    }
+
+    function showRequestError() {
+      showResult("暂时无法完成取消订阅", "取消订阅服务暂时不可用，请稍后再试。");
     }
 
     async function processUnsubscribe() {
       const token = new URLSearchParams(window.location.search).get("token");
       if (!token) {
-        showFailure();
+        showInvalidToken();
         return;
       }
       history.replaceState({}, document.title, "unsubscribe.html");
 
       const { url, anonKey } = getSupabaseConfig();
       if (!url || !anonKey) {
-        showFailure();
+        showRequestError();
         return;
       }
 
@@ -61,7 +76,7 @@
           body: JSON.stringify({ token })
         });
         if (!response.ok) {
-          showFailure();
+          showRequestError();
           return;
         }
 
@@ -72,15 +87,23 @@
         } catch (error) {
           // Keep the plain text response fallback for older PostgREST versions.
         }
-        const success = result === true || result === "true" || result?.unsubscribe_by_token === true;
-        if (!success) {
-          showFailure();
+
+        if (result === "unsubscribed") {
+          showResult("取消订阅成功", "你之后不会再收到 Paige Daily Book 的每日推荐邮件。");
+          followup.textContent = "如果以后想重新订阅，可以返回主页重新输入邮箱。";
           return;
         }
-        title.textContent = "已取消订阅";
-        message.textContent = "之后将不会再收到 Paige 每日荐书邮件。";
+        if (result === "already_unsubscribed") {
+          showAlreadyUnsubscribed();
+          return;
+        }
+        if (result === "invalid_token") {
+          showInvalidToken();
+          return;
+        }
+        showRequestError();
       } catch (error) {
-        showFailure();
+        showRequestError();
       }
     }
 

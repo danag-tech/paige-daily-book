@@ -58,18 +58,36 @@ begin
 end;
 $$;
 
+drop function if exists public.unsubscribe_by_token(uuid);
+
 create or replace function public.unsubscribe_by_token(token uuid)
-returns boolean
+returns text
 language plpgsql
 security definer
 set search_path = public, pg_temp
 as $$
 begin
+  if not exists (
+    select 1
+      from public.subscribers
+     where unsubscribe_token = token
+  ) then
+    return 'invalid_token';
+  end if;
+
+  if exists (
+    select 1
+      from public.subscribers
+     where unsubscribe_token = token
+       and active is false
+  ) then
+    return 'already_unsubscribed';
+  end if;
+
   update public.subscribers
      set active = false
-   where unsubscribe_token = token
-     and active is distinct from false;
-  return found;
+   where unsubscribe_token = token;
+  return 'unsubscribed';
 end;
 $$;
 

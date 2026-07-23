@@ -30,11 +30,17 @@ def _resolve_subscribers(email_to: str) -> list[dict[str, str]]:
         subscribers = []
 
     if subscribers:
+        print(f"Resolved subscriber count: {len(subscribers)}")
+        print(f"Resolved recipient count: {len(subscribers)}")
+        print("Resolved recipient source: Supabase")
         return subscribers
 
     fallback_recipients = _fallback_recipients(email_to)
     if not fallback_recipients:
         raise ConfigError("No active subscribers found and EMAIL_TO is missing.")
+    print("Resolved subscriber count: 0")
+    print(f"Resolved recipient count: {len(fallback_recipients)}")
+    print("Resolved recipient source: fallback EMAIL_TO")
     return [{"email": recipient, "unsubscribe_token": ""} for recipient in fallback_recipients]
 
 
@@ -119,6 +125,13 @@ def _safe_error_message(exc: Exception) -> str:
     return message or exc.__class__.__name__
 
 
+def _mask_email(email: str) -> str:
+    local_part, separator, domain = email.partition("@")
+    if not separator:
+        return "[invalid-email]"
+    return f"{local_part[:2]}***@{domain}"
+
+
 def _send_message_with_retries(message: EmailMessage) -> None:
     retry_delays = (0, 10, 30)
     for attempt, delay in enumerate(retry_delays, start=1):
@@ -129,13 +142,15 @@ def _send_message_with_retries(message: EmailMessage) -> None:
             with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as smtp:
                 smtp.login(email_config.email_user, email_config.email_password)
                 smtp.send_message(message)
+            print(f"Email sent successfully to {_mask_email(message['To'])}")
             return
         except Exception as exc:
             safe_error = _safe_error_message(exc)
             if attempt < len(retry_delays):
                 print(f"Email send attempt {attempt} failed; retrying: {safe_error}")
                 continue
-            print(f"Email send failed:\n{safe_error}\nWorkflow should continue.")
+            recipient = _mask_email(message["To"])
+            print(f"Email failed for {recipient}:\n{safe_error}\nWorkflow should continue.")
 
 
 def send_email(
@@ -148,19 +163,13 @@ def send_email(
     subscribers = _resolve_subscribers(email_config.email_to)
     print(f"Email recipient count: {len(subscribers)}")
 
-    has_subscriber_tokens = any(subscriber.get("unsubscribe_token") for subscriber in subscribers)
-    if has_subscriber_tokens:
-        for subscriber in subscribers:
-            message = _build_message(
-                subject,
-                text_body,
-                html_body,
-                inline_images,
-                subscriber["email"],
-                subscriber.get("unsubscribe_token", ""),
-            )
-            _send_message_with_retries(message)
-        return
-
-    message = _build_message(subject, text_body, html_body, inline_images, ", ".join(item["email"] for item in subscribers), "")
-    _send_message_with_retries(message)
+    for subscriber in subscribers:
+        message = _build_message(
+            subject,
+            text_body,
+            html_body,
+            inline_images,
+            subscriber["email"],
+            subscriber.get("unsubscribe_token", ""),
+        )
+        _send_message_with_retries(message)

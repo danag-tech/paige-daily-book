@@ -191,6 +191,10 @@
       return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
 
+    function normalizeSubscriptionEmail(value) {
+      return normalizeText(value, "").toLowerCase().replace(/\.+$/, "");
+    }
+
     async function submitSubscription(email) {
       const { supabaseUrl, supabaseAnonKey } = getSubscribeConfig();
       if (!supabaseUrl || !supabaseAnonKey) {
@@ -261,7 +265,7 @@
     if (subscribeForm) {
       subscribeForm.addEventListener("submit", (event) => {
         event.preventDefault();
-        const email = normalizeText(subscribeEmail.value, "").toLowerCase();
+        const email = normalizeSubscriptionEmail(subscribeEmail.value);
         if (!isValidEmail(email)) {
           subscribeStatus.textContent = "请输入有效邮箱。";
           return;
