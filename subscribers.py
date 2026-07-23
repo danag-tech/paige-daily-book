@@ -37,7 +37,7 @@ def _repair_unsubscribe_token(supabase_url: str, supabase_key: str, email: str) 
 def get_active_subscribers() -> list[dict[str, str]]:
     """Return active subscribers with their private unsubscribe tokens."""
     supabase_url = os.getenv("SUPABASE_URL", "").strip().rstrip("/")
-    supabase_key = os.getenv("SUPABASE_KEY", "").strip()
+    supabase_key = (os.getenv("SUPABASE_SERVICE_ROLE_KEY", "").strip() or os.getenv("SUPABASE_KEY", "").strip())
     if not supabase_url or not supabase_key:
         return []
 
