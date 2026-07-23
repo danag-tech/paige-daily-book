@@ -52,6 +52,18 @@
         <button id="subscribe-button" type="submit">订阅</button>
         <p id="subscribe-status" class="subscribe-status" role="status" aria-live="polite"></p>
       </form>
+      <dialog id="subscribe-confirmation" class="subscribe-confirmation">
+        <div class="subscribe-confirmation-content">
+          <h3>确认订阅邮箱</h3>
+          <p>请确认你的订阅邮箱：</p>
+          <p id="confirmation-email" class="confirmation-email"></p>
+          <p>确认后，该邮箱将每天收到 Paige 每日荐书邮件。</p>
+          <div class="confirmation-actions">
+            <button id="cancel-confirmation" type="button" class="confirmation-secondary">返回修改</button>
+            <button id="confirm-subscription" type="button" class="confirmation-primary">确认订阅</button>
+          </div>
+        </div>
+      </dialog>
     </section>
 
     <section id="recent" class="home-section" aria-labelledby="recent-heading">
@@ -89,6 +101,11 @@
     const subscribeEmail = document.querySelector("#subscribe-email");
     const subscribeButton = document.querySelector("#subscribe-button");
     const subscribeStatus = document.querySelector("#subscribe-status");
+    const confirmationDialog = document.querySelector("#subscribe-confirmation");
+    const confirmationEmail = document.querySelector("#confirmation-email");
+    const cancelConfirmation = document.querySelector("#cancel-confirmation");
+    const confirmSubscription = document.querySelector("#confirm-subscription");
+    let pendingSubscriptionEmail = "";
 
     function normalizeText(value, fallback) {
       if (typeof value !== "string") {
@@ -180,28 +197,69 @@
         throw new Error("订阅服务暂未配置。");
       }
 
-      const response = await fetch(`${supabaseUrl}/rest/v1/subscribers`, {
+      const response = await fetch(`${supabaseUrl}/rest/v1/rpc/subscribe_by_email`, {
         method: "POST",
         headers: {
           apikey: supabaseAnonKey,
           Authorization: `Bearer ${supabaseAnonKey}`,
-          "Content-Type": "application/json",
-          Prefer: "return=minimal"
+          "Content-Type": "application/json"
         },
-        body: JSON.stringify({ email, active: true })
+        body: JSON.stringify({ email })
       });
 
-      if (response.status === 409) {
-        return "该邮箱已经订阅";
-      }
       if (!response.ok) {
         throw new Error("订阅保存失败，请稍后再试。");
+      }
+
+      const rawResult = await response.text();
+      let result = rawResult;
+      try {
+        result = JSON.parse(rawResult);
+      } catch (error) {
+        // Keep the plain text response fallback for older PostgREST versions.
+      }
+      if (result === "already_subscribed") {
+        return "该邮箱已经订阅";
+      }
+      if (result === "resubscribed") {
+        return "重新订阅成功";
       }
       return "订阅成功";
     }
 
+    function closeConfirmation() {
+      pendingSubscriptionEmail = "";
+      if (confirmationDialog && confirmationDialog.open) {
+        confirmationDialog.close();
+      }
+    }
+
+    async function confirmPendingSubscription() {
+      if (!pendingSubscriptionEmail) {
+        closeConfirmation();
+        return;
+      }
+
+      const email = pendingSubscriptionEmail;
+      confirmSubscription.disabled = true;
+      cancelConfirmation.disabled = true;
+      subscribeButton.disabled = true;
+      subscribeStatus.textContent = "正在提交...";
+      try {
+        subscribeStatus.textContent = await submitSubscription(email);
+        subscribeForm.reset();
+        closeConfirmation();
+      } catch (error) {
+        subscribeStatus.textContent = error.message || "订阅失败，请稍后再试。";
+      } finally {
+        confirmSubscription.disabled = false;
+        cancelConfirmation.disabled = false;
+        subscribeButton.disabled = false;
+      }
+    }
+
     if (subscribeForm) {
-      subscribeForm.addEventListener("submit", async (event) => {
+      subscribeForm.addEventListener("submit", (event) => {
         event.preventDefault();
         const email = normalizeText(subscribeEmail.value, "").toLowerCase();
         if (!isValidEmail(email)) {
@@ -209,17 +267,21 @@
           return;
         }
 
-        subscribeButton.disabled = true;
-        subscribeStatus.textContent = "正在提交...";
-        try {
-          subscribeStatus.textContent = await submitSubscription(email);
-          subscribeForm.reset();
-        } catch (error) {
-          subscribeStatus.textContent = error.message || "订阅失败，请稍后再试。";
-        } finally {
-          subscribeButton.disabled = false;
+        pendingSubscriptionEmail = email;
+        confirmationEmail.textContent = email;
+        if (confirmationDialog && typeof confirmationDialog.showModal === "function") {
+          confirmationDialog.showModal();
+        } else if (window.confirm(`请确认你的订阅邮箱：\n\n${email}\n\n确认后，该邮箱将每天收到 Paige 每日荐书邮件。`)) {
+          confirmPendingSubscription();
         }
       });
+    }
+
+    if (cancelConfirmation) {
+      cancelConfirmation.addEventListener("click", closeConfirmation);
+    }
+    if (confirmSubscription) {
+      confirmSubscription.addEventListener("click", confirmPendingSubscription);
     }
 
     function loadJson(path) {

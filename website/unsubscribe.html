@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%270.9em%27 font-size=%2790%27%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E">
+  <title>取消订阅 - Paige 每日荐书</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell unsubscribe-shell">
+    <section class="unsubscribe-card" aria-live="polite">
+      <p class="eyebrow">Paige Book Daily</p>
+      <h1 id="unsubscribe-title">正在处理取消订阅</h1>
+      <p id="unsubscribe-message" class="unsubscribe-message">请稍候...</p>
+      <a class="detail-link" href="index.html">返回 Paige 每日荐书</a>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="site_config.js"></script>
+  <script>
+    const title = document.querySelector("#unsubscribe-title");
+    const message = document.querySelector("#unsubscribe-message");
+
+    function getSupabaseConfig() {
+      const generatedConfig = window.PAIGE_SITE_CONFIG || {};
+      const publicConfig = window.PAIGE_SUPABASE_CONFIG || {};
+      const url = generatedConfig.supabaseUrl || publicConfig.SUPABASE_URL || "";
+      const anonKey = generatedConfig.supabaseAnonKey || publicConfig.SUPABASE_ANON_KEY || "";
+      return { url: url.replace(/\/$/, ""), anonKey };
+    }
+
+    function showFailure() {
+      title.textContent = "取消订阅失败";
+      message.textContent = "该取消订阅链接无效或已经处理。";
+    }
+
+    async function processUnsubscribe() {
+      const token = new URLSearchParams(window.location.search).get("token");
+      if (!token) {
+        showFailure();
+        return;
+      }
+      history.replaceState({}, document.title, "unsubscribe.html");
+
+      const { url, anonKey } = getSupabaseConfig();
+      if (!url || !anonKey) {
+        showFailure();
+        return;
+      }
+
+      try {
+        const response = await fetch(`${url}/rest/v1/rpc/unsubscribe_by_token`, {
+          method: "POST",
+          headers: {
+            apikey: anonKey,
+            Authorization: `Bearer ${anonKey}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ token })
+        });
+        if (!response.ok) {
+          showFailure();
+          return;
+        }
+
+        const rawResult = await response.text();
+        let result = rawResult;
+        try {
+          result = JSON.parse(rawResult);
+        } catch (error) {
+          // Keep the plain text response fallback for older PostgREST versions.
+        }
+        const success = result === true || result === "true" || result?.unsubscribe_by_token === true;
+        if (!success) {
+          showFailure();
+          return;
+        }
+        title.textContent = "已取消订阅";
+        message.textContent = "之后将不会再收到 Paige 每日荐书邮件。";
+      } catch (error) {
+        showFailure();
+      }
+    }
+
+    processUnsubscribe();
+  </script>
+</body>
+</html>

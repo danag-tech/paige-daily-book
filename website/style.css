@@ -483,9 +483,97 @@ h1 {
   }
 }
 
+.subscribe-confirmation {
+  width: min(92vw, 430px);
+  padding: 0;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 18px 48px rgba(42, 35, 28, 0.2);
+}
+
+.subscribe-confirmation::backdrop {
+  background: rgba(35, 32, 28, 0.38);
+}
+
+.subscribe-confirmation-content {
+  padding: 22px;
+}
+
+.subscribe-confirmation h3 {
+  margin: 0 0 14px;
+  font-size: 20px;
+}
+
+.subscribe-confirmation p {
+  margin: 8px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.subscribe-confirmation .confirmation-email {
+  padding: 10px 12px;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+  background: #efe7da;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.confirmation-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.confirmation-actions button {
+  min-height: 40px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font: inherit;
+}
+
+.confirmation-secondary {
+  color: var(--accent-dark);
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.confirmation-primary {
+  color: #f8f0e6;
+  background: var(--accent-dark);
+  border: 1px solid var(--accent-dark);
+}
 .subscribe-status {
   min-height: 22px;
   margin: 0;
   color: var(--muted);
   font-size: 13px;
+}
+
+.unsubscribe-shell {
+  display: grid;
+  min-height: calc(100vh - 56px);
+  place-items: center;
+}
+
+.unsubscribe-card {
+  width: min(100%, 560px);
+  padding: 28px;
+  text-align: center;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(42, 35, 28, 0.08);
+}
+
+.unsubscribe-card h1 {
+  font-size: 28px;
+}
+
+.unsubscribe-message {
+  margin: 12px 0 0;
+  color: var(--muted);
 }
