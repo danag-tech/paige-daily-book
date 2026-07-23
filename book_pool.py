@@ -3,7 +3,7 @@ from datetime import date
 from pathlib import Path
 
 from models import Book
-from sent_books import build_book_key, build_book_keys, build_record_keys
+from sent_books import build_book_key, build_book_keys, get_cooldown_keys
 
 
 BOOK_POOL_PATH = Path(__file__).with_name("data") / "book_pool.json"
@@ -49,7 +49,7 @@ def refresh_book_pool(
     sent_records: list[dict],
     selected_books: list[Book],
 ) -> list[dict]:
-    blocked_keys = _records_keys(sent_records)
+    blocked_keys = get_cooldown_keys(sent_records)
     for book in selected_books:
         blocked_keys.update(build_book_keys(book))
 
@@ -108,13 +108,6 @@ def _rating_value(rating: str | None) -> float:
     except ValueError:
         return 0.0
 
-
-def _records_keys(records: list[dict]) -> set[str]:
-    keys: set[str] = set()
-    for record in records:
-        if isinstance(record, dict):
-            keys.update(build_record_keys(record))
-    return keys
 
 
 def _record_keys(record: dict) -> set[str]:

@@ -1,6 +1,6 @@
 import json
 import re
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 
@@ -76,19 +76,42 @@ def build_title_author_key(title: str, author: str) -> str | None:
     return f"title_author:{normalized_title}|{normalized_author}"
 
 
+def get_cooldown_keys(records: list[dict], today: date | None = None) -> set[str]:
+    reference_date = today or date.today()
+    cutoff_date = reference_date - timedelta(days=90)
+    cooldown_keys: set[str] = set()
+
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        keys = build_record_keys(record)
+        if not keys:
+            continue
+        raw_sent_date = record.get("sent_date")
+        try:
+            sent_date = date.fromisoformat(raw_sent_date)
+        except (TypeError, ValueError):
+            cooldown_keys.update(keys)
+            continue
+        if sent_date >= cutoff_date:
+            cooldown_keys.update(keys)
+
+    return cooldown_keys
+
 def filter_unsent_books(books: list, sent_records: list[dict]) -> list:
-    sent_keys = _records_keys(sent_records)
-    return [book for book in books if build_book_keys(book).isdisjoint(sent_keys)]
+    cooldown_keys = get_cooldown_keys(sent_records)
+    return [book for book in books if build_book_keys(book).isdisjoint(cooldown_keys)]
 
 
 def append_sent_books(records: list[dict], books: list, theme: str) -> list[dict]:
-    existing_keys = _records_keys(records)
+    blocked_keys = get_cooldown_keys(records)
+    added_keys: set[str] = set()
     updated_records = list(records)
     sent_date = date.today().isoformat()
 
     for book in books:
         keys = build_book_keys(book)
-        if not keys or not keys.isdisjoint(existing_keys):
+        if not keys or keys & (blocked_keys | added_keys):
             continue
 
         primary_key = build_book_key(book)
@@ -107,7 +130,7 @@ def append_sent_books(records: list[dict], books: list, theme: str) -> list[dict
                 "sent_date": sent_date,
             }
         )
-        existing_keys.update(keys)
+        added_keys.update(keys)
 
     return updated_records
 

@@ -65,8 +65,6 @@ def print_books(dry_run: bool = False) -> None:
                 discovered_books = candidate_books
                 break
 
-            if not dry_run:
-                pool_records = refresh_book_pool(pool_records, theme, candidate_books, sent_records, [])
             print(f"Not enough unsent books for theme: {theme}")
 
         if selected_theme is None:
