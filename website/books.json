@@ -1,12 +1,42 @@
 [
   {
+    "title": "英伟达之道 : 黄仁勋和他的科技帝国",
+    "author": "［美］金泰（Tae Kim）",
+    "rating": "⭐7.8",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/bfe4d1ae33469cd9.jpg",
+    "summary": "本书是英伟达创始人黄仁勋的首部授权采访图书，作者深度报道英伟达三十余年，采访了黄仁勋、其他联合创始人、高管及合作伙伴等百余人。书中全景呈现英伟达从创立到成为全球市值最高公司的发展历程，首次公开其核心产品研发、市场开拓、多次濒临险境的绝地反击及未来布局。系统梳理了英伟达的创新、管理、市场、用人之道，并披露了黄仁勋从亚裔移民少年成长为科技巨头的个人经历与经营理念。",
+    "recommended_date": "2026-07-23",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B9%8B%E9%81%93%20%3A%20%E9%BB%84%E4%BB%81%E5%8B%8B%E5%92%8C%E4%BB%96%E7%9A%84%E7%A7%91%E6%8A%80%E5%B8%9D%E5%9B%BD"
+  },
+  {
+    "title": "纳瓦尔宝典 : 财富与幸福指南",
+    "author": "[美] 埃里克·乔根森",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/466c42b53b912c2f.jpg",
+    "summary": "本书汇编了硅谷天使投资人纳瓦尔过去十年在推特、博客和播客中分享的智慧箴言。内容围绕财富积累与幸福人生两大主题展开，阐述了如何利用专长和杠杆获得财富，以及如何通过选择、习惯和心态获得幸福。纳瓦尔强调财富和幸福是可习得的技能，并提供了具体的原则与方法，例如将产品化、利用代码和媒体等杠杆、培养判断力等。书中不涉及具体理财技巧，而是聚焦于底层思维框架和人生哲学。",
+    "recommended_date": "2026-07-23",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BA%B3%E7%93%A6%E5%B0%94%E5%AE%9D%E5%85%B8%20%3A%20%E8%B4%A2%E5%AF%8C%E4%B8%8E%E5%B9%B8%E7%A6%8F%E6%8C%87%E5%8D%97"
+  },
+  {
+    "title": "跨越鸿沟 : 颠覆性产品营销圣经",
+    "author": "[美] 杰弗里·摩尔(Geoffrey A. Moore)",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f4a1cc057502c24a.jpg",
+    "summary": "本书提出“鸿沟理论”，指出高科技产品在早期市场与主流市场之间存在一条巨大鸿沟。作者分析了技术采用生命周期中不同消费者群体的特征，并阐述了如何通过集中资源、选定目标市场、制定整体产品策略等方式跨越这道鸿沟。书中结合大量硅谷案例，揭示了实用主义者对产品稳定性和完整解决方案的重视，为高科技企业进入主流市场提供了系统性的营销框架。该理论已被众多企业和大学引入运营与教学，成为风险投资评估工具之一。",
+    "recommended_date": "2026-07-23",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B7%A8%E8%B6%8A%E9%B8%BF%E6%B2%9F%20%3A%20%E9%A2%A0%E8%A6%86%E6%80%A7%E4%BA%A7%E5%93%81%E8%90%A5%E9%94%80%E5%9C%A3%E7%BB%8F"
+  },
+  {
     "title": "如何快速了解一个行业",
     "author": "肖璟",
     "rating": "⭐8.3",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/63839020d3e85191.jpg",
     "summary": "本书由麦肯锡前分析师撰写，系统介绍行业分析的方法论框架。内容覆盖行业生命周期、商业模式、市场规模、竞争格局等关键维度，并探讨外部驱动力剖析与景气度预判技巧。书中提供丰富的实战案例，并分享利用AI进行投资研究的应用方法，为投资者、创业者及从业者提供可套用的分析模板。",
     "recommended_date": "2026-07-23",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%AA%E8%A1%8C%E4%B8%9A"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4d6fe969b2b6adb8.jpg",
     "summary": "本书是知名商业记者李翔对泡泡玛特创始人王宁的访谈实录。全书分五部分，完整呈现王宁从杂货铺起步的创业历程，涵盖品牌定位、IP商业模式、市场运营理念、管理核心及全球化战略。书中通过一手访谈，展现了泡泡玛特如何将小品类发展为具有影响力的IP商业生态。",
     "recommended_date": "2026-07-23",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9B%A0%E4%B8%BA%E7%8B%AC%E7%89%B9%20%3A%20%E6%B3%A1%E6%B3%A1%E7%8E%9B%E7%89%B9%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%8E%8B%E5%AE%81%E4%BB%8E%E6%9D%82%E8%B4%A7%E9%93%BA%E5%88%B0IP%E4%B8%96%E7%95%8C%E7%9A%84%E8%B7%8B%E6%B6%89"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9f2db18426741f4.jpg",
     "summary": "本书以地方政府投融资为主线，将经济学原理与中国发展实践有机融合。上篇解析地方政府事务、收支、土地融资及投资债务等微观机制，下篇探讨城市化、房价、地区差异、债务风险及国际贸易冲突等宏观现象。作者基于多年教学与调研，刻画了中国政府深度介入工业化与城市化进程、同时推动市场机制完善的独特治理逻辑。",
     "recommended_date": "2026-07-23",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%20%3A%20%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/105792f28a8f4b82.jpg",
     "summary": "本书提出“价值—共识—模式”的极简商业分析框架，旨在帮助识别商业创新的核心驱动力。作者梁宁基于30年行业观察，通过丝绸之路、SHEIN、中国手机30年崛起、脑白金与瑞幸等案例，拆解产品滞销、创新不被认可等问题的根源。全书强调商业的本质并非追逐风口，而是洞察并满足“真需求”，即用户真实且未被充分满足的诉求。内容融合商业逻辑与社会洞察，为理解市场规律提供了系统性视角。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%9C%9F%E9%9C%80%E6%B1%82"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ae11ae0709d258c3.jpg",
     "summary": "该书精选自段永平2006年至2025年间在网易博客和雪球网发表的公开言论，系统整理其关于投资、企业管理及人生哲理的思考。全书分五章，核心围绕“本分”“平常心”等理念展开，结合小霸王、步步高、苹果、贵州茅台等公司的创业与投资案例，阐述其独特的价值投资框架。作者强调商业模式与企业文化在长期决策中的决定性作用，内容兼具实战经验与思想深度，为理解中国式价值投资提供了第一手素材。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E9%81%93%20%3A%20%E6%AE%B5%E6%B0%B8%E5%B9%B3%E6%8A%95%E8%B5%84%E9%97%AE%E7%AD%94%E5%BD%95"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/372c3b53a10a826d.jpg",
     "summary": "本书是沃伦·巴菲特唯一授权的官方传记，由作者历时多年深度访谈完成。全书以“滚雪球”为隐喻，从巴菲特9岁在雪地里堆雪球的场景切入，追溯其从奥马哈少年成长为全球投资大师的78年人生轨迹。作者不仅梳理了巴菲特在投资生涯中的关键决策与原则，还深入挖掘其性格形成、商业理念与慈善思想的根源。书中呈现了大量一手资料，包括巴菲特本人的谈话、信件及亲友回忆，揭示了“股神”光环背后的真实人性与思维模式。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%BB%9A%E9%9B%AA%E7%90%83%EF%BC%88%E4%B8%8A%EF%BC%89%20%3A%20%E5%B7%B4%E8%8F%B2%E7%89%B9%E5%92%8C%E4%BB%96%E7%9A%84%E8%B4%A2%E5%AF%8C%E4%BA%BA%E7%94%9F"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/035c5394d7db354a.jpg",
     "summary": "法国经济学家阿达利提出一套颠覆性的音乐史诠释。他认为音乐不仅反映社会样相，更以先知方式预示新的社会形构。书中以“献祭、再现、重复、组曲”四个阶段对应宗教、商业演出、唱片录制及未来民众自由作曲的社会形态。作者将噪音视为权力与秩序的隐喻，分析音乐如何作为政治经济变迁的先锋。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%99%AA%E9%9F%B3%EF%BC%9A%E9%9F%B3%E6%A8%82%E7%9A%84%E6%94%BF%E6%B2%BB%E7%B6%93%E6%BF%9F%E5%AD%B8"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/95c942314e4da33c.jpg",
     "summary": "本书是首部从社会学视角描述歌剧全球发展历程的著作。作者追溯歌剧从文艺复兴时期意大利北部兴起，随后横跨欧美大陆、风靡世界各地，直至数字化时代的演变。全书将歌剧置于社会历史背景下，考察其如何在不同时代与政治、经济及观众需求互动，揭示这门艺术形式经久不衰的社会动力。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%8E%8F%E9%87%91%E8%88%9E%E5%8F%B0%20%3A%20%E6%AD%8C%E5%89%A7%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%8F%B2"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ccf148f5bb208130.jpg",
     "summary": "本书以四个标志性阶段梳理嘻哈文化五十年发展历程。两位作者基于对DJ、舞者、说唱歌手、涂鸦写手及帮派成员的采访，刻画了众多奠基人与当代偶像。全书从嘻哈起源探讨至当下，审视这一诞生于街头、最终成为全球商业价值最高流行文化之一的现象。书中辩证分析嘻哈究竟是底层之声还是金钱至上，并收录DJ酷·赫克所作序言。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BB%99%E5%B9%B4%E8%BD%BB%E4%B8%80%E4%BB%A3%E7%9A%84%E5%98%BB%E5%93%88%E7%AE%80%E5%8F%B2"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7ef52de28b91a02e.jpg",
     "summary": "1984年，日本思想泰斗吉本隆明与音乐巨匠坂本龙一在工作室展开了一场关于音乐本质的哲思对话。吉本以敏锐的感受性追问音乐与文学在创作上的异同，坂本则回应了音乐与语言、技术、社会文化的关系。对话中，坂本亲自演示当时最尖端的数字合成器技术，并将吉本即兴弹奏的乐音以不同风格编曲，直观展现了音乐逐步变为作品的过程。本书探讨了技术革新对创作的影响，以及原创性在科技时代面临的挑战。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9F%B3%E4%B9%90%E6%9C%BA%E6%A2%B0%E8%AE%BA"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b85a76cf6939e70a.jpg",
     "summary": "德国音乐学家康斯坦丁·弗洛罗斯以扎实的文献为基础，将古斯塔夫·马勒的交响乐创作置于哲学、文学、宗教与欧洲文化的宏大视野中。本书细致剖析了马勒的思想积淀、美学观念与世界观如何塑造其音乐语言，揭示了交响曲中“音符背后的故事”。作者不仅探讨了马勒对交响乐形式的革新，还深入分析了其对生命体验的深刻表达以及对音乐本质的哲学探索。该书为理解马勒的精神世界提供了一份系统性的思想地图与学术索引。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%A9%AC%E5%8B%92%E7%B2%BE%E7%A5%9E%E4%B8%96%E7%95%8C%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%91%88%E7%8E%B0"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fa0f5d8b6e5c4b9b.jpg",
     "summary": "奥地利指挥家尼古劳斯·哈农库特在本书中系统阐释了早期音乐（特别是巴洛克与古典时期）的理解与演绎方法。作者提出音乐是“声音的语言”，能够表达情感、描绘画面并进行哲学思考。书中具体讨论了记谱、吐字发音、速度、调性体系及音准等技术问题，梳理了弦乐器和管乐器的发展历史及其音乐语言特点，并分析了巴洛克音乐与古典音乐之间的风格差异。哈农库特强调，音乐家需像学习外语一样掌握不同时期的音乐语言，才能将作品背后的意义传达给听众。",
     "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A3%B0%E9%9F%B3%E7%9A%84%E8%A8%80%E8%AF%B4%20%3A%20%E9%80%9A%E5%BE%80%E9%9F%B3%E4%B9%90%E7%90%86%E8%A7%A3%E7%9A%84%E5%B4%AD%E6%96%B0%E4%B9%8B%E8%B7%AF"
-  },
-  {
-    "title": "伟大作曲家的生活",
-    "author": "（美）哈罗德·C·勋伯格",
-    "rating": "⭐8.4",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a3dfe8a94f658331.jpg",
-    "summary": "本书以一连串传记性篇章介绍从蒙特威尔第到20世纪90年代的调性作曲家，强调音乐是不断演变的艺术，每位天才都受前辈影响。作者将叙述重点放在作曲家的生平细节与逸事上，而非作品的技术分析，使读者得以更近地了解巴赫、亨德尔、莫扎特、贝多芬、肖邦、威尔第、瓦格纳、马勒等人。新版还涵盖了序列音乐、极简主义及20世纪90年代的新调性主义作曲家，以及民族乐派与轻音乐代表人物。",
-    "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BC%9F%E5%A4%A7%E4%BD%9C%E6%9B%B2%E5%AE%B6%E7%9A%84%E7%94%9F%E6%B4%BB"
-  },
-  {
-    "title": "聆听音乐",
-    "author": "[美] 克雷格·莱特(Craig Wright)",
-    "rating": "⭐9.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/c216118fe7b2b5a5.jpg",
-    "summary": "本书主要结构分三部分：音乐元素、音乐史与美国通俗音乐。每一章节均结合具体作品展开分析，并辅以图表说明。“聆听指南”与“聆听训练”是全书最具特色的精华部分。全书分为41个短小章节，爵士乐占两章，摇滚与叮盘巷各占一章。每部分开端设有预习栏，将各时期音乐与历史事件做成插图丰富的年表；结尾附有“音乐风格列表”，回顾风格要素并列举代表性作曲家与体裁。",
-    "recommended_date": "2026-07-22",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%81%86%E5%90%AC%E9%9F%B3%E4%B9%90"
-  },
-  {
-    "title": "古典风格 : 海顿、莫扎特、贝多芬",
-    "author": "查尔斯·罗森",
-    "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ac01fad4f37a2f4e.jpg",
-    "summary": "本书是近五十年以来公认影响力与引用率最高的西方经典音乐论著，1971年出版后翌年即获美国国家图书奖，是唯一获此殊荣的音乐书籍。前两卷总览18世纪音乐语言与古典风格，中间五卷分别剖析海顿的弦乐四重奏与交响曲、莫扎特的协奏曲与喜歌剧、贝多芬的钢琴作品及风格特征，最后以“尾语”点明古典风格原则在舒曼与舒伯特作品中的演变。书中附有杨燕迪教授导读。",
-    "recommended_date": "2026-07-22",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%A4%E5%85%B8%E9%A3%8E%E6%A0%BC%20%3A%20%E6%B5%B7%E9%A1%BF%E3%80%81%E8%8E%AB%E6%89%8E%E7%89%B9%E3%80%81%E8%B4%9D%E5%A4%9A%E8%8A%AC"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A3%B0%E9%9F%B3%E7%9A%84%E8%A8%80%E8%AF%B4%20%3A%20%E9%80%9A%E5%BE%80%E9%9F%B3%E4%B9%90%E7%90%86%E8%A7%A3%E7%9A%84%E5%B4%AD%E6%96%B0%E4%B9%8B%E8%B7%AF"
   }
 ]
