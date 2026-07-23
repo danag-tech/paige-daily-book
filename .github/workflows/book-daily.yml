@@ -48,17 +48,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -f sent_books.json ]; then
-            git add sent_books.json data/book_pool.json website/books.json website/today.json website/covers
-            if ! git diff --cached --quiet; then
-              git commit -m "Update sent books history"
-              git pull --rebase origin main
-              git push
-            else
-              echo "No sent books history or book pool changes to commit."
-            fi
+          git add sent_books.json data/book_pool.json data/theme_history.json website/books.json website/today.json website/covers
+          if ! git diff --cached --quiet; then
+            git commit -m "Update recommendation state"
+            git pull --rebase origin main
+            git push
           else
-            echo "No sent_books.json found."
+            echo "No recommendation state changes."
           fi
       - name: Create website site config
         env:

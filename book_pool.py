@@ -3,12 +3,15 @@ from datetime import date
 from pathlib import Path
 
 from models import Book
-from sent_books import build_book_key, build_book_keys, get_cooldown_keys
+from sent_books import build_book_key, build_book_keys, build_record_keys, get_cooldown_keys
 
 
 BOOK_POOL_PATH = Path(__file__).with_name("data") / "book_pool.json"
 MAX_BOOKS_PER_THEME = 30
 MAX_BOOKS_TOTAL = 300
+POOL_TARGET_TOTAL = 100
+MIN_BOOKS_PER_THEME = 3
+POOL_REFILL_BATCH = 20
 
 
 def load_book_pool() -> list[dict]:
@@ -30,6 +33,45 @@ def save_book_pool(records: list[dict]) -> None:
         json.dump(records, file, ensure_ascii=False, indent=2)
         file.write("\n")
 
+
+def get_pool_health(records: list[dict], themes: list[str] | None = None) -> dict:
+    if themes is None:
+        config_path = Path(__file__).with_name("config.json")
+        with config_path.open("r", encoding="utf-8") as file:
+            themes = list(json.load(file).get("theme_strategies", {}).keys())
+
+    theme_counts = {theme: 0 for theme in themes}
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        theme = record.get("theme")
+        if theme:
+            theme_counts[theme] = theme_counts.get(theme, 0) + 1
+
+    missing_themes = [
+        theme for theme in themes
+        if theme_counts.get(theme, 0) < MIN_BOOKS_PER_THEME
+    ]
+    return {
+        "total": len(records),
+        "theme_counts": theme_counts,
+        "missing_themes": missing_themes,
+    }
+
+def rank_pool_candidates(candidates: list[tuple[str, Book]]) -> list[tuple[str, Book]]:
+    scored: list[tuple[tuple, str, Book]] = []
+    seen_keys: set[str] = set()
+    discovered_date = date.today().isoformat()
+
+    for theme, book in candidates:
+        keys = build_book_keys(book)
+        if not keys or keys & seen_keys:
+            continue
+        scored.append((_record_quality_key(_book_to_record(book, theme, keys, discovered_date)), theme, book))
+        seen_keys.update(keys)
+
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return [(theme, book) for _, theme, book in scored]
 
 def get_pool_books(records: list[dict], theme: str) -> list[Book]:
     books: list[Book] = []

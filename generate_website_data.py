@@ -182,22 +182,23 @@ def _download_cover_asset(url: str) -> dict | None:
 
 def _select_public_books(normalized_records: list[tuple[str, int, dict, dict]], limit: int) -> list[dict]:
     books = []
-    seen_keys: set[str] = set()
+    seen_history_keys: set[str] = set()
     for _, _, original_record, public_record in normalized_records:
-        duplicate_keys = build_record_keys(original_record) or {_fallback_key(public_record)}
-        if duplicate_keys & seen_keys:
+        book_keys = build_record_keys(original_record) or {_fallback_key(public_record)}
+        sent_date = _clean_text(original_record.get("sent_date"))
+        history_keys = {f"{sent_date}|{book_key}" for book_key in book_keys}
+        if history_keys & seen_history_keys:
             continue
         if _contains_sensitive_value(public_record):
             continue
         selected_record = dict(public_record)
         selected_record["detail_url"] = f"book.html?id={len(books)}"
         books.append(selected_record)
-        seen_keys.update(duplicate_keys)
+        seen_history_keys.update(history_keys)
         if len(books) >= limit:
             break
 
     return books
-
 
 def _to_public_record(record: dict) -> dict | None:
     title = _clean_text(record.get("title"))
