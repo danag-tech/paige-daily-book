@@ -23,7 +23,7 @@ def load_config() -> dict:
         return json.load(file)
 
 
-def print_books() -> None:
+def print_books(dry_run: bool = False) -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
@@ -65,11 +65,13 @@ def print_books() -> None:
                 discovered_books = candidate_books
                 break
 
-            pool_records = refresh_book_pool(pool_records, theme, candidate_books, sent_records, [])
+            if not dry_run:
+                pool_records = refresh_book_pool(pool_records, theme, candidate_books, sent_records, [])
             print(f"Not enough unsent books for theme: {theme}")
 
         if selected_theme is None:
-            save_book_pool(pool_records)
+            if not dry_run:
+                save_book_pool(pool_records)
             raise RuntimeError("Not enough unsent books found for any configured theme after checking pool and fallback providers.")
 
         print(f"Selected theme: {selected_theme}")
@@ -85,12 +87,22 @@ def print_books() -> None:
         cover_cids = [image["cid"] if image else None for image in cover_images]
         html_body = build_book_email_html(selected_theme, selected_books, summary, cover_cids)
         print(summary)
-        send_email(f"今日荐书：{selected_theme}", summary, html_body, cover_images)
-        updated_records = append_sent_books(sent_records, selected_books, selected_theme)
-        save_sent_books(updated_records)
-        pool_records = refresh_book_pool(pool_records, selected_theme, discovered_books, updated_records, selected_books)
-        save_book_pool(pool_records)
-        _update_website_data_safely()
+        if dry_run:
+            _write_dry_run_preview(html_body)
+            print("Paige Daily Book Dry Run")
+            print("Generated preview: archive/dry-run-email-preview.html")
+            print("Skipped:")
+            print("- email sending")
+            print("- sent_books update")
+            print("- book_pool update")
+            print("- website update")
+        else:
+            send_email(f"今日荐书：{selected_theme}", summary, html_body, cover_images)
+            updated_records = append_sent_books(sent_records, selected_books, selected_theme)
+            save_sent_books(updated_records)
+            pool_records = refresh_book_pool(pool_records, selected_theme, discovered_books, updated_records, selected_books)
+            save_book_pool(pool_records)
+            _update_website_data_safely()
     except ConfigError as exc:
         print(f"配置错误：{exc}")
         sys.exit(1)
@@ -101,9 +113,15 @@ def print_books() -> None:
         print(f"程序运行失败：{exc}")
         sys.exit(1)
 
-    print("Email sent successfully.")
-    print("Sent history updated.")
+    if not dry_run:
+        print("Email sent successfully.")
+        print("Sent history updated.")
 
+
+def _write_dry_run_preview(html_body: str) -> None:
+    preview_path = Path(__file__).with_name("archive") / "dry-run-email-preview.html"
+    preview_path.parent.mkdir(parents=True, exist_ok=True)
+    preview_path.write_text(html_body, encoding="utf-8")
 
 def _apply_generated_summaries(books: list, summaries: list[str]) -> None:
     if len(summaries) < len(books):
@@ -134,4 +152,4 @@ def _unique_books(books: list) -> list:
 
 
 if __name__ == "__main__":
-    print_books()
+    print_books(dry_run="--dry-run" in sys.argv[1:])
