@@ -1,4 +1,6 @@
+import random
 import re
+import time
 from dataclasses import dataclass
 from urllib.parse import quote
 
@@ -39,6 +41,8 @@ class RecommendationProvider(BookProvider):
         self.summary_max_length = summary_max_length
         self.theme_strategies = theme_strategies or {}
         self.pages_per_tag = pages_per_tag
+        self.session = requests.Session()
+        self._initialize_session()
 
     def search(self, theme: str, count: int) -> list[Book]:
         strategy = self.theme_strategies.get(theme)
@@ -94,11 +98,15 @@ class RecommendationProvider(BookProvider):
 
     def _collect_tag_candidates(self, tags: list[str]) -> dict[str, CandidateBook]:
         candidates: dict[str, CandidateBook] = {}
+        request_count = 0
 
         for tag in tags:
             for page in range(self.pages_per_tag):
+                if request_count:
+                    time.sleep(random.uniform(1, 3))
                 url = f"https://book.douban.com/tag/{quote(tag)}?start={page * 20}&type=T"
-                response = requests.get(url, headers=self._headers(), timeout=(3, self.timeout))
+                response = self.session.get(url, headers=self._headers(), timeout=(3, self.timeout))
+                request_count += 1
                 if response.status_code == 404:
                     break
                 response.raise_for_status()
@@ -158,7 +166,7 @@ class RecommendationProvider(BookProvider):
         )
 
     def _enrich_candidate(self, candidate: CandidateBook) -> CandidateBook:
-        response = requests.get(candidate.detail_url, headers=self._headers(), timeout=(3, self.timeout))
+        response = self.session.get(candidate.detail_url, headers=self._headers(), timeout=(3, self.timeout))
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "lxml")
 
@@ -175,6 +183,16 @@ class RecommendationProvider(BookProvider):
         candidate.rating_count = rating_count or candidate.rating_count
         return candidate
 
+    def _initialize_session(self) -> None:
+        try:
+            self.session.get(
+                "https://book.douban.com/",
+                headers=self._headers(),
+                timeout=(3, self.timeout),
+            )
+        except requests.RequestException:
+            # Homepage warm-up is best effort; the existing provider fallback handles later failures.
+            return
     def _headers(self) -> dict[str, str]:
         return {
             "User-Agent": (
