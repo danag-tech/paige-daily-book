@@ -12,3 +12,4 @@ build/
 *.egg-info/
 archive/
 website/site_config.js
+sent_books.backup.*.json
