@@ -1,12 +1,42 @@
 [
   {
+    "title": "小家，越住越大2",
+    "author": "逯薇",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/19be7c95f0f66912.jpg",
+    "summary": "该书是作者历经两年磨砺完成的续作，延续手绘风格，内容转向居住中的功能问题。作者深入千家万户走访观察，围绕中国中小户型的出租屋改造、餐厅功能、卫浴功能、儿童房功能、定制家具与灯光搭配等议题提出方案，并以“避坑”案例、常见误读和操作指南呈现。书中将收纳与功能视为居住冰山模型的基础层，与系列前作形成互补。整体以直观图画和简短说明讲解具体改造思路。",
+    "recommended_date": "2026-08-01",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E5%AE%B6%EF%BC%8C%E8%B6%8A%E4%BD%8F%E8%B6%8A%E5%A4%A72"
+  },
+  {
+    "title": "怦然心动的人生整理魔法",
+    "author": "[日] 近藤麻理惠",
+    "rating": "⭐8.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/60f6e0258079c9fa.jpg",
+    "summary": "近藤麻理惠介绍一种“一旦整理，就不会变乱”的整理方法。书中主张以是否心动作为保留物品的标准，整理顺序为先丢东西后收纳，再按物品类别进行一次性、短期、完善的整理。该书从精神层面到整理方法俱全，指出整理能让人找回人生决断力和最初的梦想，找到怦然心动的幸福人生。这就是本书介绍的完整核心整理流程：先决定物品去留，再为留下的物品安排位置。",
+    "recommended_date": "2026-08-01",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%80%A6%E7%84%B6%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BA%BA%E7%94%9F%E6%95%B4%E7%90%86%E9%AD%94%E6%B3%95"
+  },
+  {
+    "title": "小家，越住越大",
+    "author": "逯薇",
+    "rating": "⭐8.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/97e2fbc6a436aa41.jpg",
+    "summary": "前万科副总建筑师逯薇初次公开居住秘密，用三百余幅手绘讲解中小户型居住空间的收纳难题。本书匹配中国中小户型特点，针对玄关、客厅、厨房、洗面柜、衣帽间等区域逐一展开，提出“逯薇式客厅大柜”“厨房一金二银三区”“高低台面”等设计理念。作者认为居住并非与生俱来的本能，而是需要学习和掌握的技能，因而把居住哲学画成绘本，并配以简洁文字。书中提出“住商”概念，将收纳技巧与居住能力一并呈现。",
+    "recommended_date": "2026-08-01",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E5%AE%B6%EF%BC%8C%E8%B6%8A%E4%BD%8F%E8%B6%8A%E5%A4%A7"
+  },
+  {
     "title": "少有人走的路 : 心智成熟的旅程",
     "author": "[美] M·斯科特·派克",
     "rating": "⭐8.4",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/79bb5db794910021.jpg",
     "summary": "本书以“人生苦难重重”开篇，阐述心智成熟需要经历一系列艰难痛苦的转变。作者斯科特·派克结合临床案例，探讨爱的本质、沟通与理解，引导个体走向独立与自我认知的更高境界。书中强调面对痛苦而非逃避，并详细阐述了自律的重要性。此外，还探讨了如何成为更称职、更有理解心的父母，以及爱的四个层面。该书自出版以来影响广泛，被视为心理自助领域的经典之作。",
     "recommended_date": "2026-07-31",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%91%E6%9C%89%E4%BA%BA%E8%B5%B0%E7%9A%84%E8%B7%AF%20%3A%20%E5%BF%83%E6%99%BA%E6%88%90%E7%86%9F%E7%9A%84%E6%97%85%E7%A8%8B"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/947aea2fe383ac43.jpg",
     "summary": "本书反思现代人内心闭锁的现状，探讨人与人关系的本质。记录精神分析师李沁云在三十四岁后投身心理治疗的历程，内容涵盖从被治疗体验到精神分析候选人的感悟。她探索如何运用自身治愈过的内心去容纳他人，认为精神分析是心与心的奇遇，关乎工作者以全部人性接近另一人性。书中讨论如何穿越早期自造围城，连通幼年自我，抓取记忆碎片拼凑真相，实现自由表达与自洽生活。",
     "recommended_date": "2026-07-31",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BF%83%E7%9A%84%E8%A1%A8%E8%BE%BE"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/73ed59c91c1b4098.jpg",
     "summary": "本书讲述婆罗门之子悉达多追求生命圆融统一的一生，并非佛陀传记，而是千万寻常人亦会经历的历程。他年少意气风发，自认被命运选中，抛下优越身份，经历沙门苦修、世俗欲望、爱情与财富，最终在河边成为摆渡人，顿悟圆融智慧。黑塞以诗性语言创作，副标题“一首印度的诗”彰显文学特质。德文直译版本尽力还原诗意。书中强调智慧无法分享，只能被个体发现与体验。该书在六十年代美国引发阅读热潮，影响亨利·米勒、电台司令等众多文化名人。",
     "recommended_date": "2026-07-31",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%82%89%E8%BE%BE%E5%A4%9A%20%3A%20%E4%B8%80%E9%A6%96%E5%8D%B0%E5%BA%A6%E7%9A%84%E8%AF%97"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/751f98da77a0d13b.jpg",
     "summary": "加缪在本书中系统阐述荒诞哲学，认为荒诞诞生于人类理性呼唤与世界非理性沉默之间的对峙。书中分析雅斯贝尔斯、克尔凯郭尔、胡塞尔等哲学家，评述陀思妥耶夫斯基作品，深入阐发“荒诞”概念，并区分生理自杀与哲学自杀，主张在荒诞中坚持生命。加缪认为活着就是经历荒诞，像西西弗一样清醒地反抗命运；该书出版于1942年，获诺贝尔文学奖，对一代欧洲年轻人的生活态度产生深刻影响，并探讨了反抗、自由与激情等主题。书中引用古希腊神话中西西弗推石上山的故事，作为人类反抗荒诞命运的象征。",
     "recommended_date": "2026-07-30",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A5%BF%E8%A5%BF%E5%BC%97%E7%A5%9E%E8%AF%9D%20%3A%20%E5%B0%A4%E9%87%8C%E5%8D%A1%E6%96%87%E5%BA%93"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e87eab69c1705e63.jpg",
     "summary": "本书以14岁少女苏菲不断收到神秘来信为线索，在一位导师的引导下展开对西方哲学史的探索。从古希腊到近代，苏菲逐一思考苏格拉底、柏拉图、笛卡尔、斯宾诺莎等哲学大师所追问的根本问题，如“我是谁”“世界从何而来”。小说巧妙融合哲学思想与侦探叙事，以独特的结构将哲学思辨融入悬疑情节，在阅读中自然呈现西方哲学的发展脉络。该书全球畅销数千万册，被誉为哲学启蒙经典，作者乔斯坦·贾德通过小说形式传递哲学史脉络，唤醒人们对生命与存在的追问。",
     "recommended_date": "2026-07-30",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%8B%8F%E8%8F%B2%E7%9A%84%E4%B8%96%E7%95%8C"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/13b2098500fcb3ab.jpg",
     "summary": "本书是二十世纪分析哲学的奠基之作，以极简篇幅完成哲学革命。作者用数理逻辑澄清语言，划清思想界限，将传统形而上学迷雾一扫而空。全书精确批判哲学谬误，揭示逻辑、语言与实在的深层结构，最终将价值、伦理与美学归入不可言说之域。该书成书于第一次世界大战期间，维特根斯坦在战壕中写下核心命题“凡是可说的，都能说清楚；不可说的，必须保持沉默”，对后世分析哲学与逻辑实证主义产生深远影响。",
     "recommended_date": "2026-07-30",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%80%BB%E8%BE%91%E5%93%B2%E5%AD%A6%E8%AE%BA"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ae11ae0709d258c3.jpg",
     "summary": "本书选编自段永平（步步高集团创始人、知名投资人）2006年至2025年在网易博客和雪球网的公开发言，文本来源时间跨度近二十年，由芒格书院编、赵理亚选，系统呈现其投资哲学与管理智慧。全书30万字，分为五章，分别聚焦投资大道、商业模式和企业文化、人生箴言、演讲与访谈，涵盖个人投资心得、企业管理经验及社会公益等多个维度。段永平以“本分”“平常心”为核心，反对投机，主张长期持有优质公司，结合小霸王、步步高、苹果、贵州茅台等案例，详解创业与投资逻辑，并融入子女教育看法。该书倡导的“本分”“平常心”理念体现中国企业风貌，对商业实践具有参考意义，是了解段永平思想的权威文本。",
     "recommended_date": "2026-07-29",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E9%81%93%20%3A%20%E6%AE%B5%E6%B0%B8%E5%B9%B3%E6%8A%95%E8%B5%84%E9%97%AE%E7%AD%94%E5%BD%95"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9f2db18426741f4.jpg",
     "summary": "本书以地方政府投融资为主线，阐释中国经济中政府深度介入工业化和城市化的逻辑。上篇分析地方政府事务、收支、土地融资和开发、投资与债务等微观机制，下篇探讨城市化、房价、地区差异、债务风险、经济结构失衡及国际贸易冲突等宏观现象。作者兰小欢结合学界前沿研究与一线调研，生动解说光伏、面板等产业案例，强调经济政策的务实性与具体性，并引入宽窄巷子、华夏幸福等建设经验，揭示政府如何在发展经济的同时推动市场机制建立。该书是复旦大学经济学毕业课内容凝练，笔触客观，广泛采纳各领域学者最新研究成果，最后一章总结全书，凸显中国政府经济治理的基本方式。",
     "recommended_date": "2026-07-29",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%20%3A%20%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d5ac18cadb8c9476.jpg",
     "summary": "本书以童话形式讲述12岁女孩吉娅救助一只受伤的小狗并取名钱钱，钱钱竟是理财高手，引导吉娅一家逐步摆脱债务困境。在钱钱指导下，吉娅学习储蓄、投资和正确认识金钱，包括设立梦想储蓄罐、制作成功日记、合理分配收入、养“金鹅”等方法，并强调像富人那样思考。作者博多·舍费尔是欧洲理财大师，通过生动故事传递富人思维和财务自由理念，深入浅出地讲解基金、股票等投资工具，并融入自信培养、目标设定等成长理念，从而建立正确的金钱观与理财习惯。自1999年出版以来全球畅销逾千万册，被公认为儿童财商教育经典，展示了从负债到财务独立的完整路径，影响了几代儿童。",
     "recommended_date": "2026-07-29",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4f73b699a23a0a39.jpg",
     "summary": "本书是广东美术馆“中国人本”展览的藏品图录，收录了600余件纪实摄影作品。作品从个人视角记录了中国民众不同时期的生存状态，再现了50多年来社会生活朝向人性化与个性化嬗变的进程。摄影家们聚焦普通人日常，涵盖城乡生活、政治运动、家庭变迁等题材，见证社会从集体主义向个体价值的转变。主编王璜生与广东美术馆通过这一影像档案，体现了对当代摄影的系统收藏与人文关怀，书中部分作品为首次公开展出，具有珍贵的历史文献价值。",
     "recommended_date": "2026-07-28",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%9C%AC%20%3A%20%E7%BA%AA%E5%AE%9E%E5%9C%A8%E5%BD%93%E4%BB%A3"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cf3c20240e9fb605.jpg",
     "summary": "本书由亨利·卡蒂埃-布列松基金会编纂，是收录布列松作品最全面的图集，首次汇集其摄影、电影、绘画及生活照全套资料。内容涵盖早期未发表照片、精选作品、影片、出版物以及晚年绘画，并包括布列松对童年和家人的回忆。布列松作为“决定性瞬间”理论的创始人，其影像以严谨构图与形式本质的完美结合著称，书中系统呈现其艺术实践的全貌。该书是研究布列松创作生涯与摄影美学的权威文献，由基金会精心整理，资料详实，还收录了关于布列松的影片，展现多维度的艺术探索。",
     "recommended_date": "2026-07-28",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%8F%8D%E8%97%8F%E5%B8%83%E5%88%97%E6%9D%BE%20%3A%20%E4%BA%A8%E5%88%A9%E2%80%A2%E5%8D%A1%E8%92%82%E5%9F%83-%E5%B8%83%E5%88%97%E6%9D%BE%E4%BD%9C%E5%93%81%E5%85%A8%E6%94%B6%E5%BD%95"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9d336c4f0bbaf90.jpg",
     "summary": "本书由美国摄影教育家本·克莱门玆与大卫·罗森菲尔德合著，是摄影构图领域的经典教材。系统阐述了摄影构图的原理与实践，深入探讨了构图与美学、心理学的联系，并将构图要素拆解为点、线、面、色调等，结合格式塔心理学解释视觉感知规律。书中通过大量摄影实例分析画面平衡、节奏、对比等原则，涵盖风景、人像、静物等题材的构图方法。特别讨论了空间分割、视角选择、景深控制的影响，以及利用线条引导视线、重复形成节奏等技法，构成系统提升构图能力的方法论。",
     "recommended_date": "2026-07-28",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%91%84%E5%BD%B1%E6%9E%84%E5%9B%BE%E5%AD%A6"
-  },
-  {
-    "title": "被讨厌的勇气 : “自我启发之父”阿德勒的哲学课",
-    "author": "[日] 岸见一郎、[日] 古贺史健",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/5feaa3a6964fde45.jpg",
-    "summary": "岸见一郎与古贺史健以对话形式阐释阿德勒的个体心理学，通过青年与哲人的辩论探讨自卑、竞争、人生谎言等主题，并彻底否定弗洛伊德式原因论。阿德勒思想主张人由当下目的驱动，核心“课题分离”要求区分自己与他人的课题，进而引出“共同体感觉”概念，强调幸福在于对他人贡献。作者将哲学融入日常对话，提炼出自我接纳、他者信赖、他者贡献三大支柱；拥有“被讨厌的勇气”即为自由，本书是理解阿德勒心理学的经典文本。自出版以来连续300天居日本亚马逊销售榜首，成为现象级畅销书。",
-    "recommended_date": "2026-07-27",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%20%3A%20%E2%80%9C%E8%87%AA%E6%88%91%E5%90%AF%E5%8F%91%E4%B9%8B%E7%88%B6%E2%80%9D%E9%98%BF%E5%BE%B7%E5%8B%92%E7%9A%84%E5%93%B2%E5%AD%A6%E8%AF%BE"
-  },
-  {
-    "title": "影响力 : 全新升级版",
-    "author": "[美] 罗伯特·西奥迪尼",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/0106ce7d33112905.jpg",
-    "summary": "西奥迪尼通过多年研究，总结出影响决策的7种心理机制：互惠、承诺一致、社会认同、喜好、权威、稀缺和联盟，其中联盟为新增。书中结合大量实验与商业案例，展示这些原理如何让人在不知不觉中顺从，例如免费试用引发的互惠效应。作者是著名社会心理学家，本书被引述率高居社会心理学之冠，被视为说服力研究的奠基之作，曾获美国心理学会与心理学基金会大奖提名。自出版以来始终畅销，更新内容达10万字，涵盖近10年心理学新发现，并提供识别与应对影响力陷阱的方法，揭示了日常顺从行为背后的深层逻辑。",
-    "recommended_date": "2026-07-27",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%B1%E5%93%8D%E5%8A%9B%20%3A%20%E5%85%A8%E6%96%B0%E5%8D%87%E7%BA%A7%E7%89%88"
-  },
-  {
-    "title": "爱的艺术",
-    "author": "[美] 艾·弗洛姆",
-    "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/516e9f17acfbcb6d.jpg",
-    "summary": "弗洛姆从心理学与哲学角度阐释爱的真谛，认为爱不是被动情感而是需要发展全部人格的主动能力，是个人成长的关键。书中分析了父爱、母爱、兄弟之爱等多种形式，并提出爱的四要素：关心、责任、尊重和认识。本书强调爱是一门需要知识与实践的艺术，与人的成熟度一体两面，需要纪律、专注、耐心等训练；作者作为法兰克福学派代表，批判现代社会将爱商品化，并将爱视为克服人类存在孤独的终极途径。自1956年出版以来被译成32种文字，此版收录学术助手纪念文章。",
-    "recommended_date": "2026-07-27",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%91%84%E5%BD%B1%E6%9E%84%E5%9B%BE%E5%AD%A6"
   }
 ]
