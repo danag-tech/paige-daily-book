@@ -1,12 +1,42 @@
 [
   {
+    "title": "早春的中国",
+    "author": "[日] 久保田博二",
+    "rating": "⭐8.9",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/95f78a3977f2865d.jpg",
+    "summary": "日本摄影师久保田博二在一九七八年至一九八五年间，花费一千多天几乎走遍中国全部省份，拍摄了超过二十万张彩色照片。他作为玛格南图片社首位亚洲成员，与老百姓同住人民公社、坐牛车，不动声色地观察中国社会的方方面面，记录了当时人们的衣着、饮食、工作、旅行和娱乐。本书精选两百余张照片，呈现了一个处于历史转折期的中国：传统元素与新的表达并存，如早春般萌发新生。",
+    "recommended_date": "2026-08-13",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%A9%E6%98%A5%E7%9A%84%E4%B8%AD%E5%9B%BD"
+  },
+  {
+    "title": "中国摄影史1840-1937",
+    "author": "马运增、陈申、胡志川、钱章表、彭永祥",
+    "rating": "⭐7.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/4a6f2ef051e76b9e.jpg",
+    "summary": "该书系统梳理中国摄影自一八四〇年至一九三七年的发展历程。编写工作具有开创性，面临史料收集的重重困难：国内缺少专门机构收集与保存摄影史料，历经劫难后原件几乎损失殆尽。编写组经过数年努力，仍感到史料不够完整充实，地域和时序上存在空白。加之编写人员多为业余从事这项工作，受时间和水平限制，对某些史实和现象未能深入分析；集体编写也在体例、材料使用和个别史实评述上存在差异。",
+    "recommended_date": "2026-08-13",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E6%91%84%E5%BD%B1%E5%8F%B21840-1937"
+  },
+  {
+    "title": "肉体与精神的痛：生命的故事",
+    "author": "曾璜",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/c62f30aaecd0e73e.jpg",
+    "summary": "该书探讨纪实摄影的基本特征：纪实摄影是摄影师经过长期关注和深入采访后拍摄的图片，具有社会学意义和历史文化意义；相对于报道摄影，它不强调时效性和新闻性，其影响是长期的。其目的不单是讲述一个故事，更能揭示出故事背后的丰富背景，并且更注重表现被摄体的内在精神。这一界定构成了全书讨论的起点，也点明纪实摄影在记录生命故事时的独特取向。",
+    "recommended_date": "2026-08-13",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%82%89%E4%BD%93%E4%B8%8E%E7%B2%BE%E7%A5%9E%E7%9A%84%E7%97%9B%EF%BC%9A%E7%94%9F%E5%91%BD%E7%9A%84%E6%95%85%E4%BA%8B"
+  },
+  {
     "title": "安史之乱 : 历史、宣传与神话",
     "author": "张诗坪、胡可奇",
     "rating": "⭐9.2",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/2abf8ebd820dc92f.jpg",
     "summary": "本书借助国际学术界的分析范式，将古典学与军事战役学方法用于安史之乱研究，重审唐帝国及周边势力之间的主要战事、地缘政治与宫廷斗争。作者把李锦绣、张国刚等人在经济与制度方面的成果，纳入罗斯托夫采夫“经济-政治-军事”联动模型，从财政、粮食、后勤等角度解释冲突的深层原因和人物决策。书中配有40幅战略示意图，细致复盘唐燕两军交锋经过，并提出若干不同于传统叙事的看法，力图还原这场大变局的多重面向。",
     "recommended_date": "2026-08-12",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AE%89%E5%8F%B2%E4%B9%8B%E4%B9%B1%20%3A%20%E5%8E%86%E5%8F%B2%E3%80%81%E5%AE%A3%E4%BC%A0%E4%B8%8E%E7%A5%9E%E8%AF%9D"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/dfe1368a3c8d62b6.jpg",
     "summary": "本书以康熙皇帝发往西方的一纸“红票”为切入点，借助多语文史料与跨领域研究，重新审视清前期传教士与皇室之间的互动。作者将清代中国与近代西方文化科技相遇、交汇进而错失的历程置于全球史视野下，从传教士的观察反观康熙时代的政治与文化结构。书中贴近具体人事，勾勒顺治至乾隆几朝宫廷内外的网络，展示一个既有本土根基又面对外部冲击的清朝。叙述兼顾学术性与生动性，为理解清前期权力运作提供了新颖视角。",
     "recommended_date": "2026-08-12",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BA%B7%E7%86%99%E7%9A%84%E7%BA%A2%E7%A5%A8%20%3A%20%E5%85%A8%E7%90%83%E5%8C%96%E4%B8%AD%E7%9A%84%E6%B8%85%E6%9C%9D"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e19f33baaa63e452.jpg",
     "summary": "本书以明朝嘉靖年间为背景，围绕“扳倒严嵩”这一核心线索，展现朝廷与地方官府之间惊心动魄的政治博弈。土地兼并导致农民失去生存基础，贪墨横行令政权濒临崩溃，忠勇官兵与百姓的抗倭斗争亦穿插其间。海瑞、嘉靖、严嵩、徐阶、张居正、戚继光等人物先后登场，国与家的休戚、敌与友的变幻最终都落入严酷现实。全书以多线叙事串联官场、战场与民间，呈现封建王朝末期社会矛盾的集中爆发。",
     "recommended_date": "2026-08-12",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E6%98%8E%E7%8E%8B%E6%9C%9D1566"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5acb74f193011178.jpg",
     "summary": "这是英国社会学家齐格蒙特·鲍曼对消费者社会及其贫穷问题的反思。本书追溯从生产者社会到消费者社会的历史转变，指出贫穷的含义随之改变：在普遍就业的时代，贫穷指向失业；在消费社会中，贫穷主要指向有缺陷的消费者。鲍曼区分两种社会形态下生活项目的差异，并盘点了与贫困作斗争的各种方式的有效性。该书以明晰的论述揭示消费主义如何制造新穷人，并追问这一结构性困境的根源。",
     "recommended_date": "2026-08-11",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B7%A5%E4%BD%9C%E3%80%81%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89%E5%92%8C%E6%96%B0%E7%A9%B7%E4%BA%BA"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7bc46f30580b184b.jpg",
     "summary": "作者历时五年走访中国南北一千多个村镇，围绕土地、农民与农作物展开田野调查，并精选两百七十多张照片与受访者原话。书中记录了蔗农、养蚕人、茉莉花农、挖藕人等群体的生计，也写到与他们命运交织的空巢老人、留守儿童、乡村教师、进城家政的农村妇女。水稻、小麦、玉米等粮食作物，以及华北平原、东北平原、黄土高原、广西梯田等地域，均纳入观察。全书借由具体人物与土地问题，展现大时代下底层人群的生存现实，同时保留方言叙述带来的质朴底色。",
     "recommended_date": "2026-08-11",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%9C%8B%E8%A7%81%E4%B8%AD%E5%9B%BD%E6%9D%91%E9%95%87"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/bc0143537ab3346b.jpg",
     "summary": "本书源自作者团队自二零一九年起与卡车司机同行同吃住的跟车采访，五年间累积近二十个故事。故事时间跨越新冠疫情前后，空间从珠三角快递线、山陕运煤线延伸至青藏线、新疆线以及中老、中俄跨境线。中国有近四分之三的公路货运量由卡车司机完成，他们却被焊在流动的驾驶室里，生活被公里数和发车时间切割为节点。作者以这些路线和人物为线索，既讲述这一基石性行业的运转，也勾勒产业变迁下个体的真实悲欢。",
     "recommended_date": "2026-08-11",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%BB%9A%E5%8A%A8%E7%9A%84%E8%BD%A6%E8%BD%AE%20%3A%20%E8%B7%9F%E7%9D%80%E5%8D%A1%E8%BD%A6%E5%8F%B8%E6%9C%BA%E8%A1%8C%E4%B8%AD%E5%9B%BD"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ceac4ded047da9f5.jpg",
     "summary": "本书以财政关系为切入点，考察中国地方政府行为及其运作规律。作者运用社会学方法，分析财政体制如何影响政府的经济与社会管理方式。全书围绕财政制度变迁与地方发展等议题，揭示政府力量在经济和社会不平等形成过程中的关键作用。该书指出，改革开放看似是政府放权与市场成长，但政府力量依然无所不在，理解这种关系是认识中国社会发展的重要线索。",
     "recommended_date": "2026-08-10",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%A5%E5%88%A9%E4%B8%BA%E5%88%A9%20%3A%20%E8%B4%A2%E6%94%BF%E5%85%B3%E7%B3%BB%E4%B8%8E%E5%9C%B0%E6%96%B9%E6%94%BF%E5%BA%9C%E8%A1%8C%E4%B8%BA"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/3ae88ba38bdcda2f.jpg",
     "summary": "本书围绕理财中的心理因素，讲述财富、人性和幸福的永恒真相。作者通过二十堂课呈现金钱与决策的关系，指出财富积累更多取决于行为习惯与心态，而非智商或专业知识。书中强调复利的力量、财富安全的重要性，以及“让逐利适可而止”等反直觉原理，并用大量真实案例说明人们如何在高波动市场中保持长期理性。书中还指出，成功的投资并不需要每个决定都正确，坚持不把事情搞砸就足以赢得长期回报。",
     "recommended_date": "2026-08-10",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%91%E9%92%B1%E5%BF%83%E7%90%86%E5%AD%A6%20%3A%20%E8%B4%A2%E5%AF%8C%E3%80%81%E4%BA%BA%E6%80%A7%E5%92%8C%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%B0%B8%E6%81%92%E7%9C%9F%E7%9B%B8"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/600324666e728065.jpg",
     "summary": "本书以一座小岛上捕鱼为生的故事为起点，用鱼、渔网、存钱和借钱等日常元素搭建经济模型，阐释经济增长、贸易、储蓄、风险、利率、政府刺激机制和消费信贷等概念。作者用幽默插图和叙事手法，把通货膨胀、国债与经济危机的原因映射到现实体制中。故事从简单捕鱼生活延伸到储蓄、借贷与政府干预，展现当代经济政策漏洞。该书将经济学从高不可攀的架子上取下来，放回到厨房的餐桌上，用平实故事揭示日常现象背后的经济规律。",
     "recommended_date": "2026-08-10",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E5%B2%9B%E7%BB%8F%E6%B5%8E%E5%AD%A6%20%3A%20%E9%B1%BC%E3%80%81%E7%BE%8E%E5%85%83%E5%92%8C%E7%BB%8F%E6%B5%8E%E7%9A%84%E6%95%85%E4%BA%8B"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c0635391976f56ca.jpg",
     "summary": "本书的主人公杜太白辗转教师、红白事主持人和小贩等多份职业，在琐碎而粗粝的日常中摸爬滚打。面对无法较真、有苦说不出的磨难，他看清规则却不被规则捆绑，尝过苦楚仍敢热烈投入生活。书名中的‘玩笑’既是日常玩笑，也是生活突然降临的苦涩经历；作者以幽默笔触书写这些瞬间，把应对变化、消解困顿的智慧藏进嬉笑怒骂。作品延续作者写众生的底色，在虚构人物身上照见普通人的生存韧性。",
     "recommended_date": "2026-08-09",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%92%B8%E7%9A%84%E7%8E%A9%E7%AC%91"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/61b634245656f5bd.jpg",
     "summary": "本书以马来西亚锡都一个名为‘楼上楼’的小社会为舞台，书写市井小民的俗务俗事与数十年人事变迁。故事中雨下得频繁，重要的事常在雨中发生，记忆如水浸过的纸张般难以平复。人物如风中之烛，看似脆弱实则强韧，离开楼上楼便消散于人海。作者融合热带风土、政治时局与族群经验，在个人命运的创伤和徙家流落中，投射对海外华人身份认同的复杂情结，也保存了底层生命互相偎依的体温。",
     "recommended_date": "2026-08-09",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B5%81%E4%BF%97%E5%9C%B0"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/94352b1551d86c07.jpg",
     "summary": "本书采用离婚后独居海边小城的女性第一人称视角，她在熙岭重逢多年未见的祖母，两人从尴尬沉默走向倾吐心声。旧相册中一位长相相似的女子，牵引出曾祖母、祖母、母亲等四代女性的故事。作者以书信、照片和回忆层层剥开女性在荒诞时代中的生存境遇，她们生如草芥却彼此搀扶，不再是男性叙事的配角。小说融合女性友谊、抗争与泪水，获第29届大山文学奖，在私人记忆与历史暗影之间重建女性的系谱。",
     "recommended_date": "2026-08-09",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%98%8E%E4%BA%AE%E7%9A%84%E5%A4%9C%E6%99%9A"
-  },
-  {
-    "title": "对工作说不",
-    "author": "[英] 大卫·弗雷恩",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/29c24e893a3f25c7.jpg",
-    "summary": "该书梳理马克思以降的工作理论，质疑工作在现代社会中的中心地位，揭示工作对生活的全面殖民以及异化在新时期的表现。作者还调研了一群主动抵制朝九晚五的人，其中包括为寻找价值感而暂时不工作的人，以及因工作损害健康而不得不停止工作或减少工时的人，并分析其脱离工作的原因、抵抗的有效性，探讨减少工时与重新分配社会工作的替代性方案。全书指认以工作为中心的社会所存在的病态特征，主张未来可能有所不同。",
-    "recommended_date": "2026-08-08",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AF%B9%E5%B7%A5%E4%BD%9C%E8%AF%B4%E4%B8%8D"
-  },
-  {
-    "title": "认知觉醒 : 开启自我改变的原动力",
-    "author": "周岭",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b0cb624a5cb7dbe1.jpg",
-    "summary": "该书围绕个人成长方法论，提出通过理解大脑构造、潜意识、元认知等思维规律来观察和指导自身行为。书中解释急于求成、避难趋易的根源，并引入复利效应、舒适区边缘、学习权重比、学习平台期等概念，说明耐心来自长远目光而非苦撑。作者周岭将认知科学与行动方法结合，为自我改变提供一套可操作框架。书中还系统阐述深度学习、关联、反馈等规律，强调依据反馈调整行动。",
-    "recommended_date": "2026-08-08",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%20%3A%20%E5%BC%80%E5%90%AF%E8%87%AA%E6%88%91%E6%94%B9%E5%8F%98%E7%9A%84%E5%8E%9F%E5%8A%A8%E5%8A%9B"
-  },
-  {
-    "title": "沧浪之水",
-    "author": "阎真",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cdda73c97fd66be7.jpg",
-    "summary": "这部当代长篇小说聚焦青年池大为，叙述他从乡村走进机关单位后，因不谙世事而屡屡碰壁，又在许小曼、晏之鹤等人指点下逐渐理解社会规则。作品借其转变，刻画知识分子在权力与生活压力下经历的人格煎熬与灵魂拷问，带有反讽与自省色彩。作者阎真是当代文学名家，该书曾入围茅盾文学奖，被改编为电视剧《岁月》，也是官场小说的重要代表。小说畅销二十年，累计销量超过一百万册。",
-    "recommended_date": "2026-08-08",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B2%A7%E6%B5%AA%E4%B9%8B%E6%B0%B4"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%98%8E%E4%BA%AE%E7%9A%84%E5%A4%9C%E6%99%9A"
   }
 ]
