@@ -1,12 +1,42 @@
 [
   {
+    "title": "向左走·向右走",
+    "author": "幾米",
+    "rating": "⭐8.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a52d94faee2d1ddb.jpg",
+    "summary": "她习惯向左走，他习惯向右走，两人始终不曾相遇。故事以都市中一墙之隔的男女为主角，他们在生活中的巧妙关系构成了整个故事的设计。该书是幾米首次表现男女感情的长篇图文创作，线条和上色处理细致，页面衔接安排了许多巧思，手法利落有变化，也是幾米的代表作之一。据作者自述，创作灵感源于某天被隔壁电钻声吵得无法画画，于是想到邻居隔墙而居，却也可能从未相识。",
+    "recommended_date": "2026-08-15",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%90%91%E5%B7%A6%E8%B5%B0%C2%B7%E5%90%91%E5%8F%B3%E8%B5%B0"
+  },
+  {
+    "title": "后来呢后来怎么了",
+    "author": "[日]吉竹伸介、爱心书童书 出品",
+    "rating": "⭐9.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/9edabd32d4b52381.jpg",
+    "summary": "爷爷去世后，主人公在床下发现爷爷留下的笔记本，里面写满爷爷对天堂的想象和死后的各种计划。这些文字让他渐渐开始构想自己去天堂之后的事，却发现眼下还有一大堆现在就想做的事。该书是日本图画书作家吉竹伸介的作品，以温和的幽默和简洁的线条讨论生命终点这一沉重主题，把离世想象成一场可规划的远行，并让思绪回到当下。全书以第一人称叙述，用图画和想象场景推进对天堂的构想。",
+    "recommended_date": "2026-08-15",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%90%8E%E6%9D%A5%E5%91%A2%E5%90%8E%E6%9D%A5%E6%80%8E%E4%B9%88%E4%BA%86"
+  },
+  {
+    "title": "夏洛的网",
+    "author": "[美] E.B.怀特、[美国] 埃尔温·布鲁克斯·怀特",
+    "rating": "⭐8.7",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/3bef3134b6088200.jpg",
+    "summary": "朱克曼家的谷仓里，小猪威尔伯与蜘蛛夏洛相遇，并结下真挚友谊。威尔伯得知自己未来将成为熏肉火腿后陷入绝望，看似渺小的夏洛却承诺救它。夏洛用蛛丝在猪栏上织出赞美威尔伯的文字，这些人类眼中的奇迹颠覆了威尔伯的命运，也令它在集市大赛中赢得特别奖。该作是美国作家E.B.怀特的经典儿童文学名著，以凝练、幽默又温情的笔触书写动物世界里的生命联结。",
+    "recommended_date": "2026-08-15",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%8F%E6%B4%9B%E7%9A%84%E7%BD%91"
+  },
+  {
     "title": "大众文化的女性主义指南",
     "author": "[韩] 孙希定 [韩] 林允玉 [韩] 金智惠 编、[韩] 崔至恩 等著、崔至恩",
     "rating": "⭐8.5",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/8a8c7d7f8fb295e6.jpg",
     "summary": "该书由韩国女性劳动者会策划的播客节目精选而成，孙希定、崔至恩等多位作者参与写作。作者们以“娱乐解剖”为方法，拆解韩国综艺、韩流音乐、韩剧、电影和游戏社群中隐含的厌女逻辑，揭示偶像工业如何将女性商品化。书中认为大众文化并非单纯娱乐，而是父权制意识形态再生产的场域，同时呼唤更多女性视角的叙事与批判性观看。该书曾入选韩国年度非虚构作品，中文版首次引进。",
     "recommended_date": "2026-08-14",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E4%BC%97%E6%96%87%E5%8C%96%E7%9A%84%E5%A5%B3%E6%80%A7%E4%B8%BB%E4%B9%89%E6%8C%87%E5%8D%97"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/718ddf38cca6f88f.jpg",
     "summary": "该书初版于二〇〇〇年，作者吴存存以家规闺训、文人笔记、世情小说和禁毁文献为材料，引入性别视角系统考察明清两代的两性关系。书中挑战了晚明是进步性解放时期的传统史观，认为情欲与性别乃是社会文化结构的产物，封建制度极端发展造成上层对底层男女的压迫，节烈观、男风、异装癖和钱权逞欲皆是其表现。新版增加三千余字前言，厘清二十年来相关学术动态。",
     "recommended_date": "2026-08-14",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%83%85%E4%B8%BA%E4%BD%95%E7%89%A9%20%3A%20%E6%98%8E%E6%B8%85%E4%B8%A4%E4%BB%A3%E7%9A%84%E6%80%A7%E5%88%AB%E3%80%81%E6%83%85%E6%84%9F%E4%B8%8E%E7%A4%BE%E4%BC%9A%E9%A3%8E%E6%B0%94%E7%A0%94%E7%A9%B6"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c63f62e983741a29.jpg",
     "summary": "一九九七年出版的这部人类史著作，源于作者在太平洋岛屿上听到的一个问题：为什么欧洲人凭借枪炮、病菌与钢铁征服新大陆，而非相反？戴蒙德综合演化生物学、考古学、语言学和人类学证据，对比各大洲上万年的发展轨迹。他认为食物生产率先出现于欧亚大陆，文字、技术和政府皆是粮食盈余的副产品，而大陆轴线与可驯化动植物分布决定了不同社会的分化，进而驳斥了种族优劣论。",
     "recommended_date": "2026-08-14",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9E%AA%E7%82%AE%E3%80%81%E7%97%85%E8%8F%8C%E4%B8%8E%E9%92%A2%E9%93%81%20%3A%20%E4%BA%BA%E7%B1%BB%E7%A4%BE%E4%BC%9A%E7%9A%84%E5%91%BD%E8%BF%90"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/95f78a3977f2865d.jpg",
     "summary": "日本摄影师久保田博二在一九七八年至一九八五年间，花费一千多天几乎走遍中国全部省份，拍摄了超过二十万张彩色照片。他作为玛格南图片社首位亚洲成员，与老百姓同住人民公社、坐牛车，不动声色地观察中国社会的方方面面，记录了当时人们的衣着、饮食、工作、旅行和娱乐。本书精选两百余张照片，呈现了一个处于历史转折期的中国：传统元素与新的表达并存，如早春般萌发新生。",
     "recommended_date": "2026-08-13",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%A9%E6%98%A5%E7%9A%84%E4%B8%AD%E5%9B%BD"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4a6f2ef051e76b9e.jpg",
     "summary": "该书系统梳理中国摄影自一八四〇年至一九三七年的发展历程。编写工作具有开创性，面临史料收集的重重困难：国内缺少专门机构收集与保存摄影史料，历经劫难后原件几乎损失殆尽。编写组经过数年努力，仍感到史料不够完整充实，地域和时序上存在空白。加之编写人员多为业余从事这项工作，受时间和水平限制，对某些史实和现象未能深入分析；集体编写也在体例、材料使用和个别史实评述上存在差异。",
     "recommended_date": "2026-08-13",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E6%91%84%E5%BD%B1%E5%8F%B21840-1937"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c62f30aaecd0e73e.jpg",
     "summary": "该书探讨纪实摄影的基本特征：纪实摄影是摄影师经过长期关注和深入采访后拍摄的图片，具有社会学意义和历史文化意义；相对于报道摄影，它不强调时效性和新闻性，其影响是长期的。其目的不单是讲述一个故事，更能揭示出故事背后的丰富背景，并且更注重表现被摄体的内在精神。这一界定构成了全书讨论的起点，也点明纪实摄影在记录生命故事时的独特取向。",
     "recommended_date": "2026-08-13",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%82%89%E4%BD%93%E4%B8%8E%E7%B2%BE%E7%A5%9E%E7%9A%84%E7%97%9B%EF%BC%9A%E7%94%9F%E5%91%BD%E7%9A%84%E6%95%85%E4%BA%8B"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/2abf8ebd820dc92f.jpg",
     "summary": "本书借助国际学术界的分析范式，将古典学与军事战役学方法用于安史之乱研究，重审唐帝国及周边势力之间的主要战事、地缘政治与宫廷斗争。作者把李锦绣、张国刚等人在经济与制度方面的成果，纳入罗斯托夫采夫“经济-政治-军事”联动模型，从财政、粮食、后勤等角度解释冲突的深层原因和人物决策。书中配有40幅战略示意图，细致复盘唐燕两军交锋经过，并提出若干不同于传统叙事的看法，力图还原这场大变局的多重面向。",
     "recommended_date": "2026-08-12",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AE%89%E5%8F%B2%E4%B9%8B%E4%B9%B1%20%3A%20%E5%8E%86%E5%8F%B2%E3%80%81%E5%AE%A3%E4%BC%A0%E4%B8%8E%E7%A5%9E%E8%AF%9D"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/dfe1368a3c8d62b6.jpg",
     "summary": "本书以康熙皇帝发往西方的一纸“红票”为切入点，借助多语文史料与跨领域研究，重新审视清前期传教士与皇室之间的互动。作者将清代中国与近代西方文化科技相遇、交汇进而错失的历程置于全球史视野下，从传教士的观察反观康熙时代的政治与文化结构。书中贴近具体人事，勾勒顺治至乾隆几朝宫廷内外的网络，展示一个既有本土根基又面对外部冲击的清朝。叙述兼顾学术性与生动性，为理解清前期权力运作提供了新颖视角。",
     "recommended_date": "2026-08-12",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BA%B7%E7%86%99%E7%9A%84%E7%BA%A2%E7%A5%A8%20%3A%20%E5%85%A8%E7%90%83%E5%8C%96%E4%B8%AD%E7%9A%84%E6%B8%85%E6%9C%9D"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e19f33baaa63e452.jpg",
     "summary": "本书以明朝嘉靖年间为背景，围绕“扳倒严嵩”这一核心线索，展现朝廷与地方官府之间惊心动魄的政治博弈。土地兼并导致农民失去生存基础，贪墨横行令政权濒临崩溃，忠勇官兵与百姓的抗倭斗争亦穿插其间。海瑞、嘉靖、严嵩、徐阶、张居正、戚继光等人物先后登场，国与家的休戚、敌与友的变幻最终都落入严酷现实。全书以多线叙事串联官场、战场与民间，呈现封建王朝末期社会矛盾的集中爆发。",
     "recommended_date": "2026-08-12",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E6%98%8E%E7%8E%8B%E6%9C%9D1566"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5acb74f193011178.jpg",
     "summary": "这是英国社会学家齐格蒙特·鲍曼对消费者社会及其贫穷问题的反思。本书追溯从生产者社会到消费者社会的历史转变，指出贫穷的含义随之改变：在普遍就业的时代，贫穷指向失业；在消费社会中，贫穷主要指向有缺陷的消费者。鲍曼区分两种社会形态下生活项目的差异，并盘点了与贫困作斗争的各种方式的有效性。该书以明晰的论述揭示消费主义如何制造新穷人，并追问这一结构性困境的根源。",
     "recommended_date": "2026-08-11",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B7%A5%E4%BD%9C%E3%80%81%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89%E5%92%8C%E6%96%B0%E7%A9%B7%E4%BA%BA"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7bc46f30580b184b.jpg",
     "summary": "作者历时五年走访中国南北一千多个村镇，围绕土地、农民与农作物展开田野调查，并精选两百七十多张照片与受访者原话。书中记录了蔗农、养蚕人、茉莉花农、挖藕人等群体的生计，也写到与他们命运交织的空巢老人、留守儿童、乡村教师、进城家政的农村妇女。水稻、小麦、玉米等粮食作物，以及华北平原、东北平原、黄土高原、广西梯田等地域，均纳入观察。全书借由具体人物与土地问题，展现大时代下底层人群的生存现实，同时保留方言叙述带来的质朴底色。",
     "recommended_date": "2026-08-11",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%9C%8B%E8%A7%81%E4%B8%AD%E5%9B%BD%E6%9D%91%E9%95%87"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/bc0143537ab3346b.jpg",
     "summary": "本书源自作者团队自二零一九年起与卡车司机同行同吃住的跟车采访，五年间累积近二十个故事。故事时间跨越新冠疫情前后，空间从珠三角快递线、山陕运煤线延伸至青藏线、新疆线以及中老、中俄跨境线。中国有近四分之三的公路货运量由卡车司机完成，他们却被焊在流动的驾驶室里，生活被公里数和发车时间切割为节点。作者以这些路线和人物为线索，既讲述这一基石性行业的运转，也勾勒产业变迁下个体的真实悲欢。",
     "recommended_date": "2026-08-11",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%BB%9A%E5%8A%A8%E7%9A%84%E8%BD%A6%E8%BD%AE%20%3A%20%E8%B7%9F%E7%9D%80%E5%8D%A1%E8%BD%A6%E5%8F%B8%E6%9C%BA%E8%A1%8C%E4%B8%AD%E5%9B%BD"
-  },
-  {
-    "title": "以利为利 : 财政关系与地方政府行为",
-    "author": "周飞舟",
-    "rating": "⭐9.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ceac4ded047da9f5.jpg",
-    "summary": "本书以财政关系为切入点，考察中国地方政府行为及其运作规律。作者运用社会学方法，分析财政体制如何影响政府的经济与社会管理方式。全书围绕财政制度变迁与地方发展等议题，揭示政府力量在经济和社会不平等形成过程中的关键作用。该书指出，改革开放看似是政府放权与市场成长，但政府力量依然无所不在，理解这种关系是认识中国社会发展的重要线索。",
-    "recommended_date": "2026-08-10",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%A5%E5%88%A9%E4%B8%BA%E5%88%A9%20%3A%20%E8%B4%A2%E6%94%BF%E5%85%B3%E7%B3%BB%E4%B8%8E%E5%9C%B0%E6%96%B9%E6%94%BF%E5%BA%9C%E8%A1%8C%E4%B8%BA"
-  },
-  {
-    "title": "金钱心理学 : 财富、人性和幸福的永恒真相",
-    "author": "[美] 摩根 · 豪泽尔",
-    "rating": "⭐8.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/3ae88ba38bdcda2f.jpg",
-    "summary": "本书围绕理财中的心理因素，讲述财富、人性和幸福的永恒真相。作者通过二十堂课呈现金钱与决策的关系，指出财富积累更多取决于行为习惯与心态，而非智商或专业知识。书中强调复利的力量、财富安全的重要性，以及“让逐利适可而止”等反直觉原理，并用大量真实案例说明人们如何在高波动市场中保持长期理性。书中还指出，成功的投资并不需要每个决定都正确，坚持不把事情搞砸就足以赢得长期回报。",
-    "recommended_date": "2026-08-10",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%91%E9%92%B1%E5%BF%83%E7%90%86%E5%AD%A6%20%3A%20%E8%B4%A2%E5%AF%8C%E3%80%81%E4%BA%BA%E6%80%A7%E5%92%8C%E5%B9%B8%E7%A6%8F%E7%9A%84%E6%B0%B8%E6%81%92%E7%9C%9F%E7%9B%B8"
-  },
-  {
-    "title": "小岛经济学 : 鱼、美元和经济的故事",
-    "author": "[美] 彼得·希夫、[美] 安德鲁·希夫",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/600324666e728065.jpg",
-    "summary": "本书以一座小岛上捕鱼为生的故事为起点，用鱼、渔网、存钱和借钱等日常元素搭建经济模型，阐释经济增长、贸易、储蓄、风险、利率、政府刺激机制和消费信贷等概念。作者用幽默插图和叙事手法，把通货膨胀、国债与经济危机的原因映射到现实体制中。故事从简单捕鱼生活延伸到储蓄、借贷与政府干预，展现当代经济政策漏洞。该书将经济学从高不可攀的架子上取下来，放回到厨房的餐桌上，用平实故事揭示日常现象背后的经济规律。",
-    "recommended_date": "2026-08-10",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E5%B2%9B%E7%BB%8F%E6%B5%8E%E5%AD%A6%20%3A%20%E9%B1%BC%E3%80%81%E7%BE%8E%E5%85%83%E5%92%8C%E7%BB%8F%E6%B5%8E%E7%9A%84%E6%95%85%E4%BA%8B"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%BB%9A%E5%8A%A8%E7%9A%84%E8%BD%A6%E8%BD%AE%20%3A%20%E8%B7%9F%E7%9D%80%E5%8D%A1%E8%BD%A6%E5%8F%B8%E6%9C%BA%E8%A1%8C%E4%B8%AD%E5%9B%BD"
   }
 ]
