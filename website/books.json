@@ -1,12 +1,42 @@
 [
   {
+    "title": "贾想 I : 贾樟柯电影手记1996—2008",
+    "author": "贾樟柯、万佳欢 编",
+    "rating": "⭐9.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f59f23c083a83a02.jpg",
+    "summary": "该书是贾樟柯第一部回顾自身电影创作与思路历程的著作，梳理了其十余年导演生涯。全书以贾樟柯所拍电影为纲，按文章发表时间顺序收录各时期对电影艺术的探索和思考，并有多篇与电影界、艺术界、媒体等领域关键人物的访谈。书中呈现导演敏感而执着的心路历程，体现出以电影抒写乡愁的深切情怀。该书二〇〇九年由北京大学出版社首版，此次经作者重新修订改版推出。",
+    "recommended_date": "2026-08-21",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B4%BE%E6%83%B3%20I%20%3A%20%E8%B4%BE%E6%A8%9F%E6%9F%AF%E7%94%B5%E5%BD%B1%E6%89%8B%E8%AE%B01996%E2%80%942008"
+  },
+  {
+    "title": "电影是什么？",
+    "author": "[法] 安德烈·巴赞",
+    "rating": "⭐9.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/2b83e5fa0189da6a.jpg",
+    "summary": "作者是法国新浪潮电影之父，该书汇集其多篇影评与电影评论，涉及电影本体论、社会学、心理学和美学等领域。作者提出的摄影影像本体论与真实美学，构成不同于蒙太奇理论的美学体系，深刻影响世界电影发展。该书从问世之初即受电影从业者和影迷好评，开拓了电影研究的领域，使电影成为严肃课题，并被誉为“电影的圣经”。作者也由此获得“电影的亚里士多德”之称。",
+    "recommended_date": "2026-08-21",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%94%B5%E5%BD%B1%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"
+  },
+  {
+    "title": "世界电影史 : （第二版）",
+    "author": "[美]大卫·波德维尔、克里斯汀·汤普森",
+    "rating": "⭐9.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6f09334dd7918a99.jpg",
+    "summary": "作者是美国著名电影学者，该书以全球视野梳理百余年电影发展脉络，围绕三个基本问题展开：媒介使用随时间形成何种规范，工业状况如何影响创作，国际性趋势如何呈现。作者将自身理论发现融入通史叙述，兼顾整体勾勒与具体历史情境，呈现电影史叙述的新颖版本。该书曾获第四届中国大学出版社图书奖优秀学术著作二等奖，是一部被广泛采用的电影史教程。",
+    "recommended_date": "2026-08-21",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%96%E7%95%8C%E7%94%B5%E5%BD%B1%E5%8F%B2%20%3A%20%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89"
+  },
+  {
     "title": "学会提问 (第12版)",
     "author": "[美] Neil Browne、[美] Stuart Keeley、[美国] 尼尔·布朗",
     "rating": "⭐8.4",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/3d00215e9dbfd10a.jpg",
     "summary": "本书以批判性思维为核心，针对周遭泛滥的信息与意见展开讨论。书中围绕一系列关键问题，引导人们检视证据、假设与推理过程，并提醒勿被情绪和无关事实左右；地铁安检、明星推荐、996工作制等现实事例贯穿其间。作者主张不草率、不盲从，努力理解与自己相左的立场，识别逻辑谬误与情感操纵，并评估价值观冲突对判断的影响。掌握这套提问方法后，才能得出更可靠的结论，并在对话中保持开放与坚定。",
     "recommended_date": "2026-08-20",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AD%A6%E4%BC%9A%E6%8F%90%E9%97%AE%20%28%E7%AC%AC12%E7%89%88%29"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/78f22f4d63095fe9.jpg",
     "summary": "本书围绕公共说理这一主题，以十八讲的形式展开。作者从‘人是慢慢变得开化和文明的’这一判断出发，指出说理是文明的产物，也是自我启蒙的过程；说理比不说理更能找到真实与公正，而人拥有接受它们的理性能力。书中将理性界定为提供敞亮、清晰、恰当理由并倾听他人合理之言的能力，进而论述公共说理所需的社会价值与政治环境。在作者看来，真实的公共交谈可以成为因自由和理性而持续的明亮对话。",
     "recommended_date": "2026-08-20",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%98%8E%E4%BA%AE%E7%9A%84%E5%AF%B9%E8%AF%9D%20%3A%20%E5%85%AC%E5%85%B1%E8%AF%B4%E7%90%86%E5%8D%81%E5%85%AB%E8%AE%B2"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/568c512c5219b0ad.jpg",
     "summary": "本书是殷海光多年逻辑教学与研究的结晶，以独创的对话体裁构建全篇，使逻辑学基本概念与推论方法在交谈中渐次展开。书中对每一命题、每一推理的正误均提供明确例证，并配有大量推论练习，强调严格训练与逻辑的实际应用功能。殷海光主张，唯有普及现代逻辑，才能把人的认知能力从泛道德主义、泛情绪主义和泛经验主义中解放出来。这种批判性思维的教育目标，指向科学态度与科学精神的昌明。",
     "recommended_date": "2026-08-20",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%80%BB%E8%BE%91%E6%96%B0%E5%BC%95%C2%B7%E6%80%8E%E6%A0%B7%E5%88%A4%E5%88%AB%E6%98%AF%E9%9D%9E"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f99c5e31806f23ba.jpg",
     "summary": "本书是布罗尼斯拉夫·马林诺夫斯基基于西太平洋岛屿田野调查写成的民族志。作者记录当地人的航海活动、物品交换与相关仪式，展示跨岛交换网络如何组织社会关系。书中以“库拉”交换为核心，详细呈现航程准备、船只建造、巫术仪式及交换规则，并将当地制度置于整体文化背景中理解。这一研究确立了长期田野作业与参与观察的方法，是现代人类学学科史上的奠基之作。",
     "recommended_date": "2026-08-19",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A5%BF%E5%A4%AA%E5%B9%B3%E6%B4%8B%E4%B8%8A%E7%9A%84%E8%88%AA%E6%B5%B7%E8%80%85"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/15552e910232c419.jpg",
     "summary": "本书是英国人类学家奈吉尔·巴利在非洲喀麦隆多瓦悠人村落两次田野工作的记录。他在当地经历乏味、灾难、生病与敌意，以诚实而不失风趣的笔调写下游走于学术理想与现场困境之间的过程，也呈现自己如何与研究对象互动，并在琐碎事务中调整既有成见。书中大量篇幅处理田野工作的日常琐事，展示这些偶发因素如何影响调查方向与最终结论。全书不同于标准研究报告，借幽默叙述暴露人类学研究的盲点与反思。",
     "recommended_date": "2026-08-19",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A9%E7%9C%9F%E7%9A%84%E4%BA%BA%E7%B1%BB%E5%AD%A6%E5%AE%B6%20%3A%20%E5%B0%8F%E6%B3%A5%E5%B1%8B%E7%AC%94%E8%AE%B0%26%E9%87%8D%E8%BF%94%E5%A4%9A%E7%93%A6%E6%82%A0%E5%85%B0"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b550fd6e05318a0e.jpg",
     "summary": "该书以二十一世纪初中国中部某乡镇为田野现场，围绕基层迎检、开发纷争、征收税费、产业调整、征地“种房”与维权争利等事件，揭示乡镇日常政治中的多重博弈。作者以后现代叙事策略，记录基层政权、村级组织与农民在乡村权力场域中的互动，阐释“乡域政治”的运作实践与支配逻辑。书中保留了大量具体场景与各方行动者的言行细节，呈现基层治理过程中的复杂关联。这种抵近现场的深度描写，让研究兼具经验质感与理论分析力度。",
     "recommended_date": "2026-08-19",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E9%95%87%E5%96%A7%E5%9A%A3%20%3A%20%E4%B8%80%E4%B8%AA%E4%B9%A1%E9%95%87%E6%94%BF%E6%B2%BB%E8%BF%90%E4%BD%9C%E7%9A%84%E6%BC%94%E7%BB%8E%E4%B8%8E%E9%98%90%E9%87%8A"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/1f26c95d1f782a3c.jpg",
     "summary": "本书由拥有超过三十年科研及临床经验的妇科医生希拉·德利兹撰写，以通俗而引人入胜的方式讲述女性身体常识。书中涉及子宫、乳房、卵巢、生理期等常被回避的话题，解释荷尔蒙如何影响情绪与衰老，并提出维护健康的知识框架。该书在德国获得医学界与科普界一致盛赞，并登上各大健康百科及女性健康图书榜单。作者还以临床观察为基础，将女性身体通识课呈现得如同一部吸引人的剧集。",
     "recommended_date": "2026-08-18",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%BA%AB%E4%BD%93%E7%94%B1%E6%88%91%20%3A%20%E5%85%B3%E4%BA%8E%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E5%A5%B3%E6%80%A7%E8%BA%AB%E4%BD%93%E7%9A%84%E4%B8%80%E5%88%87"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/1e1f51e4ea8c2978.jpg",
     "summary": "作者在美国最严酷的监狱中度过十九年，从商业社会已失传的古老健身法中找到生存力量，并成为监狱中最强壮者之一。这本书将那段经历凝结为一套自重训练体系，主张利用俯卧撑、深蹲、引体向上等基本动作，以渐进方式发展实用力量与生存实力。书中强调只依靠身体自重和简单场地即可完成训练，回归力量训练的本源。该书出版后成为自重训练领域经典之作。",
     "recommended_date": "2026-08-18",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9B%9A%E5%BE%92%E5%81%A5%E8%BA%AB%20%3A%20%E7%94%A8%E5%A4%B1%E4%BC%A0%E7%9A%84%E6%8A%80%E8%89%BA%E7%BB%83%E5%B0%B1%E5%BC%BA%E5%A4%A7%E7%9A%84%E7%94%9F%E5%AD%98%E5%AE%9E%E5%8A%9B"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/eb81a6cab285cdd8.jpg",
     "summary": "本书以千余幅彩图配以简明文字，系统描述人体运动器官系统中骨、骨连结和骨骼肌的形态结构与机能。以关节为中心结合体育动作，分析关节运动方式，并对运动关节的肌肉机能作具体分析，提出锻炼主要肌肉的手段。随后对上肢、下肢、头颈、躯干各部分的关节和骨骼肌机能进行综合概述，并展开肌肉工作分析。对消化、呼吸、循环等人体管理协调保证体系，也用彩图作了简略介绍。",
     "recommended_date": "2026-08-18",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%BF%90%E5%8A%A8%E8%A7%A3%E5%89%96%E5%AD%A6%E5%9B%BE%E8%B0%B1%28%E7%AC%AC3%E7%89%88%29"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e7b4751150a94fbf.jpg",
     "summary": "本书考察了过去两百年间五次技术革命中金融资本的作用机制。作者卡萝塔·佩蕾丝提出“技术—经济范式”概念，认为每次技术革命都会形成一套通用的技术与组织原则，并带来类似自然选择的包容排斥机制，保留适应新范式的企业，淘汰旧范式企业。技术革命在核心国家通常持续五六十年，分为导入期与拓展期。书中后半部分重点论述金融资本在重大技术创新发生与扩散中的关键作用，其理论受马克思生产方式概念与熊彼特企业家和金融资本阐释的双重影响。",
     "recommended_date": "2026-08-17",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%8A%80%E6%9C%AF%E9%9D%A9%E5%91%BD%E4%B8%8E%E9%87%91%E8%9E%8D%E8%B5%84%E6%9C%AC%20%3A%20%E6%B3%A1%E6%B2%AB%E4%B8%8E%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%A8%E5%8A%9B%E5%AD%A6"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/466c42b53b912c2f.jpg",
     "summary": "本书由埃里克·乔根森整理硅谷天使投资人纳瓦尔过去十年在推特、博客和播客中分享的智慧箴言，围绕财富积累与幸福人生两大主题。纳瓦尔提出不靠运气取得成功的路径，强调专长、杠杆与判断力在财富创造中的作用，并讨论如何看待人生、获得幸福。书中收录了这些在网络上引发讨论热潮的观点，将其编排为关于财富与幸福的原则与方法。纳瓦尔认为，积累财富和幸福生活都是可以且需要学习的技能。",
     "recommended_date": "2026-08-17",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BA%B3%E7%93%A6%E5%B0%94%E5%AE%9D%E5%85%B8%20%3A%20%E8%B4%A2%E5%AF%8C%E4%B8%8E%E5%B9%B8%E7%A6%8F%E6%8C%87%E5%8D%97"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4d6fe969b2b6adb8.jpg",
     "summary": "本书是知名商业记者李翔“详谈·商业现场”系列的一种，内容为泡泡玛特创始人王宁的访谈实录，分为五部分。书中依次呈现王宁的创业故事、商业智慧与泡泡玛特的发展历程，围绕品牌定位、IP商业模式、市场运营理念展开，并涉及对新消费市场需求与发展趋势的观察，进而讨论管理核心与全球化战略。末尾附有王宁接受《福布斯》专访及高管自述。从杂货铺到潮玩IP世界，王宁的决策过程与行业判断构成全书的叙述主线。",
     "recommended_date": "2026-08-17",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9B%A0%E4%B8%BA%E7%8B%AC%E7%89%B9%20%3A%20%E6%B3%A1%E6%B3%A1%E7%8E%9B%E7%89%B9%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%8E%8B%E5%AE%81%E4%BB%8E%E6%9D%82%E8%B4%A7%E9%93%BA%E5%88%B0IP%E4%B8%96%E7%95%8C%E7%9A%84%E8%B7%8B%E6%B6%89"
-  },
-  {
-    "title": "乘着小船出发",
-    "author": "[加] 米歇尔·拉巴利亚蒂",
-    "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/3255eb47ccfcb14e.jpg",
-    "summary": "本书讲述年过三十的平面设计师保罗，工作趋于稳定且妻子怀孕，七月中旬迎来一个夏日假期。他前往湖边钓鱼，在漫长而慵懒的假期时光中，思绪从渔场上的形形色色人物回溯到童年深处。青春的叛逆、塑造家庭观念的往事，以及对人生、责任与亲密关系的困惑，被日常掩盖的问题在静水中重新浮现。作品用平静的叙事捕捉成年生活表面的安稳与内在的波澜，呈现重新审视自我与生活的时刻。",
-    "recommended_date": "2026-08-16",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B9%98%E7%9D%80%E5%B0%8F%E8%88%B9%E5%87%BA%E5%8F%91"
-  },
-  {
-    "title": "东京平常日2",
-    "author": "[日]松本大洋",
-    "rating": "⭐9.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/256c817453336a7e.jpg",
-    "summary": "本书延续前作情节。离职编辑盐泽独自筹备一本理想的漫画杂志，却不断遭遇阻碍：信任的漫画家因画不出来一再拖稿，功成名就的漫画家因人情世故拒绝约稿，画教辅插图的前漫画家也没有轻易应允。作品通过一次次碰壁呈现夕阳行业里普通人的选择与坚持，也记录数字时代浪潮下传统纸质漫画的生存困境。该书曾获2025年艾斯纳奖，入选“这本漫画真厉害”与“这本漫画快来读”榜单。",
-    "recommended_date": "2026-08-16",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E4%BA%AC%E5%B9%B3%E5%B8%B8%E6%97%A52"
-  },
-  {
-    "title": "东京平常日3",
-    "author": "[日]松本大洋",
-    "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/04779821251edaf3.jpg",
-    "summary": "本书为系列完结篇。漫画编辑盐泽离开杂志社后，继续拜访几近隐退的漫画家，并一家一家拜托书店给一个陈列位；日子一天天过去，他心中的不安愈发深重。这位前编辑因个人原因申请离职，只想把自己钟爱的漫画送到更多人手中，作品由此聚焦时代变迁中面临淘汰的普通人，呈现顺从沉寂与抵抗前行的不同选择。该作曾获2025年艾斯纳奖最佳亚洲引进漫画奖，并入围手冢治虫文化奖漫画大奖决选。",
-    "recommended_date": "2026-08-16",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E4%BA%AC%E5%B9%B3%E5%B8%B8%E6%97%A53"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9B%A0%E4%B8%BA%E7%8B%AC%E7%89%B9%20%3A%20%E6%B3%A1%E6%B3%A1%E7%8E%9B%E7%89%B9%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%8E%8B%E5%AE%81%E4%BB%8E%E6%9D%82%E8%B4%A7%E9%93%BA%E5%88%B0IP%E4%B8%96%E7%95%8C%E7%9A%84%E8%B7%8B%E6%B6%89"
   }
 ]
