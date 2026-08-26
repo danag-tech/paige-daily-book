@@ -1,12 +1,42 @@
 [
   {
+    "title": "简单致富 : 实现财务自由与富足人生的路线图",
+    "author": "[美] J.L.柯林斯",
+    "rating": "⭐8.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6fb88b5362bbe0dc.jpg",
+    "summary": "本书源自作者写给女儿的一系列信件，阐明一个核心真相：复杂的投资产品只为创造和销售它们的人牟利，对投资者而言成本更高、效果更差。作者在经历多次弯路后，提出一条简单路径，将人生划分为积累财富与保住财富两个阶段。积累阶段要求避免债务、储蓄收入的一半并持续买入宽基指数基金；保住阶段则坚持生活消费不超过全部资产的百分之四，适当配置债券指数基金，并根据情况调整占比。",
+    "recommended_date": "2026-08-26",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AE%80%E5%8D%95%E8%87%B4%E5%AF%8C%20%3A%20%E5%AE%9E%E7%8E%B0%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B8%8E%E5%AF%8C%E8%B6%B3%E4%BA%BA%E7%94%9F%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE"
+  },
+  {
+    "title": "时间游戏",
+    "author": "周洛华",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/94c9947a35294b0f.jpg",
+    "summary": "本书以维特根斯坦哲学思想为指导，在经济学、金融学、社会学和人类学等概念之间建立联系，构建一个类似报价系统的框架。该框架不寻找普遍规律，也不构建估值模型，而是把各种经济与社会现象视为全社会参与的集体游戏。书中试图为真实场景建立多学科索引，打通各学科之间的边界，同时涵盖金融学、人类学、生物学和社会学。作者以园丁收拾花草为喻，让不同概念各归其位，从而认识统一的整体。",
+    "recommended_date": "2026-08-26",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%B6%E9%97%B4%E6%B8%B8%E6%88%8F"
+  },
+  {
+    "title": "全球视野下的投资机会",
+    "author": "时寒冰",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/fef8be6b5352114b.jpg",
+    "summary": "本书为时寒冰二十五年研究成果的集中呈现，以跟随趋势做投资为总纲领。开篇定义势为资本、资源、人口等流动的方向，由此切入投资分析，突破传统投资逻辑的束缚。书中借助大量数据与基础逻辑推理，展示如何从趋势变化中识别投资机会，并将快乐投资作为贯穿始终的理念。该书为精装版，是作者写给学生们的作品，强调授人以渔的方法训练，并围绕趋势主线构建从宏观到具体的思考路径。",
+    "recommended_date": "2026-08-26",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%85%A8%E7%90%83%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A"
+  },
+  {
     "title": "那一天",
     "author": "(法) 维利·罗尼、TEST PERSON DRAFT 2222",
     "rating": "⭐8.3",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5ccce140410c8dc6.jpg",
     "summary": "维利·罗尼的摄影生涯覆盖了整个二十世纪，他比任何人都更有资格为巴黎几乎一个世纪的历史作证，他的镜头记录了巴黎人为更美好生活而奋斗的历史。本书每一篇文字都以‘那一天’开头，讲述每一幅照片背后的故事，包括按下快门时的心理活动、把握与错失、想捕捉的氛围和期待呈现的意义。书中的照片呈现巴黎城市变迁，也记录不同时代人物的面貌。这既是一部摄影作品集，也是作者对自己作品的详细剖析。",
     "recommended_date": "2026-08-25",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%82%A3%E4%B8%80%E5%A4%A9"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5111eb96e813c07a.jpg",
     "summary": "日本摄影家森山大道在‘从心所欲’之年写下这部文集，回顾了其夏威夷与布宜诺斯艾利斯的摄影旅程、生命中数位女性的暧昧情愫，以及平交道、桥梁、花器、动物园等日常风景的意象。这些文字细致记录事物在他心中唤起的深层记忆，也呈现滋养其创作行动力的经历与内心风景。整部文集带有存在派小说般的氛围，晦暗幽深，真切动人，与其影像作品直接、原始而强烈的情绪一脉相承。其中将青春岁月形容为一种光荣的贫瘠与伟大的缺席。",
     "recommended_date": "2026-08-25",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%BF%88%E5%90%91%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%9B%BD%E5%BA%A6"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ba2491c9427fd4e9.jpg",
     "summary": "王福春乘坐火车上千次，行程十多万公里，拍摄万余张底片，从中精选一百一十四张黑白纪实摄影，呈现二十世纪九十年代中国人旅途生活的真实瞬间。其中三十七张是此前画册中未出现过的作品。画面中有打麻将、集体做广播体操、带宠物上车等如今看来不可思议的场景，也有送别、叫卖、情侣对视与车厢拥挤等恒常画面。这些影像来自天南海北临时交织的人群，记录了一个流动中国的浓烈人际关系与时代特征。",
     "recommended_date": "2026-08-25",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%81%AB%E8%BD%A6%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/64863c2bfe28e05a.jpg",
     "summary": "本书是一部长篇小说，全书一百一十五万字，以北方省会城市一位周姓平民子弟的生活轨迹为主线，从二十世纪七十年代一直写到当下。作品多角度描写中国社会巨大变迁与百姓生活跌宕起伏，聚焦普通人在历史进程中的道义担当与情感热望。小说以百姓生活史的方式呈现近五十年的社会进步，也写出悲欢离合中的情怀。该书为中国作家协会重点作品扶持选题，也是国家出版规划项目图书。",
     "recommended_date": "2026-08-24",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E4%B8%96%E9%97%B4"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f5de8657266e76b7.jpg",
     "summary": "全书由七篇短篇小说构成，分别透过父子、同学、夫妻等人际关系，捕捉孤独作为一种生而为人的困境。作者承袭海明威的冰山理论，文字冷静节制，情节大量留白，让深层意涵藏于日常细节之下。该书曾获吴浊流文学奖、联合报文学奖、时报文学奖，并入选年度十大好书与豆瓣年度中国文学榜单。作者被视为台湾一九六零年代重要小说家，对童伟格等后辈作家有持续影响。",
     "recommended_date": "2026-08-24",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AF%82%E5%AF%9E%E7%9A%84%E6%B8%B8%E6%88%8F"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b6b1aa662b8b3eab.jpg",
     "summary": "本书源自费孝通在江苏吴江开弦弓村的田野调查，以社区研究方式记录乡村经济、土地制度、家庭生产与消费等层面的实际运行。作者试图通过这一个村落的生活样本，分析中国乡村社会结构及其变迁，并从具体社区研究扩展至社会结构分析。作为中国社会学早期的重要著作，该书在学科上具有示范性与开创性，是理解二十世纪三四十年代中国乡村的重要文本。",
     "recommended_date": "2026-08-24",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B1%9F%E6%9D%91%E7%BB%8F%E6%B5%8E"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/23afc21fe847aa30.jpg",
     "summary": "本书围绕城镇发展建设中的空间组织与优化，将城市设计界定为对人、自然和社会因素在内的城市形体环境所进行的研究与设计。内容涉及城市设计的目标、对象层次、类型构成与价值判断，城市空间要素和景观构成，以及典型空间与景观的设计方法。书中结合国内外研究与实践案例，基于作者十多年研究心得，讨论了空间分析技术、调研技艺及在城市建设中的实施途径。",
     "recommended_date": "2026-08-23",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9F%8E%E5%B8%82%E8%AE%BE%E8%AE%A1"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/58b371100a04b94d.jpg",
     "summary": "梁思成毕生致力于中国古建筑的研究与保护，与营造学社同仁在动荡年代考察近两百个县城、两千余项古建筑，积累大量调查与测绘资料，构成本书的史料基础。该书将中国古代建筑按时期划分，分别论述文献、梗概、实物与特征，并提出“结构技术＋环境思想”的研究框架。此次通校本对照作者手稿及1955年油印本修订文字，配以近四百幅图片，系统呈现这一开创性通史的完整面貌。",
     "recommended_date": "2026-08-23",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%BB%BA%E7%AD%91%E5%8F%B2%20%3A%20%EF%BC%88%E9%80%9A%E6%A0%A1%E6%9C%AC%EF%BC%89"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/6401a0624d07e41b.jpg",
     "summary": "本书为“建筑史诗”系列中关于唐代建筑的一部，由作者刊发于《读库1504》后推出单行本。作者任教于清华大学建筑系，在书中从长安城坊布局写到唐代佛寺，再至以武则天明堂为代表的宫殿建筑，最终落于五台山佛光寺大殿与南禅寺两座现存实例。佛光寺大殿被梁思成誉为“中国第一国宝”，南禅寺则是现存最古老的木结构小殿。结合考古发掘、复原图、壁画、图纸与照片，呈现唐代“豪劲”风格背后的结构逻辑与文化脉络。",
     "recommended_date": "2026-08-23",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BB%BA%E7%AD%91%E5%8F%B2%E8%AF%97%E7%AC%AC%E4%B8%80%E5%8D%B7%C2%B7%E6%A2%A6%E5%9B%9E%E5%94%90%E6%9C%9D"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ea547f596605cc9a.jpg",
     "summary": "本书是美国前国务卿基辛格关于近代国际关系与外交战略的重要著作。作者结合亲身参与外交事务的经验，梳理自黎塞留以来至二战后的世界外交政治重大事件，分析各国外交风格差异，揭示美国外交政策的思想实质。书中还刻画了罗斯福、斯大林、丘吉尔、戴高乐、尼克松、毛泽东等政治领袖的外交风范。基辛格以历史纵深和现实洞察，展现了现代世界格局的形成过程。",
     "recommended_date": "2026-08-22",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E5%A4%96%E4%BA%A4"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/70435fffd3755812.jpg",
     "summary": "本书是乔治·奥威尔最优秀的反乌托邦政治讽喻寓言作品之一，一九四五年出版。在这个农场里，动物们推翻人类东家，建立起平等的动物社会。然而，掌握领导权的猪们逐渐篡改革命原则，把“所有动物一律平等”改写为“有的动物更加平等”，最终成为比人类东家更独裁的统治者。作者借助动物角色，辛辣地讽刺权力如何腐蚀革命理想，也展现出革命胜利后权力结构如何走向异化。",
     "recommended_date": "2026-08-22",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8A%A8%E7%89%A9%E5%86%9C%E5%9C%BA"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b79a60e08a5c9d68.jpg",
     "summary": "本书是英国作家乔治·奥威尔的政治寓言小说，被誉为20世纪影响最为深远的文学经典之一，背景设定在由“老大哥”监控的极权社会。真理部篡改历史，新话限制思想，电幕无时无刻不在监视每位居民。主角温斯顿在政府机构工作，逐渐怀疑这套体制，并尝试以私人情感和写作抵抗。奥威尔通过这个灰暗世界，展示极权主义如何摧毁真相、记忆与个人自由，其警示意义持续至今。",
     "recommended_date": "2026-08-22",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=1984"
-  },
-  {
-    "title": "贾想 I : 贾樟柯电影手记1996—2008",
-    "author": "贾樟柯、万佳欢 编",
-    "rating": "⭐9.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f59f23c083a83a02.jpg",
-    "summary": "该书是贾樟柯第一部回顾自身电影创作与思路历程的著作，梳理了其十余年导演生涯。全书以贾樟柯所拍电影为纲，按文章发表时间顺序收录各时期对电影艺术的探索和思考，并有多篇与电影界、艺术界、媒体等领域关键人物的访谈。书中呈现导演敏感而执着的心路历程，体现出以电影抒写乡愁的深切情怀。该书二〇〇九年由北京大学出版社首版，此次经作者重新修订改版推出。",
-    "recommended_date": "2026-08-21",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B4%BE%E6%83%B3%20I%20%3A%20%E8%B4%BE%E6%A8%9F%E6%9F%AF%E7%94%B5%E5%BD%B1%E6%89%8B%E8%AE%B01996%E2%80%942008"
-  },
-  {
-    "title": "电影是什么？",
-    "author": "[法] 安德烈·巴赞",
-    "rating": "⭐9.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/2b83e5fa0189da6a.jpg",
-    "summary": "作者是法国新浪潮电影之父，该书汇集其多篇影评与电影评论，涉及电影本体论、社会学、心理学和美学等领域。作者提出的摄影影像本体论与真实美学，构成不同于蒙太奇理论的美学体系，深刻影响世界电影发展。该书从问世之初即受电影从业者和影迷好评，开拓了电影研究的领域，使电影成为严肃课题，并被誉为“电影的圣经”。作者也由此获得“电影的亚里士多德”之称。",
-    "recommended_date": "2026-08-21",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%94%B5%E5%BD%B1%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"
-  },
-  {
-    "title": "世界电影史 : （第二版）",
-    "author": "[美]大卫·波德维尔、克里斯汀·汤普森",
-    "rating": "⭐9.4",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6f09334dd7918a99.jpg",
-    "summary": "作者是美国著名电影学者，该书以全球视野梳理百余年电影发展脉络，围绕三个基本问题展开：媒介使用随时间形成何种规范，工业状况如何影响创作，国际性趋势如何呈现。作者将自身理论发现融入通史叙述，兼顾整体勾勒与具体历史情境，呈现电影史叙述的新颖版本。该书曾获第四届中国大学出版社图书奖优秀学术著作二等奖，是一部被广泛采用的电影史教程。",
-    "recommended_date": "2026-08-21",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%96%E7%95%8C%E7%94%B5%E5%BD%B1%E5%8F%B2%20%3A%20%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=1984"
   }
 ]
