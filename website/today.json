@@ -1,32 +1,32 @@
 [
   {
-    "title": "简单致富 : 实现财务自由与富足人生的路线图",
-    "author": "[美] J.L.柯林斯",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6fb88b5362bbe0dc.jpg",
-    "summary": "本书源自作者写给女儿的一系列信件，阐明一个核心真相：复杂的投资产品只为创造和销售它们的人牟利，对投资者而言成本更高、效果更差。作者在经历多次弯路后，提出一条简单路径，将人生划分为积累财富与保住财富两个阶段。积累阶段要求避免债务、储蓄收入的一半并持续买入宽基指数基金；保住阶段则坚持生活消费不超过全部资产的百分之四，适当配置债券指数基金，并根据情况调整占比。",
-    "recommended_date": "2026-08-26",
+    "title": "贝叶斯定理 : 清晰思考与决策的科学工具",
+    "author": "[美] 汤姆·奇弗斯",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/3f154adb798b6bb7.jpg",
+    "summary": "本书围绕贝叶斯定理展开，讲述这个诞生于十八世纪的数学思想如何渗透医学、法律、科研与人工智能等领域。作者以托马斯·贝叶斯的研究为起点，借助故事和案例说明该定理处理不确定性的方式，即在掌握新信息后更新原有判断。书中还区分相关性与因果关系，剖析常见认知偏差与决策陷阱，并通过真实案例展示如何将贝叶斯思维用于日常判断。全书兼顾数学背景与实践应用，不依赖高等数学基础。",
+    "recommended_date": "2026-08-27",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AE%80%E5%8D%95%E8%87%B4%E5%AF%8C%20%3A%20%E5%AE%9E%E7%8E%B0%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B8%8E%E5%AF%8C%E8%B6%B3%E4%BA%BA%E7%94%9F%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%AE%9A%E7%90%86%20%3A%20%E6%B8%85%E6%99%B0%E6%80%9D%E8%80%83%E4%B8%8E%E5%86%B3%E7%AD%96%E7%9A%84%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B7"
   },
   {
-    "title": "时间游戏",
-    "author": "周洛华",
-    "rating": "⭐8.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/94c9947a35294b0f.jpg",
-    "summary": "本书以维特根斯坦哲学思想为指导，在经济学、金融学、社会学和人类学等概念之间建立联系，构建一个类似报价系统的框架。该框架不寻找普遍规律，也不构建估值模型，而是把各种经济与社会现象视为全社会参与的集体游戏。书中试图为真实场景建立多学科索引，打通各学科之间的边界，同时涵盖金融学、人类学、生物学和社会学。作者以园丁收拾花草为喻，让不同概念各归其位，从而认识统一的整体。",
-    "recommended_date": "2026-08-26",
+    "title": "中国式家庭 : 关系里的纠缠和解脱",
+    "author": "陈海贤",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cccae358b2b784ed.jpg",
+    "summary": "本书是心理咨询师、家庭治疗师陈海贤的咨询故事集，呈现当代中国家庭关系中的纠缠与出路。全书以家庭治疗现场为背景，围绕原生家庭、婚姻爱情、亲子养育、亲人离世等议题展开，记录治疗师与来访者之间的对话，揭示家庭既能提供温暖与支持，也可能造成伤害与束缚。书中通过具体案例展现关系中的幽微复杂，以及个体在顿悟与自我蜕变过程中的关键时刻，强调从他人的故事中重新审视自身处境。",
+    "recommended_date": "2026-08-27",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%B6%E9%97%B4%E6%B8%B8%E6%88%8F"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%BC%8F%E5%AE%B6%E5%BA%AD%20%3A%20%E5%85%B3%E7%B3%BB%E9%87%8C%E7%9A%84%E7%BA%A0%E7%BC%A0%E5%92%8C%E8%A7%A3%E8%84%B1"
   },
   {
-    "title": "全球视野下的投资机会",
-    "author": "时寒冰",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/fef8be6b5352114b.jpg",
-    "summary": "本书为时寒冰二十五年研究成果的集中呈现，以跟随趋势做投资为总纲领。开篇定义势为资本、资源、人口等流动的方向，由此切入投资分析，突破传统投资逻辑的束缚。书中借助大量数据与基础逻辑推理，展示如何从趋势变化中识别投资机会，并将快乐投资作为贯穿始终的理念。该书为精装版，是作者写给学生们的作品，强调授人以渔的方法训练，并围绕趋势主线构建从宏观到具体的思考路径。",
-    "recommended_date": "2026-08-26",
+    "title": "当下的力量 : A Guide to Spiritual Enlightenment",
+    "author": "[德] 埃克哈特·托利",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cd65367da2e421e5.jpg",
+    "summary": "本书是埃克哈特·托利所著心灵经典，长期位居美国亚马逊畅销榜，被译为五十多种文字，全球销量超过五百万册。书中指认日常痛苦的主要来源，即被大脑思维控制，不断焦虑过去与未来，而人只能活在此时此刻。作者主张通过向当下臣服来获得内在力量与真正喜悦，并提供具体方法，让自身认清时间的幻象、进入当下状态。该书围绕灵性开悟与内在觉知展开，被视为心灵读物领域的经典之作。",
+    "recommended_date": "2026-08-27",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%85%A8%E7%90%83%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%20%3A%20A%20Guide%20to%20Spiritual%20Enlightenment"
   }
 ]
