@@ -1,12 +1,42 @@
 [
   {
+    "title": "如何读懂印象派",
+    "author": "[美] 詹姆斯 · H. 鲁宾",
+    "rating": "⭐9.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/7ba4c31311dc7ae3.jpg",
+    "summary": "该书以十五个主题重组印象派运动，不按编年史或艺术家顺序展开，而是将时尚与娱乐、光影与空气、漫步与旅行、城市生活与都市景观等议题并置。作者对一百八十幅名作进行细读与比较，结合历史语境、形式与主题，揭示画作背后的社会背景与视觉策略。印象派由此被呈现为一种关于现代生活的集体事业，既包含形式革新，也回应城市化、性别、政治与社会、自然等议题。",
+    "recommended_date": "2026-08-28",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E8%AF%BB%E6%87%82%E5%8D%B0%E8%B1%A1%E6%B4%BE"
+  },
+  {
+    "title": "中国绘画 : 元至清",
+    "author": "[美] 巫鸿",
+    "rating": "⭐9.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/13c486c65428a576.jpg",
+    "summary": "该书是巫鸿绘画史系列的收官之作，聚焦元、明、清六百余年的绘画发展，摒弃以独立画家为纲的传统画史叙述，改在历史原境中展开细读。书中将单个画家置于整体艺术潮流之中，兼及文人画、宫廷绘画与商业绘画的交融互动，也讨论女性画家、女性题材、风俗画和人物画。图像创作者的身份与性别、图像在不同场合的应用和流通，以及地域文化对绘画的影响，构成全书的多重观察维度。",
+    "recommended_date": "2026-08-28",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E7%BB%98%E7%94%BB%20%3A%20%E5%85%83%E8%87%B3%E6%B8%85"
+  },
+  {
+    "title": "图像 : 从文艺复兴到社交媒体",
+    "author": "[意] 里卡尔多·法尔奇内利",
+    "rating": "⭐9.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/c87ac2f181899aa4.jpg",
+    "summary": "该书以图像如何被设计、创造为核心，跨越文艺复兴绘画、电影、广告与社交媒体图像，追问为何某些图像能成为视觉文化标志。作者将提香与库布里克并置，把抽象艺术同当代广告对照，从焦点、构图、光线、大小、比例、色调等层面解析画面成败。书中还选入凡·高、塞尚、小津安二郎、斯皮尔伯格等创作者的作品，以大量对比案例说明图像创作背后的设计机制。全书收录五百张跨时代图像，从洞穴壁画、油画、摄影到自拍，展示观看传统中变与不变的规律。",
+    "recommended_date": "2026-08-28",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9B%BE%E5%83%8F%20%3A%20%E4%BB%8E%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4%E5%88%B0%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93"
+  },
+  {
     "title": "贝叶斯定理 : 清晰思考与决策的科学工具",
     "author": "[美] 汤姆·奇弗斯",
     "rating": "⭐8.3",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/3f154adb798b6bb7.jpg",
     "summary": "本书围绕贝叶斯定理展开，讲述这个诞生于十八世纪的数学思想如何渗透医学、法律、科研与人工智能等领域。作者以托马斯·贝叶斯的研究为起点，借助故事和案例说明该定理处理不确定性的方式，即在掌握新信息后更新原有判断。书中还区分相关性与因果关系，剖析常见认知偏差与决策陷阱，并通过真实案例展示如何将贝叶斯思维用于日常判断。全书兼顾数学背景与实践应用，不依赖高等数学基础。",
     "recommended_date": "2026-08-27",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%AE%9A%E7%90%86%20%3A%20%E6%B8%85%E6%99%B0%E6%80%9D%E8%80%83%E4%B8%8E%E5%86%B3%E7%AD%96%E7%9A%84%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B7"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cccae358b2b784ed.jpg",
     "summary": "本书是心理咨询师、家庭治疗师陈海贤的咨询故事集，呈现当代中国家庭关系中的纠缠与出路。全书以家庭治疗现场为背景，围绕原生家庭、婚姻爱情、亲子养育、亲人离世等议题展开，记录治疗师与来访者之间的对话，揭示家庭既能提供温暖与支持，也可能造成伤害与束缚。书中通过具体案例展现关系中的幽微复杂，以及个体在顿悟与自我蜕变过程中的关键时刻，强调从他人的故事中重新审视自身处境。",
     "recommended_date": "2026-08-27",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%BC%8F%E5%AE%B6%E5%BA%AD%20%3A%20%E5%85%B3%E7%B3%BB%E9%87%8C%E7%9A%84%E7%BA%A0%E7%BC%A0%E5%92%8C%E8%A7%A3%E8%84%B1"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cd65367da2e421e5.jpg",
     "summary": "本书是埃克哈特·托利所著心灵经典，长期位居美国亚马逊畅销榜，被译为五十多种文字，全球销量超过五百万册。书中指认日常痛苦的主要来源，即被大脑思维控制，不断焦虑过去与未来，而人只能活在此时此刻。作者主张通过向当下臣服来获得内在力量与真正喜悦，并提供具体方法，让自身认清时间的幻象、进入当下状态。该书围绕灵性开悟与内在觉知展开，被视为心灵读物领域的经典之作。",
     "recommended_date": "2026-08-27",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%20%3A%20A%20Guide%20to%20Spiritual%20Enlightenment"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/6fb88b5362bbe0dc.jpg",
     "summary": "本书源自作者写给女儿的一系列信件，阐明一个核心真相：复杂的投资产品只为创造和销售它们的人牟利，对投资者而言成本更高、效果更差。作者在经历多次弯路后，提出一条简单路径，将人生划分为积累财富与保住财富两个阶段。积累阶段要求避免债务、储蓄收入的一半并持续买入宽基指数基金；保住阶段则坚持生活消费不超过全部资产的百分之四，适当配置债券指数基金，并根据情况调整占比。",
     "recommended_date": "2026-08-26",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AE%80%E5%8D%95%E8%87%B4%E5%AF%8C%20%3A%20%E5%AE%9E%E7%8E%B0%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B8%8E%E5%AF%8C%E8%B6%B3%E4%BA%BA%E7%94%9F%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/94c9947a35294b0f.jpg",
     "summary": "本书以维特根斯坦哲学思想为指导，在经济学、金融学、社会学和人类学等概念之间建立联系，构建一个类似报价系统的框架。该框架不寻找普遍规律，也不构建估值模型，而是把各种经济与社会现象视为全社会参与的集体游戏。书中试图为真实场景建立多学科索引，打通各学科之间的边界，同时涵盖金融学、人类学、生物学和社会学。作者以园丁收拾花草为喻，让不同概念各归其位，从而认识统一的整体。",
     "recommended_date": "2026-08-26",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%B6%E9%97%B4%E6%B8%B8%E6%88%8F"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fef8be6b5352114b.jpg",
     "summary": "本书为时寒冰二十五年研究成果的集中呈现，以跟随趋势做投资为总纲领。开篇定义势为资本、资源、人口等流动的方向，由此切入投资分析，突破传统投资逻辑的束缚。书中借助大量数据与基础逻辑推理，展示如何从趋势变化中识别投资机会，并将快乐投资作为贯穿始终的理念。该书为精装版，是作者写给学生们的作品，强调授人以渔的方法训练，并围绕趋势主线构建从宏观到具体的思考路径。",
     "recommended_date": "2026-08-26",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%85%A8%E7%90%83%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5ccce140410c8dc6.jpg",
     "summary": "维利·罗尼的摄影生涯覆盖了整个二十世纪，他比任何人都更有资格为巴黎几乎一个世纪的历史作证，他的镜头记录了巴黎人为更美好生活而奋斗的历史。本书每一篇文字都以‘那一天’开头，讲述每一幅照片背后的故事，包括按下快门时的心理活动、把握与错失、想捕捉的氛围和期待呈现的意义。书中的照片呈现巴黎城市变迁，也记录不同时代人物的面貌。这既是一部摄影作品集，也是作者对自己作品的详细剖析。",
     "recommended_date": "2026-08-25",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%82%A3%E4%B8%80%E5%A4%A9"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5111eb96e813c07a.jpg",
     "summary": "日本摄影家森山大道在‘从心所欲’之年写下这部文集，回顾了其夏威夷与布宜诺斯艾利斯的摄影旅程、生命中数位女性的暧昧情愫，以及平交道、桥梁、花器、动物园等日常风景的意象。这些文字细致记录事物在他心中唤起的深层记忆，也呈现滋养其创作行动力的经历与内心风景。整部文集带有存在派小说般的氛围，晦暗幽深，真切动人，与其影像作品直接、原始而强烈的情绪一脉相承。其中将青春岁月形容为一种光荣的贫瘠与伟大的缺席。",
     "recommended_date": "2026-08-25",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%BF%88%E5%90%91%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%9B%BD%E5%BA%A6"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ba2491c9427fd4e9.jpg",
     "summary": "王福春乘坐火车上千次，行程十多万公里，拍摄万余张底片，从中精选一百一十四张黑白纪实摄影，呈现二十世纪九十年代中国人旅途生活的真实瞬间。其中三十七张是此前画册中未出现过的作品。画面中有打麻将、集体做广播体操、带宠物上车等如今看来不可思议的场景，也有送别、叫卖、情侣对视与车厢拥挤等恒常画面。这些影像来自天南海北临时交织的人群，记录了一个流动中国的浓烈人际关系与时代特征。",
     "recommended_date": "2026-08-25",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%81%AB%E8%BD%A6%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/64863c2bfe28e05a.jpg",
     "summary": "本书是一部长篇小说，全书一百一十五万字，以北方省会城市一位周姓平民子弟的生活轨迹为主线，从二十世纪七十年代一直写到当下。作品多角度描写中国社会巨大变迁与百姓生活跌宕起伏，聚焦普通人在历史进程中的道义担当与情感热望。小说以百姓生活史的方式呈现近五十年的社会进步，也写出悲欢离合中的情怀。该书为中国作家协会重点作品扶持选题，也是国家出版规划项目图书。",
     "recommended_date": "2026-08-24",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E4%B8%96%E9%97%B4"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f5de8657266e76b7.jpg",
     "summary": "全书由七篇短篇小说构成，分别透过父子、同学、夫妻等人际关系，捕捉孤独作为一种生而为人的困境。作者承袭海明威的冰山理论，文字冷静节制，情节大量留白，让深层意涵藏于日常细节之下。该书曾获吴浊流文学奖、联合报文学奖、时报文学奖，并入选年度十大好书与豆瓣年度中国文学榜单。作者被视为台湾一九六零年代重要小说家，对童伟格等后辈作家有持续影响。",
     "recommended_date": "2026-08-24",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AF%82%E5%AF%9E%E7%9A%84%E6%B8%B8%E6%88%8F"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b6b1aa662b8b3eab.jpg",
     "summary": "本书源自费孝通在江苏吴江开弦弓村的田野调查，以社区研究方式记录乡村经济、土地制度、家庭生产与消费等层面的实际运行。作者试图通过这一个村落的生活样本，分析中国乡村社会结构及其变迁，并从具体社区研究扩展至社会结构分析。作为中国社会学早期的重要著作，该书在学科上具有示范性与开创性，是理解二十世纪三四十年代中国乡村的重要文本。",
     "recommended_date": "2026-08-24",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B1%9F%E6%9D%91%E7%BB%8F%E6%B5%8E"
-  },
-  {
-    "title": "城市设计",
-    "author": "王建国",
-    "rating": "⭐7.7",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/23afc21fe847aa30.jpg",
-    "summary": "本书围绕城镇发展建设中的空间组织与优化，将城市设计界定为对人、自然和社会因素在内的城市形体环境所进行的研究与设计。内容涉及城市设计的目标、对象层次、类型构成与价值判断，城市空间要素和景观构成，以及典型空间与景观的设计方法。书中结合国内外研究与实践案例，基于作者十多年研究心得，讨论了空间分析技术、调研技艺及在城市建设中的实施途径。",
-    "recommended_date": "2026-08-23",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9F%8E%E5%B8%82%E8%AE%BE%E8%AE%A1"
-  },
-  {
-    "title": "中国建筑史 : （通校本）",
-    "author": "梁思成",
-    "rating": "⭐9.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/58b371100a04b94d.jpg",
-    "summary": "梁思成毕生致力于中国古建筑的研究与保护，与营造学社同仁在动荡年代考察近两百个县城、两千余项古建筑，积累大量调查与测绘资料，构成本书的史料基础。该书将中国古代建筑按时期划分，分别论述文献、梗概、实物与特征，并提出“结构技术＋环境思想”的研究框架。此次通校本对照作者手稿及1955年油印本修订文字，配以近四百幅图片，系统呈现这一开创性通史的完整面貌。",
-    "recommended_date": "2026-08-23",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%BB%BA%E7%AD%91%E5%8F%B2%20%3A%20%EF%BC%88%E9%80%9A%E6%A0%A1%E6%9C%AC%EF%BC%89"
-  },
-  {
-    "title": "建筑史诗第一卷·梦回唐朝",
-    "author": "王南",
-    "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6401a0624d07e41b.jpg",
-    "summary": "本书为“建筑史诗”系列中关于唐代建筑的一部，由作者刊发于《读库1504》后推出单行本。作者任教于清华大学建筑系，在书中从长安城坊布局写到唐代佛寺，再至以武则天明堂为代表的宫殿建筑，最终落于五台山佛光寺大殿与南禅寺两座现存实例。佛光寺大殿被梁思成誉为“中国第一国宝”，南禅寺则是现存最古老的木结构小殿。结合考古发掘、复原图、壁画、图纸与照片，呈现唐代“豪劲”风格背后的结构逻辑与文化脉络。",
-    "recommended_date": "2026-08-23",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BB%BA%E7%AD%91%E5%8F%B2%E8%AF%97%E7%AC%AC%E4%B8%80%E5%8D%B7%C2%B7%E6%A2%A6%E5%9B%9E%E5%94%90%E6%9C%9D"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B1%9F%E6%9D%91%E7%BB%8F%E6%B5%8E"
   }
 ]
