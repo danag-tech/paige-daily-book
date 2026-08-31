@@ -1,12 +1,42 @@
 [
   {
+    "title": "增长黑客 : 如何低成本实现爆发式成长",
+    "author": "Sean Ellis",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/854547270612e14c.jpg",
+    "summary": "本书由最早提出“增长黑客”概念的作者系统阐述这一方法。书中以脸谱网、爱彼迎、优步、领英等公司的诸多早期扩张为例，说明如何以数据驱动、快节奏测试和迭代，用极低甚至零成本获取并留存用户。作者结合自己带领Dropbox获得500%增长的实战经验，介绍跨部门搭建增长团队、围绕产品核心价值持续优化转化环节的具体做法。该书出版后成为科技公司运营领域的重要参考。",
+    "recommended_date": "2026-08-31",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2%20%3A%20%E5%A6%82%E4%BD%95%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AE%9E%E7%8E%B0%E7%88%86%E5%8F%91%E5%BC%8F%E6%88%90%E9%95%BF"
+  },
+  {
+    "title": "精益创业 : 新创企业的成长思维",
+    "author": "[美] 埃里克·莱斯",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/36384b0a4ff9efdb.jpg",
+    "summary": "本书将精益生产理念引入创业领域，把新创企业视为在高度不确定状态下寻找可行产品与市场的过程。作者提出先开发体现核心价值的极简原型，以最小成本推向市场，再通过“开发—测量—认知”循环验证产品是否符合用户需求，快速调整方向。若产品不被市场需要，就尽快以低成本失败，避免在错误方向上消耗过多资金；若被认可，则持续迭代优化，在启动资金耗尽前获得有效认知。这套方法也用于大公司内部的新业务孵化。",
+    "recommended_date": "2026-08-31",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%B2%BE%E7%9B%8A%E5%88%9B%E4%B8%9A%20%3A%20%E6%96%B0%E5%88%9B%E4%BC%81%E4%B8%9A%E7%9A%84%E6%88%90%E9%95%BF%E6%80%9D%E7%BB%B4"
+  },
+  {
+    "title": "鞋狗 : 耐克创始人菲尔·奈特亲笔自传",
+    "author": "[美] 菲尔·奈特",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/c2709607d73d9794.jpg",
+    "summary": "本书是耐克创始人的自传，讲述他从美国俄勒冈州的一位普通跑者起步，以五十美元进入跑鞋销售领域，带领团队在随时可能破产的困境中应对银行、合作伙伴与竞争对手的压力，最终令品牌标识成为全球广泛认知的符号。菲尔·奈特以朴实而幽默的语言写出创业过程中的狂热、执着和疯狂，也呈现公司早期古怪随性的文化，以及融资、扩张与经营中的大量真实细节。",
+    "recommended_date": "2026-08-31",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9E%8B%E7%8B%97%20%3A%20%E8%80%90%E5%85%8B%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%8F%B2%E5%B0%94%C2%B7%E5%A5%88%E7%89%B9%E4%BA%B2%E7%AC%94%E8%87%AA%E4%BC%A0"
+  },
+  {
     "title": "燕食记",
     "author": "葛亮",
     "rating": "⭐8.4",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/bbc72996a3a8ad0a.png",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/bbc72996a3a8ad0a.jpg",
     "summary": "小说以岭南百年老字号同钦楼面临结业为开端，退休主厨荣贻生向众人道出往事，串联师徒二人的传奇身世。作品沿饮食文化发展脉络，以师徒二人的传奇身世及薪火存续为主线，借粤港菜肴、茶楼与宴席的兴衰，书写辛亥革命以来粤港经历的时代风云兴变与岭南地区的聚散流徙。书中涉及商贾、政客、革命志士、钟鼎之族与行会巨头等传奇人物，同时描摹市井民生，呈现近百年社会变迁与世态人情的雄浑画卷。",
     "recommended_date": "2026-08-30",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%87%95%E9%A3%9F%E8%AE%B0"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/570cb7d6fd94750d.jpg",
     "summary": "英国作者一九九四年到中国长住，打从一开始就发誓不论旁人请她吃什么，一律来者不拒，以异乡人视角记录中式料理与中华饮食文化。本书从川菜写起，继而展开湘菜、扬州菜等菜系，描述不同地方食物独有的气质。作者也写下目睹鸡鸭被宰杀的惊吓、学习刀工的历程与面对珍稀野味时内心的道德两难。在四川市场、甘肃北部、福建深山与扬州古城之间，全书展现中西饮食文化差异，兼具人文观察与幽默趣味。",
     "recommended_date": "2026-08-30",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%B1%BC%E7%BF%85%E4%B8%8E%E8%8A%B1%E6%A4%92"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b7c846ade88b41e1.jpg",
     "summary": "清代大学者袁枚治学之余留心饮食，多年来赴宴遇美味便让家厨向主人厨师求教，积累大量食谱。全书分须知、戒单、海鲜、江鲜、特牲、杂牲、羽族、水族有鳞、水族无鳞、杂素、小菜、点心、饭粥、茶酒等十四单，按食材类别与烹饪方法记录菜肴饭点的原料与火候，兼述南北风味和饮食原则。书中还涉及宴席安排、器具选择与卫生习惯，体现传统文人的饮馔观念，是研究清代饮食文化的重要文献。",
     "recommended_date": "2026-08-30",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9A%8F%E5%9B%AD%E9%A3%9F%E5%8D%95"
   },
   {
@@ -36,27 +66,27 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b4abd0c917cf05cb.jpg",
     "summary": "本书围绕康熙四十七年太子胤礽被废事件，利用一批在罗马尘封三百余年的传教士记录，与清宫档案、官修实录、私人笔记相互比勘，还原储位之争中大量被掩盖和篡改的细节。作者通过梳理雍正登位后亲自监督编纂康熙朝历史的过程，指出官方叙事存在系统性清理的痕迹，并逐一揭示相关证据。全书以传教士书信为独特切入点，重构康熙朝宫廷政治的内幕，揭示出清初历史书写机制的新面向。",
     "recommended_date": "2026-08-29",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%9C%9F%E4%BA%8B%E9%9A%90%20%3A%20%E5%BA%B7%E7%86%99%E5%BA%9F%E5%82%A8%E4%B8%8E%E6%AD%A3%E5%8F%B2%E8%99%9A%E6%9E%84"
   },
   {
     "title": "逐鹿 : 神话与寓言背后的秦亡汉兴",
     "author": "张诗坪",
     "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d73f1fdd224c39be.png",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d73f1fdd224c39be.jpg",
     "summary": "本书重新梳理秦亡汉兴的历史过程，从中国象棋的“楚河汉界”、沙丘阴谋、巨鹿之战和乌江自刎等广为人知的片段切入，分析这些事件如何被压缩成脸谱化的寓言。作者吸收近年国内学界研究成果，借鉴欧美学界古典学与军事战役学的新范式，解构秦二世、赵高、项羽与刘邦的单一形象，还原权力斗争与军事行动背后的具体情境。全书以“神话与寓言”为关键词，追问正统历史叙事如何形成，并借助考古材料与制度分析给出新的解释框架。",
     "recommended_date": "2026-08-29",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%80%90%E9%B9%BF%20%3A%20%E7%A5%9E%E8%AF%9D%E4%B8%8E%E5%AF%93%E8%A8%80%E8%83%8C%E5%90%8E%E7%9A%84%E7%A7%A6%E4%BA%A1%E6%B1%89%E5%85%B4"
   },
   {
     "title": "翦商 : 殷周之变与华夏新生",
     "author": "李硕",
     "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f10a4da96175ef3c.png",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f10a4da96175ef3c.jpg",
     "summary": "本书以考古发掘与甲骨文卜辞、传世文献相互印证，系统考察商代人祭现象从出现到被遗忘的过程。作者将武王克商视为华夏文明形成史上的里程碑式革命，指出这场变革不仅是政权更替，更终结了延续数百年的祭祀传统。书中借助大量出土材料，重新释读《易经》卦象和上古文献，揭示早期中国思想与制度转型的幽暗通道。作者在叙述中兼顾宏大历史脉络与具体细节，勾勒出华夏早期文明转型的关键环节。",
     "recommended_date": "2026-08-29",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BF%A6%E5%95%86%20%3A%20%E6%AE%B7%E5%91%A8%E4%B9%8B%E5%8F%98%E4%B8%8E%E5%8D%8E%E5%A4%8F%E6%96%B0%E7%94%9F"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7ba4c31311dc7ae3.jpg",
     "summary": "该书以十五个主题重组印象派运动，不按编年史或艺术家顺序展开，而是将时尚与娱乐、光影与空气、漫步与旅行、城市生活与都市景观等议题并置。作者对一百八十幅名作进行细读与比较，结合历史语境、形式与主题，揭示画作背后的社会背景与视觉策略。印象派由此被呈现为一种关于现代生活的集体事业，既包含形式革新，也回应城市化、性别、政治与社会、自然等议题。",
     "recommended_date": "2026-08-28",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E8%AF%BB%E6%87%82%E5%8D%B0%E8%B1%A1%E6%B4%BE"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/13c486c65428a576.jpg",
     "summary": "该书是巫鸿绘画史系列的收官之作，聚焦元、明、清六百余年的绘画发展，摒弃以独立画家为纲的传统画史叙述，改在历史原境中展开细读。书中将单个画家置于整体艺术潮流之中，兼及文人画、宫廷绘画与商业绘画的交融互动，也讨论女性画家、女性题材、风俗画和人物画。图像创作者的身份与性别、图像在不同场合的应用和流通，以及地域文化对绘画的影响，构成全书的多重观察维度。",
     "recommended_date": "2026-08-28",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E7%BB%98%E7%94%BB%20%3A%20%E5%85%83%E8%87%B3%E6%B8%85"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c87ac2f181899aa4.jpg",
     "summary": "该书以图像如何被设计、创造为核心，跨越文艺复兴绘画、电影、广告与社交媒体图像，追问为何某些图像能成为视觉文化标志。作者将提香与库布里克并置，把抽象艺术同当代广告对照，从焦点、构图、光线、大小、比例、色调等层面解析画面成败。书中还选入凡·高、塞尚、小津安二郎、斯皮尔伯格等创作者的作品，以大量对比案例说明图像创作背后的设计机制。全书收录五百张跨时代图像，从洞穴壁画、油画、摄影到自拍，展示观看传统中变与不变的规律。",
     "recommended_date": "2026-08-28",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9B%BE%E5%83%8F%20%3A%20%E4%BB%8E%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4%E5%88%B0%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/3f154adb798b6bb7.jpg",
     "summary": "本书围绕贝叶斯定理展开，讲述这个诞生于十八世纪的数学思想如何渗透医学、法律、科研与人工智能等领域。作者以托马斯·贝叶斯的研究为起点，借助故事和案例说明该定理处理不确定性的方式，即在掌握新信息后更新原有判断。书中还区分相关性与因果关系，剖析常见认知偏差与决策陷阱，并通过真实案例展示如何将贝叶斯思维用于日常判断。全书兼顾数学背景与实践应用，不依赖高等数学基础。",
     "recommended_date": "2026-08-27",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%AE%9A%E7%90%86%20%3A%20%E6%B8%85%E6%99%B0%E6%80%9D%E8%80%83%E4%B8%8E%E5%86%B3%E7%AD%96%E7%9A%84%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B7"
   },
   {
@@ -106,47 +136,17 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cccae358b2b784ed.jpg",
     "summary": "本书是心理咨询师、家庭治疗师陈海贤的咨询故事集，呈现当代中国家庭关系中的纠缠与出路。全书以家庭治疗现场为背景，围绕原生家庭、婚姻爱情、亲子养育、亲人离世等议题展开，记录治疗师与来访者之间的对话，揭示家庭既能提供温暖与支持，也可能造成伤害与束缚。书中通过具体案例展现关系中的幽微复杂，以及个体在顿悟与自我蜕变过程中的关键时刻，强调从他人的故事中重新审视自身处境。",
     "recommended_date": "2026-08-27",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%BC%8F%E5%AE%B6%E5%BA%AD%20%3A%20%E5%85%B3%E7%B3%BB%E9%87%8C%E7%9A%84%E7%BA%A0%E7%BC%A0%E5%92%8C%E8%A7%A3%E8%84%B1"
   },
   {
     "title": "当下的力量 : A Guide to Spiritual Enlightenment",
     "author": "[德] 埃克哈特·托利",
     "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cd65367da2e421e5.png",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cd65367da2e421e5.jpg",
     "summary": "本书是埃克哈特·托利所著心灵经典，长期位居美国亚马逊畅销榜，被译为五十多种文字，全球销量超过五百万册。书中指认日常痛苦的主要来源，即被大脑思维控制，不断焦虑过去与未来，而人只能活在此时此刻。作者主张通过向当下臣服来获得内在力量与真正喜悦，并提供具体方法，让自身认清时间的幻象、进入当下状态。该书围绕灵性开悟与内在觉知展开，被视为心灵读物领域的经典之作。",
     "recommended_date": "2026-08-27",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%20%3A%20A%20Guide%20to%20Spiritual%20Enlightenment"
-  },
-  {
-    "title": "简单致富 : 实现财务自由与富足人生的路线图",
-    "author": "[美] J.L.柯林斯",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6fb88b5362bbe0dc.jpg",
-    "summary": "本书源自作者写给女儿的一系列信件，阐明一个核心真相：复杂的投资产品只为创造和销售它们的人牟利，对投资者而言成本更高、效果更差。作者在经历多次弯路后，提出一条简单路径，将人生划分为积累财富与保住财富两个阶段。积累阶段要求避免债务、储蓄收入的一半并持续买入宽基指数基金；保住阶段则坚持生活消费不超过全部资产的百分之四，适当配置债券指数基金，并根据情况调整占比。",
-    "recommended_date": "2026-08-26",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AE%80%E5%8D%95%E8%87%B4%E5%AF%8C%20%3A%20%E5%AE%9E%E7%8E%B0%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B8%8E%E5%AF%8C%E8%B6%B3%E4%BA%BA%E7%94%9F%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE"
-  },
-  {
-    "title": "时间游戏",
-    "author": "周洛华",
-    "rating": "⭐8.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/94c9947a35294b0f.jpg",
-    "summary": "本书以维特根斯坦哲学思想为指导，在经济学、金融学、社会学和人类学等概念之间建立联系，构建一个类似报价系统的框架。该框架不寻找普遍规律，也不构建估值模型，而是把各种经济与社会现象视为全社会参与的集体游戏。书中试图为真实场景建立多学科索引，打通各学科之间的边界，同时涵盖金融学、人类学、生物学和社会学。作者以园丁收拾花草为喻，让不同概念各归其位，从而认识统一的整体。",
-    "recommended_date": "2026-08-26",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%B6%E9%97%B4%E6%B8%B8%E6%88%8F"
-  },
-  {
-    "title": "全球视野下的投资机会",
-    "author": "时寒冰",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/fef8be6b5352114b.png",
-    "summary": "本书为时寒冰二十五年研究成果的集中呈现，以跟随趋势做投资为总纲领。开篇定义势为资本、资源、人口等流动的方向，由此切入投资分析，突破传统投资逻辑的束缚。书中借助大量数据与基础逻辑推理，展示如何从趋势变化中识别投资机会，并将快乐投资作为贯穿始终的理念。该书为精装版，是作者写给学生们的作品，强调授人以渔的方法训练，并围绕趋势主线构建从宏观到具体的思考路径。",
-    "recommended_date": "2026-08-26",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%85%A8%E7%90%83%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F%20%3A%20A%20Guide%20to%20Spiritual%20Enlightenment"
   }
 ]
