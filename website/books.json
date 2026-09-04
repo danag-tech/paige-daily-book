@@ -1,12 +1,42 @@
 [
   {
+    "title": "决策与判断",
+    "author": "[美] 斯科特·普劳斯",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/2d89b4cd1a7ed715.jpg",
+    "summary": "这是一部社会心理学经典，曾获美国心理学协会威廉·詹姆斯图书奖。全书汲取医学、法律、商务和行为经济学等领域的案例，系统介绍决策与判断的心理过程，尤其是影响判断的社会因素。书中呈现大量与常识相悖的实验结果，解释认知偏差与非理性决策的形成原因，并从科学心理学角度给出避免认知风险和决策偏差的路径。结构上分六编二十一章，各章既可独立阅读，也可以按需跳读。",
+    "recommended_date": "2026-09-04",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%86%B3%E7%AD%96%E4%B8%8E%E5%88%A4%E6%96%AD"
+  },
+  {
+    "title": "幸福的勇气 : “自我启发之父”阿德勒的哲学课2",
+    "author": "[日] 岸见一郎、古贺史健",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/793a906f91c42012.jpg",
+    "summary": "本书是“勇气两部曲”的完结篇，延续阿德勒心理学的核心思想，以青年与哲人的对话形式展开。三年后，青年已经辞去图书管理员工作，成为小学老师，却在现实的摧残中对当初理想彻底绝望，认为阿德勒的思想在外界没有意义。哲人以猛药式的哲学对谈回应，将理论引向行动层面。全书回答“人该怎么做才能幸福”，与上一部探究自由不同，这一部把幸福落实为具体的生活实践。",
+    "recommended_date": "2026-09-04",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B9%B8%E7%A6%8F%E7%9A%84%E5%8B%87%E6%B0%94%20%3A%20%E2%80%9C%E8%87%AA%E6%88%91%E5%90%AF%E5%8F%91%E4%B9%8B%E7%88%B6%E2%80%9D%E9%98%BF%E5%BE%B7%E5%8B%92%E7%9A%84%E5%93%B2%E5%AD%A6%E8%AF%BE2"
+  },
+  {
+    "title": "婚姻的意义",
+    "author": "提摩太·凯勒 (Timothy Keller)、凯西·凯勒 (Kathy Keller)",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/1a89e47510c3b75c.jpg",
+    "summary": "现代文化让人以为，每个人都有一个灵魂伴侣；成功婚姻的核心是浪漫爱情；配偶的存在是为了成全个人潜能；婚姻是暂时的，而非一生一世；离婚后重新开始才是解开难题的最佳途径。凯勒与妻子凯西基于三十六年婚姻经验，指出这些流行假设与事实相悖。作者认为，婚姻是一种荣耀、最神秘而常被误解的关系，上帝设立婚姻的目的是让人亲近上帝并收获更深的喜乐。书中以圣经为基础，阐明婚姻的福音根基。",
+    "recommended_date": "2026-09-04",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A9%9A%E5%A7%BB%E7%9A%84%E6%84%8F%E4%B9%89"
+  },
+  {
     "title": "控制论与科学方法论",
     "author": "金观涛、[美] 华国凡",
     "rating": "⭐9.0",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ad9174f220e9ee13.jpg",
     "summary": "本书初稿在20世纪70年代末以手抄本和油印本流传，后在1980年代正式出版，经作者重新修订增补，时隔40年再度问世。书中从控制论、系统论、信息论视角出发，阐述控制论基本概念、复杂系统演化及科学方法论工具。作者引用数学、物理学、生物学、经济学、社会学等多学科实例，并尝试与中国古典哲学对话，展示控制论在现实问题中的运用。金观涛与华国凡的论述兼具科学史意识与跨学科视野，适合认识控制论思想在当代的持久价值。",
     "recommended_date": "2026-09-03",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%8E%A7%E5%88%B6%E8%AE%BA%E4%B8%8E%E7%A7%91%E5%AD%A6%E6%96%B9%E6%B3%95%E8%AE%BA"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4e379790d1202012.jpg",
     "summary": "作者提出，人工智能若要取得突破，须回到人脑进化的十亿年历史中寻找线索。他架起神经科学与AI研究之间的桥梁，将大脑进化历程凝练为五次关键突破，逐次解读人类智能的核心谜题。书中结合前沿AI成果，指出当前系统在哪些方面已比肩甚至超越人脑，又在哪些地方仍显不足。该书得到当代顶尖神经科学家赞誉，以恢宏视野追问AI发展的可能边界，追问远古智慧如何成为未来革新的灯塔。作者本人具备AI企业家身份，对技术落地与生物演化的交叉有直接体察。",
     "recommended_date": "2026-09-03",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%99%BA%E8%83%BD%E7%AE%80%E5%8F%B2%20%3A%20%E8%BF%9B%E5%8C%96%E3%80%81AI%E4%B8%8E%E4%BA%BA%E8%84%91%E7%9A%84%E7%AA%81%E7%A0%B4"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7eef631e94e9958f.jpg",
     "summary": "本书以时间为主线，从奠基人物、历史事件、学术理论、研究成果和技术应用五个维度展开，勾勒人工智能学科的全貌。作者由图灵机谈起，梳理学科试图解决的问题、遭遇的困难、作过的尝试与取得的成果，也谈及未来发展动向。书中内容兼顾专业性与通俗性，注重消除人工智能的神秘感，将这门学科从学术殿堂引向公众视野。作者周志明另著有《深入理解Java虚拟机》，其工程背景令全书在理论叙述之外保有鲜明的技术实践视角。",
     "recommended_date": "2026-09-03",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%99%BA%E6%85%A7%E7%9A%84%E7%96%86%E7%95%8C%20%3A%20%E4%BB%8E%E5%9B%BE%E7%81%B5%E6%9C%BA%E5%88%B0%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/742fe683187d5495.jpg",
     "summary": "本书以南宋林洪的《山家清供》为底本，由美食顾问林卫辉解读百余道山野菜肴，并配七十多张实拍彩图。书中循着林洪的交游足迹，从粥饭面、羹汤、蔬食、肉食、点心、花馔与饮品等品类复原宋代山居饮食，收录青精饭、碧涧羹、傍林鲜、蟹酿橙等菜式，也写到江西的笋蕨馄饨、天台山的鱼干粥和温州的荷藕青团。每道菜背后都立着叶绍翁、杨万里等真实人物，以食见人、以味读史，同时呈现以食养身、药食同源的传统智慧。",
     "recommended_date": "2026-09-02",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9A%90%E5%A3%AB%E7%9A%84%E9%A4%90%E6%A1%8C%20%3A%20%E3%80%8A%E5%B1%B1%E5%AE%B6%E6%B8%85%E4%BE%9B%E3%80%8B%E9%87%8C%E7%9A%84%E5%B1%B1%E9%87%8E%E6%BB%8B%E5%91%B3"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/24b14600b03ef321.jpg",
     "summary": "本书由美食作者陈宇慧撰写，围绕“为什么做出来的菜总是同一个味道”的问题展开。作者与主厨面对面交流，对每道菜反复尝试调整，最终精选51道家常菜。书中从厨房底层逻辑出发，讲解食材处理、烹饪方式和调味技巧，将不同处理方式与几十种家庭常用调味排列组合，形成可举一反三的网状知识体系。这些细节以小贴士形式标出，经反复推敲后成为家庭厨房稳定做出好味道的支点。",
     "recommended_date": "2026-09-02",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AE%B6%E5%B8%B8%E8%8F%9C%E7%9A%84%E5%88%B6%E8%83%9C%E4%B8%80%E5%87%BB"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c7c76128df72ecc0.jpg",
     "summary": "作者是连续五年获评世界最佳餐厅的斗牛犬餐厅主厨，本书汇集他为员工烹制的日常餐食，也是他第一本面向家庭厨房的食谱。全书收录31组套餐共93道菜品，每套按前菜或汤品、主菜、点心组合，覆盖意面、肉类、冷热前菜与甜点，并可按2、6、20、75人份标记食材量。配有近1600张清晰步骤图，以一步骤一文字逐步说明，同时标明备餐时间和可同步操作的最佳顺序流程，附录还有自行搭配菜单的单元。",
     "recommended_date": "2026-09-02",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8E%A8%E7%A5%9E%E7%9A%84%E5%AE%B6%E5%B8%B8%E8%8F%9C"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7ef52de28b91a02e.jpg",
     "summary": "1984年，吉本隆明来到坂本龙一的工作室，一人是文艺思想界泰斗，一人是享誉国际的作曲家、电影配乐大师，两人以哲思性对话探讨音乐本质，并共同完成一场音乐实验。坂本龙一现场演示当时尖端的数字合成器技术，将吉本即兴弹奏的乐音以不同风格编曲，呈现音乐逐步变为作品的过程。对谈涉及音乐与语言、音乐与技术、音乐与社会文化的关系，也讨论氛围、噪音、嘻哈、古典、歌谣曲等类型。该书长销三十余年，中文版首次出版。",
     "recommended_date": "2026-09-01",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9F%B3%E4%B9%90%E6%9C%BA%E6%A2%B0%E8%AE%BA"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/42c6a5e697eaf407.jpg",
     "summary": "本书为“牛津”音乐史系列中的一种，以广阔视野叙述西方音乐的历史进程，把伟大人物和作品放回所处时代的文化环境，呈现主流与支流、暗流、对流的交织。全书脚注多达两千余条，谱例三百多个，图片近七十幅，常以权威口吻标明资料出处，并指出前人事实错误。作者亚伯拉罕兼具乐评经验与史家克制，对音乐风格和具体作品的判断准确，同时注重音乐本体形式，不做过度的情感渲染。",
     "recommended_date": "2026-09-01",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AE%80%E6%98%8E%E7%89%9B%E6%B4%A5%E9%9F%B3%E4%B9%90%E5%8F%B2"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5e153c755b19b7e5.jpg",
     "summary": "本书是奥利沃·梅西安以德彪西音乐为对象的论著，系统阐述其创作理论与美学观点。作者在继承法国音乐传统的基础上，运用有限移位调式、色彩和弦、对称排列置换等创新技法，比较德彪西、拉威尔以来的音乐传承。书中还涉及节奏、色彩与鸟类学等论题，为研究德彪西和梅西安提供关键性材料，梳理两人在创作理念与技法上的历史继承性，也展现法国音乐发展的一条重要脉络。",
     "recommended_date": "2026-09-01",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%8A%82%E5%A5%8F%E3%80%81%E8%89%B2%E5%BD%A9%E5%92%8C%E9%B8%9F%E7%B1%BB%E5%AD%A6%E7%9A%84%E8%AE%BA%E8%91%97"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/854547270612e14c.jpg",
     "summary": "本书由最早提出“增长黑客”概念的作者系统阐述这一方法。书中以脸谱网、爱彼迎、优步、领英等公司的诸多早期扩张为例，说明如何以数据驱动、快节奏测试和迭代，用极低甚至零成本获取并留存用户。作者结合自己带领Dropbox获得500%增长的实战经验，介绍跨部门搭建增长团队、围绕产品核心价值持续优化转化环节的具体做法。该书出版后成为科技公司运营领域的重要参考。",
     "recommended_date": "2026-08-31",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2%20%3A%20%E5%A6%82%E4%BD%95%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AE%9E%E7%8E%B0%E7%88%86%E5%8F%91%E5%BC%8F%E6%88%90%E9%95%BF"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/36384b0a4ff9efdb.jpg",
     "summary": "本书将精益生产理念引入创业领域，把新创企业视为在高度不确定状态下寻找可行产品与市场的过程。作者提出先开发体现核心价值的极简原型，以最小成本推向市场，再通过“开发—测量—认知”循环验证产品是否符合用户需求，快速调整方向。若产品不被市场需要，就尽快以低成本失败，避免在错误方向上消耗过多资金；若被认可，则持续迭代优化，在启动资金耗尽前获得有效认知。这套方法也用于大公司内部的新业务孵化。",
     "recommended_date": "2026-08-31",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%B2%BE%E7%9B%8A%E5%88%9B%E4%B8%9A%20%3A%20%E6%96%B0%E5%88%9B%E4%BC%81%E4%B8%9A%E7%9A%84%E6%88%90%E9%95%BF%E6%80%9D%E7%BB%B4"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c2709607d73d9794.jpg",
     "summary": "本书是耐克创始人的自传，讲述他从美国俄勒冈州的一位普通跑者起步，以五十美元进入跑鞋销售领域，带领团队在随时可能破产的困境中应对银行、合作伙伴与竞争对手的压力，最终令品牌标识成为全球广泛认知的符号。菲尔·奈特以朴实而幽默的语言写出创业过程中的狂热、执着和疯狂，也呈现公司早期古怪随性的文化，以及融资、扩张与经营中的大量真实细节。",
     "recommended_date": "2026-08-31",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9E%8B%E7%8B%97%20%3A%20%E8%80%90%E5%85%8B%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%8F%B2%E5%B0%94%C2%B7%E5%A5%88%E7%89%B9%E4%BA%B2%E7%AC%94%E8%87%AA%E4%BC%A0"
-  },
-  {
-    "title": "燕食记",
-    "author": "葛亮",
-    "rating": "⭐8.4",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/bbc72996a3a8ad0a.jpg",
-    "summary": "小说以岭南百年老字号同钦楼面临结业为开端，退休主厨荣贻生向众人道出往事，串联师徒二人的传奇身世。作品沿饮食文化发展脉络，以师徒二人的传奇身世及薪火存续为主线，借粤港菜肴、茶楼与宴席的兴衰，书写辛亥革命以来粤港经历的时代风云兴变与岭南地区的聚散流徙。书中涉及商贾、政客、革命志士、钟鼎之族与行会巨头等传奇人物，同时描摹市井民生，呈现近百年社会变迁与世态人情的雄浑画卷。",
-    "recommended_date": "2026-08-30",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%87%95%E9%A3%9F%E8%AE%B0"
-  },
-  {
-    "title": "鱼翅与花椒",
-    "author": "[英] 扶霞·邓洛普",
-    "rating": "⭐8.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/570cb7d6fd94750d.jpg",
-    "summary": "英国作者一九九四年到中国长住，打从一开始就发誓不论旁人请她吃什么，一律来者不拒，以异乡人视角记录中式料理与中华饮食文化。本书从川菜写起，继而展开湘菜、扬州菜等菜系，描述不同地方食物独有的气质。作者也写下目睹鸡鸭被宰杀的惊吓、学习刀工的历程与面对珍稀野味时内心的道德两难。在四川市场、甘肃北部、福建深山与扬州古城之间，全书展现中西饮食文化差异，兼具人文观察与幽默趣味。",
-    "recommended_date": "2026-08-30",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%B1%BC%E7%BF%85%E4%B8%8E%E8%8A%B1%E6%A4%92"
-  },
-  {
-    "title": "随园食单",
-    "author": "(清)袁枚",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b7c846ade88b41e1.jpg",
-    "summary": "清代大学者袁枚治学之余留心饮食，多年来赴宴遇美味便让家厨向主人厨师求教，积累大量食谱。全书分须知、戒单、海鲜、江鲜、特牲、杂牲、羽族、水族有鳞、水族无鳞、杂素、小菜、点心、饭粥、茶酒等十四单，按食材类别与烹饪方法记录菜肴饭点的原料与火候，兼述南北风味和饮食原则。书中还涉及宴席安排、器具选择与卫生习惯，体现传统文人的饮馔观念，是研究清代饮食文化的重要文献。",
-    "recommended_date": "2026-08-30",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9A%8F%E5%9B%AD%E9%A3%9F%E5%8D%95"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9E%8B%E7%8B%97%20%3A%20%E8%80%90%E5%85%8B%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%8F%B2%E5%B0%94%C2%B7%E5%A5%88%E7%89%B9%E4%BA%B2%E7%AC%94%E8%87%AA%E4%BC%A0"
   }
 ]
