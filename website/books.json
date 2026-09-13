@@ -1,12 +1,42 @@
 [
   {
+    "title": "AI工程 : 大模型应用开发实战",
+    "author": "[越] 奇普·萱",
+    "rating": "⭐8.7",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/22c1373f9080fd96.jpg",
+    "summary": "本书由奇普·萱撰写，系统阐述AI工程的核心方法，讨论如何基于现成的基础模型构建高效且实用的AI应用。全书覆盖AI应用开发全流程，提供完整的AI工程框架，涵盖模型选择与评估、提示工程、RAG与智能体、微调策略、数据集工程、推理优化以及AI工程架构等关键环节。作者结合业界经验，通过大量真实案例与可操作方法，说明在复杂AI生态中作出技术决策的路径，并呈现让AI应用更快、更可靠、更具扩展性的工程实践。",
+    "recommended_date": "2026-09-13",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=AI%E5%B7%A5%E7%A8%8B%20%3A%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98"
+  },
+  {
+    "title": "从零构建大模型",
+    "author": "[美] 塞巴斯蒂安·拉施卡",
+    "rating": "⭐9.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/dcd3e701e6490c65.jpg",
+    "summary": "本书由塞巴斯蒂安·拉施卡撰写，围绕从零开始构建大模型展开，借助清晰的文字、图表和实例，逐步说明大模型各组成部分的规划与编写方法。内容覆盖训练数据集的准备、通用语料库的预训练、特定任务的微调，以及利用人工反馈让模型遵循指令、把预训练权重加载到模型中。作者是GitHub项目LLMs-from-scratch的创建者，也是大模型公司Lightning AI的工程师，书中还讨论构建与优化推理模型的方法和策略，并配有开源代码与视频教程。",
+    "recommended_date": "2026-09-13",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%8E%E9%9B%B6%E6%9E%84%E5%BB%BA%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+  },
+  {
+    "title": "人工智能现代方法（第4版） : 现代方法",
+    "author": "[美] Stuart Russell、[美] Peter Norvig",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/763028df38996c32.jpg",
+    "summary": "本书由斯图尔特·罗素与彼得·诺维格撰写，系统梳理人工智能的理论与实践，以统一风格把流行思想和术语融入广泛关注的应用。全书分7个部分、共28章，理论部分讨论逻辑、概率、连续数学以及感知、推理、学习和行动，并追溯两千多年前的相关思想。该书还涉及公平、信任、社会公益与安全等议题。实践部分选取微电子设备、机器人行星探测器、拥有数十亿用户的在线服务、AlphaZero、人形机器人、自动驾驶和人工智能辅助医疗等案例，呈现理论同现代应用之间的连接。",
+    "recommended_date": "2026-09-13",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89%20%3A%20%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95"
+  },
+  {
     "title": "河西走廊",
     "author": "胡成",
     "rating": "⭐7.5",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d6de940d09b12871.jpg",
     "summary": "本书是作者胡成自驾西行写成的非虚构作品，融合历史考证、地理游记与文化随笔。行程从兰州出发，经武威、张掖、酒泉抵达敦煌，沿清末广东官员裴景福被遣戍新疆的旧路展开。作者跳出汉唐功业与王侯将相的宏大叙事，把目光投向历史洪流中的平凡众生，包括被拐卖的来和、倒毙风雪的老杨，以及现代卖腊肉的摊主、峡口村居的盲人、敦煌谋生的牧羊人和瓜州种枣老农。古今对照的写法串联遗迹、人文变迁与个体命运，铺展这条千年古道百余年的沧桑与百姓生计。",
     "recommended_date": "2026-09-12",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B2%B3%E8%A5%BF%E8%B5%B0%E5%BB%8A"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/84ec73bbb759a0cf.jpg",
     "summary": "本书由作者2012年、2019年和2024年三次旅居德国的经历构成。走访集中营、战争相关博物馆与纪念馆，并采访研究者、战争亲历者后代等，作者把旅行、战后德国旅行与观念旅行交织起来。全书围绕20世纪留下的问题展开：进步叙事、二元对立、失落身份、言论自由与政治正确、群体性狂热、民族主义以及受害者奥林匹克等。作者以十三年时间整理见闻与思考，将德国记忆与当下议题并置，形成一部关于希望与恐惧的纪实作品。",
     "recommended_date": "2026-09-12",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%9B%BD%E5%BA%A6%20%3A%20%E5%9C%A820%E4%B8%96%E7%BA%AA%E5%BA%9F%E5%A2%9F%E4%B8%8A%E7%9A%84%E6%BC%AB%E6%B8%B8"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d2b49daefd43de28.jpg",
     "summary": "本书源自作者1958年抵达加纳后的三十多年非洲行纪。作为社会主义波兰首位驻外记者，他往返数十个国家和地区，出现在流血冲突、军事政变现场，也走进丛林村落与撒哈拉旅途。作者出入将军和部长的宅邸，造访叛军首领指挥部，与尼日利亚流民在棚户区比邻而居，并在桑给巴尔触摸奴隶贸易留下的历史伤痕。全书融合历史、旅行与人文观察，以第一现场报道和深入内陆的见闻，呈现非洲复杂而多层的图景，中文版由波兰语直译，收录其女儿序言与杰夫·戴尔后记。",
     "recommended_date": "2026-09-12",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%AA%E9%98%B3%E7%9A%84%E9%98%B4%E5%BD%B1%20%3A%20%E6%B7%B1%E5%85%A5%E9%9D%9E%E6%B4%B2%E7%9A%84%E6%97%85%E7%A8%8B"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/105792f28a8f4b82.jpg",
     "summary": "本书围绕商业中如何判断真实需求展开，作者梁宁以三十年行业观察为基础，讨论产品、创新与团队动力为何常常偏离本质。书中提出价值、共识、模式三个环节组成的分析框架，用来辨认需求是否真实，以及商业活动在哪个环节出现断裂。作者还用丝绸之路、SHEIN蜕变、中国手机三十年崛起、脑白金与瑞幸等产业故事，说明需求如何形成、扩散并改变竞争格局。全书不把创新归于运气，而将其视为可拆解、可审视的系统问题。",
     "recommended_date": "2026-09-11",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%9C%9F%E9%9C%80%E6%B1%82"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/0c7d73440cc0b636.jpg",
     "summary": "本书是宁高宁对人生与职业生涯的回望，记叙其成长经历，也梳理执掌三家央企期间的实践与思考。书中出现华润置地挂牌上市、中粮并购尼德拉与来宝农业、中化集团和中国化工合并等重要节点，也涉及人才选拔培养、团队整合激励等日常管理功夫。作者对这些片段逐一复盘，提炼经营原则与理念，并回忆影响自身的人和书，追溯思考与行事逻辑的源头。全书由此讨论人生意义，呈现从小城青年到商界领袖的路径与其形成的问题意识。",
     "recommended_date": "2026-09-11",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%89%E7%94%9F%E4%B8%87%E7%89%A9"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f73828c1ec98cef6.jpg",
     "summary": "本书由单伟建依据亲历写成，聚焦亚洲金融危机后新桥团队收购韩国第一银行的交易。作者以实际操盘者视角，还原从起意、谈判、成交、管理到出售的全过程，也写到政商关系、商业竞争、民族情绪与舆论导向交织的复杂局面。面对强劲对手、政治气氛变化、谈判人员更替和民族情绪升温，新桥与韩国政府共同投资约九亿美元完成收购。此后五年，银行扭亏为盈，总资产增至四百亿美元以上，最终以三十三亿美元售予渣打银行，渣打对其风险管理体系给出很高评价。",
     "recommended_date": "2026-09-11",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%91%E9%92%B1%E5%8D%9A%E5%BC%88%20%3A%20%E9%87%8D%E6%8C%AF%E9%9F%A9%E5%9B%BD%E7%AC%AC%E4%B8%80%E9%93%B6%E8%A1%8C%E5%86%85%E5%B9%95"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/032183de97267759.jpg",
     "summary": "小说是余华一九九五年创作的长篇，故事背景跨越二十世纪中后期的中国城镇。主人公许三观是城里丝厂送茧工，从娶亲、荒年到儿病，一次次走进血站，用卖血换钱。作品以冷冽的白描与重复叙事，写普通人被贫穷反复逼迫时的求生方式；卖完血后吃炒猪肝、喝黄酒，是许三观给身体与精神的双重补偿。卖血既是许三观应对具体难关的现金来源，也映照出底层人物在时代压力下所能依凭的有限途径。",
     "recommended_date": "2026-09-10",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%AE%B8%E4%B8%89%E8%A7%82%E5%8D%96%E8%A1%80%E8%AE%B0"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/412407a45d290a6e.jpg",
     "summary": "小说以一九七三年大阪废弃建筑内的凶案开篇，死者遭利器刺死后，案件因无法突破的不在场证明而悬置。此后二十年间，嫌疑人的女儿与死者的儿子各自生活，却又不断被卷入异常事件，当年刑警对此紧追不放。作品以多人物视角和碎片化情节，逐步拼出两人幽暗关系的全貌；这种结构使案件不再是单一推理，而成为观察社会伤害如何累积与蔓延的长卷。该书曾获周刊文春推理小说年度十佳第一名，是东野圭吾长篇写作的重要代表。",
     "recommended_date": "2026-09-10",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%99%BD%E5%A4%9C%E8%A1%8C"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ad832f85cfee76ec.jpg",
     "summary": "故事以二十世纪三十年代美国南方小镇为背景，透过女孩斯库特的回忆展开。其父阿蒂克斯·芬奇是白人律师，受命为被控强奸白人女子的黑人汤姆·鲁滨逊辩护，使全家承受社群敌意。斯库特与哥哥杰姆在观看审判时逐渐体会到偏见对真相的压制，而知更鸟的意象则把这种压制与无辜者命运相连，使小说追问公正与教养的边界。该书在美国文学与教育领域被反复讨论，是反思种族议题与家庭示范的经典文本。",
     "recommended_date": "2026-09-10",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c7923ab420dcf43c.jpg",
     "summary": "该书由最佳营养学创始人帕特里克·霍尔福德撰写，系统阐述“最佳营养”的原理：依据个体不同的营养需求摄入适宜营养素，使身体尽可能保持健康。书中分章解释理想饮食与身体内部运作的关系，提供个人营养方案的设计步骤，并收录营养学疗法档案，梳理不同健康状态下的营养干预要点。作者同时重新定义健康、保健和药物治疗的基本概念，强调食物、维生素与矿物质在维持身体机能中的基础作用。",
     "recommended_date": "2026-09-09",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%90%A5%E5%85%BB%E5%9C%A3%E7%BB%8F"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/adacdc72caf2bd4c.jpg",
     "summary": "本书是村上春树少有的自传式随笔，记录其长年坚持跑步与小说写作交织而成的生活，也是他第一次把写作对象转向自己。作者讲述在雅典沿马拉松路线奔跑的经历，也写到在纽约等地比赛和训练时对体力与意志的观察。比赛中的酸痛、厌倦和忍耐被如实呈现，并与其创作中的纪律感形成对照。全书以日期为标记串联多年的跑步笔记，没有虚构故事框架，而是把运动中的身体经验与写作生涯放在一起记录。",
     "recommended_date": "2026-09-09",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E6%88%91%E8%B0%88%E8%B7%91%E6%AD%A5%E6%97%B6%E6%88%91%E8%B0%88%E4%BA%9B%E4%BB%80%E4%B9%88"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c91181cef010f9e8.jpg",
     "summary": "本书由神经科学家马修·沃克撰写，汇总人类睡眠研究的大量成果，阐明睡眠对大脑与身体的影响。沃克解释昼夜节律和睡眠压力的共同作用，分析睡眠不足与癌症、抑郁症、阿尔茨海默病等疾病的关联，并讨论梦境在记忆巩固和情绪疗愈中的角色。书中考察酒精、电子屏幕、空调等现代因素如何干扰安睡，同时说明失眠者面对的药物与非药物选择，也涉及儿童期、中年期、老年期不同的睡眠需求。",
     "recommended_date": "2026-09-09",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%9D%A1%E8%A7%89%EF%BC%9F"
-  },
-  {
-    "title": "为父则刚",
-    "author": "杨雨坤 著",
-    "rating": "⭐9.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6f2ec831c31bcc8d.jpg",
-    "summary": "本书是计算神经科学博士杨雨坤的亲身育儿记录。他在异国独自攻读博士学位，同时照顾一岁的女儿，在论文与尿布之间狼狈穿行，也常在母婴室门外无措。书中回顾这些日常片段，试图呈现父职叙事的缺失：他质疑为何向来无人过问孩子爸爸的去向，也拒绝将爸爸带娃当作奇观。作者还将脑科学引入育儿现场，讨论如何对待前额叶，强调带娃对父亲大脑同样有益，以个人经验反思默认由母亲承担育儿责任的社会习惯。",
-    "recommended_date": "2026-09-08",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%BA%E7%88%B6%E5%88%99%E5%88%9A"
-  },
-  {
-    "title": "1.23% : 破幻的微光",
-    "author": "李家杰",
-    "rating": "⭐7.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/7ccc988a7bfec133.jpg",
-    "summary": "李家杰19岁时曾在英国墓园第一次直面死亡，历经四十多年商界与公益实践后，将跨界思考汇成思辨之作。书中以人类与黑猩猩之间仅1.23%的基因差异为起点，讨论理性与兽性的分野；随后系统剖析潜意识暗中操控、社会精心布置的幸福陷阱，以及人工智能、气候剧变等时代议题。作者承认，人脑的98.77%被兽性本能所驱动，却指出仍存有那1.23%的清醒，在理性、悲悯与合作之中把握破幻的微光。",
-    "recommended_date": "2026-09-08",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=1.23%25%20%3A%20%E7%A0%B4%E5%B9%BB%E7%9A%84%E5%BE%AE%E5%85%89"
-  },
-  {
-    "title": "事实 : 用数据思考，避免情绪化决策",
-    "author": "[瑞典] 汉斯·罗斯林、[瑞典] 欧拉·罗斯林、[瑞典] 安娜·罗斯林·罗朗德",
-    "rating": "⭐7.9",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/656c744736bb3bbe.jpg",
-    "summary": "该书以大量全球统计数据和实例审视人类对世界的认知。它指出，人们常受一分为二、以偏概全、单一视角、情急生乱等情绪化本能影响，形成偏差判断。书中列举多种事实：多数国家属于中等收入行列，不再是传统发达与发展中国家的二分格局；街头停工半截的房屋可能是一种储蓄方式；美国人均卫生支出居世界第一，平均预期寿命却只列第40位。作者由此演示如何用数据校正直觉，并说明错误判断往往源于这些情绪化本能。",
-    "recommended_date": "2026-09-08",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%8B%E5%AE%9E%20%3A%20%E7%94%A8%E6%95%B0%E6%8D%AE%E6%80%9D%E8%80%83%EF%BC%8C%E9%81%BF%E5%85%8D%E6%83%85%E7%BB%AA%E5%8C%96%E5%86%B3%E7%AD%96"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%9D%A1%E8%A7%89%EF%BC%9F"
   }
 ]

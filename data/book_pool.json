@@ -144,6 +144,38 @@
     "discovered_date": "2026-07-25"
   },
   {
+    "key": "isbn:9780136042594",
+    "keys": [
+      "isbn:9780136042594",
+      "title_author:artificialintelligence:amodernapproach|stuartrussell、peternorvig"
+    ],
+    "theme": "人工智能",
+    "title": "Artificial Intelligence : A Modern Approach",
+    "author": "Stuart Russell、Peter Norvig",
+    "isbn": "9780136042594",
+    "rating": "⭐9.2",
+    "cover": "https://img9.doubanio.com/view/subject/s/public/s4093425.jpg",
+    "summary": "The long-anticipated revision of this #1 selling book offers the most comprehensive, state of the art introduction to the theory and practice of artificial intelligence for modern applications. Intelligent Agents. Solving Problems by Searching. Informed Search Methods. Game Playing. Agents that Reason Logically. First-order Logic. Building a Knowledge Base. Inference in First-Order Logic. Logical Reasoning Systems. Practical Planning. Planning and Acting. Uncertainty. Probabilistic Reasoning Systems. Making Simple Decisions. Making Complex Decisions. Learning from Observations. Learning with Neural Networks. Reinforcement Learning. Knowledge in Learning. Agents that Communicate. Practical Communication in English. Perception. Robotics. For computer professionals, linguists, and cognitive s...",
+    "source": "豆瓣读书标签页",
+    "discovered_date": "2026-09-13"
+  },
+  {
+    "key": "isbn:9787115696533",
+    "keys": [
+      "isbn:9787115696533",
+      "title_author:claudecode实战harness工程之道|黄佳"
+    ],
+    "theme": "人工智能",
+    "title": "Claude Code实战 Harness工程之道",
+    "author": "黄佳",
+    "isbn": "9787115696533",
+    "rating": "⭐9.2",
+    "cover": "https://img3.doubanio.com/view/subject/s/public/s35485557.jpg",
+    "summary": "本书系统介绍了Claude Code的技术架构与工程化实践。全书从“软件工程”视角，解析了从命令行助手到可编程Agent的演进路径，并围绕Claude Code的四层架构模型展开，深入探讨了记忆系统（CLAUDE.md）、技能（Skills）、子智能体（SubAgents）、事件钩子（Hooks）与MCP等核心机制的设计哲学与协同原理。书中不仅提供了翔实的技术选型指南、组件配置方法和触发机制对比，更通过大量实战案例，展示了如何构建安全、高效、可维护的AI辅助编程工作流，涵盖从个人开发到团队协作，再到与CI/CD流水线集成的企业级部署全流程。\n本书适合具备一定编程基础，并希望将Claude Code深度集成至日常开发与团队流程中的开发者、全栈工程师和技术团队负责人等阅读。",
+    "source": "豆瓣读书标签页",
+    "discovered_date": "2026-09-13"
+  },
+  {
     "key": "isbn:9787542643216",
     "keys": [
       "isbn:9787542643216",
@@ -224,6 +256,22 @@
     "discovered_date": "2026-08-23"
   },
   {
+    "key": "isbn:9787115669773",
+    "keys": [
+      "isbn:9787115669773",
+      "title_author:深度学习入门5:生成模型|[日]斋藤康毅"
+    ],
+    "theme": "人工智能",
+    "title": "深度学习入门5 : 生成模型",
+    "author": "[日] 斋藤康毅",
+    "isbn": "9787115669773",
+    "rating": "⭐9.1",
+    "cover": "https://img9.doubanio.com/view/subject/s/public/s35180466.jpg",
+    "summary": "作为深度学习入门经典的“鱼书”系列第5部作品，本书围绕“生成模型”的基础概念展开。全书以连贯故事形式，通过10个步骤，依次讲解与生成模型相关的重要技术，包括正态分布、最大似然估计、多维正态分布、高斯混合模型、EM算法、神经网络、变分自动编码器，最后的3个步骤剖析扩散模型的理论、实现与应用。本书由浅入深，带领读者在积累必备知识的同时，一步步实现，最终构建Stable Diffusion这样的图像生成模型。本书与“鱼书”系列前4部作品一脉相承，强调动手实践和从零开始构建，学习过程充满乐趣和收获。\n编辑推荐\n● 理解Midjourney、GPT-image-1、Gemini imagen 3、Flux.1、Recraft V、Ideogram 3.0等流行图像生成模型背后的原理\n● 全系列豆瓣评分：9.5高分\n● 全系列销量突破19万册（数据来源人民邮电出版社发行系统和版权方统计数据）\n● 深度学习入门经典“鱼书”系列第五部分作品，全彩印刷",
+    "source": "豆瓣读书标签页",
+    "discovered_date": "2026-09-13"
+  },
+  {
     "key": "isbn:9787303183876",
     "keys": [
       "isbn:9787303183876",
@@ -302,6 +350,22 @@
     "summary": "《二十世纪西方文学理论》初版于1983年，是伊格尔顿向英国普通读者系统介绍和评论西方世纪文学理论的一本专著。作者将起自俄国形式主义的纷繁复杂的20世纪西方文学理论革命梳理出从形式主义、结构主义到后结构主义，从现象学、诠释学到接受美学以及精神分析理论三条主要的发展脉络，对其产生和流变、问题和局限进行了深入分析。",
     "source": "豆瓣读书标签页",
     "discovered_date": "2026-08-14"
+  },
+  {
+    "key": "isbn:9787115545992",
+    "keys": [
+      "isbn:9787115545992",
+      "title_author:零基础学机器学习|黄佳"
+    ],
+    "theme": "人工智能",
+    "title": "零基础学机器学习",
+    "author": "黄佳",
+    "isbn": "9787115545992",
+    "rating": "⭐9.0",
+    "cover": "https://img1.doubanio.com/view/subject/s/public/s33771410.jpg",
+    "summary": "本书的目标，是让非机器学习领域甚至非计算机专业出身但有学习需求的人，轻松地掌握机器学习的基本知识，从而拥有相关的实战能力。\n本书通过AI“小白”小冰拜师程序员咖哥学习机器学习的对话展开，内容轻松，实战性强，主要包括机器学习快速上手路径、数学和Python基础知识、机器学习基础算法（线性回归和逻辑回归）、深度神经网络、卷积神经网络、循环神经网络、经典算法、集成学习、无监督和半监督等非监督学习类型、强化学习实战等内容，以及相关实战案例。本书所有案例均通过Python及Scikit-learn机器学习库和Keras深度学习框架实现，同时还包含丰富的数据分析和数据可视化内容。\n本书适合对AI感兴趣的程序员、项目经理、在校大学生以及任何想以零基础学机器学习的人，用以入门机器学习领域，建立从理论到实战的知识通道。",
+    "source": "豆瓣读书标签页",
+    "discovered_date": "2026-09-13"
   },
   {
     "key": "isbn:9787301372760",

@@ -1,32 +1,32 @@
 [
   {
-    "title": "河西走廊",
-    "author": "胡成",
-    "rating": "⭐7.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d6de940d09b12871.jpg",
-    "summary": "本书是作者胡成自驾西行写成的非虚构作品，融合历史考证、地理游记与文化随笔。行程从兰州出发，经武威、张掖、酒泉抵达敦煌，沿清末广东官员裴景福被遣戍新疆的旧路展开。作者跳出汉唐功业与王侯将相的宏大叙事，把目光投向历史洪流中的平凡众生，包括被拐卖的来和、倒毙风雪的老杨，以及现代卖腊肉的摊主、峡口村居的盲人、敦煌谋生的牧羊人和瓜州种枣老农。古今对照的写法串联遗迹、人文变迁与个体命运，铺展这条千年古道百余年的沧桑与百姓生计。",
-    "recommended_date": "2026-09-12",
+    "title": "AI工程 : 大模型应用开发实战",
+    "author": "[越] 奇普·萱",
+    "rating": "⭐8.7",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/22c1373f9080fd96.jpg",
+    "summary": "本书由奇普·萱撰写，系统阐述AI工程的核心方法，讨论如何基于现成的基础模型构建高效且实用的AI应用。全书覆盖AI应用开发全流程，提供完整的AI工程框架，涵盖模型选择与评估、提示工程、RAG与智能体、微调策略、数据集工程、推理优化以及AI工程架构等关键环节。作者结合业界经验，通过大量真实案例与可操作方法，说明在复杂AI生态中作出技术决策的路径，并呈现让AI应用更快、更可靠、更具扩展性的工程实践。",
+    "recommended_date": "2026-09-13",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B2%B3%E8%A5%BF%E8%B5%B0%E5%BB%8A"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=AI%E5%B7%A5%E7%A8%8B%20%3A%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98"
   },
   {
-    "title": "另一个国度 : 在20世纪废墟上的漫游",
-    "author": "杨潇",
-    "rating": "⭐8.9",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/84ec73bbb759a0cf.jpg",
-    "summary": "本书由作者2012年、2019年和2024年三次旅居德国的经历构成。走访集中营、战争相关博物馆与纪念馆，并采访研究者、战争亲历者后代等，作者把旅行、战后德国旅行与观念旅行交织起来。全书围绕20世纪留下的问题展开：进步叙事、二元对立、失落身份、言论自由与政治正确、群体性狂热、民族主义以及受害者奥林匹克等。作者以十三年时间整理见闻与思考，将德国记忆与当下议题并置，形成一部关于希望与恐惧的纪实作品。",
-    "recommended_date": "2026-09-12",
+    "title": "从零构建大模型",
+    "author": "[美] 塞巴斯蒂安·拉施卡",
+    "rating": "⭐9.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/dcd3e701e6490c65.jpg",
+    "summary": "本书由塞巴斯蒂安·拉施卡撰写，围绕从零开始构建大模型展开，借助清晰的文字、图表和实例，逐步说明大模型各组成部分的规划与编写方法。内容覆盖训练数据集的准备、通用语料库的预训练、特定任务的微调，以及利用人工反馈让模型遵循指令、把预训练权重加载到模型中。作者是GitHub项目LLMs-from-scratch的创建者，也是大模型公司Lightning AI的工程师，书中还讨论构建与优化推理模型的方法和策略，并配有开源代码与视频教程。",
+    "recommended_date": "2026-09-13",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%9B%BD%E5%BA%A6%20%3A%20%E5%9C%A820%E4%B8%96%E7%BA%AA%E5%BA%9F%E5%A2%9F%E4%B8%8A%E7%9A%84%E6%BC%AB%E6%B8%B8"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%8E%E9%9B%B6%E6%9E%84%E5%BB%BA%E5%A4%A7%E6%A8%A1%E5%9E%8B"
   },
   {
-    "title": "太阳的阴影 : 深入非洲的旅程",
-    "author": "[波] 雷沙德·卡普希钦斯基",
-    "rating": "⭐9.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d2b49daefd43de28.jpg",
-    "summary": "本书源自作者1958年抵达加纳后的三十多年非洲行纪。作为社会主义波兰首位驻外记者，他往返数十个国家和地区，出现在流血冲突、军事政变现场，也走进丛林村落与撒哈拉旅途。作者出入将军和部长的宅邸，造访叛军首领指挥部，与尼日利亚流民在棚户区比邻而居，并在桑给巴尔触摸奴隶贸易留下的历史伤痕。全书融合历史、旅行与人文观察，以第一现场报道和深入内陆的见闻，呈现非洲复杂而多层的图景，中文版由波兰语直译，收录其女儿序言与杰夫·戴尔后记。",
-    "recommended_date": "2026-09-12",
+    "title": "人工智能现代方法（第4版） : 现代方法",
+    "author": "[美] Stuart Russell、[美] Peter Norvig",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/763028df38996c32.jpg",
+    "summary": "本书由斯图尔特·罗素与彼得·诺维格撰写，系统梳理人工智能的理论与实践，以统一风格把流行思想和术语融入广泛关注的应用。全书分7个部分、共28章，理论部分讨论逻辑、概率、连续数学以及感知、推理、学习和行动，并追溯两千多年前的相关思想。该书还涉及公平、信任、社会公益与安全等议题。实践部分选取微电子设备、机器人行星探测器、拥有数十亿用户的在线服务、AlphaZero、人形机器人、自动驾驶和人工智能辅助医疗等案例，呈现理论同现代应用之间的连接。",
+    "recommended_date": "2026-09-13",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%AA%E9%98%B3%E7%9A%84%E9%98%B4%E5%BD%B1%20%3A%20%E6%B7%B1%E5%85%A5%E9%9D%9E%E6%B4%B2%E7%9A%84%E6%97%85%E7%A8%8B"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89%20%3A%20%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95"
   }
 ]
