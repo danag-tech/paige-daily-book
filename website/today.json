@@ -1,32 +1,32 @@
 [
   {
-    "title": "AI工程 : 大模型应用开发实战",
-    "author": "[越] 奇普·萱",
-    "rating": "⭐8.7",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/22c1373f9080fd96.jpg",
-    "summary": "本书由奇普·萱撰写，系统阐述AI工程的核心方法，讨论如何基于现成的基础模型构建高效且实用的AI应用。全书覆盖AI应用开发全流程，提供完整的AI工程框架，涵盖模型选择与评估、提示工程、RAG与智能体、微调策略、数据集工程、推理优化以及AI工程架构等关键环节。作者结合业界经验，通过大量真实案例与可操作方法，说明在复杂AI生态中作出技术决策的路径，并呈现让AI应用更快、更可靠、更具扩展性的工程实践。",
-    "recommended_date": "2026-09-13",
+    "title": "爱的辛劳 : 一名心理咨询师见证的欲望、创伤与人间",
+    "author": "[美] 斯蒂芬·格罗斯",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/192d6f4ffc7f95f0.jpg",
+    "summary": "本书是美国精神分析师斯蒂芬·格罗斯从业四十余年的案例集，收录十多个与爱有关的精神分析咨询故事。书中写到自律女性无法寄出婚姻请柬，这件小事牵出她前后五十多年的人生；也写到雕塑家中年丧妻后消沉十年。作者通过言语、记忆与梦寻找潜意识的线索，呈现自我、家庭、事业和抉择中的复杂面向。案例围绕亲情模式、早年经历、潜藏欲望与创伤展开，强调爱需要付出辛劳，并点出精神分析是双方共同思考、共同寻找意义的过程。",
+    "recommended_date": "2026-09-14",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=AI%E5%B7%A5%E7%A8%8B%20%3A%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%88%B1%E7%9A%84%E8%BE%9B%E5%8A%B3%20%3A%20%E4%B8%80%E5%90%8D%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E5%B8%88%E8%A7%81%E8%AF%81%E7%9A%84%E6%AC%B2%E6%9C%9B%E3%80%81%E5%88%9B%E4%BC%A4%E4%B8%8E%E4%BA%BA%E9%97%B4"
   },
   {
-    "title": "从零构建大模型",
-    "author": "[美] 塞巴斯蒂安·拉施卡",
-    "rating": "⭐9.4",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/dcd3e701e6490c65.jpg",
-    "summary": "本书由塞巴斯蒂安·拉施卡撰写，围绕从零开始构建大模型展开，借助清晰的文字、图表和实例，逐步说明大模型各组成部分的规划与编写方法。内容覆盖训练数据集的准备、通用语料库的预训练、特定任务的微调，以及利用人工反馈让模型遵循指令、把预训练权重加载到模型中。作者是GitHub项目LLMs-from-scratch的创建者，也是大模型公司Lightning AI的工程师，书中还讨论构建与优化推理模型的方法和策略，并配有开源代码与视频教程。",
-    "recommended_date": "2026-09-13",
+    "title": "红书",
+    "author": "[瑞士] 荣格（C. G. Jung）原著、[英] 索努·沙姆达萨尼（Sonu Shamdasani）编译",
+    "rating": "⭐9.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/1c76d13cc2d1abd4.jpg",
+    "summary": "本书由瑞士心理学家荣格原著，索努·沙姆达萨尼编译，被视为荣格在1914年至1930年间的私人日记与自我实验记录。荣格花费十六年雕琢这部作品，将它看作后期著作的核心与关键来源，却在之后突然中断写作并将之束之高阁。荣格去世后几十年，继承人协会授权沙姆达萨尼编辑、翻译和出版，相关考证与注解耗费十三年。书中结合神话、梦境、绘画和书法，呈现荣格在特殊时期探索潜意识、修复内在秩序并继续心理学研究的过程。",
+    "recommended_date": "2026-09-14",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%8E%E9%9B%B6%E6%9E%84%E5%BB%BA%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BA%A2%E4%B9%A6"
   },
   {
-    "title": "人工智能现代方法（第4版） : 现代方法",
-    "author": "[美] Stuart Russell、[美] Peter Norvig",
-    "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/763028df38996c32.jpg",
-    "summary": "本书由斯图尔特·罗素与彼得·诺维格撰写，系统梳理人工智能的理论与实践，以统一风格把流行思想和术语融入广泛关注的应用。全书分7个部分、共28章，理论部分讨论逻辑、概率、连续数学以及感知、推理、学习和行动，并追溯两千多年前的相关思想。该书还涉及公平、信任、社会公益与安全等议题。实践部分选取微电子设备、机器人行星探测器、拥有数十亿用户的在线服务、AlphaZero、人形机器人、自动驾驶和人工智能辅助医疗等案例，呈现理论同现代应用之间的连接。",
-    "recommended_date": "2026-09-13",
+    "title": "早安，怪物",
+    "author": "[加] 凯瑟琳·吉尔迪纳",
+    "rating": "⭐9.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/5c53cf90ffa5378e.jpg",
+    "summary": "本书是加拿大心理治疗师凯瑟琳·吉尔迪纳的回忆录，取材于二十多年职业生涯中五位来访者的治疗过程。这些人在童年均遭遇严重心理创伤，起初因迫在眉睫的生活问题求助，痛苦根源却埋藏多年。作者以小说般笔法记录诊室中的对话与沉默，呈现医治关系如何逐步展开。五个案例被组织成心理层面的探索历程，涉及记忆、恐惧、边界与亲密关系等议题，该书曾获美国电视节目早安美国2020年最佳图书，并获美国亚马逊网站最佳自传与回忆录类选书。",
+    "recommended_date": "2026-09-14",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89%20%3A%20%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%A9%E5%AE%89%EF%BC%8C%E6%80%AA%E7%89%A9"
   }
 ]
