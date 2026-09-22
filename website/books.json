@@ -1,12 +1,42 @@
 [
   {
+    "title": "风景与西方艺术",
+    "author": "【英】马尔科姆·安德鲁斯",
+    "rating": "⭐8.8",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/baa9c67e9d7a585c.jpg",
+    "summary": "该书属于牛津艺术史丛书，由马尔科姆·安德鲁斯撰写，以文艺复兴后近五百年的西方风景画为线索。作者讨论风景如何从传统绘画的背景，逐步变成独立的艺术类型，并考察它与人与自然的关系、文化建构、政治和经济价值之间的关联。书中收录逾百幅名画与摄影作品，将风景视为一座建筑或一所剧院，观看位置与画面安排共同参与意义生成。安德鲁斯结合艺术史材料与跨学科分析，呈现风景概念在西方艺术中的演变脉络。",
+    "recommended_date": "2026-09-22",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%A3%8E%E6%99%AF%E4%B8%8E%E8%A5%BF%E6%96%B9%E8%89%BA%E6%9C%AF"
+  },
+  {
+    "title": "面孔 : 从君主肖像到全民自拍",
+    "author": "[意] 里卡尔多·法尔奇内利",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/2bc9f5cc159e228c.jpg",
+    "summary": "该书由《图像》《色彩》作者法尔奇内利撰写，围绕人类如何塑造与辨认面孔展开。从三百万年前一块酷似人脸的石头，到社交媒体时代的自拍，作者考察肖像、面具、雕塑、照片、漫画与人工智能图像等多种形态。书中追问肖像为何可以不像本人、美能否被测量，以及神明、君主和善恶角色的面容如何被图像传统建构。近六百张图片横跨艺术、哲学、历史与心理领域，说明面孔呈现始终与政治、历史、科技和心理交织。",
+    "recommended_date": "2026-09-22",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9D%A2%E5%AD%94%20%3A%20%E4%BB%8E%E5%90%9B%E4%B8%BB%E8%82%96%E5%83%8F%E5%88%B0%E5%85%A8%E6%B0%91%E8%87%AA%E6%8B%8D"
+  },
+  {
+    "title": "画家中的画家 : 西方绘画史上的三十座高峰",
+    "author": "张法中",
+    "rating": "⭐9.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9c116e71fcb7f1f.jpg",
+    "summary": "该书源自作者在喜马拉雅平台主讲的西方艺术史课程，以油画家与讲述者的双重视角，选取三十位西方艺术家及其代表作品。时间跨度从文艺复兴时期延伸到二十世纪初，串联起五百年的绘画演变。作者结合历史背景、影响因素与创作理念，分析每幅作品如何形成，并梳理不同阶段风格与观念的变化。全书兼具学术梳理和人文叙述，呈现西方绘画史中的重要节点与艺术家的人生轨迹。",
+    "recommended_date": "2026-09-22",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%94%BB%E5%AE%B6%E4%B8%AD%E7%9A%84%E7%94%BB%E5%AE%B6%20%3A%20%E8%A5%BF%E6%96%B9%E7%BB%98%E7%94%BB%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%B8%89%E5%8D%81%E5%BA%A7%E9%AB%98%E5%B3%B0"
+  },
+  {
     "title": "两京十五日",
     "author": "马伯庸",
     "rating": "⭐8.0",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/153d8d6cdac4b417.jpg",
     "summary": "本书是马伯庸创作的长篇历史小说，故事源于《明史》中关于朱瞻基的一段记载：南京屡震，太子奉命前往居守，仁宗病重后，玺书召还，他最终返回良乡受遗诏入宫发丧。作者从这寥寥数语展开想象，让太子与一名小捕快、一名女医生、一名芝麻官沿大运河星夜奔驰，在千里长河中面对四面楚歌与命悬一线的危机。叙述交织皇权与民意的博弈、宫闱与官场的心机搏杀，以及纠葛数十年的复杂恩怨，并描绘明代大运河沿岸的风土人情。",
     "recommended_date": "2026-09-21",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f63f5569616529f3.jpg",
     "summary": "本书是林奕含创作的长篇小说，围绕十三岁少女房思琪与补习班语文名师李国华的隐秘关系展开。李国华以批改作文为名接近她，侵害持续发生，房思琪在文学教养与现实暴力之间不断追问这种关系是否可称为爱情。与房思琪情同双胞的刘怡婷在她精神失常后，通过日记拼合其五年中的所见所思；嫁入钱家的许伊纹既是两位少女的文学启蒙者，也承受丈夫家暴。作者以贴近被侵害者的视角书写创伤，使整件事像幸存的标本被保存下来。",
     "recommended_date": "2026-09-21",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/a532970dbafb5c0d.jpg",
     "summary": "本书是韩江的代表作，曾获国际布克文学奖与韩国李箱文学奖。作者在颁奖礼致辞中谈到，写作时思考人类暴力能达到什么程度、如何界定理智和疯狂、能在多大程度上理解别人，并试图刻画一个誓死不愿加入人类群体的女性。作品以一名拒绝吃肉、拒斥社会规范的女性的选择为中心，家庭、婚姻与周围目光由此形成持续冲突。该书售出四十三个国家和地区版权，累计销量突破六百万册，并入选《连线》杂志十年十佳等书单。",
     "recommended_date": "2026-09-21",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%B4%A0%E9%A3%9F%E8%80%85"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fed10a3a2456b05b.jpg",
     "summary": "本书收录作者在二〇〇八至二〇一六年间写下的文章、演讲与对谈，这些文字与电影作品并行，记录电影内外的生活和思索。内容涉及对历史和社会剧变的关怀与反思，也揭示其电影创作的缘起和归宿。书中写到被政治打扰的个人、被时光遗忘的生命细节，以及被权力和经济利益抛向边缘的个人，并叙述经济运动中普通人的悲欢离合。作者还回望汾阳街道、北京胡同、县城少年与文学启蒙恩师，谈及与侯孝贤、杨德昌等前辈的交往与遗憾，并说明以电影打捞历史细节、对抗遗忘的初衷。",
     "recommended_date": "2026-09-20",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B4%BE%E6%83%B3II%20%3A%20%E8%B4%BE%E6%A8%9F%E6%9F%AF%E7%94%B5%E5%BD%B1%E6%89%8B%E8%AE%B02008%E2%80%942016"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/326c7896b3e2fa82.jpg",
     "summary": "本书由张靓蓓记录整理，以导演李安第一人称口述的方式，讲述其电影生涯第一个十年的历程。书中从两次高考落榜、意外进入舞台，到纽约名校毕业后失业，再到在美国煮饭、带孩子、做全职家庭煮夫六年，以及年近四十仍在剧组守夜看器材、扛沙袋的经历。它也呈现李安面对磨难与荣耀时的自我对话，并谈及对电影创作与自我修养的思考。美国《时代》周刊、张艺谋、陈文茜等对其成就有评价。",
     "recommended_date": "2026-09-20",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8D%81%E5%B9%B4%E4%B8%80%E8%A7%89%E7%94%B5%E5%BD%B1%E6%A2%A6%20%3A%20%E6%9D%8E%E5%AE%89%E4%BC%A0"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fdf0e14479299f6f.jpg",
     "summary": "本书是导演是枝裕和历时八年写成的首部自传性随笔集。作者回顾三十余年创作生涯，讲述每一部经典作品背后的传奇故事、缘起与理念，记录各创作时期对电影的探索与思考，以及对世界和人生的看法。书中既汇集电影大师的哲思与灵光，也讲述一位导演从赊账拍片到斩获世界各大电影节奖项的历程。日本出版后连续六次紧急加印，《朝日新闻》等媒体评价称，哪怕再过一百年，这本书也一定是创作者的圣经。",
     "recommended_date": "2026-09-20",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%8B%8D%E7%94%B5%E5%BD%B1%E6%97%B6%E6%88%91%E5%9C%A8%E6%83%B3%E7%9A%84%E4%BA%8B"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fadd6cd0bb9febea.jpg",
     "summary": "本书将寄生虫置于地球生命史的中心，考察其化学伪装、基因改造与行为操纵等策略。寄生虫能潜入宿主身体、操控神经，使宿主走向天敌口中，也能改写激素与生殖系统，将宿主变为繁育工具。作者进一步梳理寄生虫如何左右演化进程，催生有性生殖，塑造免疫系统，并重写生态格局。该书从蛮荒村落写到人类基因组深处，说明寄生并非自然界的例外，而是生命常态与演化力量。",
     "recommended_date": "2026-09-19",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AF%84%E7%94%9F%E8%99%AB%E6%98%9F%E7%90%83"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/48d36a377f351eda.jpg",
     "summary": "本书以一场跨越五十亿年的宇宙旅行为叙述框架，从夏夜沙滩上的流星切入，带出太阳、星系、黑洞与宇宙演化的图景。作者为霍金亲传弟子、物理学博士，全书不依赖图表和方程式，而以想象推动叙述，经过衰亡的太阳表面，飞越遥远星系，接近黑洞等极端天体。内容覆盖宇宙的过去、现在与未来，并讨论时间起源、上帝是否存在以及人类未来等命题。通过这些场景，该书呈现现代宇宙学的核心知识。",
     "recommended_date": "2026-09-19",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9E%81%E7%AE%80%E5%AE%87%E5%AE%99%E5%8F%B2"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ef8620bd40934871.jpg",
     "summary": "本书围绕现实的基本构成、时间与空间是否真实存在等问题展开，作者从德谟克利特、法拉第、爱因斯坦一路讲到引力波与量子引力，梳理物理学对现实概念的历史变迁。它不借助复杂公式，而以优雅易懂的方式说明经典物理如何让位于现代物理，并呈现当代物理学家理解宇宙结构的路径。相较作者此前的极简物理课作品，本书提供更深入的理论解释。这些内容构成一条从古代自然哲学到现代理论物理的线索。",
     "recommended_date": "2026-09-19",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%8E%B0%E5%AE%9E%E4%B8%8D%E4%BC%BC%E4%BD%A0%E6%89%80%E8%A7%81%20%3A%20%E9%87%8F%E5%AD%90%E5%BC%95%E5%8A%9B%E4%B9%8B%E6%97%85"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/069700ed607e855c.jpg",
     "summary": "该书以文学体裁写成，却承担学术专著的任务，述说两个家庭在民间传统文化与经济背景下，面对新的商业社会经济方式时的不同走向。两家或调整自身以求发展，或因不能适应而日渐衰落，家族关系与生计选择随之变化。作品再现三十年代前后中国农村生活情景，也呈现经济变迁中的社会剖断面，文字浅显流利、朴素平白。作者林耀华将家族制度研究置于具体生活叙述之中，使传统文化、经济方式与家庭兴衰彼此交织。",
     "recommended_date": "2026-09-18",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%91%E7%BF%BC%20%3A%20%E4%B8%AD%E5%9B%BD%E5%AE%B6%E6%97%8F%E5%88%B6%E5%BA%A6%E7%9A%84%E7%A4%BE%E4%BC%9A%E5%AD%A6%E7%A0%94%E7%A9%B6"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c7694aa11b5f3647.jpg",
     "summary": "该书是美国人类学家塞萨·洛的空间研究著作，系统整理空间与地方研究的理论脉络，并提出“文化的空间化”这一核心概念。作者讨论空间的社会生产、社会建构、话语、具身、情感与跨地性，分析空间如何被权力、资本和文化塑造，又反过来影响身份、情感与社会互动。书中选取哥斯达黎加中央公园、台北士林夜市、纽约摩尔街市场、合作公寓等案例，覆盖美洲、欧洲、亚洲八个国家的十一项民族志研究。该书融合人类学、地理学、社会学、城市研究与建筑学等视角，已被译为格鲁吉亚文、土耳其文、俄罗斯文。",
     "recommended_date": "2026-09-18",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%96%87%E5%8C%96%E7%9A%84%E7%A9%BA%E9%97%B4%E5%8C%96%20%3A%20%E7%A9%BA%E9%97%B4%E4%B8%8E%E5%9C%B0%E6%96%B9%E7%9A%84%E6%B0%91%E6%97%8F%E5%BF%97"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/3838d3f90db2b3ec.jpg",
     "summary": "菅志翔的这部专题研究围绕“民族”“族群”等基础概念展开，先辨析族群意识及相关理论，并说明研究路径与方法。随后，该书以历史材料为线索，梳理保安族民族识别过程，考察制度分类、地方记忆与身份叙述之间的互动。作者又依托大量访谈材料，呈现保安人在日常生活中的认同意识，以及政府政策对群体边界的影响。末章回到自我定义与社会定义的关系，在理论层面提出新的命题，也为此前的问题作出回应。",
     "recommended_date": "2026-09-18",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%8F%E7%BE%A4%E5%BD%92%E5%B1%9E%E7%9A%84%E8%87%AA%E6%88%91%E8%AE%A4%E5%90%8C%E4%B8%8E%E7%A4%BE%E4%BC%9A%E5%AE%9A%E4%B9%89%20%3A%20%E5%85%B3%E4%BA%8E%E4%BF%9D%E5%AE%89%E6%97%8F%E7%9A%84%E4%B8%80%E9%A1%B9%E4%B8%93%E9%A2%98%E7%A0%94%E7%A9%B6"
-  },
-  {
-    "title": "家庭收纳1000例",
-    "author": "(日)主妇之友社、[日]近藤典子",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/c5319b95896a5af9.jpg",
-    "summary": "本书由日本主妇之友社与近藤典子编写，汇集家庭收纳专家十八年的经验，被称作“永久保存版”，曾印刷二十宗次，销售几十万册。作者在长期研究中经历许多次失败，才整理出书中的做法，并说明不必逐项重复尝试，可以绕开弯路。全书以大量家庭收纳实例为基础，从简单事项入手，涉及物品归类、空间利用与日常整理等层面。该书按参考手册的形式组织内容，覆盖家庭收纳的具体案例与操作办法。",
-    "recommended_date": "2026-09-17",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AE%B6%E5%BA%AD%E6%94%B6%E7%BA%B31000%E4%BE%8B"
-  },
-  {
-    "title": "小家，越住越大3",
-    "author": "逯薇",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a9ca8dec6d862fbb.jpg",
-    "summary": "本书延续对中小户型居住问题的解析，把装修规划、入户调查与中国特色居住痛点放在一起讨论。作者逯薇首次以大篇幅谈家的颜值，归纳出3×3法则、1+1配色法和视平线法则等解题思路。书中直击厨房开放或封闭、杂物间式飘窗改造、洗漱晾晒最短动线以及三分离卫生间是否跟风等四大功能痛点。对狭窄空间的收纳整理也有分析，并具体讨论十五厘米距离与超薄柜在不同空间的应用，也涉及宝宝画作与说明书等纸制品的归类。",
-    "recommended_date": "2026-09-17",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E5%AE%B6%EF%BC%8C%E8%B6%8A%E4%BD%8F%E8%B6%8A%E5%A4%A73"
-  },
-  {
-    "title": "日常生活中的自我呈现",
-    "author": "（美）欧文·戈夫曼",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/89ee16b3cf2792b2.jpg",
-    "summary": "本书把社会学研究带入戏剧表演的框架，将日常生活视为有组织的社会生活，并分析个体如何在家庭、工业或商业等具体社会设施中呈现自己与活动。作者从舞台演出艺术引申原理，讨论人在普通工作情境中引导和控制他人对其形成印象的方式。前台、后台、剧班与印象管理等概念，构成理解互动秩序的工具。该书关注表演维持过程中个体可能做或不做的事情，也呈现社会设施内行为如何被安排。",
-    "recommended_date": "2026-09-17",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E8%87%AA%E6%88%91%E5%91%88%E7%8E%B0"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%8F%E7%BE%A4%E5%BD%92%E5%B1%9E%E7%9A%84%E8%87%AA%E6%88%91%E8%AE%A4%E5%90%8C%E4%B8%8E%E7%A4%BE%E4%BC%9A%E5%AE%9A%E4%B9%89%20%3A%20%E5%85%B3%E4%BA%8E%E4%BF%9D%E5%AE%89%E6%97%8F%E7%9A%84%E4%B8%80%E9%A1%B9%E4%B8%93%E9%A2%98%E7%A0%94%E7%A9%B6"
   }
 ]
