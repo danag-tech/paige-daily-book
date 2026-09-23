@@ -1,32 +1,32 @@
 [
   {
-    "title": "风景与西方艺术",
-    "author": "【英】马尔科姆·安德鲁斯",
-    "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/baa9c67e9d7a585c.jpg",
-    "summary": "该书属于牛津艺术史丛书，由马尔科姆·安德鲁斯撰写，以文艺复兴后近五百年的西方风景画为线索。作者讨论风景如何从传统绘画的背景，逐步变成独立的艺术类型，并考察它与人与自然的关系、文化建构、政治和经济价值之间的关联。书中收录逾百幅名画与摄影作品，将风景视为一座建筑或一所剧院，观看位置与画面安排共同参与意义生成。安德鲁斯结合艺术史材料与跨学科分析，呈现风景概念在西方艺术中的演变脉络。",
-    "recommended_date": "2026-09-22",
-    "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%A3%8E%E6%99%AF%E4%B8%8E%E8%A5%BF%E6%96%B9%E8%89%BA%E6%9C%AF"
-  },
-  {
-    "title": "面孔 : 从君主肖像到全民自拍",
-    "author": "[意] 里卡尔多·法尔奇内利",
-    "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/2bc9f5cc159e228c.jpg",
-    "summary": "该书由《图像》《色彩》作者法尔奇内利撰写，围绕人类如何塑造与辨认面孔展开。从三百万年前一块酷似人脸的石头，到社交媒体时代的自拍，作者考察肖像、面具、雕塑、照片、漫画与人工智能图像等多种形态。书中追问肖像为何可以不像本人、美能否被测量，以及神明、君主和善恶角色的面容如何被图像传统建构。近六百张图片横跨艺术、哲学、历史与心理领域，说明面孔呈现始终与政治、历史、科技和心理交织。",
-    "recommended_date": "2026-09-22",
-    "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9D%A2%E5%AD%94%20%3A%20%E4%BB%8E%E5%90%9B%E4%B8%BB%E8%82%96%E5%83%8F%E5%88%B0%E5%85%A8%E6%B0%91%E8%87%AA%E6%8B%8D"
-  },
-  {
-    "title": "画家中的画家 : 西方绘画史上的三十座高峰",
-    "author": "张法中",
+    "title": "健身营养全书 : 关于力量与肌肉的营养策略",
+    "author": "克里斯蒂安·冯·勒费尔霍尔茨",
     "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9c116e71fcb7f1f.jpg",
-    "summary": "该书源自作者在喜马拉雅平台主讲的西方艺术史课程，以油画家与讲述者的双重视角，选取三十位西方艺术家及其代表作品。时间跨度从文艺复兴时期延伸到二十世纪初，串联起五百年的绘画演变。作者结合历史背景、影响因素与创作理念，分析每幅作品如何形成，并梳理不同阶段风格与观念的变化。全书兼具学术梳理和人文叙述，呈现西方绘画史中的重要节点与艺术家的人生轨迹。",
-    "recommended_date": "2026-09-22",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/9e9a88d61ac5a5c9.jpg",
+    "summary": "本书由医生兼营养学家克里斯蒂安·冯·勒费尔霍尔茨撰写，聚焦力量训练与肌肉增长中的营养策略。作者以严谨方法剖析七大基本营养素对运动表现和身体组成的作用，并系统整理现代营养学在力量训练领域的研究成果。书中讨论增肌、减脂与运动成绩提升所涉及的营养安排，也解释营养素摄入与训练适应之间的关系。该书在德国出版后多次再版，被奉为运动营养领域的奠基之作。",
+    "recommended_date": "2026-09-23",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%81%A5%E8%BA%AB%E8%90%A5%E5%85%BB%E5%85%A8%E4%B9%A6%20%3A%20%E5%85%B3%E4%BA%8E%E5%8A%9B%E9%87%8F%E4%B8%8E%E8%82%8C%E8%82%89%E7%9A%84%E8%90%A5%E5%85%BB%E7%AD%96%E7%95%A5"
+  },
+  {
+    "title": "你是你吃出来的2 : 慢病康复的饮食密码",
+    "author": "夏萌",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/7443ce9644c3321b.jpg",
+    "summary": "本书由临床营养专家夏萌撰写，讨论高血压、高脂血、糖尿病、痛风等慢性病与饮食之间的关系。作者依据多年诊疗经验，从营养学角度分析疾病和亚健康状态的成因，并辨析常见营养认知误区。书中逐一回应血压高不能吃肉、尿酸高不能吃海鲜、胆固醇高不能吃鸡蛋、血糖高不能吃水果、吃得越好肿瘤长得越快、喝牛奶会加重肾脏负担等说法。该书把营养调理思路落到一日三餐，说明饮食结构、营养素与慢病康复之间的具体联系。",
+    "recommended_date": "2026-09-23",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BD%A0%E6%98%AF%E4%BD%A0%E5%90%83%E5%87%BA%E6%9D%A5%E7%9A%842%20%3A%20%E6%85%A2%E7%97%85%E5%BA%B7%E5%A4%8D%E7%9A%84%E9%A5%AE%E9%A3%9F%E5%AF%86%E7%A0%81"
+  },
+  {
+    "title": "最好的告别 : 关于衰老与死亡，你必须知道的常识",
+    "author": "[美] 阿图·葛文德（Atul Gawande）",
+    "rating": "⭐9.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/1b3dc2004b3239c4.jpg",
+    "summary": "本书由外科医生阿图·葛文德撰写，围绕衰老、临终与医疗照护展开。作者从多年临床经验出发，讲述病人在生命末期面对的抉择，也梳理美国社会养老制度与临终医疗的发展。书中讨论医学技术的边界，指出末期病人的命运常被交由医学、技术与陌生人掌控。作者借具体案例说明善终服务、辅助生活与生前预嘱等理念，并追问在独立生活无法维持时，人如何保有自主与尊严。",
+    "recommended_date": "2026-09-23",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%94%BB%E5%AE%B6%E4%B8%AD%E7%9A%84%E7%94%BB%E5%AE%B6%20%3A%20%E8%A5%BF%E6%96%B9%E7%BB%98%E7%94%BB%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%B8%89%E5%8D%81%E5%BA%A7%E9%AB%98%E5%B3%B0"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9C%80%E5%A5%BD%E7%9A%84%E5%91%8A%E5%88%AB%20%3A%20%E5%85%B3%E4%BA%8E%E8%A1%B0%E8%80%81%E4%B8%8E%E6%AD%BB%E4%BA%A1%EF%BC%8C%E4%BD%A0%E5%BF%85%E9%A1%BB%E7%9F%A5%E9%81%93%E7%9A%84%E5%B8%B8%E8%AF%86"
   }
 ]
