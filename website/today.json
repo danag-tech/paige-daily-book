@@ -1,32 +1,32 @@
 [
   {
-    "title": "也许你该找个人聊聊",
-    "author": "[美]洛莉·戈特利布",
-    "rating": "⭐9.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/39f0f3834ce619cb.jpg",
-    "summary": "该书是一位心理治疗师的回忆录，记述诊室中发生的故事，并交替呈现治疗师与来访者的双重视角。书中写到四位来访者：一位事业成功却自认身边人愚蠢的好莱坞制片人，一位新婚不久便确诊绝症的女教师，一位孤独绝望、打算在七十岁生日自杀的老太太，以及一位带着原生家庭创伤和酗酒问题的年轻姑娘。作者洛莉·戈特利布本人也遭遇失恋，在朋友建议下另找一位治疗师，坐到沙发上讲述脆弱与悲伤。书中由此展开爱与被爱、遗憾、选择、控制、不确定和死亡等议题，呈现心理治疗过程中的觉察与改变。",
-    "recommended_date": "2026-10-01",
+    "title": "世界的逻辑",
+    "author": "马兆远",
+    "rating": "⭐8.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b63a414722be63b7.jpg",
+    "summary": "本书以如何用理性应对不确定性为核心，作者马兆远从科学史与思维进化两条线索出发，讨论逻辑在人类认知中的位置。内容从亚里士多德逻辑的诞生讲到哥德尔不完备定理对完美真理的终结，又涉及量子力学对确定因果的冲击、混沌理论揭示的预测极限、贝叶斯统计改写的认知方式以及熵增定律引出的选择问题。作为英国物理学会会士和南方科技大学教授，作者曾获牛津物理学博士并参与中国空间站冷原子实验，其相关课程以案例拆解抽象思维。全书不依赖晦涩公式，而把科学概念放入方法论讨论，呈现理性作为应对未知工具的思路。",
+    "recommended_date": "2026-10-02",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B9%9F%E8%AE%B8%E4%BD%A0%E8%AF%A5%E6%89%BE%E4%B8%AA%E4%BA%BA%E8%81%8A%E8%81%8A"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%96%E7%95%8C%E7%9A%84%E9%80%BB%E8%BE%91"
   },
   {
-    "title": "系统之美 : 决策者的系统思考",
-    "author": "[美] 德内拉·梅多斯",
-    "rating": "⭐8.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/eba53ab9bdbd4715.jpg",
-    "summary": "该书是一部系统思考入门指南，围绕复杂动态系统的认知与分析展开。作者德内拉·梅多斯讲解系统动力学的基本概念，列举常见系统结构，并归纳系统的三大特征、六大障碍、八大陷阱与对策、十二大变革方式以及十五大生存法则。书中以真实案例说明系统思考如何用于个人问题与全球性挑战，把这一方法从计算机和方程式中解放出来。作者还讨论如何寻找问题根本原因、辨认多种可能性，并在复杂性中管理、适应与把握机会。",
-    "recommended_date": "2026-10-01",
+    "title": "思辨力35讲 : 像辩手一样思考",
+    "author": "庞颖",
+    "rating": "⭐8.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/faa7490f3acc978e.jpg",
+    "summary": "本书由辩论教练庞颖撰写，围绕思辨能力展开，总结十三种常见逻辑谬误，包括把相关等同于因果、制造虚假的进退两难、滑坡论证和样本偏误等。作者结合工作与生活案例，分析这些谬误如何进入日常讨论，并整理九个问题分析框架，例如MECE框架、明确定义和决胜点意识。第三章由詹青云参与，以一对一辩论形式呈现十三个公共议题，涉及受困洞穴中的抽签行为、生育选择、短视频作用和弱势群体优待等争议。全书把逻辑训练放进具体论辩场景，呈现辩手拆解问题与组织论证的方法。",
+    "recommended_date": "2026-10-02",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%B3%BB%E7%BB%9F%E4%B9%8B%E7%BE%8E%20%3A%20%E5%86%B3%E7%AD%96%E8%80%85%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%80%9D%E8%80%83"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%80%9D%E8%BE%A8%E5%8A%9B35%E8%AE%B2%20%3A%20%E5%83%8F%E8%BE%A9%E6%89%8B%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83"
   },
   {
-    "title": "理解情绪 : 一项哲学考察",
-    "author": "安冬",
-    "rating": "⭐9.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/56c3ec6222346fec.jpg",
-    "summary": "本书围绕“情绪何以恰当”展开哲学考察，讨论愤怒是否永远正当、笑话能否因冒犯而不好笑、旁观者的愤怒有何局限等问题。作者安冬从哲学、心理学与伦理学交叉视角，梳理“恰当态度分析”与“价值新情感主义”等理论，并分析情绪评价涉及的元规范、元伦理以及心灵哲学议题。书中还处理情绪本质与规范性的关联，尝试说明情绪恰当性理论应关注哪些方面，并构建一种整体性的恰当性理论。论述把日常情绪判断与前沿哲学讨论并置，呈现情绪在生物本能与理想人格之间的复杂位置。",
-    "recommended_date": "2026-10-01",
+    "title": "非对称风险 : 风险共担，应对现实世界中的不确定性",
+    "author": "[美] 纳西姆·尼古拉斯·塔勒布",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ca673cf894e10347.jpg",
+    "summary": "本书是塔勒布“不确定性”系列丛书中的思想结晶，承接上一部作品关于不能牺牲他人利益来增强自身反脆弱能力的讨论。作者围绕现实世界中的非对称风险，说明决策权利与承担后果应当相互平衡，强调决策者需要亲身承担风险，而不是把代价转移给他人。书中通过金融、社会与日常生活中的事例，分析隐藏的非对称性如何影响判断，并提出风险共担作为应对不确定性的核心原则。其论述延续了作者对随机性、黑天鹅与反脆弱性的长期思考。",
+    "recommended_date": "2026-10-02",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%90%86%E8%A7%A3%E6%83%85%E7%BB%AA%20%3A%20%E4%B8%80%E9%A1%B9%E5%93%B2%E5%AD%A6%E8%80%83%E5%AF%9F"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E9%A3%8E%E9%99%A9%20%3A%20%E9%A3%8E%E9%99%A9%E5%85%B1%E6%8B%85%EF%BC%8C%E5%BA%94%E5%AF%B9%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E4%B8%AD%E7%9A%84%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7"
   }
 ]
