@@ -1,32 +1,32 @@
 [
   {
-    "title": "世界的逻辑",
-    "author": "马兆远",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b63a414722be63b7.jpg",
-    "summary": "本书以如何用理性应对不确定性为核心，作者马兆远从科学史与思维进化两条线索出发，讨论逻辑在人类认知中的位置。内容从亚里士多德逻辑的诞生讲到哥德尔不完备定理对完美真理的终结，又涉及量子力学对确定因果的冲击、混沌理论揭示的预测极限、贝叶斯统计改写的认知方式以及熵增定律引出的选择问题。作为英国物理学会会士和南方科技大学教授，作者曾获牛津物理学博士并参与中国空间站冷原子实验，其相关课程以案例拆解抽象思维。全书不依赖晦涩公式，而把科学概念放入方法论讨论，呈现理性作为应对未知工具的思路。",
-    "recommended_date": "2026-10-02",
+    "title": "第二枪",
+    "author": "[英] 安东尼·伯克莱",
+    "rating": "⭐7.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/48da7f0ce0b109f2.jpg",
+    "summary": "本书围绕乡间聚会中的谋杀推理游戏展开。参与者分别扮演死者与凶手，游戏结束之际传来两声枪响，扮演死者的人真的遇害。警方将凶手扮演者平克顿列为重要嫌疑人，他在辩解无效后请侦探谢林汉姆介入调查。随着查案推进，宾客之间的秘密恋情、旧日恩怨与复杂动机逐渐浮现，游戏中的角色关系与现实中的疑点也彼此交织，小说由两声响动打破聚会秩序，侦查随之围绕众人身份与证词展开。",
+    "recommended_date": "2026-10-03",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%96%E7%95%8C%E7%9A%84%E9%80%BB%E8%BE%91"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AC%AC%E4%BA%8C%E6%9E%AA"
   },
   {
-    "title": "思辨力35讲 : 像辩手一样思考",
-    "author": "庞颖",
-    "rating": "⭐8.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/faa7490f3acc978e.jpg",
-    "summary": "本书由辩论教练庞颖撰写，围绕思辨能力展开，总结十三种常见逻辑谬误，包括把相关等同于因果、制造虚假的进退两难、滑坡论证和样本偏误等。作者结合工作与生活案例，分析这些谬误如何进入日常讨论，并整理九个问题分析框架，例如MECE框架、明确定义和决胜点意识。第三章由詹青云参与，以一对一辩论形式呈现十三个公共议题，涉及受困洞穴中的抽签行为、生育选择、短视频作用和弱势群体优待等争议。全书把逻辑训练放进具体论辩场景，呈现辩手拆解问题与组织论证的方法。",
-    "recommended_date": "2026-10-02",
+    "title": "伊加利亚的女儿们",
+    "author": "[挪] 格德·布兰腾伯格",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/2932018d3f4abc3a.jpg",
+    "summary": "本书设定在名为伊加利亚的镜像世界，那里由女性行使权力并控制政府与经济，娚人承担照料孩童和操持家务的职责。社会长期认定娚人生来不如女性，这种观念被当作自然规律，构成制度与日常秩序的基础。以佩特罗尼为代表的娚人建立挑战既有结构的组织，自封为娚权主义者，提出追求自我的权利，使局势发生变化。1977年首版后，该书被译介至德、英、美、韩、法、西班牙、意大利等十多个国家，全球销量超过七十万册，是挪威具有国际影响的作品之一。",
+    "recommended_date": "2026-10-03",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%80%9D%E8%BE%A8%E5%8A%9B35%E8%AE%B2%20%3A%20%E5%83%8F%E8%BE%A9%E6%89%8B%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BC%8A%E5%8A%A0%E5%88%A9%E4%BA%9A%E7%9A%84%E5%A5%B3%E5%84%BF%E4%BB%AC"
   },
   {
-    "title": "非对称风险 : 风险共担，应对现实世界中的不确定性",
-    "author": "[美] 纳西姆·尼古拉斯·塔勒布",
-    "rating": "⭐8.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ca673cf894e10347.jpg",
-    "summary": "本书是塔勒布“不确定性”系列丛书中的思想结晶，承接上一部作品关于不能牺牲他人利益来增强自身反脆弱能力的讨论。作者围绕现实世界中的非对称风险，说明决策权利与承担后果应当相互平衡，强调决策者需要亲身承担风险，而不是把代价转移给他人。书中通过金融、社会与日常生活中的事例，分析隐藏的非对称性如何影响判断，并提出风险共担作为应对不确定性的核心原则。其论述延续了作者对随机性、黑天鹅与反脆弱性的长期思考。",
-    "recommended_date": "2026-10-02",
+    "title": "百年孤独",
+    "author": "[哥伦比亚] 加西亚·马尔克斯",
+    "rating": "⭐9.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f569e1aa8678c2c4.jpg",
+    "summary": "本书描写布恩迪亚家族七代人的传奇经历，以及加勒比海沿岸小镇马孔多的百年兴衰，故事在现实与虚幻之间展开。作者将神话传说、民间故事与宗教典故融入叙述，使家族命运同拉丁美洲一个世纪以来的历史变迁彼此交织。马孔多的创建、繁荣与动荡，构成小说多重时间层次，也保存了魔幻现实主义文学最具辨识度的风貌。1982年加西亚·马尔克斯获得诺贝尔文学奖，这部作品在其创作生涯与世界文学地位中占据关键位置。",
+    "recommended_date": "2026-10-03",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E9%A3%8E%E9%99%A9%20%3A%20%E9%A3%8E%E9%99%A9%E5%85%B1%E6%8B%85%EF%BC%8C%E5%BA%94%E5%AF%B9%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E4%B8%AD%E7%9A%84%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC"
   }
 ]
