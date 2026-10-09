@@ -1,12 +1,42 @@
 [
   {
+    "title": "复杂",
+    "author": "梅拉妮·米歇尔",
+    "rating": "⭐8.9",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ea45ae13687f6d2b.jpg",
+    "summary": "本书由梅拉妮·米歇尔撰写，围绕复杂系统科学展开，讨论蚂蚁群体为何呈现精密且有目的性的行为，数以亿计的神经元如何产生意识，以及免疫系统、互联网、全球经济和人类基因组等自组织结构由什么引导。作者结合在圣塔菲研究所的工作经历，说明理解复杂系统需要超越传统还原论，并重新划定学科疆域。书中横跨生物学、技术与社会学等领域，梳理复杂系统的普遍规律，也讨论其与进化、人工智能、计算、遗传和信息处理之间的关系。",
+    "recommended_date": "2026-10-09",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%8D%E6%9D%82"
+  },
+  {
+    "title": "从一到无穷大",
+    "author": "[美] 乔治·伽莫夫",
+    "rating": "⭐9.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cc40757618df878c.jpg",
+    "summary": "本书由物理学家乔治·伽莫夫撰写，从一粒原子讲到无穷宇宙，把数论、世界线、相对论、量子力学、核物理和遗传学等内容串联起来。作者以问题推动叙述，讨论无穷大究竟有多大、空间是否有里外之分、三维世界为何难以想象四维空间，以及相对论中的“相对”如何理解。书中还涉及原子尺寸的观测、核反应过程，以及生物与非生物之间的界限。它呈现了现代科学认识自然的多条路径与相互关联。",
+    "recommended_date": "2026-10-09",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%8E%E4%B8%80%E5%88%B0%E6%97%A0%E7%A9%B7%E5%A4%A7"
+  },
+  {
+    "title": "宇宙的琴弦",
+    "author": "[美] 布赖恩·格林",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/1bb5dd5c948fe5bb.jpg",
+    "summary": "本书由弦理论家布赖恩·格林撰写，围绕弦理论展开，尝试把广义相对论与量子力学之间长期存在的矛盾纳入同一框架。书中提出，宇宙可能存在十一维空间，空间纤维会撕裂又自行缝合，从最小夸克到巨大超新星，一切物质都可被理解为微观能量环的振动。作者借助大量例子和类比，说明额外维度、粒子谱、时空结构等抽象概念，并交代弦理论的发展脉络与未解难题。该书曾获2000年安万特科学图书奖。",
+    "recommended_date": "2026-10-09",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AE%87%E5%AE%99%E7%9A%84%E7%90%B4%E5%BC%A6"
+  },
+  {
     "title": "只管去做",
     "author": "邹小强",
     "rating": "⭐8.3",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/72e6b35e562b577d.jpg",
     "summary": "本书由邹小强撰写，作者为罗辑思维、新精英生涯特聘讲师，拥有十二年时间管理实战经验。全书采用情境代入式讲述，以职场中的小强和上司老付的对话推进，把目标管理中的常见问题放入具体工作与生活场景。内容围绕做计划、执行目标和避免半途而废展开，涉及目标设定、行动拆解与持续跟进等环节，最终形成五个步骤。书中将低效、混乱、计划完不成等状态作为讨论起点，呈现一套目标管理方法。",
     "recommended_date": "2026-10-08",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%AA%E7%AE%A1%E5%8E%BB%E5%81%9A"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/0a283b7741803624.jpg",
     "summary": "本书由叶修撰写，结合多年教学、研究与学生调研经验，系统讨论中国中学生高效学习的底层逻辑。作者通过具体学习案例，剖析学习中的核心原理，并归纳结构化思维、流程思维与信息循环三种高效思维方法。书中还整理记忆策略、时间策略、信息源管理与精力管理四类策略，覆盖预习、听课、练习、复习等环节，也涉及课间运动、睡眠等生活话题。内容以案例和图表说明各学科特点，试图回答听懂却不会做题、努力却难提高、时间如何安排等常见难题。",
     "recommended_date": "2026-10-08",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%80%BB%E8%BE%91%20%3A%20%E4%B8%AD%E5%AD%A6%E7%94%9F%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0%E7%AD%96%E7%95%A5%E4%BD%93%E7%B3%BB"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/57d7ccd995fd9157.jpg",
     "summary": "本书为史蒂芬·柯维所著的20周年纪念版，围绕七个习惯的核心思想与方法展开。书中将相关原则进行提炼，讨论个人提升与持续成功之间的关联，并把重点放在可实践的习惯框架上。作者以简洁结构呈现如何理解并运用这些习惯，减少无关铺陈，使忙碌状态下的自我管理议题得到集中说明。全书关注从思维到行动的长期路径，强调原则、习惯与效能之间的关系，呈现一套具有代表性的自我提升体系。",
     "recommended_date": "2026-10-08",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%AB%98%E6%95%88%E8%83%BD%E4%BA%BA%E5%A3%AB%E7%9A%84%E4%B8%83%E4%B8%AA%E4%B9%A0%E6%83%AF%20%3A%2020%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/10351315402c682d.jpg",
     "summary": "李闯以人类学硕士与焦虑症经历为背景，记录自己裸辞后到武当山做义工的200天。上山前的想象是焚香诵经、弹琴练剑、看云品茶，实际却遇到大雪封山、停水停电、伙食紧缺、半夜冻醒、虫灾、生病与惊恐发作，山中也仍有打卡、加班和年终总结。作者写下与道友的相处、庙中香客与游客的百态，包括痛哭者、道长、功夫高手和外国求签者，并观察五花八门的举动背后有关苦难与未知的迷茫。全书以道观义工笔记呈现一段离线生活，也涉及从国企编辑、胡同店主到再战高考成为医学生等人生转向。",
     "recommended_date": "2026-10-07",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%BE%9E%E8%81%8C%E4%B8%8A%E5%B1%B1%20%3A%20%E6%88%91%E5%9C%A8%E6%AD%A6%E5%BD%93%E7%9A%84200%E5%A4%A9"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/17a1b1fb696fd8fe.jpg",
     "summary": "张小满在非虚构新作中记录自己在互联网公司度过的1480天。本书以进入大厂被称作上岸、离开被称作优化为背景，观察个体如何被卷入庞大系统：需求堆积、OKR紧箍、多线作战、领导点赞与职场进退交织。作者归纳出大厂中常见的三种人：有专业地位的扫地僧、擅长包装说服的销售员或猎人，以及默默耕耘却常被忽略的农民，并写到35岁危机、HR优化他人等处境。全书借自身经历与同事故事，呈现系统运转逻辑与人在其中的不安、焦虑和寻找位置的过程。",
     "recommended_date": "2026-10-07",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A7%E5%8E%82%E5%B0%8F%E6%B0%91%20%3A%20%E6%88%91%E5%9C%A8%E4%BA%92%E8%81%94%E7%BD%91%E5%85%AC%E5%8F%B8%E7%9A%841480%E5%A4%A9"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/78979b5f60927869.jpg",
     "summary": "钟淑如用十年时间走访五十余座城市的两百多个菜市场，以田野调查梳理城市菜市场的整体生态。本书讨论菜市场的历史脉络、摊贩群体的经营方式、背后供应链、食物消费文化以及城市公共管理，并记录从海南鱼市到新疆大巴扎等地方经验。作者把菜市场视为连接城市历史与当下、地方与全球、个体与社区的社会空间，分析其在现代化进程中的韧性、活力与转型实践。书中还涉及全球化与城市化背景下菜市场的创新尝试，从日常交易、时令食物与地方风物中呈现中国城市生活的复杂肌理。",
     "recommended_date": "2026-10-07",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E8%8F%9C%E5%B8%82%E5%9C%BA"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/85809878e0c7a77b.jpg",
     "summary": "本书是传播学与媒介文化研究的重要著作，初版于1992年，2012年由劳特利奇出版社推出二十周年纪念版。作者以粉丝和学者双重身份进入电视粉丝社群，反对把粉丝视为被动或愚昧的文化白痴，而将其看作媒体内容的积极消费者和熟练参与者。研究以民族志方法为主，考察粉丝如何对剧集文本进行自主阐释，从大众文化资源中截取片段，再创作故事、歌曲与评论，并形成共享规范和社会机制。案例分析涉及《星际迷航》《布雷克七人组》《异形帝国》《侠胆雄狮》《双峰》等，进而讨论大众媒体、资本主义消费主义与观众能动性之间的复杂关系。",
     "recommended_date": "2026-10-06",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%96%87%E6%9C%AC%E7%9B%97%E7%8C%8E%E8%80%85%20%3A%20%E7%94%B5%E8%A7%86%E7%B2%89%E4%B8%9D%E4%B8%8E%E5%8F%82%E4%B8%8E%E5%BC%8F%E6%96%87%E5%8C%96"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d8c2b9f15e765769.jpg",
     "summary": "本书围绕1982年美国加州一桩医疗案例展开，主角是三个月大的苗族女童黎亚。她因癫痫发作被父母送往默塞德医院，语言障碍使医生难以获知病史，诊断与治疗由此出现偏差。作者以民族志方法追踪苗族家庭对疾病、灵魂与身体的理解，也呈现医院依赖的现代医学制度、法律程序和跨文化沟通机制。草药与手术刀、神话与科学、传统与现代在同一病例中相互碰撞，医疗冲突背后是认知、信仰与权力关系的差异。",
     "recommended_date": "2026-10-06",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A6%81%E5%91%BD%E8%BF%98%E6%98%AF%E8%A6%81%E7%81%B5%E9%AD%82%20%3A%20%E5%8C%BB%E7%97%85%E5%86%B2%E7%AA%81%E4%B8%AD%E7%9A%84%E8%B7%A8%E6%96%87%E5%8C%96%E8%AF%AF%E8%A7%A3"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d36a26a4254861e7.jpg",
     "summary": "本书初版于1983年，由英国文学批评家特里·伊格尔顿撰写，系统评述二十世纪西方文学理论。作者从俄国形式主义出发，勾勒形式主义、结构主义到后结构主义，以及现象学、诠释学、接受美学与精神分析等脉络，分析理论产生、流变、问题与局限。全书以清晰论述处理文学批评与政治、意识形态、语言和意义之间的关系。该书呈现二十世纪理论革命的多条线索与内部张力，也回应文学批评中的持续争论。",
     "recommended_date": "2026-10-06",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%8C%E5%8D%81%E4%B8%96%E7%BA%AA%E8%A5%BF%E6%96%B9%E6%96%87%E5%AD%A6%E7%90%86%E8%AE%BA"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/418741bb1535ab0f.jpg",
     "summary": "古斯塔夫·勒庞是法国著名社会心理学家，生于1841年，卒于1931年。自1894年起，他写下系列社会心理学著作，本书在其中最为著名，也被视为社会心理学领域已有著作中最有影响的作品之一。勒庞在书中细致描述集体心态，讨论个体进入群体后的心理变化，以及集体行为的作用方式与特征。该书在西方已印至第29版，观点新颖，语言生动，对群体行为研究和社会心理学思考产生很大影响。",
     "recommended_date": "2026-10-05",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97%20%3A%20%E5%A4%A7%E4%BC%97%E5%BF%83%E7%90%86%E7%A0%94%E7%A9%B6"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/00e3b41523593656.jpg",
     "summary": "卡伦·霍尼在本书中讨论人们内心的主要冲突类型及其各种表现形式。她分析并归纳相互矛盾的态度与倾向，说明被这些冲突所扰之人如何试图解决自身冲突，又为何可能失败并陷入恶性循环。作者随后提出解决这些冲突的切实建议和设想，内容围绕冲突的形成、运作与出路展开。该书被称作现代人内心的自我修复宝典，核心内容仍在呈现心理矛盾的结构与应对方向。",
     "recommended_date": "2026-10-05",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E4%BB%AC%E5%86%85%E5%BF%83%E7%9A%84%E5%86%B2%E7%AA%81"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7848fafa12afe4b0.jpg",
     "summary": "作者在书中梳理成人依恋关系研究，呈现迄今前沿的亲密关系科学成果。该书把依恋倾向分为焦虑型、回避型与安全型：焦虑型常沉浸于亲密关系，怀疑伴侣能否回馈同等爱意；回避型把亲密视为独立性受损，因而削弱亲密感；安全型喜爱亲密，通常温暖有爱。书中还区分三种依恋倾向在亲密互动中的典型表现，并说明如何确认个体与伴侣的依恋风格，讨论建立稳固、充实关系的路径。",
     "recommended_date": "2026-10-05",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%85%B3%E7%B3%BB%E7%9A%84%E9%87%8D%E5%BB%BA"
-  },
-  {
-    "title": "阿莱夫",
-    "author": "[阿根廷] 豪·路·博尔赫斯",
-    "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/5d25b649ca8f8d6f.jpg",
-    "summary": "本书是博尔赫斯一九四九年出版的短篇小说集，收十七篇作品。标题涉及希伯来文首个字母，它在数学中代表无穷数与无限集合，在神秘主义中则被理解为超越时空极限的潜在能量。作者以小说形式展开对时间、空间、宇宙以及宏观与微观的思考。其中同名一篇围绕叙述者每年拜访爱慕女子一家展开，女子的表哥达内里长期写作长诗大千世界，并透露地下室角落藏有那个神秘之物，称其为写诗天赋的源泉，故事由此进入对无限与宇宙的复杂想象。",
-    "recommended_date": "2026-10-04",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%98%BF%E8%8E%B1%E5%A4%AB"
-  },
-  {
-    "title": "天书奇谭 : 武林秘笈与建筑典籍",
-    "author": "贾珺",
-    "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cabb6262db01e545.jpg",
-    "summary": "本书通过金庸小说中的武林秘笈作类比，解析十八部中西建筑理论名典。作者贾珺为清华大学建筑史学者，以武侠设定映照建筑十书、营造法式等著作，说明中国宋代、清代官式制度，明代、晚清及民国时期建筑手法，以及西方古典、文艺复兴、古典主义、浪漫主义、现代主义和后现代主义等阶段。全书配二百七十八幅全彩插图，上卷溯源古罗马、文艺复兴并抵达现代与后现代思潮，下卷从唐代意境园林讲到清代官式则例，勾勒中西建筑发展脉络。该书将建筑名典与武林秘笈互文，讨论建筑原则、料例功限等知识。",
-    "recommended_date": "2026-10-04",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A9%E4%B9%A6%E5%A5%87%E8%B0%AD%20%3A%20%E6%AD%A6%E6%9E%97%E7%A7%98%E7%AC%88%E4%B8%8E%E5%BB%BA%E7%AD%91%E5%85%B8%E7%B1%8D"
-  },
-  {
-    "title": "中国古代金属建筑研究",
-    "author": "张剑葳",
-    "rating": "⭐9.9",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/e8b5f3b8472500fc.jpg",
-    "summary": "本书以金属材料为切入点，考察中国传统建筑中一类特殊对象。作者张剑葳实地调查现存可考的五十余处金属建筑实例，从形式、技术、物质与艺术层面展开分析，并讨论其象征、文化和社会意义。全书提出，象征意义与适应性技术是推动金属建筑出现和发展的两项内在动力，并据此分为上篇发展史与下篇专题研究。书中还收录作者绘制的测绘图与分析图，呈现多学科交叉的研究路径。",
-    "recommended_date": "2026-10-04",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E9%87%91%E5%B1%9E%E5%BB%BA%E7%AD%91%E7%A0%94%E7%A9%B6"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%85%B3%E7%B3%BB%E7%9A%84%E9%87%8D%E5%BB%BA"
   }
 ]
