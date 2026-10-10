@@ -1,32 +1,32 @@
 [
   {
-    "title": "复杂",
-    "author": "梅拉妮·米歇尔",
-    "rating": "⭐8.9",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ea45ae13687f6d2b.jpg",
-    "summary": "本书由梅拉妮·米歇尔撰写，围绕复杂系统科学展开，讨论蚂蚁群体为何呈现精密且有目的性的行为，数以亿计的神经元如何产生意识，以及免疫系统、互联网、全球经济和人类基因组等自组织结构由什么引导。作者结合在圣塔菲研究所的工作经历，说明理解复杂系统需要超越传统还原论，并重新划定学科疆域。书中横跨生物学、技术与社会学等领域，梳理复杂系统的普遍规律，也讨论其与进化、人工智能、计算、遗传和信息处理之间的关系。",
-    "recommended_date": "2026-10-09",
-    "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%8D%E6%9D%82"
-  },
-  {
-    "title": "从一到无穷大",
-    "author": "[美] 乔治·伽莫夫",
-    "rating": "⭐9.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cc40757618df878c.jpg",
-    "summary": "本书由物理学家乔治·伽莫夫撰写，从一粒原子讲到无穷宇宙，把数论、世界线、相对论、量子力学、核物理和遗传学等内容串联起来。作者以问题推动叙述，讨论无穷大究竟有多大、空间是否有里外之分、三维世界为何难以想象四维空间，以及相对论中的“相对”如何理解。书中还涉及原子尺寸的观测、核反应过程，以及生物与非生物之间的界限。它呈现了现代科学认识自然的多条路径与相互关联。",
-    "recommended_date": "2026-10-09",
-    "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BB%8E%E4%B8%80%E5%88%B0%E6%97%A0%E7%A9%B7%E5%A4%A7"
-  },
-  {
-    "title": "宇宙的琴弦",
-    "author": "[美] 布赖恩·格林",
+    "title": "深度学习入门5 : 生成模型",
+    "author": "[日] 斋藤康毅",
     "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/1bb5dd5c948fe5bb.jpg",
-    "summary": "本书由弦理论家布赖恩·格林撰写，围绕弦理论展开，尝试把广义相对论与量子力学之间长期存在的矛盾纳入同一框架。书中提出，宇宙可能存在十一维空间，空间纤维会撕裂又自行缝合，从最小夸克到巨大超新星，一切物质都可被理解为微观能量环的振动。作者借助大量例子和类比，说明额外维度、粒子谱、时空结构等抽象概念，并交代弦理论的发展脉络与未解难题。该书曾获2000年安万特科学图书奖。",
-    "recommended_date": "2026-10-09",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cb32d1001193fd27.jpg",
+    "summary": "斋藤康毅所著的“鱼书”系列第五部，围绕生成模型的基础概念展开。全书以连贯故事形式，通过十个步骤依次讲解正态分布、最大似然估计、多维正态分布、高斯混合模型、EM 算法、神经网络与变分自动编码器。最后三个步骤剖析扩散模型的理论、实现与应用，并逐步构建 Stable Diffusion 这类图像生成模型。该书延续系列从零开始、动手实践的方式，由浅入深呈现生成模型从概率基础到扩散模型的技术线路。",
+    "recommended_date": "2026-10-10",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A85%20%3A%20%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B"
+  },
+  {
+    "title": "Claude Code实战 Harness工程之道",
+    "author": "黄佳",
+    "rating": "⭐9.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/582afc5bfe15fd08.jpg",
+    "summary": "黄佳所著的这部技术书，从软件工程角度梳理 Claude Code 的技术架构与工程化实践路径。书中解析命令行助手向可编程 Agent 演进的脉络，围绕四层架构模型展开，并讨论记忆系统 CLAUDE.md、技能 Skills、子智能体 SubAgents、事件钩子 Hooks 与 MCP 等核心机制。内容包含技术选型、组件配置、触发机制对比，以及构建安全、高效、可维护的 AI 辅助编程工作流的实战案例。后半部分延伸到个人开发、团队协作和 CI/CD 流水线集成的企业级部署流程。",
+    "recommended_date": "2026-10-10",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=Claude%20Code%E5%AE%9E%E6%88%98%20Harness%E5%B7%A5%E7%A8%8B%E4%B9%8B%E9%81%93"
+  },
+  {
+    "title": "Artificial Intelligence : A Modern Approach",
+    "author": "Stuart Russell、Peter Norvig",
+    "rating": "⭐9.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/9bcb8c52ab382572.jpg",
+    "summary": "斯图尔特·罗素与彼得·诺维格合著的这部人工智能教材，系统覆盖现代人工智能的理论与实践。内容从智能体出发，延伸到通过搜索解决问题、知情搜索、博弈、逻辑推理、一阶逻辑、知识库构建与推理，以及规划与行动。后半部分讨论不确定性、概率推理系统、简单与复杂决策、从观察中学习、神经网络学习、强化学习、知识学习、交流、感知和机器人。该书以统一框架串联搜索、逻辑、概率、学习与行动等方向，呈现人工智能各分支的基本方法与技术脉络。",
+    "recommended_date": "2026-10-10",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AE%87%E5%AE%99%E7%9A%84%E7%90%B4%E5%BC%A6"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=Artificial%20Intelligence%20%3A%20A%20Modern%20Approach"
   }
 ]

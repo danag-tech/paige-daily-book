@@ -3837,5 +3837,53 @@
     "summary": "本书由梅拉妮·米歇尔撰写，围绕复杂系统科学展开，讨论蚂蚁群体为何呈现精密且有目的性的行为，数以亿计的神经元如何产生意识，以及免疫系统、互联网、全球经济和人类基因组等自组织结构由什么引导。作者结合在圣塔菲研究所的工作经历，说明理解复杂系统需要超越传统还原论，并重新划定学科疆域。书中横跨生物学、技术与社会学等领域，梳理复杂系统的普遍规律，也讨论其与进化、人工智能、计算、遗传和信息处理之间的关系。",
     "source": "豆瓣读书标签页",
     "sent_date": "2026-10-09"
+  },
+  {
+    "key": "isbn:9780136042594",
+    "keys": [
+      "isbn:9780136042594",
+      "title_author:artificialintelligence:amodernapproach|stuartrussell、peternorvig"
+    ],
+    "title": "Artificial Intelligence : A Modern Approach",
+    "author": "Stuart Russell、Peter Norvig",
+    "isbn": "9780136042594",
+    "theme": "人工智能",
+    "rating": "⭐9.2",
+    "cover": "https://img9.doubanio.com/view/subject/s/public/s4093425.jpg",
+    "summary": "斯图尔特·罗素与彼得·诺维格合著的这部人工智能教材，系统覆盖现代人工智能的理论与实践。内容从智能体出发，延伸到通过搜索解决问题、知情搜索、博弈、逻辑推理、一阶逻辑、知识库构建与推理，以及规划与行动。后半部分讨论不确定性、概率推理系统、简单与复杂决策、从观察中学习、神经网络学习、强化学习、知识学习、交流、感知和机器人。该书以统一框架串联搜索、逻辑、概率、学习与行动等方向，呈现人工智能各分支的基本方法与技术脉络。",
+    "source": "豆瓣读书标签页",
+    "sent_date": "2026-10-10"
+  },
+  {
+    "key": "isbn:9787115696533",
+    "keys": [
+      "isbn:9787115696533",
+      "title_author:claudecode实战harness工程之道|黄佳"
+    ],
+    "title": "Claude Code实战 Harness工程之道",
+    "author": "黄佳",
+    "isbn": "9787115696533",
+    "theme": "人工智能",
+    "rating": "⭐9.2",
+    "cover": "https://img3.doubanio.com/view/subject/s/public/s35485557.jpg",
+    "summary": "黄佳所著的这部技术书，从软件工程角度梳理 Claude Code 的技术架构与工程化实践路径。书中解析命令行助手向可编程 Agent 演进的脉络，围绕四层架构模型展开，并讨论记忆系统 CLAUDE.md、技能 Skills、子智能体 SubAgents、事件钩子 Hooks 与 MCP 等核心机制。内容包含技术选型、组件配置、触发机制对比，以及构建安全、高效、可维护的 AI 辅助编程工作流的实战案例。后半部分延伸到个人开发、团队协作和 CI/CD 流水线集成的企业级部署流程。",
+    "source": "豆瓣读书标签页",
+    "sent_date": "2026-10-10"
+  },
+  {
+    "key": "isbn:9787115669773",
+    "keys": [
+      "isbn:9787115669773",
+      "title_author:深度学习入门5:生成模型|[日]斋藤康毅"
+    ],
+    "title": "深度学习入门5 : 生成模型",
+    "author": "[日] 斋藤康毅",
+    "isbn": "9787115669773",
+    "theme": "人工智能",
+    "rating": "⭐9.1",
+    "cover": "https://img9.doubanio.com/view/subject/s/public/s35180466.jpg",
+    "summary": "斋藤康毅所著的“鱼书”系列第五部，围绕生成模型的基础概念展开。全书以连贯故事形式，通过十个步骤依次讲解正态分布、最大似然估计、多维正态分布、高斯混合模型、EM 算法、神经网络与变分自动编码器。最后三个步骤剖析扩散模型的理论、实现与应用，并逐步构建 Stable Diffusion 这类图像生成模型。该书延续系列从零开始、动手实践的方式，由浅入深呈现生成模型从概率基础到扩散模型的技术线路。",
+    "source": "豆瓣读书标签页",
+    "sent_date": "2026-10-10"
   }
 ]
