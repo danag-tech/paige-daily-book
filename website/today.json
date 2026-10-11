@@ -1,32 +1,32 @@
 [
   {
-    "title": "深度学习入门5 : 生成模型",
-    "author": "[日] 斋藤康毅",
-    "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cb32d1001193fd27.jpg",
-    "summary": "斋藤康毅所著的“鱼书”系列第五部，围绕生成模型的基础概念展开。全书以连贯故事形式，通过十个步骤依次讲解正态分布、最大似然估计、多维正态分布、高斯混合模型、EM 算法、神经网络与变分自动编码器。最后三个步骤剖析扩散模型的理论、实现与应用，并逐步构建 Stable Diffusion 这类图像生成模型。该书延续系列从零开始、动手实践的方式，由浅入深呈现生成模型从概率基础到扩散模型的技术线路。",
-    "recommended_date": "2026-10-10",
+    "title": "爱的五种语言",
+    "author": "[美国] 盖瑞·查普曼",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a9cb374a49eb8f5d.jpg",
+    "summary": "本次可使用的简介字段为暂无，因此无法依据给定信息说明该书讲了什么；可核验的字段只有作者署名为美国作者盖瑞·查普曼、ISBN为9787210078951、评分为8.6，作者字段注明其国籍为美国，这些信息不包含内容概述或目录，书名中的字面表述涉及五种语言，但输入资料没有给出这些语言的定义、来源、章节和案例。为避免编造，正文不补充该书的理论框架、方法或故事，也不对其观点作推断；若出版方简介、目录或正文材料缺失，该书的内容介绍只能标注暂无，上述判断均以给定字段为限。",
+    "recommended_date": "2026-10-11",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A85%20%3A%20%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%88%B1%E7%9A%84%E4%BA%94%E7%A7%8D%E8%AF%AD%E8%A8%80"
   },
   {
-    "title": "Claude Code实战 Harness工程之道",
-    "author": "黄佳",
-    "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/582afc5bfe15fd08.jpg",
-    "summary": "黄佳所著的这部技术书，从软件工程角度梳理 Claude Code 的技术架构与工程化实践路径。书中解析命令行助手向可编程 Agent 演进的脉络，围绕四层架构模型展开，并讨论记忆系统 CLAUDE.md、技能 Skills、子智能体 SubAgents、事件钩子 Hooks 与 MCP 等核心机制。内容包含技术选型、组件配置、触发机制对比，以及构建安全、高效、可维护的 AI 辅助编程工作流的实战案例。后半部分延伸到个人开发、团队协作和 CI/CD 流水线集成的企业级部署流程。",
-    "recommended_date": "2026-10-10",
+    "title": "漫长的分手 : 亲密关系如何终结",
+    "author": "[美] 黛安娜·沃恩",
+    "rating": "⭐7.7",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/be182ce23cb1a7f2.jpg",
+    "summary": "该书由社会学家黛安娜·沃恩所著，基于103次深度访谈，并以学术文献与田野材料交叉印证，考察亲密关系解除的过程。访谈对象横跨不同年龄、职业与关系类型，包括婚姻、同居、异性恋和同性恋，研究追问伴侣关系结束是否存在可描述的社会模式。书中指出，分手呈现结构性规律：发起者与被分手者的过渡轨迹不同步，身份重建具有仪式性节奏，社交圈重组、叙述构建和他人介入反复出现。发起者往往早已在内心撤离，通过日记、倾诉或替代选择重写共同记忆；被留下的一方却常在关系公开破裂时才进入这一过程，角色丧失、共同社会身份瓦解，经济与日常生活重组。",
+    "recommended_date": "2026-10-11",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=Claude%20Code%E5%AE%9E%E6%88%98%20Harness%E5%B7%A5%E7%A8%8B%E4%B9%8B%E9%81%93"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%BC%AB%E9%95%BF%E7%9A%84%E5%88%86%E6%89%8B%20%3A%20%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E5%A6%82%E4%BD%95%E7%BB%88%E7%BB%93"
   },
   {
-    "title": "Artificial Intelligence : A Modern Approach",
-    "author": "Stuart Russell、Peter Norvig",
-    "rating": "⭐9.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/9bcb8c52ab382572.jpg",
-    "summary": "斯图尔特·罗素与彼得·诺维格合著的这部人工智能教材，系统覆盖现代人工智能的理论与实践。内容从智能体出发，延伸到通过搜索解决问题、知情搜索、博弈、逻辑推理、一阶逻辑、知识库构建与推理，以及规划与行动。后半部分讨论不确定性、概率推理系统、简单与复杂决策、从观察中学习、神经网络学习、强化学习、知识学习、交流、感知和机器人。该书以统一框架串联搜索、逻辑、概率、学习与行动等方向，呈现人工智能各分支的基本方法与技术脉络。",
-    "recommended_date": "2026-10-10",
+    "title": "爱的失序 : 现代社会的亲密关系",
+    "author": "[德] 乌尔里希·贝克、[德] 伊丽莎⽩·⻉克-盖恩斯海姆",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d713b57f9b4505fe.jpg",
+    "summary": "本书由德国社会学家乌尔里希·贝克与伊丽莎白·贝克-盖恩斯海姆合著，借助数据与案例考察现代亲密关系为何在自由与平等诉求中持续震荡。作者提出，个体化进程使女性挣脱持家者角色，男性又恐惧失去养家者位置，旧性别契约松动而新规则尚未成形。婚姻由此不再是命运共同体，更接近两份个体化履历的艰难拼接，育儿也被赋予抵御存在焦虑的意味。该书把冲突追溯至工业社会半封建半现代的张力：劳动市场要求绝对自由的个体，家庭制度却依赖自我牺牲的奉献者；同时讨论协商式关系、重组家庭、单身养育等模式如何改变情感边界。",
+    "recommended_date": "2026-10-11",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=Artificial%20Intelligence%20%3A%20A%20Modern%20Approach"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%88%B1%E7%9A%84%E5%A4%B1%E5%BA%8F%20%3A%20%E7%8E%B0%E4%BB%A3%E7%A4%BE%E4%BC%9A%E7%9A%84%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB"
   }
 ]
