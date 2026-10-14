@@ -1,32 +1,32 @@
 [
   {
-    "title": "哈萨比斯：谷歌AI之脑",
-    "author": "塞巴斯蒂安·马拉比",
-    "rating": "⭐8.9",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/8b68d6414ad1f595.jpg",
-    "summary": "本书是塞巴斯蒂安·马拉比撰写的哈萨比斯传记，作者两度入围普利策奖，耗时三年深入DeepMind核心区域，获得三十多小时独家专访和一百多名核心人物提供的材料。传主四岁成为国际象棋神童，十七岁参与游戏制作，三十八岁因AlphaGo震动世界，四十八岁以AlphaFold获得诺贝尔奖。书中回溯谷歌以6.5亿美元收购DeepMind的经过，也梳理围棋程序、Gemini、强化学习与神经科学融合等技术节点。它进一步呈现AGI竞赛中的商业博弈、伦理边界和全球格局，以及这位科技巨头既渴望又警惕的人物如何推动智能研究。",
-    "recommended_date": "2026-10-13",
+    "title": "海伯利安",
+    "author": "[美] 丹·西蒙斯",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6cbbddbaaa73da68.jpg",
+    "summary": "该书于1989年首次出版，曾获雨果奖、轨迹奖等多项科幻奖项，并进入相关科幻作品榜。故事设定在二十八世纪，地球已被黑洞吞噬，人类在银河系建立霸主政权；一颗偏远星球上流传着嗜血怪物伯劳的传说，朝圣者可以组队向它许愿，一人梦想成真，余下诸人却将失去性命。人类末日前夜，最后一支由七人组成的朝圣队伍出发，成员各有极度渴望之事，也藏着心底秘密，其中一人掌握全人类命运。丹·西蒙斯把星际政治、宗教传说与朝圣叙事交织，构成宏大的科幻史诗开端。",
+    "recommended_date": "2026-10-14",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%93%88%E8%90%A8%E6%AF%94%E6%96%AF%EF%BC%9A%E8%B0%B7%E6%AD%8CAI%E4%B9%8B%E8%84%91"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B5%B7%E4%BC%AF%E5%88%A9%E5%AE%89"
   },
   {
-    "title": "燎原 : 我看见的智能中国",
-    "author": "风辞远",
-    "rating": "⭐9.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/5a8a4c3ac1b57757.jpg",
-    "summary": "本书从中国矿山、码头、工厂、学校等现场切入，讨论人工智能热潮的历史波折与当下进展。作者选取五个故事，分别围绕一个行业、一家企业、一位开发者、一个校园团体，以及一项凝聚中国社会广泛参与的事业展开。这些案例呈现算法、数据、算力与产业流程结合时的具体面貌，也记录工程师、创业者、教师和产业工人的实践。全书以实地观察和人物经历为线索，描绘智能技术在中国落地过程中的合作关系与社会条件。",
-    "recommended_date": "2026-10-13",
+    "title": "永恒的终结 : 关于时间旅行的终极奥秘和恢宏构想",
+    "author": "[美] 艾萨克·阿西莫夫",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/0501bb6964b2c697.jpg",
+    "summary": "本书以二十四世纪发明时间力场、二十七世纪掌握时间旅行为背景。永恒时空组织在每个时代背后微调社会发展，以世纪为单位纠正过去错误，将灾难扼杀于萌芽，使人类获得安宁未来。然而这种绝对安全在某日迎来终结，因果链如黑暗涌来，威胁全人类；时空技师安德鲁·哈伦生于九十五世纪，负责操纵时空壶守护五百亿人类，一次任务中的邂逅带来爱情，也使他质疑整个世界。故事把时间旅行、因果链与文明存续联系起来，并让人类最后的希望落在一次时空任务上。",
+    "recommended_date": "2026-10-14",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%87%8E%E5%8E%9F%20%3A%20%E6%88%91%E7%9C%8B%E8%A7%81%E7%9A%84%E6%99%BA%E8%83%BD%E4%B8%AD%E5%9B%BD"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B0%B8%E6%81%92%E7%9A%84%E7%BB%88%E7%BB%93%20%3A%20%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4%E6%97%85%E8%A1%8C%E7%9A%84%E7%BB%88%E6%9E%81%E5%A5%A5%E7%A7%98%E5%92%8C%E6%81%A2%E5%AE%8F%E6%9E%84%E6%83%B3"
   },
   {
-    "title": "哥德尔、艾舍尔、巴赫 : 集异璧之大成",
-    "author": "[美]侯世达",
-    "rating": "⭐9.4",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/127d6ec2b3a74857.jpg",
-    "summary": "本书是侯世达撰写的科学普及名著，围绕数理逻辑、可计算理论和人工智能等主题展开。作者把形式系统、递归、自指与悖论等艰深概念，同艾舍尔构思奇特的空间画作、巴赫的卡农与赋格并置，借由对话、谜题和层层递进的章节，讨论意义如何在符号系统中生成。书中还涉及哥德尔不完全性定理、图灵机与意识问题的关联，呈现计算机科学、数学、艺术和音乐之间的交叉。全书章节彼此嵌套，构成关于心智、计算与自指的多层对话。",
-    "recommended_date": "2026-10-13",
+    "title": "三体Ⅱ : 黑暗森林",
+    "author": "刘慈欣",
+    "rating": "⭐9.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b6ec51852623d96f.jpg",
+    "summary": "本书承接前作设定，三体人用科技锁死地球科学后，庞大宇宙舰队直扑太阳系，意欲清除地球文明。面对危局，人类组建太空舰队，并利用三体人思维透明的缺陷，制订“面壁计划”，选出四位面壁者秘密展开反击；三体人无法识破人类计谋，便由地球背叛者挑选“破壁人”，与面壁者进行智慧博弈。作品围绕面壁计划能否奏效、文明在生存竞争中的选择，以及“黑暗森林”所指为何展开，呈现宏大宇宙尺度下的战略对抗与猜疑链。刘慈欣延续硬科幻与思想实验结合的写法，将宇宙社会学命题放入星际战争框架。",
+    "recommended_date": "2026-10-14",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%93%A5%E5%BE%B7%E5%B0%94%E3%80%81%E8%89%BE%E8%88%8D%E5%B0%94%E3%80%81%E5%B7%B4%E8%B5%AB%20%3A%20%E9%9B%86%E5%BC%82%E7%92%A7%E4%B9%8B%E5%A4%A7%E6%88%90"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%89%E4%BD%93%E2%85%A1%20%3A%20%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97"
   }
 ]
