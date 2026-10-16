@@ -1,12 +1,42 @@
 [
   {
+    "title": "别闹了，这是艺术！",
+    "author": "顾爷",
+    "rating": "⭐7.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/cee01c8728033d56.jpg",
+    "summary": "本书是顾爷2025年推出的作品，延续“小顾聊绘画”系列的通俗路线，为第四部。全书以脱口秀式的幽默语言，讲述八位西方艺术家的生平故事与创作轨迹。书中写到追求过分完美的拉斐尔、出道即巅峰的提香、记录普通人生活的布瓦伊、擅长用表情讲故事的列宾、画中有科学的修拉、被称为连环杀手的西克特、患抑郁症却保持正能量的蒙克，以及把自己的名字变成形容词的毕加索。作者也讨论艺术圈顶流的起伏，包括毕加索如何一步步封神，以及印象派如何跌落神坛。",
+    "recommended_date": "2026-10-16",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%88%AB%E9%97%B9%E4%BA%86%EF%BC%8C%E8%BF%99%E6%98%AF%E8%89%BA%E6%9C%AF%EF%BC%81"
+  },
+  {
+    "title": "观看之道",
+    "author": "[英] 约翰·伯格",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/57b9742be6cdf9e5.jpg",
+    "summary": "本书初版于1972年，由英国广播公司同名电视系列片衍生而成，是约翰·伯格谈论艺术与社会关系的代表作。全书由七篇文章组成，其中四篇图文并用，另外三篇仅以影像展开，每篇分别处理一个主题。所涉内容包括艺术与政治的关系、女性如何被建构为观看对象、油画内部矛盾，以及广告与资本主义白日梦之间的联结。该书出版后长期引发争论，其若干判断后来成为艺术社会史与文化研究中的常见观点。",
+    "recommended_date": "2026-10-16",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A7%82%E7%9C%8B%E4%B9%8B%E9%81%93"
+  },
+  {
+    "title": "当图像采取立场 : 历史之眼（第1卷）",
+    "author": "[法]乔治·迪迪-于贝尔曼",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/47c12c5dada0ba7b.jpg",
+    "summary": "本书是乔治·迪迪-于贝尔曼六卷本“历史之眼”系列的开篇，考察图像表征的立场与位置。作者以贝托尔特·布莱希特1933至1955年流亡期间对战争的反思为核心，分析其《工作日志》与图集《战争入门读本》中对视觉资料和摄影报道的剪切、粘贴、重组与评注。由此形成的蒙太奇式认知，被看作标准历史叙事的替代方案，它揭示未被察觉的主题、症候以及贯穿事件的深层关联。该书还结合布莱希特的隽语诗与间离理论，并借本雅明启迪和瓦尔堡的“情念程式”，讨论图像蒙太奇与历史叙事的辩证关系。",
+    "recommended_date": "2026-10-16",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E5%9B%BE%E5%83%8F%E9%87%87%E5%8F%96%E7%AB%8B%E5%9C%BA%20%3A%20%E5%8E%86%E5%8F%B2%E4%B9%8B%E7%9C%BC%EF%BC%88%E7%AC%AC1%E5%8D%B7%EF%BC%89"
+  },
+  {
     "title": "桃花源没事儿",
     "author": "马伯庸",
     "rating": "⭐7.6",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/294f553e015ffc00.jpg",
     "summary": "该书以陶渊明所记桃花源故事中“寻而未果”为引子，把秘境桃花源写成妖怪聚居之地，由道门与妖怪共同守护。小道士玄穹天生穷命，一旦得到横财便有天雷落下，只能在桃花源担任俗务道人，处理邻里争执、孩子打架和夫妻口角，每月道禄仅二两三钱。某日巨大危机降临，关乎所有居民安危，也牵扯到他微薄俸禄。马伯庸用轻巧幽默的笔调铺开妖怪世界的日常琐务与突发变故，使古典典故与奇幻设定彼此交错。",
     "recommended_date": "2026-10-15",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%A1%83%E8%8A%B1%E6%BA%90%E6%B2%A1%E4%BA%8B%E5%84%BF"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ca9bce085f9c3359.jpg",
     "summary": "该书从一位畅销作家出国前夜遇害展开，警方很快锁定凶手，对方也供认是一时冲动。但加贺警官找不到合乎逻辑的作案动机，凶手始终避谈原因，案件无法就此结束。随着走访展开，层层供述与手记互相矛盾，真相显露出深不见底的恶意。东野圭吾把心理现实主义与经典侦探解谜结合，借犯罪动机与人性阴影构造多重反转；杀人成为手段，死亡成为开始，案件调查直指难以解释的仇恨。",
     "recommended_date": "2026-10-15",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%81%B6%E6%84%8F"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/9ebd0b0726be8bea.jpg",
     "summary": "该书以二十世纪三十年代美国大萧条和沙尘暴为背景，讲述乔德一家失去土地后被迫离开家乡。他们把家当装上破旧拖车，沿六十六号公路向加州迁徙，希望在那里找到传说中葡萄遍野的生活。三千公里路上，这家人遭遇盘剥、离散与冷漠，也碰到陌生人的善意和彼此扶持。斯坦贝克依据实地调查与社会观察，把一家人的迁徙同农业资本、流动劳工和土地危机交织在一起，呈现大萧条时期普通人的生存处境与尊严挣扎。",
     "recommended_date": "2026-10-15",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%84%A4%E6%80%92%E7%9A%84%E8%91%A1%E8%90%84"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/6cbbddbaaa73da68.jpg",
     "summary": "该书于1989年首次出版，曾获雨果奖、轨迹奖等多项科幻奖项，并进入相关科幻作品榜。故事设定在二十八世纪，地球已被黑洞吞噬，人类在银河系建立霸主政权；一颗偏远星球上流传着嗜血怪物伯劳的传说，朝圣者可以组队向它许愿，一人梦想成真，余下诸人却将失去性命。人类末日前夜，最后一支由七人组成的朝圣队伍出发，成员各有极度渴望之事，也藏着心底秘密，其中一人掌握全人类命运。丹·西蒙斯把星际政治、宗教传说与朝圣叙事交织，构成宏大的科幻史诗开端。",
     "recommended_date": "2026-10-14",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B5%B7%E4%BC%AF%E5%88%A9%E5%AE%89"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/0501bb6964b2c697.jpg",
     "summary": "本书以二十四世纪发明时间力场、二十七世纪掌握时间旅行为背景。永恒时空组织在每个时代背后微调社会发展，以世纪为单位纠正过去错误，将灾难扼杀于萌芽，使人类获得安宁未来。然而这种绝对安全在某日迎来终结，因果链如黑暗涌来，威胁全人类；时空技师安德鲁·哈伦生于九十五世纪，负责操纵时空壶守护五百亿人类，一次任务中的邂逅带来爱情，也使他质疑整个世界。故事把时间旅行、因果链与文明存续联系起来，并让人类最后的希望落在一次时空任务上。",
     "recommended_date": "2026-10-14",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B0%B8%E6%81%92%E7%9A%84%E7%BB%88%E7%BB%93%20%3A%20%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4%E6%97%85%E8%A1%8C%E7%9A%84%E7%BB%88%E6%9E%81%E5%A5%A5%E7%A7%98%E5%92%8C%E6%81%A2%E5%AE%8F%E6%9E%84%E6%83%B3"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b6ec51852623d96f.jpg",
     "summary": "本书承接前作设定，三体人用科技锁死地球科学后，庞大宇宙舰队直扑太阳系，意欲清除地球文明。面对危局，人类组建太空舰队，并利用三体人思维透明的缺陷，制订“面壁计划”，选出四位面壁者秘密展开反击；三体人无法识破人类计谋，便由地球背叛者挑选“破壁人”，与面壁者进行智慧博弈。作品围绕面壁计划能否奏效、文明在生存竞争中的选择，以及“黑暗森林”所指为何展开，呈现宏大宇宙尺度下的战略对抗与猜疑链。刘慈欣延续硬科幻与思想实验结合的写法，将宇宙社会学命题放入星际战争框架。",
     "recommended_date": "2026-10-14",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%89%E4%BD%93%E2%85%A1%20%3A%20%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/8b68d6414ad1f595.jpg",
     "summary": "本书是塞巴斯蒂安·马拉比撰写的哈萨比斯传记，作者两度入围普利策奖，耗时三年深入DeepMind核心区域，获得三十多小时独家专访和一百多名核心人物提供的材料。传主四岁成为国际象棋神童，十七岁参与游戏制作，三十八岁因AlphaGo震动世界，四十八岁以AlphaFold获得诺贝尔奖。书中回溯谷歌以6.5亿美元收购DeepMind的经过，也梳理围棋程序、Gemini、强化学习与神经科学融合等技术节点。它进一步呈现AGI竞赛中的商业博弈、伦理边界和全球格局，以及这位科技巨头既渴望又警惕的人物如何推动智能研究。",
     "recommended_date": "2026-10-13",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%93%88%E8%90%A8%E6%AF%94%E6%96%AF%EF%BC%9A%E8%B0%B7%E6%AD%8CAI%E4%B9%8B%E8%84%91"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5a8a4c3ac1b57757.jpg",
     "summary": "本书从中国矿山、码头、工厂、学校等现场切入，讨论人工智能热潮的历史波折与当下进展。作者选取五个故事，分别围绕一个行业、一家企业、一位开发者、一个校园团体，以及一项凝聚中国社会广泛参与的事业展开。这些案例呈现算法、数据、算力与产业流程结合时的具体面貌，也记录工程师、创业者、教师和产业工人的实践。全书以实地观察和人物经历为线索，描绘智能技术在中国落地过程中的合作关系与社会条件。",
     "recommended_date": "2026-10-13",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%87%8E%E5%8E%9F%20%3A%20%E6%88%91%E7%9C%8B%E8%A7%81%E7%9A%84%E6%99%BA%E8%83%BD%E4%B8%AD%E5%9B%BD"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/127d6ec2b3a74857.jpg",
     "summary": "本书是侯世达撰写的科学普及名著，围绕数理逻辑、可计算理论和人工智能等主题展开。作者把形式系统、递归、自指与悖论等艰深概念，同艾舍尔构思奇特的空间画作、巴赫的卡农与赋格并置，借由对话、谜题和层层递进的章节，讨论意义如何在符号系统中生成。书中还涉及哥德尔不完全性定理、图灵机与意识问题的关联，呈现计算机科学、数学、艺术和音乐之间的交叉。全书章节彼此嵌套，构成关于心智、计算与自指的多层对话。",
     "recommended_date": "2026-10-13",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%93%A5%E5%BE%B7%E5%B0%94%E3%80%81%E8%89%BE%E8%88%8D%E5%B0%94%E3%80%81%E5%B7%B4%E8%B5%AB%20%3A%20%E9%9B%86%E5%BC%82%E7%92%A7%E4%B9%8B%E5%A4%A7%E6%88%90"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d1e5ca9f90e6e011.jpg",
     "summary": "本书英文版于1974年首次问世，成为现象级作品，并轰动国际体坛。作者以网球训练技巧为入口，介绍如何保持心灵清晰并实现“放松专注”的状态，将这种状态视为赛场制胜与人生成功的法则。书中提出，每一场比赛都由外在比赛和内在比赛组成：前者是对阵对手的游戏，后者是选手内心的角逐；其“内在游戏”思想建立于人本主义心理学基础上，改变了网球运动员的训练及竞技方式。作者强调克服自我怀疑、紧张和注意力不集中，学会放松身体、信任自己、有效集中注意力并抛弃坏习惯，相关方法也延伸至技能学习、人生规划、职业发展和企业管理等领域。",
     "recommended_date": "2026-10-12",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BF%83%E6%80%81%E5%88%B6%E8%83%9C%20%3A%20%E8%B6%85%E8%B6%8A%E8%AF%84%E5%88%A4%E3%80%81%E9%87%8A%E6%94%BE%E6%BD%9C%E8%83%BD%E7%9A%84%E5%86%85%E5%9C%A8%E7%A7%98%E8%AF%80"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cfba8ce74ec1e27c.jpg",
     "summary": "本书由积极心理学奠基人米哈里·契克森米哈赖在大量案例研究基础上写成，系统提出“心流”概念。该书所讨论的心流，指人做某些事情时全神贯注、投入忘我的状态，在这种状态下甚至感觉不到时间流逝，完成之后则充满能量并感到满足。作者指出，当事情既具挑战又为个人所擅长且令人喜欢时，心流容易出现在爬山、游泳、打球、游戏、阅读、演奏乐器与工作等活动中。全书围绕心流理论、进入心流的条件，以及日常生活、休闲娱乐、工作和人际关系中的相关情境展开，为积极心理学研究提供理论素材。",
     "recommended_date": "2026-10-12",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BF%83%E6%B5%81%20%3A%20%E6%9C%80%E4%BC%98%E4%BD%93%E9%AA%8C%E5%BF%83%E7%90%86%E5%AD%A6"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/125800475e4e5cab.jpg",
     "summary": "本书是一部关于心理咨询、治疗文化与当代中国情感生活的人类学田野调查作品。作者张鹂通过长期田野调查，观察心理咨询、治疗培训、自我成长课程和心理学语言如何进入中国人的日常生活，并改变人们理解痛苦、家庭、亲密关系和自我的方式。该书并非自助手册，而是追问当代人为何越来越用心理语言讲述自己：过去几十年，焦虑从对物质生存的担忧转向对内心是否充实、生活是否有意义的追问。源自西方的心理治疗进入城市生活，又被本土咨询师不断改造，作者记录这股“心理热”在个人、家庭与社会之间生根流转，也呈现焦虑者走进咨询室、学习表达情绪、重建关系与理解自我的过程。",
     "recommended_date": "2026-10-12",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%84%A6%E8%99%91%E8%80%85%E7%9A%84%E4%B8%96%E7%95%8C"
-  },
-  {
-    "title": "爱的五种语言",
-    "author": "[美国] 盖瑞·查普曼",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a9cb374a49eb8f5d.jpg",
-    "summary": "本次可使用的简介字段为暂无，因此无法依据给定信息说明该书讲了什么；可核验的字段只有作者署名为美国作者盖瑞·查普曼、ISBN为9787210078951、评分为8.6，作者字段注明其国籍为美国，这些信息不包含内容概述或目录，书名中的字面表述涉及五种语言，但输入资料没有给出这些语言的定义、来源、章节和案例。为避免编造，正文不补充该书的理论框架、方法或故事，也不对其观点作推断；若出版方简介、目录或正文材料缺失，该书的内容介绍只能标注暂无，上述判断均以给定字段为限。",
-    "recommended_date": "2026-10-11",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%88%B1%E7%9A%84%E4%BA%94%E7%A7%8D%E8%AF%AD%E8%A8%80"
-  },
-  {
-    "title": "漫长的分手 : 亲密关系如何终结",
-    "author": "[美] 黛安娜·沃恩",
-    "rating": "⭐7.7",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/be182ce23cb1a7f2.jpg",
-    "summary": "该书由社会学家黛安娜·沃恩所著，基于103次深度访谈，并以学术文献与田野材料交叉印证，考察亲密关系解除的过程。访谈对象横跨不同年龄、职业与关系类型，包括婚姻、同居、异性恋和同性恋，研究追问伴侣关系结束是否存在可描述的社会模式。书中指出，分手呈现结构性规律：发起者与被分手者的过渡轨迹不同步，身份重建具有仪式性节奏，社交圈重组、叙述构建和他人介入反复出现。发起者往往早已在内心撤离，通过日记、倾诉或替代选择重写共同记忆；被留下的一方却常在关系公开破裂时才进入这一过程，角色丧失、共同社会身份瓦解，经济与日常生活重组。",
-    "recommended_date": "2026-10-11",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%BC%AB%E9%95%BF%E7%9A%84%E5%88%86%E6%89%8B%20%3A%20%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E5%A6%82%E4%BD%95%E7%BB%88%E7%BB%93"
-  },
-  {
-    "title": "爱的失序 : 现代社会的亲密关系",
-    "author": "[德] 乌尔里希·贝克、[德] 伊丽莎⽩·⻉克-盖恩斯海姆",
-    "rating": "⭐8.2",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d713b57f9b4505fe.jpg",
-    "summary": "本书由德国社会学家乌尔里希·贝克与伊丽莎白·贝克-盖恩斯海姆合著，借助数据与案例考察现代亲密关系为何在自由与平等诉求中持续震荡。作者提出，个体化进程使女性挣脱持家者角色，男性又恐惧失去养家者位置，旧性别契约松动而新规则尚未成形。婚姻由此不再是命运共同体，更接近两份个体化履历的艰难拼接，育儿也被赋予抵御存在焦虑的意味。该书把冲突追溯至工业社会半封建半现代的张力：劳动市场要求绝对自由的个体，家庭制度却依赖自我牺牲的奉献者；同时讨论协商式关系、重组家庭、单身养育等模式如何改变情感边界。",
-    "recommended_date": "2026-10-11",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%88%B1%E7%9A%84%E5%A4%B1%E5%BA%8F%20%3A%20%E7%8E%B0%E4%BB%A3%E7%A4%BE%E4%BC%9A%E7%9A%84%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%84%A6%E8%99%91%E8%80%85%E7%9A%84%E4%B8%96%E7%95%8C"
   }
 ]
