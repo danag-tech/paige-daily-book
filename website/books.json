@@ -1,12 +1,42 @@
 [
   {
+    "title": "创新的扩散 (第五版)",
+    "author": "[美] E.M.罗杰斯",
+    "rating": "⭐8.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/9cd1a3234e6b4d4b.jpg",
+    "summary": "该书系统阐述创新扩散理论。作者E.M.罗杰斯在20世纪60年代提出这一传播效果研究框架，讨论新观念、新事物和新产品经由媒介传播并被接受的过程，也关注大众传播对社会与文化的影响。全书梳理创新产品如何产生、创新决策如何形成、创新传播经历哪些阶段，以及不同采用者类型和创新影响等环节。作为该理论的权威表述，书中的概念与案例覆盖生产、生活及产品推广中的多种革新现象。",
+    "recommended_date": "2026-10-20",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%88%9B%E6%96%B0%E7%9A%84%E6%89%A9%E6%95%A3%20%28%E7%AC%AC%E4%BA%94%E7%89%88%29"
+  },
+  {
+    "title": "启示录 : 打造用户喜爱的产品",
+    "author": "[美] Marty Cagan",
+    "rating": "⭐8.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/0b7cfe4b7cfe3da3.jpg",
+    "summary": "该书从人员、流程、产品三个角度讨论现代软件与互联网产品管理。作者马蒂·卡根有二十多年高级产品经理经历，先后在惠普、网景、美国在线、eBay等企业工作，亲历个人电脑、互联网和电子商务的起落。书中围绕产品为何无人问津、怎样发掘有价值的产品、如何说服开发团队接受产品设计，以及怎样把敏捷方法融入开发等问题展开。叙述结合企业实践与管理理念，呈现产品探索、团队协作和开发流程中的具体原则。",
+    "recommended_date": "2026-10-20",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%90%AF%E7%A4%BA%E5%BD%95%20%3A%20%E6%89%93%E9%80%A0%E7%94%A8%E6%88%B7%E5%96%9C%E7%88%B1%E7%9A%84%E4%BA%A7%E5%93%81"
+  },
+  {
+    "title": "史蒂夫·乔布斯传（修订版）",
+    "author": "[美] 沃尔特·艾萨克森",
+    "rating": "⭐9.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/e7001ddaff92508f.jpg",
+    "summary": "本书是乔布斯唯一授权的官方传记，由沃尔特·艾萨克森根据两年间与乔布斯四十多次面对面交流，以及对一百多位家庭成员、朋友、竞争对手和同事的采访写成。内容从成长经历写起，延伸到创业生涯和打造苹果公司及其产品的过程。初版于2011年推出，修订版重新审校译文，并增加作者新撰写的后记。后记叙述乔布斯去世后的葬礼等后续内容，封面和正文版式也重新设计。",
+    "recommended_date": "2026-10-20",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E4%B9%94%E5%B8%83%E6%96%AF%E4%BC%A0%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89"
+  },
+  {
     "title": "设计私生活",
     "author": "欧阳应霁",
     "rating": "⭐7.6",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/2c62006c151be2cf.jpg",
     "summary": "欧阳应霁的散文集从日常器物切入，写行遍各地所见的椅子、玩具、衣服、灯、笔记本、积木和图画等设计物件。作者对这些无机之物保持敏感，把材质、肌理、色彩与使用场景逐一拆解，也记录它们进入私人生活后的位置。书中以“我买故我在”等说法讨论消费、设计与自我表达之间的关系，文字在唯物观察与内心感受之间往返。它既写时尚与物件的光泽，也写观看物、辨认物之后保持距离的态度。",
     "recommended_date": "2026-10-19",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%AE%BE%E8%AE%A1%E7%A7%81%E7%94%9F%E6%B4%BB"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/696b51532f7607e4.jpg",
     "summary": "金荷娜与黄善宇是独居超过二十年的好友，两人厌倦一个人住的孤单与不安，偶然看中同一间房子后决定共同买下，开始一种不以爱情为前提的共同居住生活。住在一起后，彼此的差异逐渐显露：一人偏向囤积，一人崇尚极简；一人不擅料理，一人精于烹饪。她们在争吵、磨合与互补中，借由对方看见自己的习惯与边界。一起吃饭、运动、喝酒、养猫，无须奉养对方父母或成为谁家的媳妇，生病时相互照应，困难时彼此扶持。",
     "recommended_date": "2026-10-19",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%8B%BC%E5%9B%A2%E4%BA%BA%E7%94%9F%20%3A%20%E6%97%A0%E5%85%B3%E7%88%B1%E6%83%85%E7%9A%84%E5%90%8C%E5%B1%85%E7%94%9F%E6%B4%BB"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d1b203035b6270fb.jpg",
     "summary": "日籍华语作家吉井忍的散文集以东京一间八平米、俗称“四畳半”的租屋为起点，记录没有厨房、冰箱、洗澡间和洗衣机的日常起居。她写如何在狭小空间里安排饮食与生活，也把脚步伸向街头的洗衣店、钱汤、咖啡馆、24小时漫咖店、独立电影院和小餐厅。书中还写到她在这些场所遇见的东京平民，借由他们的经历铺陈城市世情。低租金住处与公共空间相互补充，呈现一种把城市当作生活延伸的具体方式。",
     "recommended_date": "2026-10-19",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E4%BA%AC%E5%85%AB%E5%B9%B3%E7%B1%B3%20%3A%20Tokyo%27s%20Downsized%20Dwelling"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/16f4b43691fe9f9e.jpg",
     "summary": "本书是柏拉图的重要对话录，借苏格拉底之口，与其他人讨论哲学、伦理、教育、文艺和政治，核心是理想国家与正义问题。对话设计了一个真、善、美相统一的政体，被视为人类历史上较早的乌托邦构想。作者提出统治者应为哲学家，认为哲学家具备知识、智慧、正义与善的美德，能够把握国家最高理念，而其他人多停留于“意见”。全书围绕正义与善展开，讨论国家、政治和法律如何与人的灵魂相关，并呈现哲学家执政的政治哲学体系。",
     "recommended_date": "2026-10-18",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%90%86%E6%83%B3%E5%9B%BD"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c5cc031d6f3b4cc1.jpg",
     "summary": "本书以“恶的问题”为主线，重新排列启蒙运动至今的哲学家、问题与关系，讲述现代哲学史的发展。作者考察莱布尼茨、卢梭、黑格尔、阿伦特等思想家围绕“世界上为什么会有恶”展开的长期交锋，分析理性信念如何在历史灾难面前受到挑战。全书以“解释恶”与“拒绝解释恶”为分类，展示不同立场之间的结构性对立，并讨论现代性中的意义崩溃与无家可归困境。作者苏珊·奈曼为哈佛大学哲学博士，曾任耶鲁大学与特拉维夫大学哲学教授，也担任爱因斯坦论坛负责人。",
     "recommended_date": "2026-10-18",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%8E%B0%E4%BB%A3%E6%80%9D%E6%83%B3%E4%B8%AD%E7%9A%84%E6%81%B6"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/6364a9157463112f.jpg",
     "summary": "本卷是英国哲学家伯特兰·罗素（1872—1970）的重要代表作之一，根据其在美国讲学时的讲稿整理而成，叙述西方哲学从古代到近代的发展脉络。作者重视历史事件对哲学的影响，把哲学家及其思想放入所处时代与社会环境中考察，形成独特解释。全书线索清晰，语言风趣，既讨论哲学与社会生活的相互作用，也呈现哲学史中的连续问题与分歧。该书在我国印行多年，长期流通，在学界与公众中影响较广。",
     "recommended_date": "2026-10-18",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%8F%B2%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/72e32994547505ad.jpg",
     "summary": "梁实秋的饮食散文集，集中呈现他在饮食文化方面的见闻与趣味。文章从北平、青岛等地的饭馆、家常菜、点心、酒茶写到市井食俗，也谈食材、做法、时令与旧时人情，兼及各地食俗差异和食事掌故。作者以雅洁幽默的笔调记下菜肴滋味，常把个人经历、地方风物与文学典故并置，使谈吃不止于口腹之欲。该书延续“雅舍小品”一路的从容风格，在琐细食物中保存一代人的生活记忆与文化趣味，也勾勒出二十世纪中国文人的日常风貌。",
     "recommended_date": "2026-10-17",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%85%E8%88%8D%E8%B0%88%E5%90%83"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/496506896ad1058a.jpg",
     "summary": "这部散文集从母亲病逝后的回望写起，以饮食与购物为线索，串联厨房小物、菜场摊铺、粥面粉饭与异乡茶食。作者洪爱珠记录与母亲相伴的日常，也叠印外婆的脚步，并加入近年寻访的店铺，拼出一条旧日生活路径。老食、老物、老铺、老市场成为返回时间的甬道，家族情感、老台北人情风土与女性生存境遇在文字中交错。书里写的不只是吃食，更是一个北台湾家庭圆桌吃饭的历史，以及长辈经验如何滋养后来独立的女性。",
     "recommended_date": "2026-10-17",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%80%81%E6%B4%BE%E5%B0%91%E5%A5%B3%E8%B4%AD%E7%89%A9%E8%B7%AF%E7%BA%BF"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/17ba3feb57f694b0.jpg",
     "summary": "本书以双线叙事展开。现代线中，中年女性伊夫琳在婚姻与日常里感到疲惫，去养老院探望婆婆时结识八十六岁的妮妮，两人分享零食，也听她断断续续讲述旧事。回忆线回到五十多年前的汽笛镇，顽劣的艾姬与淑女露丝相遇，露丝婚后遭遇家暴，艾姬与友人救出她，并把露丝的儿子视若己出。她们后来开了一家咖啡馆，以绿番茄油炸而成的招牌菜闻名，镇上的主妇、黑人佣仆、流浪汉等汇聚于此，南方乡村日常由此铺开。",
     "recommended_date": "2026-10-17",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B2%B9%E7%82%B8%E7%BB%BF%E7%95%AA%E8%8C%84"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cee01c8728033d56.jpg",
     "summary": "本书是顾爷2025年推出的作品，延续“小顾聊绘画”系列的通俗路线，为第四部。全书以脱口秀式的幽默语言，讲述八位西方艺术家的生平故事与创作轨迹。书中写到追求过分完美的拉斐尔、出道即巅峰的提香、记录普通人生活的布瓦伊、擅长用表情讲故事的列宾、画中有科学的修拉、被称为连环杀手的西克特、患抑郁症却保持正能量的蒙克，以及把自己的名字变成形容词的毕加索。作者也讨论艺术圈顶流的起伏，包括毕加索如何一步步封神，以及印象派如何跌落神坛。",
     "recommended_date": "2026-10-16",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%88%AB%E9%97%B9%E4%BA%86%EF%BC%8C%E8%BF%99%E6%98%AF%E8%89%BA%E6%9C%AF%EF%BC%81"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/57b9742be6cdf9e5.jpg",
     "summary": "本书初版于1972年，由英国广播公司同名电视系列片衍生而成，是约翰·伯格谈论艺术与社会关系的代表作。全书由七篇文章组成，其中四篇图文并用，另外三篇仅以影像展开，每篇分别处理一个主题。所涉内容包括艺术与政治的关系、女性如何被建构为观看对象、油画内部矛盾，以及广告与资本主义白日梦之间的联结。该书出版后长期引发争论，其若干判断后来成为艺术社会史与文化研究中的常见观点。",
     "recommended_date": "2026-10-16",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A7%82%E7%9C%8B%E4%B9%8B%E9%81%93"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/47c12c5dada0ba7b.jpg",
     "summary": "本书是乔治·迪迪-于贝尔曼六卷本“历史之眼”系列的开篇，考察图像表征的立场与位置。作者以贝托尔特·布莱希特1933至1955年流亡期间对战争的反思为核心，分析其《工作日志》与图集《战争入门读本》中对视觉资料和摄影报道的剪切、粘贴、重组与评注。由此形成的蒙太奇式认知，被看作标准历史叙事的替代方案，它揭示未被察觉的主题、症候以及贯穿事件的深层关联。该书还结合布莱希特的隽语诗与间离理论，并借本雅明启迪和瓦尔堡的“情念程式”，讨论图像蒙太奇与历史叙事的辩证关系。",
     "recommended_date": "2026-10-16",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E5%9B%BE%E5%83%8F%E9%87%87%E5%8F%96%E7%AB%8B%E5%9C%BA%20%3A%20%E5%8E%86%E5%8F%B2%E4%B9%8B%E7%9C%BC%EF%BC%88%E7%AC%AC1%E5%8D%B7%EF%BC%89"
-  },
-  {
-    "title": "桃花源没事儿",
-    "author": "马伯庸",
-    "rating": "⭐7.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/294f553e015ffc00.jpg",
-    "summary": "该书以陶渊明所记桃花源故事中“寻而未果”为引子，把秘境桃花源写成妖怪聚居之地，由道门与妖怪共同守护。小道士玄穹天生穷命，一旦得到横财便有天雷落下，只能在桃花源担任俗务道人，处理邻里争执、孩子打架和夫妻口角，每月道禄仅二两三钱。某日巨大危机降临，关乎所有居民安危，也牵扯到他微薄俸禄。马伯庸用轻巧幽默的笔调铺开妖怪世界的日常琐务与突发变故，使古典典故与奇幻设定彼此交错。",
-    "recommended_date": "2026-10-15",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%A1%83%E8%8A%B1%E6%BA%90%E6%B2%A1%E4%BA%8B%E5%84%BF"
-  },
-  {
-    "title": "恶意",
-    "author": "[日] 东野圭吾",
-    "rating": "⭐8.7",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ca9bce085f9c3359.jpg",
-    "summary": "该书从一位畅销作家出国前夜遇害展开，警方很快锁定凶手，对方也供认是一时冲动。但加贺警官找不到合乎逻辑的作案动机，凶手始终避谈原因，案件无法就此结束。随着走访展开，层层供述与手记互相矛盾，真相显露出深不见底的恶意。东野圭吾把心理现实主义与经典侦探解谜结合，借犯罪动机与人性阴影构造多重反转；杀人成为手段，死亡成为开始，案件调查直指难以解释的仇恨。",
-    "recommended_date": "2026-10-15",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%81%B6%E6%84%8F"
-  },
-  {
-    "title": "愤怒的葡萄",
-    "author": "[美] 约翰·斯坦贝克",
-    "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/9ebd0b0726be8bea.jpg",
-    "summary": "该书以二十世纪三十年代美国大萧条和沙尘暴为背景，讲述乔德一家失去土地后被迫离开家乡。他们把家当装上破旧拖车，沿六十六号公路向加州迁徙，希望在那里找到传说中葡萄遍野的生活。三千公里路上，这家人遭遇盘剥、离散与冷漠，也碰到陌生人的善意和彼此扶持。斯坦贝克依据实地调查与社会观察，把一家人的迁徙同农业资本、流动劳工和土地危机交织在一起，呈现大萧条时期普通人的生存处境与尊严挣扎。",
-    "recommended_date": "2026-10-15",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%84%A4%E6%80%92%E7%9A%84%E8%91%A1%E8%90%84"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BD%93%E5%9B%BE%E5%83%8F%E9%87%87%E5%8F%96%E7%AB%8B%E5%9C%BA%20%3A%20%E5%8E%86%E5%8F%B2%E4%B9%8B%E7%9C%BC%EF%BC%88%E7%AC%AC1%E5%8D%B7%EF%BC%89"
   }
 ]
