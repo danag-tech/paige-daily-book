@@ -1,12 +1,42 @@
 [
   {
+    "title": "人间游戏 : 人际关系心理学",
+    "author": "[美] Eric Berne、[美] 艾瑞克·伯恩",
+    "rating": "⭐7.8",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/34be4f2efeae055e.jpg",
+    "summary": "本书是沟通分析技术创始人艾瑞克·伯恩的代表作，自1962年问世后长期流传，累计销量超过500万册。书中把人在日常交往中表现出的自我状态与互动模式作为分析对象，考察人们如何在对话、家庭关系和社会场景里反复进入带有隐藏动机的心理游戏。作者以简明概念拆解人际互动的结构，关注游戏如何启动、如何形成回报，以及这些模式怎样影响沟通。中文新版依据2006年简体版重新译出。",
+    "recommended_date": "2026-10-23",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E9%97%B4%E6%B8%B8%E6%88%8F%20%3A%20%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%BF%83%E7%90%86%E5%AD%A6"
+  },
+  {
+    "title": "遥远的救世主",
+    "author": "豆豆",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a678a804ede86775.jpg",
+    "summary": "本书围绕商界怪才丁元英展开：他曾为德国一家私募公司操作资金，把从德国募集的资本投入中国股市，后因良心发现退出公司，却因此付出分红被冻结、生活困顿的代价。回到古城隐居后，他结识在法兰克福长大、任职于当地刑警队的芮小丹，两人由相识到相知，并从音响发烧友发展为恋人。小说借这段爱情和商场经历，讨论文化属性、资本运作与个体选择，也带有佛学思辨色彩。",
+    "recommended_date": "2026-10-23",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%81%A5%E8%BF%9C%E7%9A%84%E6%95%91%E4%B8%96%E4%B8%BB"
+  },
+  {
+    "title": "我的天才女友 : 那不勒斯四部曲1",
+    "author": "[意] 埃莱娜·费兰特",
+    "rating": "⭐8.8",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/11fcc922f4b6220a.jpg",
+    "summary": "故事从那不勒斯一处破败社区展开，埃莱娜与莉拉自小形影不离，既彼此信赖，也把对方视作隐秘的镜子。莉拉聪慧果敢，敢于质问欺凌者，也敢向强势人物讨回被夺走的玩具；埃莱娜羡慕其学习天赋与决断力，同时暗暗模仿。家人不支持莉拉继续求学，她到修鞋店帮工，又面对数名纨绔子弟的追求；埃莱娜则独自继续学业，在关爱、嫉妒与竞争感之间摇摆。小说以埃莱娜回望莉拉失踪的线索起笔，写两人的少女时代、社区环境和各自选择。",
+    "recommended_date": "2026-10-23",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E7%9A%84%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B%20%3A%20%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E5%9B%9B%E9%83%A8%E6%9B%B21"
+  },
+  {
     "title": "妄想是我们共有的秘密",
     "author": "（美）弗兰·克劳斯",
     "rating": "⭐8.1",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f90de1aa13e21c9e.jpg",
     "summary": "本书由弗兰·克劳斯编绘，收录112则古怪妄想、崩坏念头与秘密心事，素材来自全球网友的深夜投稿。内容从童年噩梦延伸到成年崩溃，每则多以一幅复古而天真的小画配一句耳语式文字，把房间里的鬼、外星人信号、世界像电子游戏等荒诞设想呈现在简短片段中。作品曾入围艾斯纳奖。它记录的不是完整故事，而是那些难以说出口、却在许多人心中重复出现的心理暗流，呈现恐惧与古怪念头如何被画成轻巧、克制又异样的图像。",
     "recommended_date": "2026-10-22",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%84%E6%83%B3%E6%98%AF%E6%88%91%E4%BB%AC%E5%85%B1%E6%9C%89%E7%9A%84%E7%A7%98%E5%AF%86"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/69956318a9e30032.jpg",
     "summary": "本书是panpanya的短篇漫画集，收录同名短篇以及《想不通的回忆》《鱼的故事》等18篇作品和随笔小记。每个故事都从日常场景开始，人物在街道、房间与熟悉路径中遇到轻微却难以解释的偏差，现实与非现实的界线由此变得模糊。画面延续细致线条与克制的轮廓处理，城镇景致看似普通，转角、物件和动作却透出异样气氛。独立短篇之间不作强情节连接，而以空间感和片刻困惑维系整体，让日常秩序一点点显露出不可靠之处。",
     "recommended_date": "2026-10-22",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%9E%83%E8%9F%B9%E7%9A%84%E9%82%80%E8%AF%B7"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f43c04a5b0e118eb.jpg",
     "summary": "本书是panpanya的短篇漫画集，收录同名短篇以及《雨天》《垃圾的呼唤》等22篇作品和随笔小记。画面以细致线条描画现实又略显陌生的城镇景致，街巷、建筑与日常物件保留可辨认的轮廓，却在细节中显出偏移。人物轮廓既不突兀，也不淡然无感，使故事在寻常场景里慢慢滑向幻想边缘。各篇篇幅短小，情节多由普通日常起步，借空间变化、偶遇与细小异样制造恍惚感，整体形成现实与幻想交叠的恍惚意境。",
     "recommended_date": "2026-10-22",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9E%95%E9%B1%BC"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e33a1050f3f7ffe5.jpg",
     "summary": "本书由阜外医院心脏康复中心负责人冯雪撰写，从心脏康复与肥胖关系的角度讨论科学减重。内容涉及饮食、运动、睡眠、代餐、药物和手术等常见问题，并梳理快速减肥、零糖零卡、大量运动、阻断脂肪吸收、加速脂肪燃烧等流行观念。书中结合跨学科团队一年随访的减重实践，说明减重过程中如何安排饮食结构、运动方式与生活节律。针对女性、儿童、多次减肥失败者、偏好肉食者和主食爱好者等不同情况，书中给出相应的方案与问题分析。",
     "recommended_date": "2026-10-21",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%86%AF%E9%9B%AA%E7%A7%91%E5%AD%A6%E5%87%8F%E8%82%A5%E6%B3%95"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b6f759e5a503c747.jpg",
     "summary": "本书为营养学教材第15版，围绕蛋白质、脂类、碳水化合物等六类营养素展开，说明饮食与健康之间的关系，并讨论不同年龄阶段和性别所面对的营养问题。书中介绍膳食营养素参考摄入量、食物升糖指数、糖尿病前期、反式脂肪酸、高血压前期、运动补剂等概念。各章以科学原理为根基，梳理营养信息的证据来源，也呈现围绕营养与健康的争论性问题。全书配有启发提问、学习目标和算一算等教学栏目，强调用概念与证据辨析日常营养话题。",
     "recommended_date": "2026-10-21",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%90%A5%E5%85%BB%E5%AD%A6%20%28%E7%AC%AC15%E7%89%88%29%20%3A%20%E6%A6%82%E5%BF%B5%E4%B8%8E%E4%BA%89%E8%AE%BA"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c252c0d79fa4e8e9.jpg",
     "summary": "本书是美国国家体能协会注册体能训练专家认证的官方指定教材，第4版共24章。内容覆盖身体系统的结构与功能、生物力学及生物能量学原理、训练适应、体能训练的个体化差异、运动营养及心理学、测试与评估、训练技术及训练计划设计方法。全书把基础科学、评估流程与训练实施放在同一框架中，说明体能训练计划从需求分析到负荷安排的基本路径，并强调科学训练与运动表现提升之间的联系。",
     "recommended_date": "2026-10-21",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=NSCA-CSCS%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%AE%B6%E4%BD%93%E8%83%BD%E5%8D%8F%E4%BC%9A%E4%BD%93%E8%83%BD%E6%95%99%E7%BB%83%E8%AE%A4%E8%AF%81%E6%8C%87%E5%8D%97%20%E7%AC%AC4%E7%89%88"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/9cd1a3234e6b4d4b.jpg",
     "summary": "该书系统阐述创新扩散理论。作者E.M.罗杰斯在20世纪60年代提出这一传播效果研究框架，讨论新观念、新事物和新产品经由媒介传播并被接受的过程，也关注大众传播对社会与文化的影响。全书梳理创新产品如何产生、创新决策如何形成、创新传播经历哪些阶段，以及不同采用者类型和创新影响等环节。作为该理论的权威表述，书中的概念与案例覆盖生产、生活及产品推广中的多种革新现象。",
     "recommended_date": "2026-10-20",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%88%9B%E6%96%B0%E7%9A%84%E6%89%A9%E6%95%A3%20%28%E7%AC%AC%E4%BA%94%E7%89%88%29"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/0b7cfe4b7cfe3da3.jpg",
     "summary": "该书从人员、流程、产品三个角度讨论现代软件与互联网产品管理。作者马蒂·卡根有二十多年高级产品经理经历，先后在惠普、网景、美国在线、eBay等企业工作，亲历个人电脑、互联网和电子商务的起落。书中围绕产品为何无人问津、怎样发掘有价值的产品、如何说服开发团队接受产品设计，以及怎样把敏捷方法融入开发等问题展开。叙述结合企业实践与管理理念，呈现产品探索、团队协作和开发流程中的具体原则。",
     "recommended_date": "2026-10-20",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%90%AF%E7%A4%BA%E5%BD%95%20%3A%20%E6%89%93%E9%80%A0%E7%94%A8%E6%88%B7%E5%96%9C%E7%88%B1%E7%9A%84%E4%BA%A7%E5%93%81"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e7001ddaff92508f.jpg",
     "summary": "本书是乔布斯唯一授权的官方传记，由沃尔特·艾萨克森根据两年间与乔布斯四十多次面对面交流，以及对一百多位家庭成员、朋友、竞争对手和同事的采访写成。内容从成长经历写起，延伸到创业生涯和打造苹果公司及其产品的过程。初版于2011年推出，修订版重新审校译文，并增加作者新撰写的后记。后记叙述乔布斯去世后的葬礼等后续内容，封面和正文版式也重新设计。",
     "recommended_date": "2026-10-20",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E4%B9%94%E5%B8%83%E6%96%AF%E4%BC%A0%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/2c62006c151be2cf.jpg",
     "summary": "欧阳应霁的散文集从日常器物切入，写行遍各地所见的椅子、玩具、衣服、灯、笔记本、积木和图画等设计物件。作者对这些无机之物保持敏感，把材质、肌理、色彩与使用场景逐一拆解，也记录它们进入私人生活后的位置。书中以“我买故我在”等说法讨论消费、设计与自我表达之间的关系，文字在唯物观察与内心感受之间往返。它既写时尚与物件的光泽，也写观看物、辨认物之后保持距离的态度。",
     "recommended_date": "2026-10-19",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%AE%BE%E8%AE%A1%E7%A7%81%E7%94%9F%E6%B4%BB"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/696b51532f7607e4.jpg",
     "summary": "金荷娜与黄善宇是独居超过二十年的好友，两人厌倦一个人住的孤单与不安，偶然看中同一间房子后决定共同买下，开始一种不以爱情为前提的共同居住生活。住在一起后，彼此的差异逐渐显露：一人偏向囤积，一人崇尚极简；一人不擅料理，一人精于烹饪。她们在争吵、磨合与互补中，借由对方看见自己的习惯与边界。一起吃饭、运动、喝酒、养猫，无须奉养对方父母或成为谁家的媳妇，生病时相互照应，困难时彼此扶持。",
     "recommended_date": "2026-10-19",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%8B%BC%E5%9B%A2%E4%BA%BA%E7%94%9F%20%3A%20%E6%97%A0%E5%85%B3%E7%88%B1%E6%83%85%E7%9A%84%E5%90%8C%E5%B1%85%E7%94%9F%E6%B4%BB"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d1b203035b6270fb.jpg",
     "summary": "日籍华语作家吉井忍的散文集以东京一间八平米、俗称“四畳半”的租屋为起点，记录没有厨房、冰箱、洗澡间和洗衣机的日常起居。她写如何在狭小空间里安排饮食与生活，也把脚步伸向街头的洗衣店、钱汤、咖啡馆、24小时漫咖店、独立电影院和小餐厅。书中还写到她在这些场所遇见的东京平民，借由他们的经历铺陈城市世情。低租金住处与公共空间相互补充，呈现一种把城市当作生活延伸的具体方式。",
     "recommended_date": "2026-10-19",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E4%BA%AC%E5%85%AB%E5%B9%B3%E7%B1%B3%20%3A%20Tokyo%27s%20Downsized%20Dwelling"
-  },
-  {
-    "title": "理想国",
-    "author": "[古希腊] 柏拉图",
-    "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/16f4b43691fe9f9e.jpg",
-    "summary": "本书是柏拉图的重要对话录，借苏格拉底之口，与其他人讨论哲学、伦理、教育、文艺和政治，核心是理想国家与正义问题。对话设计了一个真、善、美相统一的政体，被视为人类历史上较早的乌托邦构想。作者提出统治者应为哲学家，认为哲学家具备知识、智慧、正义与善的美德，能够把握国家最高理念，而其他人多停留于“意见”。全书围绕正义与善展开，讨论国家、政治和法律如何与人的灵魂相关，并呈现哲学家执政的政治哲学体系。",
-    "recommended_date": "2026-10-18",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%90%86%E6%83%B3%E5%9B%BD"
-  },
-  {
-    "title": "现代思想中的恶",
-    "author": "[德] 苏珊·奈曼 (Susan Neiman)",
-    "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/c5cc031d6f3b4cc1.jpg",
-    "summary": "本书以“恶的问题”为主线，重新排列启蒙运动至今的哲学家、问题与关系，讲述现代哲学史的发展。作者考察莱布尼茨、卢梭、黑格尔、阿伦特等思想家围绕“世界上为什么会有恶”展开的长期交锋，分析理性信念如何在历史灾难面前受到挑战。全书以“解释恶”与“拒绝解释恶”为分类，展示不同立场之间的结构性对立，并讨论现代性中的意义崩溃与无家可归困境。作者苏珊·奈曼为哈佛大学哲学博士，曾任耶鲁大学与特拉维夫大学哲学教授，也担任爱因斯坦论坛负责人。",
-    "recommended_date": "2026-10-18",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%8E%B0%E4%BB%A3%E6%80%9D%E6%83%B3%E4%B8%AD%E7%9A%84%E6%81%B6"
-  },
-  {
-    "title": "西方哲学史（上卷）",
-    "author": "[英] 罗素、[英] 伯特兰·罗素",
-    "rating": "⭐8.9",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6364a9157463112f.jpg",
-    "summary": "本卷是英国哲学家伯特兰·罗素（1872—1970）的重要代表作之一，根据其在美国讲学时的讲稿整理而成，叙述西方哲学从古代到近代的发展脉络。作者重视历史事件对哲学的影响，把哲学家及其思想放入所处时代与社会环境中考察，形成独特解释。全书线索清晰，语言风趣，既讨论哲学与社会生活的相互作用，也呈现哲学史中的连续问题与分歧。该书在我国印行多年，长期流通，在学界与公众中影响较广。",
-    "recommended_date": "2026-10-18",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%8F%B2%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E4%BA%AC%E5%85%AB%E5%B9%B3%E7%B1%B3%20%3A%20Tokyo%27s%20Downsized%20Dwelling"
   }
 ]
