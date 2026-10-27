@@ -1,12 +1,42 @@
 [
   {
+    "title": "我的母亲做保洁",
+    "author": "张小满",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a324c081a8674c2f.jpg",
+    "summary": "作者张小满以母亲在深圳从事保洁工作的经历为线索，记录城市保洁员群体被遮蔽的日常。母亲与污渍、垃圾为伴，用长时间体力劳动支撑城市对整洁的追求，也在城市中寻找生存空间、生活圈子和工作机会。母女重新生活在一起后，母亲以批判眼光观察作者的生活，作者则从了解母亲在超级商场的保洁工作入手，尝试理解她的处境。书中还呈现保洁员群体的具体日常，以及两代人在蓝领与白领身份之间的隔阂与交融。",
+    "recommended_date": "2026-10-27",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E7%9A%84%E6%AF%8D%E4%BA%B2%E5%81%9A%E4%BF%9D%E6%B4%81"
+  },
+  {
+    "title": "文化的解释",
+    "author": "[美] 克利福德·格尔兹",
+    "rating": "⭐8.8",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/671c52f9a021e6be.jpg",
+    "summary": "该书是克利福德·格尔兹文化人类学研究论文的精选集，集中梳理文化人类学领域中的若干误区。作者围绕文化的概念，讨论文化与宗教、文化与意识形态之间的关系，并通过一个个具体案例提出独特观点。全书通过案例阐明什么是文化，文化在社会生活中扮演什么角色，以及文化研究应该采取什么样的恰当方法。论文以案例推进概念辨析，呈现了文化人类学的问题意识与分析路径。",
+    "recommended_date": "2026-10-27",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%96%87%E5%8C%96%E7%9A%84%E8%A7%A3%E9%87%8A"
+  },
+  {
+    "title": "跨越边界的社区 : 北京“浙江村”的生活史",
+    "author": "项飚",
+    "rating": "⭐9.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/4f3e5bf40caaae40.jpg",
+    "summary": "作者项飚借同乡关系进入北京城乡结合部的“浙江村”，依据大量一手材料梳理这一聚居区的形成、结构、运作与变迁。书中既写社区内部的组织方式和生活秩序，也写它与周边村镇、政府部门及大中型国有商业企业之间的互动。围绕改革开放以来的社会变动，作者分析各方在具体处境中面对的危机、挑战与应对方式。全书选材新颖，视角独特，涉及的问题既深且广，呈现出社会与心理深层变革的一个侧面。",
+    "recommended_date": "2026-10-27",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B7%A8%E8%B6%8A%E8%BE%B9%E7%95%8C%E7%9A%84%E7%A4%BE%E5%8C%BA%20%3A%20%E5%8C%97%E4%BA%AC%E2%80%9C%E6%B5%99%E6%B1%9F%E6%9D%91%E2%80%9D%E7%9A%84%E7%94%9F%E6%B4%BB%E5%8F%B2"
+  },
+  {
     "title": "英伟达之道 : 黄仁勋和他的科技帝国",
     "author": "［美］金泰（Tae Kim）",
     "rating": "⭐7.7",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/bfe4d1ae33469cd9.jpg",
     "summary": "本书由金泰撰写，以黄仁勋及英伟达三十余年的发展历程为线索，梳理这家公司在核心产品研发、市场开拓、技术创新和产业布局上的关键节点。作者采访黄仁勋、联合创始人、高管、员工以及合作伙伴与竞争对手负责人，共一百余人，材料覆盖多次濒临险境后的调整。书中归纳五大创新之道、八大管理之道、五大市场之道、七大用人之道与四大核心经营理念，也写到黄仁勋从亚裔移民少年成长为科技公司掌舵人的经历。",
     "recommended_date": "2026-10-26",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B9%8B%E9%81%93%20%3A%20%E9%BB%84%E4%BB%81%E5%8B%8B%E5%92%8C%E4%BB%96%E7%9A%84%E7%A7%91%E6%8A%80%E5%B8%9D%E5%9B%BD"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7fdca932950fcd86.jpg",
     "summary": "本书源于吉姆·柯林斯与杰里·波勒斯为期六年的研究项目，选取通用电气、3M、默克、沃尔玛、惠普、迪士尼等十八家公司作为样本，考察它们长期延续的共同特征。全书不把焦点放在魅力型领导或短暂流行的管理口号上，而是追问高瞻远瞩公司区别于竞争对手的组织品质。作者用数百个具体案例组织出紧密的概念框架，讨论公司愿景、文化、机制与长期经营之间的关系，并呈现企业保持连续性的方法。",
     "recommended_date": "2026-10-26",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9F%BA%E4%B8%9A%E9%95%BF%E9%9D%92%20%3A%20%E4%BC%81%E4%B8%9A%E6%B0%B8%E7%BB%AD%E7%BB%8F%E8%90%A5%E7%9A%84%E5%87%86%E5%88%99"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/1ce429f17560a781.jpg",
     "summary": "本书由谷歌前执行董事长埃里克·施密特与前高级副总裁乔纳森·罗森伯格合著，围绕谷歌的管理哲学展开。书中提出，企业要在二十一世纪商界取得成功，需要持续打造卓越产品，并把创意精英聚集在能够发挥能力的环境中。内容涉及谷歌文化、战略、人才、决策、沟通与创新，也讨论新管理原则及Alphabet成立和改组的背景。叙述以公司运营经验为基础，呈现管理层如何看待产品、组织与变化中的商业环境。",
     "recommended_date": "2026-10-26",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89%E5%85%AC%E5%8F%B8%20%3A%20%E8%B0%B7%E6%AD%8C%E6%98%AF%E5%A6%82%E4%BD%95%E8%BF%90%E8%90%A5%E7%9A%84"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f9d23a3120b0614b.jpg",
     "summary": "数学天才石神每天固定到便当店买午餐，只为看一眼在店里工作的邻居靖子。靖子与女儿相依为命，前夫前来纠缠时，靖子失手将其杀死。石神得知后提出由自己料理善后，并设计出一个令警方始终只能在外围调查、难以触及案件核心的局。作者把数学式的严密推理与人物之间的情感牵连并置，案件推进围绕时间、身份和证据展开，石神究竟使用何种手法构成全书的核心悬念。",
     "recommended_date": "2026-10-25",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AB%8C%E7%96%91%E4%BA%BAX%E7%9A%84%E7%8C%AE%E8%BA%AB"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/9c76737abc19bfdc.jpg",
     "summary": "全书由六个相互衔接的短篇构成，围绕一位警探的人生展开，也把一座城市数十年的变化放进案件与抉择之中。故事从一桩纠纷引发的暴动写起，城市陷入紧张，有人以抗争要求改变现状，也有人只盼望稳定；一名原本向往警察职业的人因偶然听到的一句话被卷入危险漩涡。作者让不同时期的人物与事件彼此照应，在警察小说框架中讨论使命、服从、公义与自由，并呈现个人选择如何与时代迁移交织。",
     "recommended_date": "2026-10-25",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=13%2067"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/1d88c7df01634f8c.jpg",
     "summary": "故事发生在金斯艾伯特村，两座豪宅之间隐藏着彼此牵连的秘密。罗杰先生知道弗拉尔斯太太毒死第一任丈夫，也知道有人借此敲诈她；随后，弗拉尔斯太太因服用过量药物身亡。她临死前寄出的信件原可揭晓敲诈者身份，罗杰却在书房展开来信时被匕首刺中脖颈。作者以乡村宅邸、私人秘密和突然发生的凶案搭起谜面，叙述围绕信件与死亡时间展开，案件线索在有限人物关系中逐步显现。",
     "recommended_date": "2026-10-25",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BD%97%E6%9D%B0%E7%96%91%E6%A1%88"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d4a5a1b1594db911.jpg",
     "summary": "本书从“地方风格”的角度讨论晋东南古代艺术。该地区古称上党，地势封闭，为古建筑与文物遗存提供了天然保护条件，也形成具有辨识度的艺术面貌。全书收录十四篇学术论文，分为总论、建筑空间、造像风格、图像配置、区域传播和余论，分别涉及佛教石窟与地下墓葬的空间建构、早期造像碑与宗教彩塑的地方特征，以及宋金元壁画图像与仪式空间的关系。区域传播部分讨论不同区域间艺术元素的传播与互动，余论则以洪洞水神庙壁画为中心，考察地方绘画传统与民间信仰系统之间的联系。",
     "recommended_date": "2026-10-24",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8F%91%E7%8E%B0%E6%99%8B%E4%B8%9C%E5%8D%97%20%3A%20%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E8%89%BA%E6%9C%AF%E4%B8%AD%E7%9A%84%E5%9C%B0%E6%96%B9%E9%A3%8E%E6%A0%BC"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f94ab554d4a075b6.jpg",
     "summary": "本书以1932年至1941年中国营造学社的考察为线索，回顾梁思成、林徽因等人在战火中走访约190个县市、抢救性记录濒危古建筑的历程，以及其打破西方与日本学者对中国建筑史研究垄断的意义。书中汇集王澍、王贵祥、方拥等十一位建筑史与遗产保护学者的文章，重返蓟县独乐寺、应县木塔、五台山佛光寺、北京故宫、云冈石窟、江南园林、曲阜孔庙等现场。各篇从木构、石窟、园林、宫殿与地方遗存入手，拆解代表性古建筑的营造智慧，并讨论建筑背后的文化意蕴与当前保护状况。全书以三重时空的对照组织内容，呈现中国古代建筑的知识体系与营造学社考察现场之间的关联。",
     "recommended_date": "2026-10-24",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%BF%99%E5%B0%B1%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%BB%BA%E7%AD%91%20%3A%20%E9%87%8D%E8%B5%B0%E8%90%A5%E9%80%A0%E5%AD%A6%E7%A4%BE%E4%B9%8B%E8%B7%AF"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/a98ad014c0211ef7.jpg",
     "summary": "本书由建筑师与规划师C·亚历山大与A·安尼诺合作完成，从威尼斯、阿姆斯特丹等历史城市的有机统一感出发，讨论现代城市为何常缺乏整体性。作者提出一套新的城市设计理论，试图再现城市有机发展过程，并归纳出七条初步法则，以回应急剧增长的城市对整体性的要求。随后作者与研究生在旧金山高密集区进行模拟城市再设计，涉及仓库、饭店、渔用码头、音乐厅和公共广场等约九十种设计问题，并按工程顺序记录实验，用楼层平面图、立面图、街道网络、立体投影图和比例模型照片说明各项工程如何满足七条法则。",
     "recommended_date": "2026-10-24",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%9F%8E%E5%B8%82%E8%AE%BE%E8%AE%A1%E6%96%B0%E7%90%86%E8%AE%BA"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/34be4f2efeae055e.jpg",
     "summary": "本书是沟通分析技术创始人艾瑞克·伯恩的代表作，自1962年问世后长期流传，累计销量超过500万册。书中把人在日常交往中表现出的自我状态与互动模式作为分析对象，考察人们如何在对话、家庭关系和社会场景里反复进入带有隐藏动机的心理游戏。作者以简明概念拆解人际互动的结构，关注游戏如何启动、如何形成回报，以及这些模式怎样影响沟通。中文新版依据2006年简体版重新译出。",
     "recommended_date": "2026-10-23",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BA%BA%E9%97%B4%E6%B8%B8%E6%88%8F%20%3A%20%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%BF%83%E7%90%86%E5%AD%A6"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/a678a804ede86775.jpg",
     "summary": "本书围绕商界怪才丁元英展开：他曾为德国一家私募公司操作资金，把从德国募集的资本投入中国股市，后因良心发现退出公司，却因此付出分红被冻结、生活困顿的代价。回到古城隐居后，他结识在法兰克福长大、任职于当地刑警队的芮小丹，两人由相识到相知，并从音响发烧友发展为恋人。小说借这段爱情和商场经历，讨论文化属性、资本运作与个体选择，也带有佛学思辨色彩。",
     "recommended_date": "2026-10-23",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%81%A5%E8%BF%9C%E7%9A%84%E6%95%91%E4%B8%96%E4%B8%BB"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/11fcc922f4b6220a.jpg",
     "summary": "故事从那不勒斯一处破败社区展开，埃莱娜与莉拉自小形影不离，既彼此信赖，也把对方视作隐秘的镜子。莉拉聪慧果敢，敢于质问欺凌者，也敢向强势人物讨回被夺走的玩具；埃莱娜羡慕其学习天赋与决断力，同时暗暗模仿。家人不支持莉拉继续求学，她到修鞋店帮工，又面对数名纨绔子弟的追求；埃莱娜则独自继续学业，在关爱、嫉妒与竞争感之间摇摆。小说以埃莱娜回望莉拉失踪的线索起笔，写两人的少女时代、社区环境和各自选择。",
     "recommended_date": "2026-10-23",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E7%9A%84%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B%20%3A%20%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E5%9B%9B%E9%83%A8%E6%9B%B21"
-  },
-  {
-    "title": "妄想是我们共有的秘密",
-    "author": "（美）弗兰·克劳斯",
-    "rating": "⭐8.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f90de1aa13e21c9e.jpg",
-    "summary": "本书由弗兰·克劳斯编绘，收录112则古怪妄想、崩坏念头与秘密心事，素材来自全球网友的深夜投稿。内容从童年噩梦延伸到成年崩溃，每则多以一幅复古而天真的小画配一句耳语式文字，把房间里的鬼、外星人信号、世界像电子游戏等荒诞设想呈现在简短片段中。作品曾入围艾斯纳奖。它记录的不是完整故事，而是那些难以说出口、却在许多人心中重复出现的心理暗流，呈现恐惧与古怪念头如何被画成轻巧、克制又异样的图像。",
-    "recommended_date": "2026-10-22",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%84%E6%83%B3%E6%98%AF%E6%88%91%E4%BB%AC%E5%85%B1%E6%9C%89%E7%9A%84%E7%A7%98%E5%AF%86"
-  },
-  {
-    "title": "螃蟹的邀请",
-    "author": "[日] panpanya",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/69956318a9e30032.jpg",
-    "summary": "本书是panpanya的短篇漫画集，收录同名短篇以及《想不通的回忆》《鱼的故事》等18篇作品和随笔小记。每个故事都从日常场景开始，人物在街道、房间与熟悉路径中遇到轻微却难以解释的偏差，现实与非现实的界线由此变得模糊。画面延续细致线条与克制的轮廓处理，城镇景致看似普通，转角、物件和动作却透出异样气氛。独立短篇之间不作强情节连接，而以空间感和片刻困惑维系整体，让日常秩序一点点显露出不可靠之处。",
-    "recommended_date": "2026-10-22",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%9E%83%E8%9F%B9%E7%9A%84%E9%82%80%E8%AF%B7"
-  },
-  {
-    "title": "枕鱼",
-    "author": "[日] panpanya",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/f43c04a5b0e118eb.jpg",
-    "summary": "本书是panpanya的短篇漫画集，收录同名短篇以及《雨天》《垃圾的呼唤》等22篇作品和随笔小记。画面以细致线条描画现实又略显陌生的城镇景致，街巷、建筑与日常物件保留可辨认的轮廓，却在细节中显出偏移。人物轮廓既不突兀，也不淡然无感，使故事在寻常场景里慢慢滑向幻想边缘。各篇篇幅短小，情节多由普通日常起步，借空间变化、偶遇与细小异样制造恍惚感，整体形成现实与幻想交叠的恍惚意境。",
-    "recommended_date": "2026-10-22",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9E%95%E9%B1%BC"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E7%9A%84%E5%A4%A9%E6%89%8D%E5%A5%B3%E5%8F%8B%20%3A%20%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E5%9B%9B%E9%83%A8%E6%9B%B21"
   }
 ]
