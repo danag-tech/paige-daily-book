@@ -1,12 +1,42 @@
 [
   {
+    "title": "巴纳姆博物馆 : 斯蒂文·米尔豪瑟短篇自选集",
+    "author": "[美] 斯蒂文·米尔豪瑟",
+    "rating": "⭐8.3",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/bdb93b6a580a0a4d.jpg",
+    "summary": "本书是斯蒂文·米尔豪瑟的短篇自选集，收入其三十年间创作的短篇，并以一座虚构博物馆的导览结构把一批故事分置在二十一个房间中。郊区小镇出现连环掌掴犯，消失多年的老友与青蛙妻子隐居荒野，逐步扩张的巨型超市开始吞噬一切，辛巴达的远航与哈布斯堡王朝末期的幻术师也进入同一座叙事建筑。作者以博尔赫斯式的精巧、卡尔维诺式的轻盈和卡夫卡式的荒诞，让现实成为想象起飞的甲板，也让想象成为理解现实的密钥。每个故事都有独立的世界观，却共同显示日常秩序中潜伏的怪异与变形。",
+    "recommended_date": "2026-11-01",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B7%B4%E7%BA%B3%E5%A7%86%E5%8D%9A%E7%89%A9%E9%A6%86%20%3A%20%E6%96%AF%E8%92%82%E6%96%87%C2%B7%E7%B1%B3%E5%B0%94%E8%B1%AA%E7%91%9F%E7%9F%AD%E7%AF%87%E8%87%AA%E9%80%89%E9%9B%86"
+  },
+  {
+    "title": "恐惧",
+    "author": "[奥地利] 斯蒂芬·茨威格",
+    "rating": "⭐8.7",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/fa2eeeb826aa5e96.jpg",
+    "summary": "本书是奥地利作家斯蒂芬·茨威格的中篇小说，与作者另两部书写女性心理的中篇同属其女性心理写作的代表作。中产贵妇伊蕾娜拥有看似完美的家庭，丈夫是沉稳体面的律师，长期乏味的生活使她一时冲动，与年轻钢琴家发展出婚外私情。私情败露后，一名陌生女人屡次拦路敲诈，惶恐随之而来，她害怕丑闻曝光，也害怕失去家庭与体面。作者以紧张的叙事和心理刻画，写她在愧疚、掩饰与求助之间的处境，以及依附婚姻、缺少独立选项时难以摆脱的不安。",
+    "recommended_date": "2026-11-01",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%81%90%E6%83%A7"
+  },
+  {
+    "title": "傍晚的邂逅",
+    "author": "[韩]朴婉绪",
+    "rating": "⭐8.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/78a2c48f6c911eeb.jpg",
+    "summary": "本书收录朴婉绪的六个短篇小说。作者在不惑之年初登文坛，之后四十余年持续创作，留下大量具有社会影响力的作品。其写作常把离别与重逢、照料与招待放进时间推移和社会位置变化中，呈现关系结构被重新排列的瞬间。人物在家庭与日常交往里显露羞惭、自尊、虚伪与妥协，人性并非被夸张批判，而是在细节中缓慢显形，克制笔触揭开体面背后的裂缝，历史余震也在私人生活中持续回响。",
+    "recommended_date": "2026-11-01",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%82%8D%E6%99%9A%E7%9A%84%E9%82%82%E9%80%85"
+  },
+  {
     "title": "如何快速了解一个行业",
     "author": "肖璟",
     "rating": "⭐8.3",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/63839020d3e85191.jpg",
     "summary": "该书由麦肯锡前分析师肖璟撰写，围绕行业研究的方法论展开，搭建从基本框架、资讯来源到实战技巧的分析路径。内容覆盖行业生命周期、商业模式、市场规模、竞争格局等维度，并讨论行业外部驱动力与景气度指标对业绩增速的预判作用。书中提供研究模板、案例集和多个利用人工智能进行投资研究的案例，说明资料搜集、指标判断与观点论证的组织方式。全书还提到电子版行业研究卡牌，涵盖五十个核心概念，并以具体案例呈现行业分析的步骤。",
     "recommended_date": "2026-10-31",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%AA%E8%A1%8C%E4%B8%9A"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/e44fa468732f2d8d.jpg",
     "summary": "该书辑录黄奇帆在重庆工作期间以重组求解难题的实践，作者在五十余载工作历程中参与、主导多项重组，并概括其要义为资源优化配置与体制机制创新。第一部分讨论五类企业的重组与管理，包括城市建设投融资平台、资本运营投资、金融、国有工商企业集团和民营企业，并交代困难程度、方案脉络、对策及结果。第二部分讨论房地产业、工业、内陆加工贸易转型、教育、金融、财政六个行业的重组，结合行业状况、政策要求与要素配置展开分析。书中以具体案例说明在结构性平衡中推进资源重组的路径，呈现从企业到行业的操作思路。",
     "recommended_date": "2026-10-31",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%8D%E7%BB%84%E4%B8%8E%E7%AA%81%E7%A0%B4"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/26f0f92e15534428.jpg",
     "summary": "该书收录查理·芒格1987至2010年在西科金融、2014至2022年在每日期刊股东会上的讲话。作为两家企业董事长，他在会上开场介绍公司及伯克希尔·哈撒韦现状，表达对人、对事的态度，并回答股东提问。讲话跨度三十五年，涉及美国储贷行业危机、日本泡沫破裂、互联网泡沫、2008年次贷危机、比特币兴起和新冠疫情等事件。书中还呈现格雷厄姆与费雪的影响、跨学科多模型思维、早期失败、所罗门事件、可口可乐投资、航空业遇挫及比亚迪投资等线索。",
     "recommended_date": "2026-10-31",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%8A%92%E6%A0%BC%E4%B9%8B%E9%81%93%20%3A%20%E6%9F%A5%E7%90%86%C2%B7%E8%8A%92%E6%A0%BC%E8%82%A1%E4%B8%9C%E4%BC%9A%E8%AE%B2%E8%AF%9D%201987%E2%80%942022"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/efd3fc6360c1a2bf.jpg",
     "summary": "该书是加西亚·马尔克斯的长篇小说，围绕一桩事先被张扬的凶杀事件展开。故事中，凶手曾设法让人阻止行凶，得到的却是周围人的漠视与旁观，犯罪在公开预告中发生。作品综合了作者以往作品的元素，作者自认对其掌控最为成熟，并称这个故事写了三十年。小说源于1951年作者朋友在全镇人面前惨遭杀害的事件，1981年作者在五年文学罢工后为完成该书打破誓言，经过调查与思考写成，次年获诺贝尔文学奖。",
     "recommended_date": "2026-10-30",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%80%E6%A1%A9%E4%BA%8B%E5%85%88%E5%BC%A0%E6%89%AC%E7%9A%84%E5%87%B6%E6%9D%80%E6%A1%88"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fdea5ad657afa3a3.jpg",
     "summary": "该书是迟子建创作的长篇小说，描写鄂温克人的生存现状及百年沧桑。作品将这一弱小民族置于严酷自然环境和现代文明挤压的双重背景中，呈现其顽强生命力与不屈不挠的民族精神。鄂温克人丰富多彩的民族性格和风情，也在小说对族群生活的铺陈中展开。该书以民族生活、自然环境和现代文明之间的关系为主要内容展开叙述，作品曾获第七届茅盾文学奖。",
     "recommended_date": "2026-10-30",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%A2%9D%E5%B0%94%E5%8F%A4%E7%BA%B3%E6%B2%B3%E5%8F%B3%E5%B2%B8"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/783bfa7f72ec42fb.jpg",
     "summary": "该书分为上下两部，以延津为地理线索展开百年叙事。上半部写杨百顺屡遭挫折，他为谋生入天主教改名杨摩西，又因婚姻成为吴摩西，后在假意寻妻途中丢失巧玲，离开故乡时改用罗长礼之名生活。下半部写巧玲被卖到陕西后成为曹青娥，其子牛爱国也因假意寻妻和旧日情感走回延津。作者用改名、寻人与离散串起普通人的生存境遇和乡土伦理，作品曾获第八届茅盾文学奖。",
     "recommended_date": "2026-10-30",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%80%E5%8F%A5%E9%A1%B6%E4%B8%80%E4%B8%87%E5%8F%A5"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/c235b090061f7ef2.jpg",
     "summary": "本书汇集费孝通关于中国乡土社会传统文化和社会结构理论的多篇代表作，涉及乡土社会、生育制度、乡土重建与皇权绅权等论题。作者长期行行重行行，实地调查并考察中国农村经济发展的各种模式，以社会学的概念和田野经验分析基层社会的组织方式。书中讨论的内容构成中国乡土社会研究的重要文本，也呈现社会学工作与教学所关注的问题框架。该版本将多篇相关著作并置，呈现费孝通对中国农村社会结构的持续思考。",
     "recommended_date": "2026-10-29",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B9%A1%E5%9C%9F%E4%B8%AD%E5%9B%BD"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/bc89faea2ec571ca.jpg",
     "summary": "本书从组织学视角考察中国国家治理中的制度逻辑，围绕两条脉络展开：一是中央权威与地方政府之间的关系，体现在各级政府体制的制度设施和行为方式；二是国家与民众之间的关系，体现在国家与社会群体的相互影响。作者周雪光以组织分析为核心，讨论多层级治理中的权力配置、政策执行与地方差异。该书属于学术研究，旨在推进国内国家治理研究，并为社会科学研究者提供可参照的研究路径和视角。",
     "recommended_date": "2026-10-29",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E6%B2%BB%E7%90%86%E7%9A%84%E5%88%B6%E5%BA%A6%E9%80%BB%E8%BE%91%20%3A%20%E4%B8%80%E4%B8%AA%E7%BB%84%E7%BB%87%E5%AD%A6%E7%A0%94%E7%A9%B6"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/7ee0da14accf2fcb.jpg",
     "summary": "本书以农村人福贵的一生为主线，写他从阔少爷因嗜赌败光家业、气死父亲，到被抓壮丁、辗转返乡的经历。作品把个人命运置于家庭变故与时代动荡之间，借一次次失去呈现普通人承受苦难的方式。叙述保持克制，语言简洁，以福贵回望一生的口吻展开。该书曾获意大利格林扎纳·卡佛文学奖最高奖项、台湾《中国时报》十本好书奖、香港博益十五本好书奖及冰心文学奖，并入选20世纪中文小说百年百强等榜单。",
     "recommended_date": "2026-10-29",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%B4%BB%E7%9D%80"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/54e6417dac835e08.jpg",
     "summary": "本书是戴维·多伊奇展开的跨学科论证，把进化、量子物理学、知识与运算等线索纳入现实世界的解释框架，并讨论自由意志、创造力与自然规律、人类起源与未来、现实与表象、解释与无穷等议题。作者以理性和乐观态度考察人类选择、科学解释和文化进化的性质，其判断建立在现实世界如何运转的事实之上。全书核心主张是解释在宇宙中具有基础性地位，解释的范围与造成改变的能力没有穷尽，能够思考的生物是宇宙万物中最重要的实体。作者把理性延伸到科学、数学、道德哲学、政治哲学和美学，讨论通用物理规律允许下的进步空间。",
     "recommended_date": "2026-10-28",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%A0%E7%A9%B7%E7%9A%84%E5%BC%80%E5%A7%8B%20%3A%20%E4%B8%96%E7%95%8C%E8%BF%9B%E6%AD%A5%E7%9A%84%E6%9C%AC%E6%BA%90"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/6edcfd7267653a0d.jpg",
     "summary": "本书由吴军根据早先刊载于谷歌黑板报的同名系列文章重写而成，作者几乎重写了全部篇章，力求把高深的数学原理讲得更加通俗。内容从马尔可夫链、矩阵计算、余弦函数等知识切入，延伸到自然语言处理和信息处理中的具体问题，展示数学概念与工程实践之间的联系。书中借助实例说明如何化繁为简，如何用数学解决工程问题，以及如何跳出固有思维继续思考创新。叙述把语言、信息与数学方法放在同一框架内，呈现数学在信息技术中的实际作用。",
     "recommended_date": "2026-10-28",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BE%8E"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5e970c5c41424a22.jpg",
     "summary": "本书以AI“小白”小冰向程序员咖哥学习机器学习为对话主线，展开机器学习快速上手路径、数学与Python基础、线性回归和逻辑回归、深度神经网络、卷积神经网络、循环神经网络、集成学习、无监督与半监督学习以及强化学习实战等内容。所有案例通过Python、Scikit-learn和Keras实现，并包含数据分析与可视化内容。书中把理论概念、算法流程和代码实践放在同一叙事框架中，呈现从基础算法到深度学习与强化学习的内容结构。作者黄佳以对话和案例组织知识点，内容覆盖主要概念与实战环节。",
     "recommended_date": "2026-10-28",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AD%A6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"
-  },
-  {
-    "title": "我的母亲做保洁",
-    "author": "张小满",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/a324c081a8674c2f.jpg",
-    "summary": "作者张小满以母亲在深圳从事保洁工作的经历为线索，记录城市保洁员群体被遮蔽的日常。母亲与污渍、垃圾为伴，用长时间体力劳动支撑城市对整洁的追求，也在城市中寻找生存空间、生活圈子和工作机会。母女重新生活在一起后，母亲以批判眼光观察作者的生活，作者则从了解母亲在超级商场的保洁工作入手，尝试理解她的处境。书中还呈现保洁员群体的具体日常，以及两代人在蓝领与白领身份之间的隔阂与交融。",
-    "recommended_date": "2026-10-27",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%88%91%E7%9A%84%E6%AF%8D%E4%BA%B2%E5%81%9A%E4%BF%9D%E6%B4%81"
-  },
-  {
-    "title": "文化的解释",
-    "author": "[美] 克利福德·格尔兹",
-    "rating": "⭐8.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/671c52f9a021e6be.jpg",
-    "summary": "该书是克利福德·格尔兹文化人类学研究论文的精选集，集中梳理文化人类学领域中的若干误区。作者围绕文化的概念，讨论文化与宗教、文化与意识形态之间的关系，并通过一个个具体案例提出独特观点。全书通过案例阐明什么是文化，文化在社会生活中扮演什么角色，以及文化研究应该采取什么样的恰当方法。论文以案例推进概念辨析，呈现了文化人类学的问题意识与分析路径。",
-    "recommended_date": "2026-10-27",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%96%87%E5%8C%96%E7%9A%84%E8%A7%A3%E9%87%8A"
-  },
-  {
-    "title": "跨越边界的社区 : 北京“浙江村”的生活史",
-    "author": "项飚",
-    "rating": "⭐9.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/4f3e5bf40caaae40.jpg",
-    "summary": "作者项飚借同乡关系进入北京城乡结合部的“浙江村”，依据大量一手材料梳理这一聚居区的形成、结构、运作与变迁。书中既写社区内部的组织方式和生活秩序，也写它与周边村镇、政府部门及大中型国有商业企业之间的互动。围绕改革开放以来的社会变动，作者分析各方在具体处境中面对的危机、挑战与应对方式。全书选材新颖，视角独特，涉及的问题既深且广，呈现出社会与心理深层变革的一个侧面。",
-    "recommended_date": "2026-10-27",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%B7%A8%E8%B6%8A%E8%BE%B9%E7%95%8C%E7%9A%84%E7%A4%BE%E5%8C%BA%20%3A%20%E5%8C%97%E4%BA%AC%E2%80%9C%E6%B5%99%E6%B1%9F%E6%9D%91%E2%80%9D%E7%9A%84%E7%94%9F%E6%B4%BB%E5%8F%B2"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AD%A6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"
   }
 ]
