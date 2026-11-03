@@ -1,32 +1,32 @@
 [
   {
-    "title": "为什么 : 关于因果关系的新科学",
-    "author": "[美] 朱迪亚·珀尔、[美] 达纳·麦肯齐",
-    "rating": "⭐8.6",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/848071ec82197ea4.jpg",
-    "summary": "该书由人工智能领域专家朱迪亚·珀尔与达纳·麦肯齐合著，围绕因果关系科学及其在人工智能中的应用展开。作者认为，因果关系研究突破多年迷雾，厘清知识本质，并确立其在科学探索中的核心位置。书中借助因果关系之梯的三个层级揭示因果推理的本质，据此构建自动化处理工具和数学分析范式，并讨论强人工智能是否可以实现。作者指出，多数机器学习技术建基于相关关系而非因果关系；若要推进强人工智能，机器需要学会追问“为什么”，也就是具备因果推理能力。",
-    "recommended_date": "2026-11-02",
+    "title": "电影，我略知一二",
+    "author": "贾樟柯",
+    "rating": "⭐8.0",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d23e2fdefc5807c1.jpg",
+    "summary": "本书是贾樟柯的电影学习笔记，内容由音频节目修订并新增五章而成，范围涉及剧本、视听语言、后期制作及纪录片拍摄个案。作者以百余部经典影片为案例，谈长镜头、电影的运动基因、作者电影、场面调度、创新与反叛，也讨论纪录片是否属于电影以及电影语言的形成。书中还回顾《小武》《站台》《天注定》《江湖儿女》等作品的创作观念与拍摄细节，并提供珍贵剧照。作者结合近三十年从业经验，把电影史案例、片场方法与个人作品分析放在同一条线索中。",
+    "recommended_date": "2026-11-03",
     "detail_url": "book.html?id=0",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%BA%E4%BB%80%E4%B9%88%20%3A%20%E5%85%B3%E4%BA%8E%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB%E7%9A%84%E6%96%B0%E7%A7%91%E5%AD%A6"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%94%B5%E5%BD%B1%EF%BC%8C%E6%88%91%E7%95%A5%E7%9F%A5%E4%B8%80%E4%BA%8C"
   },
   {
-    "title": "少有人走的路 : 心智成熟的旅程",
-    "author": "[美]M.斯科特·派克(M.Scott Peck)",
-    "rating": "⭐7.8",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b710d50859cffa79.jpg",
-    "summary": "该书由美国作者M.斯科特·派克撰写，内容围绕心智成熟、自律与爱展开。作者认为，自律能让人承受问题带来的痛苦并最终解决问题，心灵在承受痛苦与解决问题的过程中不断成长和成熟，因此自律是心灵进化的重要工具。书中把爱界定为促进自己与他人心智成熟、不断拓展自我界限并实现自我完善的意愿，并指出爱是自律的原动力。作者还借助心理治疗中的案例与多年自我反省，讨论爱的本质难以定义的原因，以及人们对爱的理解可能存在的偏差。",
-    "recommended_date": "2026-11-02",
+    "title": "雕刻时光 : 塔可夫斯基的电影反思",
+    "author": "[苏] 安德烈·塔可夫斯基",
+    "rating": "⭐9.1",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/49a4d363b1b28f08.jpg",
+    "summary": "本书收录塔可夫斯基的思想、回忆与创作笔记，并首次披露其重要作品的灵感来源、发展脉络和工作方法。文章多系长期陆续写成，其中关于《牺牲》的一章由作者在生命最后几周口述完成。书中还涉及浓烈的自传内涵，并深入讨论影像创作的种种问题，呈现一位导演在“一团时间”里雕塑生命的过程。这些文字围绕电影形象、时间、艺术表达与作品案例展开，兼有个人经历和创作现场的说明。",
+    "recommended_date": "2026-11-03",
     "detail_url": "book.html?id=1",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%91%E6%9C%89%E4%BA%BA%E8%B5%B0%E7%9A%84%E8%B7%AF%20%3A%20%E5%BF%83%E6%99%BA%E6%88%90%E7%86%9F%E7%9A%84%E6%97%85%E7%A8%8B"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%95%E5%88%BB%E6%97%B6%E5%85%89%20%3A%20%E5%A1%94%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA%E7%9A%84%E7%94%B5%E5%BD%B1%E5%8F%8D%E6%80%9D"
   },
   {
-    "title": "思考，快与慢",
-    "author": "[美] 丹尼尔·卡尼曼",
-    "rating": "⭐8.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/b93def1f7a9e0414.jpg",
-    "summary": "该书由诺贝尔经济学奖得主丹尼尔·卡尼曼撰写，整理其关于判断与决策心理学的长期研究。作者提出系统1与系统2两种思考方式：前者依赖直觉、情感和记忆快速判断，后者较慢、更审慎并具逻辑分析特征。书中通过对话和实验说明直觉印象对思想与选择的普遍影响，讨论何时可以信任直觉、何时不可以，以及如何利用慢思考的优势。作者的研究挑战传统经济学的理性人假定，提出前景理论，并推动行为经济学与实验经济学发展。",
-    "recommended_date": "2026-11-02",
+    "title": "雕刻时光",
+    "author": "[苏] 安德烈·塔可夫斯基",
+    "rating": "⭐9.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/132ed6ef1a7de1fa.jpg",
+    "summary": "本书是塔可夫斯基对电影艺术与创作经验的系统陈述，俄文原著首次译成中文出版。作者从人为何走进暗室看电影这一问题出发，把电影创作视为对时间的雕塑：电影人从包含大量生活事实的时间材料中剔除多余部分，只留下能构成电影要素与形象的部分。书中还讨论电影语言、影像本质以及艺术良知与技巧之间的关系。伯格曼称其创造崭新电影语言，以镜像和梦境般的影像捕捉生命，而作者更像观察者，使影像活动达到出神入化的境界。",
+    "recommended_date": "2026-11-03",
     "detail_url": "book.html?id=2",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%80%9D%E8%80%83%EF%BC%8C%E5%BF%AB%E4%B8%8E%E6%85%A2"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%95%E5%88%BB%E6%97%B6%E5%85%89"
   }
 ]
