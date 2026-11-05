@@ -1,12 +1,42 @@
 [
   {
+    "title": "如何阅读一棵树 : 探寻树木的生命密语",
+    "author": "[英]特里斯坦·古利",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/03b41742abb79e7f.jpg",
+    "summary": "本书以自然观察方法解读树木留在枝叶、树皮、树干和根系中的线索。作者特里斯坦·古利结合约二十年野外观察，说明叶片白线、树干底部低矮嫩枝、树枝角度、树皮纹理和树桩年轮等痕迹如何指向水源、树木压力、年龄与生长方向；书中也讨论树木高度限制、针叶树与阔叶树的领地竞争，以及风与光对树形的影响。全书配有三十五幅手绘剖面图和三十二张全彩图片，把单株树的局部特征与海拔、温度、林地环境联系起来。",
+    "recommended_date": "2026-11-05",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%A3%B5%E6%A0%91%20%3A%20%E6%8E%A2%E5%AF%BB%E6%A0%91%E6%9C%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%AF%86%E8%AF%AD"
+  },
+  {
+    "title": "给忙碌者的天体物理学",
+    "author": "[美] 尼尔・德格拉斯・泰森",
+    "rating": "⭐8.6",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d8780a25cab37253.jpg",
+    "summary": "本书以简洁章节梳理现代天体物理学的核心问题。内容从大爆炸、黑洞、夸克和量子力学延伸到宜居行星与地外生命搜寻，也涉及空间和时间的本质、宇宙起源以及人类在宇宙中的位置。作者尼尔·德格拉斯·泰森是美国天体物理学家，长期从事科学传播，书中把宇宙探索史与前沿研究并置，用短篇结构讲述宇宙学的基本概念和观测线索，并以宇宙尺度检视日常经验所依赖的时空框架。",
+    "recommended_date": "2026-11-05",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BB%99%E5%BF%99%E7%A2%8C%E8%80%85%E7%9A%84%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6"
+  },
+  {
+    "title": "复杂生命的起源",
+    "author": "[英] 尼克·莱恩",
+    "rating": "⭐9.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d09286cae6032ed3.jpg",
+    "summary": "本书从生物能量学角度讨论复杂生命的起源。地球生命在形成后约五亿年已经出现，随后约二十亿年停留在简单细菌水平；约二十亿至十五亿年前，一次细菌进入古菌的内共生事件，使拥有精细内部结构和更高能量代谢的真核细胞成为可能。作者尼克·莱恩是英国生物化学家，曾获英国皇家学会科学图书奖和生物化学学会奖，他在书中把细胞能量生产机制、衰老与凋亡等特征联系起来，追问四十亿年间复杂化为何只出现一次，并尝试用可验证的生物化学规律解释演化路径。",
+    "recommended_date": "2026-11-05",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%8D%E6%9D%82%E7%94%9F%E5%91%BD%E7%9A%84%E8%B5%B7%E6%BA%90"
+  },
+  {
     "title": "置身事内 : 中国政府与经济发展",
     "author": "兰小欢",
     "rating": "⭐9.1",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9f2db18426741f4.jpg",
     "summary": "本书由兰小欢多年教学、调研与研究内容整理而成，以地方政府投融资为主线讨论中国经济发展。上篇解释地方政府的基本事务、收支、土地融资、开发、投资与债务等微观机制；下篇把这些行为与城市化、工业化、房价、地区差异、债务风险、经济结构失衡和国际贸易冲突联系起来。书中结合光伏、面板等行业案例，复盘宽窄巷子、华夏幸福等建设经验，并引入学界前沿研究。末章对全书论述作出提炼，呈现政府深度介入工业化与城市化时推动市场机制建立和完善的过程。",
     "recommended_date": "2026-11-04",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%20%3A%20%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4060460146c3799b.jpg",
     "summary": "本书是保罗·格雷厄姆的文集，围绕黑客即优秀程序员的工作方式、成长与对世界的贡献展开。文章讨论编程语言、黑客工作方法、计算机编程的本质以及互联网行业规则，也分析黑客文化在计算机时代中的位置。作者以硅谷创业者的经历为背景，把技术实践、创业经历与行业观察放在一起考察。书中还涉及对时代变化的独立思考，呈现其对计算机行业运行方式的持续关注。",
     "recommended_date": "2026-11-04",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6%20%3A%20%E7%A1%85%E8%B0%B7%E5%88%9B%E4%B8%9A%E4%B9%8B%E7%88%B6Paul%20Graham%E6%96%87%E9%9B%86"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/1d81d7ad1c2b360e.jpg",
     "summary": "本书以银行家查尔斯的中年出走为起点，写他放弃稳定职业与家庭，前往异国追求绘画。查尔斯在巴黎等地贫病交加，却始终把画画视为不可放弃的使命，并说必须画画，就像溺水的人必须挣扎。作品借他的经历展开艺术理想与世俗生活的冲突，也写到他在南太平洋孤岛上的婚姻、创作与疾病处境。毛姆以旁观者口吻拼接转述与片段，让人物在争议中逐渐显形，故事不急于给出单一判断。",
     "recommended_date": "2026-11-04",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9C%88%E4%BA%AE%E4%B8%8E%E5%85%AD%E4%BE%BF%E5%A3%AB"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d23e2fdefc5807c1.jpg",
     "summary": "本书是贾樟柯的电影学习笔记，内容由音频节目修订并新增五章而成，范围涉及剧本、视听语言、后期制作及纪录片拍摄个案。作者以百余部经典影片为案例，谈长镜头、电影的运动基因、作者电影、场面调度、创新与反叛，也讨论纪录片是否属于电影以及电影语言的形成。书中还回顾《小武》《站台》《天注定》《江湖儿女》等作品的创作观念与拍摄细节，并提供珍贵剧照。作者结合近三十年从业经验，把电影史案例、片场方法与个人作品分析放在同一条线索中。",
     "recommended_date": "2026-11-03",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%94%B5%E5%BD%B1%EF%BC%8C%E6%88%91%E7%95%A5%E7%9F%A5%E4%B8%80%E4%BA%8C"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/49a4d363b1b28f08.jpg",
     "summary": "本书收录塔可夫斯基的思想、回忆与创作笔记，并首次披露其重要作品的灵感来源、发展脉络和工作方法。文章多系长期陆续写成，其中关于《牺牲》的一章由作者在生命最后几周口述完成。书中还涉及浓烈的自传内涵，并深入讨论影像创作的种种问题，呈现一位导演在“一团时间”里雕塑生命的过程。这些文字围绕电影形象、时间、艺术表达与作品案例展开，兼有个人经历和创作现场的说明。",
     "recommended_date": "2026-11-03",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%95%E5%88%BB%E6%97%B6%E5%85%89%20%3A%20%E5%A1%94%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA%E7%9A%84%E7%94%B5%E5%BD%B1%E5%8F%8D%E6%80%9D"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/132ed6ef1a7de1fa.jpg",
     "summary": "本书是塔可夫斯基对电影艺术与创作经验的系统陈述，俄文原著首次译成中文出版。作者从人为何走进暗室看电影这一问题出发，把电影创作视为对时间的雕塑：电影人从包含大量生活事实的时间材料中剔除多余部分，只留下能构成电影要素与形象的部分。书中还讨论电影语言、影像本质以及艺术良知与技巧之间的关系。伯格曼称其创造崭新电影语言，以镜像和梦境般的影像捕捉生命，而作者更像观察者，使影像活动达到出神入化的境界。",
     "recommended_date": "2026-11-03",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9B%95%E5%88%BB%E6%97%B6%E5%85%89"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/848071ec82197ea4.jpg",
     "summary": "该书由人工智能领域专家朱迪亚·珀尔与达纳·麦肯齐合著，围绕因果关系科学及其在人工智能中的应用展开。作者认为，因果关系研究突破多年迷雾，厘清知识本质，并确立其在科学探索中的核心位置。书中借助因果关系之梯的三个层级揭示因果推理的本质，据此构建自动化处理工具和数学分析范式，并讨论强人工智能是否可以实现。作者指出，多数机器学习技术建基于相关关系而非因果关系；若要推进强人工智能，机器需要学会追问“为什么”，也就是具备因果推理能力。",
     "recommended_date": "2026-11-02",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%BA%E4%BB%80%E4%B9%88%20%3A%20%E5%85%B3%E4%BA%8E%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB%E7%9A%84%E6%96%B0%E7%A7%91%E5%AD%A6"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b710d50859cffa79.jpg",
     "summary": "该书由美国作者M.斯科特·派克撰写，内容围绕心智成熟、自律与爱展开。作者认为，自律能让人承受问题带来的痛苦并最终解决问题，心灵在承受痛苦与解决问题的过程中不断成长和成熟，因此自律是心灵进化的重要工具。书中把爱界定为促进自己与他人心智成熟、不断拓展自我界限并实现自我完善的意愿，并指出爱是自律的原动力。作者还借助心理治疗中的案例与多年自我反省，讨论爱的本质难以定义的原因，以及人们对爱的理解可能存在的偏差。",
     "recommended_date": "2026-11-02",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%91%E6%9C%89%E4%BA%BA%E8%B5%B0%E7%9A%84%E8%B7%AF%20%3A%20%E5%BF%83%E6%99%BA%E6%88%90%E7%86%9F%E7%9A%84%E6%97%85%E7%A8%8B"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b93def1f7a9e0414.jpg",
     "summary": "该书由诺贝尔经济学奖得主丹尼尔·卡尼曼撰写，整理其关于判断与决策心理学的长期研究。作者提出系统1与系统2两种思考方式：前者依赖直觉、情感和记忆快速判断，后者较慢、更审慎并具逻辑分析特征。书中通过对话和实验说明直觉印象对思想与选择的普遍影响，讨论何时可以信任直觉、何时不可以，以及如何利用慢思考的优势。作者的研究挑战传统经济学的理性人假定，提出前景理论，并推动行为经济学与实验经济学发展。",
     "recommended_date": "2026-11-02",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%80%9D%E8%80%83%EF%BC%8C%E5%BF%AB%E4%B8%8E%E6%85%A2"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/bdb93b6a580a0a4d.jpg",
     "summary": "本书是斯蒂文·米尔豪瑟的短篇自选集，收入其三十年间创作的短篇，并以一座虚构博物馆的导览结构把一批故事分置在二十一个房间中。郊区小镇出现连环掌掴犯，消失多年的老友与青蛙妻子隐居荒野，逐步扩张的巨型超市开始吞噬一切，辛巴达的远航与哈布斯堡王朝末期的幻术师也进入同一座叙事建筑。作者以博尔赫斯式的精巧、卡尔维诺式的轻盈和卡夫卡式的荒诞，让现实成为想象起飞的甲板，也让想象成为理解现实的密钥。每个故事都有独立的世界观，却共同显示日常秩序中潜伏的怪异与变形。",
     "recommended_date": "2026-11-01",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B7%B4%E7%BA%B3%E5%A7%86%E5%8D%9A%E7%89%A9%E9%A6%86%20%3A%20%E6%96%AF%E8%92%82%E6%96%87%C2%B7%E7%B1%B3%E5%B0%94%E8%B1%AA%E7%91%9F%E7%9F%AD%E7%AF%87%E8%87%AA%E9%80%89%E9%9B%86"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/fa2eeeb826aa5e96.jpg",
     "summary": "本书是奥地利作家斯蒂芬·茨威格的中篇小说，与作者另两部书写女性心理的中篇同属其女性心理写作的代表作。中产贵妇伊蕾娜拥有看似完美的家庭，丈夫是沉稳体面的律师，长期乏味的生活使她一时冲动，与年轻钢琴家发展出婚外私情。私情败露后，一名陌生女人屡次拦路敲诈，惶恐随之而来，她害怕丑闻曝光，也害怕失去家庭与体面。作者以紧张的叙事和心理刻画，写她在愧疚、掩饰与求助之间的处境，以及依附婚姻、缺少独立选项时难以摆脱的不安。",
     "recommended_date": "2026-11-01",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%81%90%E6%83%A7"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/78a2c48f6c911eeb.jpg",
     "summary": "本书收录朴婉绪的六个短篇小说。作者在不惑之年初登文坛，之后四十余年持续创作，留下大量具有社会影响力的作品。其写作常把离别与重逢、照料与招待放进时间推移和社会位置变化中，呈现关系结构被重新排列的瞬间。人物在家庭与日常交往里显露羞惭、自尊、虚伪与妥协，人性并非被夸张批判，而是在细节中缓慢显形，克制笔触揭开体面背后的裂缝，历史余震也在私人生活中持续回响。",
     "recommended_date": "2026-11-01",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%82%8D%E6%99%9A%E7%9A%84%E9%82%82%E9%80%85"
-  },
-  {
-    "title": "如何快速了解一个行业",
-    "author": "肖璟",
-    "rating": "⭐8.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/63839020d3e85191.jpg",
-    "summary": "该书由麦肯锡前分析师肖璟撰写，围绕行业研究的方法论展开，搭建从基本框架、资讯来源到实战技巧的分析路径。内容覆盖行业生命周期、商业模式、市场规模、竞争格局等维度，并讨论行业外部驱动力与景气度指标对业绩增速的预判作用。书中提供研究模板、案例集和多个利用人工智能进行投资研究的案例，说明资料搜集、指标判断与观点论证的组织方式。全书还提到电子版行业研究卡牌，涵盖五十个核心概念，并以具体案例呈现行业分析的步骤。",
-    "recommended_date": "2026-10-31",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%AA%E8%A1%8C%E4%B8%9A"
-  },
-  {
-    "title": "重组与突破",
-    "author": "黄奇帆",
-    "rating": "⭐8.5",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/e44fa468732f2d8d.jpg",
-    "summary": "该书辑录黄奇帆在重庆工作期间以重组求解难题的实践，作者在五十余载工作历程中参与、主导多项重组，并概括其要义为资源优化配置与体制机制创新。第一部分讨论五类企业的重组与管理，包括城市建设投融资平台、资本运营投资、金融、国有工商企业集团和民营企业，并交代困难程度、方案脉络、对策及结果。第二部分讨论房地产业、工业、内陆加工贸易转型、教育、金融、财政六个行业的重组，结合行业状况、政策要求与要素配置展开分析。书中以具体案例说明在结构性平衡中推进资源重组的路径，呈现从企业到行业的操作思路。",
-    "recommended_date": "2026-10-31",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%87%8D%E7%BB%84%E4%B8%8E%E7%AA%81%E7%A0%B4"
-  },
-  {
-    "title": "芒格之道 : 查理·芒格股东会讲话 1987—2022",
-    "author": "[美] 查理·芒格",
-    "rating": "⭐9.3",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/26f0f92e15534428.jpg",
-    "summary": "该书收录查理·芒格1987至2010年在西科金融、2014至2022年在每日期刊股东会上的讲话。作为两家企业董事长，他在会上开场介绍公司及伯克希尔·哈撒韦现状，表达对人、对事的态度，并回答股东提问。讲话跨度三十五年，涉及美国储贷行业危机、日本泡沫破裂、互联网泡沫、2008年次贷危机、比特币兴起和新冠疫情等事件。书中还呈现格雷厄姆与费雪的影响、跨学科多模型思维、早期失败、所罗门事件、可口可乐投资、航空业遇挫及比亚迪投资等线索。",
-    "recommended_date": "2026-10-31",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%8A%92%E6%A0%BC%E4%B9%8B%E9%81%93%20%3A%20%E6%9F%A5%E7%90%86%C2%B7%E8%8A%92%E6%A0%BC%E8%82%A1%E4%B8%9C%E4%BC%9A%E8%AE%B2%E8%AF%9D%201987%E2%80%942022"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%82%8D%E6%99%9A%E7%9A%84%E9%82%82%E9%80%85"
   }
 ]
