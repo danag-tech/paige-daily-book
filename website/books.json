@@ -1,12 +1,42 @@
 [
   {
+    "title": "天朝的崩溃 : 鸦片战争再研究",
+    "author": "茅海建",
+    "rating": "⭐9.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/51717b4df144c91a.jpg",
+    "summary": "本书大量利用中国第一历史档案馆所藏清朝奏折，以及英国所藏中英交涉文件和日本学者汇编资料，考订并重建与鸦片战争相关的基本史实。作者以若干主要人物为线索，叙述从武器装备、防御工事、兵员训练到作战战术，从后勤、兵力动员、兵员调动到军费来源、筹集与分配等内容。书中还考察交战国的经济实力、负责筹谋人员的心态及其战争观和战术观，展现以往研究忽视或语焉不详的面相。作者依据事实认定评价当时的人和事，并检讨清朝奏折中呈现的天朝心态，分析战败的深层原因。",
+    "recommended_date": "2026-11-09",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%A9%E6%9C%9D%E7%9A%84%E5%B4%A9%E6%BA%83%20%3A%20%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89%E5%86%8D%E7%A0%94%E7%A9%B6"
+  },
+  {
+    "title": "东晋门阀政治",
+    "author": "田余庆",
+    "rating": "⭐9.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/4e4d0e2e92fdc240.jpg",
+    "summary": "本书以丰富史料和周密考证重新考察中国中古时期的门阀政治，提出中外学者习称的魏晋南北朝门阀政治实际上只存在于东晋一朝。作者认为，门阀政治是皇权政治在特定历史条件下出现的变态，具有暂时性和过渡性，其存在形式是门阀士族与皇权共治。全书不落以婚姻和仕宦论门阀士族的旧套，而从政治史与制度史角度分析士族、皇权及地方势力之间的关系。论证建立在史料辨析之上，对东晋政治结构提出系统解释。",
+    "recommended_date": "2026-11-09",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E6%99%8B%E9%97%A8%E9%98%80%E6%94%BF%E6%B2%BB"
+  },
+  {
+    "title": "筚路维艰 : 中国社会主义路径的五次选择",
+    "author": "萧冬连",
+    "rating": "⭐9.5",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6f28bd82bf3ebb50.jpg",
+    "summary": "本书以简明清晰的文字梳理当代中国历史轨迹，从执政党的建国方略、发展模式和基本政策切入，考察社会主义实践路径的演变。作者把这一过程概括为从实行新民主主义开始，途经仿效苏联模式、追寻赶超之路、发动继续革命和实行改革开放的五次历史选择。全书着重呈现不同阶段政策抉择之间的逻辑联系与历史条件，并以政治史线索组织叙述。内容建立在当代史研究基础上，讨论制度选择如何随国内外形势与党内判断发生变化。",
+    "recommended_date": "2026-11-09",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%AD%9A%E8%B7%AF%E7%BB%B4%E8%89%B0%20%3A%20%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E8%B7%AF%E5%BE%84%E7%9A%84%E4%BA%94%E6%AC%A1%E9%80%89%E6%8B%A9"
+  },
+  {
     "title": "1929",
     "author": "[美] 安德鲁·罗斯·索尔金",
     "rating": "⭐7.8",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/3419847c54a10b63.jpg",
     "summary": "本书聚焦一九二九年华尔街股市崩盘前后的金融现场，梳理全民杠杆、信贷狂欢以及官员与银行家之间的角力。作者安德鲁·罗斯·索尔金是《纽约时报》财经记者，他耗时八年挖掘纽约联储一九二九年机密会议记录、私人信件、庭审档案和未公开回忆录。书中还原摩根、米切尔、利弗莫尔等金融人物的行动与处境，从繁荣巅峰写到黑色星期四、救市与国会听证。该书以档案叙事追踪大萧条前夜的决策链条，呈现市场狂热、杠杆与盲目自信如何交织。",
     "recommended_date": "2026-11-08",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=1929"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d7159d665f192a5b.jpg",
     "summary": "本书从投资市场切入，讨论随机性如何影响判断与结果。作者纳西姆·尼古拉斯·塔勒布指出，精于计算的数学家也可能被随机性捉弄，一些成功者的成绩未必来自可复制的能力，而可能包含运气成分。书中由此追问这种幸运能维持多久，并主张与其预测，不如为黑天鹅事件做好准备。塔勒布通过市场案例说明，准备充分者可能在极端事件中成为幸存者甚至获利者，而非牺牲者。",
     "recommended_date": "2026-11-08",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%9A%8F%E6%9C%BA%E6%BC%AB%E6%AD%A5%E7%9A%84%E5%82%BB%E7%93%9C%20%3A%20%E5%8F%91%E7%8E%B0%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BA%BA%E7%94%9F%E4%B8%AD%E7%9A%84%E9%9A%90%E8%97%8F%E6%9C%BA%E9%81%87"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d5ac18cadb8c9476.jpg",
     "summary": "十二岁的吉娅救助了一只受伤的小狗，并给它取名钱钱。钱钱竟是一位深藏不露的理财高手，引导吉娅认识收入、储蓄、目标与资产配置，也改变了一家人的财富命运。作者博多·舍费尔被称为欧洲理财大师，他以理财童话串联记账、梦想储蓄罐、投资和复利等概念，讨论如何支配金钱而非被金钱支配。书中还涉及像富人那样思考、正确认识和使用金钱，以及通过理财投资积累资产的方法。",
     "recommended_date": "2026-11-08",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/4f73b699a23a0a39.jpg",
     "summary": "本书为配合人本艺术摄影展览与收藏活动而编成的藏品图录，作者王璜生，内容围绕广东美术馆典藏的一批中国纪实摄影作品展开。所选影像从不同个人视角记录不同时期中国民众的生存状态，呈现五十多年来中国社会生活朝向人性化与个性化嬗变的过程。书中涉及六百余件当代纪实摄影作品，并交代展览策划、收藏背景与美术馆以现当代艺术和人文关怀为关注方向的工作脉络，使影像记录与机构收藏形成对应。",
     "recommended_date": "2026-11-07",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%9C%AC%20%3A%20%E7%BA%AA%E5%AE%9E%E5%9C%A8%E5%BD%93%E4%BB%A3"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cf3c20240e9fb605.jpg",
     "summary": "本书由亨利·卡蒂埃-布列松基金会编纂，汇集这位摄影家此前未被集中收录的多类资料，涵盖摄影、电影及绘画作品，也收入家人与朋友拍摄的生活照。书中既有早期照片和部分未发表影像，也有构成其摄影精华的精选作品、影片记录、专题论文、故事、代表作品选及相关出版物信息。后三十年创作的绘画、对童年和家人的回忆同样被纳入，使摄影之外的艺术活动与个人经历并置呈现。全书以较完整的档案方式呈现其工作轨迹、形式分析与影像实践。",
     "recommended_date": "2026-11-07",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%8F%8D%E8%97%8F%E5%B8%83%E5%88%97%E6%9D%BE%20%3A%20%E4%BA%A8%E5%88%A9%E2%80%A2%E5%8D%A1%E8%92%82%E5%9F%83-%E5%B8%83%E5%88%97%E6%9D%BE%E4%BD%9C%E5%93%81%E5%85%A8%E6%94%B6%E5%BD%95"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9d336c4f0bbaf90.jpg",
     "summary": "本书由本·克莱门玆与大卫·罗森菲尔德合著，比较系统地阐述摄影构图的原理与实践，从取景、画面组织到视觉元素的安排展开讨论。书中不仅处理构图技法，也较深入地探讨摄影与美学、心理学之间的联系，分析视觉感知如何影响画面的秩序与平衡。作者将技术问题放在更宽的美学框架中说明，使构图不再只是规则罗列，而成为涉及观看方式与形式判断的摄影基础课题。",
     "recommended_date": "2026-11-07",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%91%84%E5%BD%B1%E6%9E%84%E5%9B%BE%E5%AD%A6"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/a63f501923c19176.jpg",
     "summary": "本书是VICKY杨的首部长篇漫画，以异国求学为背景，围绕成长、勇气、爱与自我寻找展开。故事细写代际关系中的微妙张力、文化疏离下的身份追寻、成长过程里的隐秘阵痛，以及难以言说的孤独时刻。作品获2025年伊格纳兹杰出新人奖，通过一连串追问呈现人物对爱、连结与失落的犹疑，也写到对勇气来源和未来模样的不确定。作者以图像和文字之间的缝隙组织叙事，把离家写成一次诚实的自我对谈，同时保留困惑与恐惧中的力量线索。",
     "recommended_date": "2026-11-06",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%A6%BB%E8%88%AA"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/0b40059de2a823fe.jpg",
     "summary": "本书用漫画叙事阐释皮埃尔·布尔迪厄的区分理论，将文化资本与社会阶层概念放进高中代课课堂。围绕饮食、穿搭配饰、度假偏好乃至一杯红茶，故事逐一拆解日常生活中的隐形鄙视链，呈现品味判断如何与阶层位置相连。作品获法国《世界报》2023年度最佳漫画，并以师生对话和冲突推进理论讲解，使抽象的社会学分析落入具体场景。作者蒂菲娜·里维埃尔借代课教师与青少年的互动，讨论原生家庭、升学压力与阶级壁垒，展示品味背后的权力运作。",
     "recommended_date": "2026-11-06",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%93%81%E5%91%B3%E4%B8%8E%E9%98%B6%E5%B1%82%20%3A%20%E6%BC%AB%E7%94%BB%E8%A7%A3%E8%AF%BB%E5%B8%83%E5%B0%94%E8%BF%AA%E5%8E%84%E7%9A%84%E5%8C%BA%E5%88%86%E7%90%86%E8%AE%BA"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f8532a49ac5d15d7.jpg",
     "summary": "本书是西班牙漫画家帕科·罗卡的自传体图像回忆录，以父亲离世后旧居中的回忆为叙事起点，借拼贴式片段串起家庭成员的往事与当下。作品把日常琐事、亲情中的爱与刺、内疚和失望交织起来，并以打乱时间顺序的方式呈现个人记忆与家族历史。该书曾获2015年漫画地带奖全国最佳漫画奖、2017年大漫画奖等荣誉，译成十五种语言，并于2024年改编为真人电影。作者以克制笔触描绘衰老、死亡与亲情，以绵密分镜和无序时间组织家庭记忆。",
     "recommended_date": "2026-11-06",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%97%A0%E8%8A%B1%E6%9E%9C%E4%B9%8B%E5%91%B3"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/03b41742abb79e7f.jpg",
     "summary": "本书以自然观察方法解读树木留在枝叶、树皮、树干和根系中的线索。作者特里斯坦·古利结合约二十年野外观察，说明叶片白线、树干底部低矮嫩枝、树枝角度、树皮纹理和树桩年轮等痕迹如何指向水源、树木压力、年龄与生长方向；书中也讨论树木高度限制、针叶树与阔叶树的领地竞争，以及风与光对树形的影响。全书配有三十五幅手绘剖面图和三十二张全彩图片，把单株树的局部特征与海拔、温度、林地环境联系起来。",
     "recommended_date": "2026-11-05",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%A3%B5%E6%A0%91%20%3A%20%E6%8E%A2%E5%AF%BB%E6%A0%91%E6%9C%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%AF%86%E8%AF%AD"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d8780a25cab37253.jpg",
     "summary": "本书以简洁章节梳理现代天体物理学的核心问题。内容从大爆炸、黑洞、夸克和量子力学延伸到宜居行星与地外生命搜寻，也涉及空间和时间的本质、宇宙起源以及人类在宇宙中的位置。作者尼尔·德格拉斯·泰森是美国天体物理学家，长期从事科学传播，书中把宇宙探索史与前沿研究并置，用短篇结构讲述宇宙学的基本概念和观测线索，并以宇宙尺度检视日常经验所依赖的时空框架。",
     "recommended_date": "2026-11-05",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BB%99%E5%BF%99%E7%A2%8C%E8%80%85%E7%9A%84%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d09286cae6032ed3.jpg",
     "summary": "本书从生物能量学角度讨论复杂生命的起源。地球生命在形成后约五亿年已经出现，随后约二十亿年停留在简单细菌水平；约二十亿至十五亿年前，一次细菌进入古菌的内共生事件，使拥有精细内部结构和更高能量代谢的真核细胞成为可能。作者尼克·莱恩是英国生物化学家，曾获英国皇家学会科学图书奖和生物化学学会奖，他在书中把细胞能量生产机制、衰老与凋亡等特征联系起来，追问四十亿年间复杂化为何只出现一次，并尝试用可验证的生物化学规律解释演化路径。",
     "recommended_date": "2026-11-05",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%8D%E6%9D%82%E7%94%9F%E5%91%BD%E7%9A%84%E8%B5%B7%E6%BA%90"
-  },
-  {
-    "title": "置身事内 : 中国政府与经济发展",
-    "author": "兰小欢",
-    "rating": "⭐9.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/d9f2db18426741f4.jpg",
-    "summary": "本书由兰小欢多年教学、调研与研究内容整理而成，以地方政府投融资为主线讨论中国经济发展。上篇解释地方政府的基本事务、收支、土地融资、开发、投资与债务等微观机制；下篇把这些行为与城市化、工业化、房价、地区差异、债务风险、经济结构失衡和国际贸易冲突联系起来。书中结合光伏、面板等行业案例，复盘宽窄巷子、华夏幸福等建设经验，并引入学界前沿研究。末章对全书论述作出提炼，呈现政府深度介入工业化与城市化时推动市场机制建立和完善的过程。",
-    "recommended_date": "2026-11-04",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%20%3A%20%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95"
-  },
-  {
-    "title": "黑客与画家 : 硅谷创业之父Paul Graham文集",
-    "author": "[美] Paul Graham",
-    "rating": "⭐8.7",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/4060460146c3799b.jpg",
-    "summary": "本书是保罗·格雷厄姆的文集，围绕黑客即优秀程序员的工作方式、成长与对世界的贡献展开。文章讨论编程语言、黑客工作方法、计算机编程的本质以及互联网行业规则，也分析黑客文化在计算机时代中的位置。作者以硅谷创业者的经历为背景，把技术实践、创业经历与行业观察放在一起考察。书中还涉及对时代变化的独立思考，呈现其对计算机行业运行方式的持续关注。",
-    "recommended_date": "2026-11-04",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6%20%3A%20%E7%A1%85%E8%B0%B7%E5%88%9B%E4%B8%9A%E4%B9%8B%E7%88%B6Paul%20Graham%E6%96%87%E9%9B%86"
-  },
-  {
-    "title": "月亮与六便士",
-    "author": "[英] 威廉·萨默塞特·毛姆",
-    "rating": "⭐8.7",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/1d81d7ad1c2b360e.jpg",
-    "summary": "本书以银行家查尔斯的中年出走为起点，写他放弃稳定职业与家庭，前往异国追求绘画。查尔斯在巴黎等地贫病交加，却始终把画画视为不可放弃的使命，并说必须画画，就像溺水的人必须挣扎。作品借他的经历展开艺术理想与世俗生活的冲突，也写到他在南太平洋孤岛上的婚姻、创作与疾病处境。毛姆以旁观者口吻拼接转述与片段，让人物在争议中逐渐显形，故事不急于给出单一判断。",
-    "recommended_date": "2026-11-04",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%9C%88%E4%BA%AE%E4%B8%8E%E5%85%AD%E4%BE%BF%E5%A3%AB"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%8D%E6%9D%82%E7%94%9F%E5%91%BD%E7%9A%84%E8%B5%B7%E6%BA%90"
   }
 ]
