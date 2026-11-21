@@ -1,12 +1,42 @@
 [
   {
+    "title": "东京平常日1",
+    "author": "[日]松本大洋",
+    "rating": "⭐8.7",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/6e51973dcb4ce662.jpg",
+    "summary": "在出版社工作三十年的漫画编辑盐泽突然辞职。杂志停刊、行业萎缩，他以此作为赎罪方式，决定远离漫画，与一只白色文鸟独身生活；曾与盐泽合作的漫画家也各自陷入困境，新人青木愤世嫉俗，老家长作忍受病痛，岚山做小区门卫，木曾成为家庭主妇。在漫画家立花礼子的葬礼上，盐泽再次见到已故的立花，随后决定用退职金创办一本理想中的漫画杂志。作者松本大洋以群像叙事描绘漫画行业的现实压力与创作者处境，作品进入2022年“这本漫画真厉害”“这本漫画快来读”榜单。",
+    "recommended_date": "2026-11-21",
+    "detail_url": "book.html?id=0",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%B8%9C%E4%BA%AC%E5%B9%B3%E5%B8%B8%E6%97%A51"
+  },
+  {
+    "title": "佩索阿：最后的时光 : 图像小说",
+    "author": "[法] 尼古拉·巴拉尔 著绘、[法] 尼古拉·巴拉尔",
+    "rating": "⭐8.2",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/ffb1b8434b7008fc.jpg",
+    "summary": "1935年11月，佩索阿度过生命最后时光，《里斯本日报》的年轻自由撰稿人西芒·塞代拉受邀撰写讣告。对作家所知不多的塞代拉追踪线索，采访佩索阿一生的重要见证人，逐步还原其形象；另一条线则跟随佩索阿最后三天的生活，由他以第一人称回顾童年、写作、爱情、疾病与众多“异名”。作者尼古拉·巴拉尔以图像小说形式组织双线叙事，将史料采访与诗人内心独白并置，呈现“不安之书”与异名问题带来的内在冲突。该书入围安古兰国际漫画节，书后另附人物大事年表与手稿资料。",
+    "recommended_date": "2026-11-21",
+    "detail_url": "book.html?id=1",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BD%A9%E7%B4%A2%E9%98%BF%EF%BC%9A%E6%9C%80%E5%90%8E%E7%9A%84%E6%97%B6%E5%85%89%20%3A%20%E5%9B%BE%E5%83%8F%E5%B0%8F%E8%AF%B4"
+  },
+  {
+    "title": "库兹马在家唱歌哆啰啰.1",
+    "author": "(日)绀野晶",
+    "rating": "⭐8.4",
+    "cover": "https://danag-tech.github.io/paige-daily-book/covers/5f46e4d93f8768cb.jpg",
+    "summary": "初中一年级的秋天，鸿田新遇到外形像鸟的谜之生物库兹马。库兹马因饥饿跟着他回家，住进因复读生哥哥而气氛紧张的鸿田家，并约定待到寒冬结束、暖春降临。作者绀野晶以家庭轻喜剧方式展开这段超现实日常，作品获2022年“下一部人气漫画大赏”U-NEXT赏，同名改编动画已播出。简体中文版全5卷完结发布，围绕少年与神秘生物的相处铺陈幽默而温暖的日常，日本亚马逊均分超过4.8分。",
+    "recommended_date": "2026-11-21",
+    "detail_url": "book.html?id=2",
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BA%93%E5%85%B9%E9%A9%AC%E5%9C%A8%E5%AE%B6%E5%94%B1%E6%AD%8C%E5%93%86%E5%95%B0%E5%95%B0.1"
+  },
+  {
     "title": "长安的荔枝",
     "author": "马伯庸",
     "rating": "⭐8.5",
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/ffed42de5f5c91a6.jpg",
     "summary": "唐天宝十四年，长安小吏李善德接到差事：在贵妃诞日前从岭南运来新鲜荔枝。荔枝保存时限极短，岭南距长安五千余里，山水迢迢，这个任务近乎无法完成。作者马伯庸以杜牧诗句引发的历史疑问为起点，把转运路线、保鲜办法、官署协作与地方关系写成一场紧迫的推算和调度。该书属于历史小说，借小吏奔走的过程呈现盛唐行政运作与基层处境，叙事保持时空紧迫感。",
     "recommended_date": "2026-11-20",
-    "detail_url": "book.html?id=0",
+    "detail_url": "book.html?id=3",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%95%BF%E5%AE%89%E7%9A%84%E8%8D%94%E6%9E%9D"
   },
   {
@@ -16,7 +46,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/29027960312c5679.jpg",
     "summary": "该书由美国项目管理协会编写，是项目管理知识体系的重要文本，并成为美国国家标准之一。内容以过程组和知识领域为框架，界定项目管理的五大过程组，并介绍十大知识领域与四十七个过程。书中整理输入、输出、工具与技术等要素，形成可查阅的体系化结构，用于说明项目从启动、规划、执行到监控、收尾的管理活动。第六版在旧版基础上更新概念与表述，强调项目管理实践的通用标准。",
     "recommended_date": "2026-11-20",
-    "detail_url": "book.html?id=1",
+    "detail_url": "book.html?id=4",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%8C%87%E5%8D%97%EF%BC%88PMBOK%E6%8C%87%E5%8D%97%EF%BC%89%EF%BC%88%E7%AC%AC6%E7%89%88%EF%BC%89"
   },
   {
@@ -26,7 +56,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/2d2f5c7faf507a9d.jpg",
     "summary": "太白金星李长庚受命策划九九八十一难，确保取经流程平稳推进。项目启动后，费用报销、工作汇报、人事安排和各路大仙递来的条子接连出现，妖怪也各有心思，琐碎事务层层叠加。大闹天宫的旧事重新浮出水面，因果牵连不断，李长庚在协调天庭与西天诉求的同时，发现成就金仙的道路愈发渺茫。作者以神仙体系为框架，把古典取经故事写成一套充满行政细节与博弈的项目运作。",
     "recommended_date": "2026-11-20",
-    "detail_url": "book.html?id=2",
+    "detail_url": "book.html?id=5",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%A4%AA%E7%99%BD%E9%87%91%E6%98%9F%E6%9C%89%E7%82%B9%E7%83%A6"
   },
   {
@@ -36,7 +66,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/b008e734b62d5057.jpg",
     "summary": "本书由 Stuart McGill 撰写，围绕腰背疼痛的自我评估与动作调整展开，核心方法是识别疼痛诱发动作，减少重复性刺激，并建立无痛动作模式。作者提出分阶段的练习计划，将评估、动作控制与逐步训练结合起来，形成一套有循证基础的方法。该书也讨论脊柱保健中的常见误区，以及疼痛管理、动作模式重建与恢复腰背健康之间的联系。专业医生和训练员将该书视为具有指导性的图书，康复医师也重视其系统而有循证基础的方法。",
     "recommended_date": "2026-11-19",
-    "detail_url": "book.html?id=3",
+    "detail_url": "book.html?id=6",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%85%B0%E8%83%8C%E7%BB%B4%E4%BF%AE%E5%B8%88%20%3A%20%E5%8C%BB%E7%94%9F%E6%B2%A1%E6%9C%89%E5%91%8A%E8%AF%89%E4%BD%A0%E7%9A%84%E8%84%8A%E6%9F%B1%E4%BF%9D%E5%81%A5%E7%A7%98%E8%AF%80"
   },
   {
@@ -46,7 +76,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/bf3c20fdc48a2eb8.jpg",
     "summary": "本书由前安贞医院营养科主任夏萌结合自身患病经历与约十万份临床病例写成。作者指出，部分慢性病管理存在将低油低脂等同于健康的误区，蛋白质缺乏式营养不良也可能被忽略，饮食与生活方式改变在康复中的作用未获足够重视。书中提出以植物类食物约六成五、动物类食物约三成五为比例的饮食框架，并把一日三餐视作健康管理的基础。针对冠心病、甲状腺结节、胃炎、心悸、便秘、高血压、痛经、抑郁和老年痴呆等十四种常见慢病，作者以“四分法”讲解饮食与疾病控制、恢复之间的关系。",
     "recommended_date": "2026-11-19",
-    "detail_url": "book.html?id=4",
+    "detail_url": "book.html?id=7",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E4%BD%A0%E6%98%AF%E4%BD%A0%E5%90%83%E5%87%BA%E6%9D%A5%E7%9A%84%20%3A%20%E5%90%83%E5%AF%B9%E5%B0%91%E7%94%9F%E7%97%85%EF%BC%8C%E7%97%85%E4%BA%86%E8%BF%99%E6%A0%B7%E5%90%83"
   },
   {
@@ -56,7 +86,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/590d7b278ef95d87.jpg",
     "summary": "本书依据国际营养学较新的研究状况修订，并由营养学家范志红主持翻译与审订。内容围绕饮食模式、营养状况与慢性病风险之间的关系展开，引用中国全国营养与健康调查中有关糖尿病、超重肥胖和血脂异常的数据。作者帕特里克·霍尔福德是国际健康与营养领域研究者、最佳营养学会创始人，长期关注疾病营养治疗。该书讨论“吃什么”和“怎么吃”的科学知识，涉及营养学观念与日常饮食调整。",
     "recommended_date": "2026-11-19",
-    "detail_url": "book.html?id=5",
+    "detail_url": "book.html?id=8",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%90%A5%E5%85%BB%E5%9C%A3%E7%BB%8F"
   },
   {
@@ -66,7 +96,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/947aea2fe383ac43.jpg",
     "summary": "本书记录作者李沁云在三十四岁重新做学生、投身心理治疗行业的经历，以及她从被治疗体验、新手咨询师到精神分析候选人的思考。全书以精神分析为线索，讨论人与人之间的关系、记忆碎片、自我真相与幼年经验如何进入成年生活。作者把精神分析视为关于人心的理论，也视为一条需要临床工作者以自身人性去接近另一人的实践之路。书中时间跨度从二〇一七年至今，呈现训练、临床与自我理解交织的过程。",
     "recommended_date": "2026-11-18",
-    "detail_url": "book.html?id=6",
+    "detail_url": "book.html?id=9",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%BF%83%E7%9A%84%E8%A1%A8%E8%BE%BE"
   },
   {
@@ -76,7 +106,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/5feaa3a6964fde45.jpg",
     "summary": "本书以青年与哲人的五夜对话展开，系统介绍阿德勒心理学对自卑、人际关系与人生课题的看法。书中提出目的论、课题分离、共同体感觉等概念，讨论人如何在评价与期待中划分自己的课题，并面对不被所有人喜欢的可能。作者岸见一郎、古贺史健借对话推进观点，涉及优越情结、竞争、认可欲求、横向关系与幸福之间的复杂联系。全书不把勇气写成口号，而是放在具体的关系困境与生活选择中加以辨析，并说明自由往往伴随被讨厌的风险。",
     "recommended_date": "2026-11-18",
-    "detail_url": "book.html?id=7",
+    "detail_url": "book.html?id=10",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%20%3A%20%E2%80%9C%E8%87%AA%E6%88%91%E5%90%AF%E5%8F%91%E4%B9%8B%E7%88%B6%E2%80%9D%E9%98%BF%E5%BE%B7%E5%8B%92%E7%9A%84%E5%93%B2%E5%AD%A6%E8%AF%BE"
   },
   {
@@ -86,7 +116,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/cb3bdd78107026bd.jpg",
     "summary": "本书围绕独处能力展开，先区分孤独与独处，讨论羞耻感、边界感与自我怀疑如何影响一个人的内在秩序。全书分为重塑、体系、滋养、觉知四篇，以二十场夜谈和二十个独处微练习，呈现时间分配、情绪急救、思维整理等练习方向。作者杨鸣从自主、边界、自愈、专注、创造和觉知等层面，说明如何建立可停歇的个人空间，并处理焦虑、内耗与社交后的疲惫。书中也涉及高敏感、讨好倾向、效率成瘾与人生转折等处境，将独处视为一种可训练的能力。",
     "recommended_date": "2026-11-18",
-    "detail_url": "book.html?id=8",
+    "detail_url": "book.html?id=11",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E7%8B%AC%E5%A4%84%E5%8A%9B%20%3A%20%E6%8A%8A%E8%87%AA%E5%B7%B1%E8%BF%98%E7%BB%99%E8%87%AA%E5%B7%B1"
   },
   {
@@ -96,7 +126,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/6af82b4bdde27a87.jpg",
     "summary": "本书以提问为线索讨论批判性思维，围绕安检升级、名人推介产品、工作强度要求、专家对股市与房价的判断等日常议题，展示观点背后需要检验的理由与证据。作者强调有意识地提出批判性问题，对问题深思熟虑，理解与自己价值观相左的观点和逻辑，并识别信息中可能存在的逻辑谬误与情感操纵。作为原书第12版·百万纪念珍藏版，该书延续三十余年的教材脉络，把独立思考拆解为可练习的提问方法。",
     "recommended_date": "2026-11-17",
-    "detail_url": "book.html?id=9",
+    "detail_url": "book.html?id=12",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%AD%A6%E4%BC%9A%E6%8F%90%E9%97%AE%EF%BC%88%E5%8E%9F%E4%B9%A6%E7%AC%AC12%E7%89%88%C2%B7%E7%99%BE%E4%B8%87%E7%BA%AA%E5%BF%B5%E7%8F%8D%E8%97%8F%E7%89%88%EF%BC%89"
   },
   {
@@ -106,7 +136,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/f1799322beb7928b.jpg",
     "summary": "本书是美国高校广泛使用的批判性思维教材，已重版6次，四位作者以通俗语言和经过实践检验的方法，系统讲解批判性思维的基本概念、论证方法与常见谬误，内容翔实，知识讲解较为全面。第7版扩充了批判性思维的基本概念，更新练习、例句和素材，新增对合成谬误与分解谬误的解析，并全面修订媒体与广告章节。全书试图连接日常文化与批判性思维训练，呈现学习、生活中运用批判性思维的路径。",
     "recommended_date": "2026-11-17",
-    "detail_url": "book.html?id=10",
+    "detail_url": "book.html?id=13",
     "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4%EF%BC%88%E5%8E%9F%E4%B9%A6%E7%AC%AC7%E7%89%88%EF%BC%89"
   },
   {
@@ -116,37 +146,7 @@
     "cover": "https://danag-tech.github.io/paige-daily-book/covers/d2f7ec9d2106eeb0.jpg",
     "summary": "本书围绕批判性思维与沟通的关系展开，回应批判性思维常被视为对抗性、不利于人际发展的成见，并提出以共向性论证模式推进有效沟通与合作。作者将批判性思维界定为以论证形式呈现的循环探究过程，并指出其与中国文化重视中庸、辩证思维之间存在契合。书中讨论日常对话、结构化辩论、学术写作等情境中如何构建有说服力的论证和反驳，兼具理论框架与论证训练。",
     "recommended_date": "2026-11-17",
-    "detail_url": "book.html?id=11",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4%E4%B8%8E%E6%B2%9F%E9%80%9A%20%3A%20%E7%90%86%E6%80%A7%E5%9C%A8%E8%AE%BA%E8%AF%81%E4%B8%AD%E7%9A%84%E8%BF%90%E7%94%A8"
-  },
-  {
-    "title": "厨艺的常识 : 理论、方法与实践",
-    "author": "[美] 迈克尔·鲁尔曼 著、唐娜·鲁尔曼 摄、迈克尔·鲁尔曼",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/4ffd0036245b18e6.jpg",
-    "summary": "迈克尔·鲁尔曼从十多年美食写作经历和与顶级厨师的合作中汲取经验，把烹饪基础整理成20个要点。本书以120道经典食谱和300张图片呈现这些方法，讨论煮意大利面时加盐的作用、哪些食材宜炖或水波煮、煎炸与烧烤如何控制火候等具体问题。作者强调，烹饪建立在一套基本技法之上，掌握关键原理后，便能理解食谱步骤背后的依据。书中内容围绕理论、方法与实践展开，拆解厨房操作的常见疑问。",
-    "recommended_date": "2026-11-16",
-    "detail_url": "book.html?id=12",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%8E%A8%E8%89%BA%E7%9A%84%E5%B8%B8%E8%AF%86%20%3A%20%E7%90%86%E8%AE%BA%E3%80%81%E6%96%B9%E6%B3%95%E4%B8%8E%E5%AE%9E%E8%B7%B5"
-  },
-  {
-    "title": "香港味道2 : 街头巷尾民间滋味",
-    "author": "欧阳应霁",
-    "rating": "⭐8.1",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/08cc568eab439afd.jpg",
-    "summary": "欧阳应霁以从小吃大、眼阔肚窄嘴刁的饮食经验，写下两卷对香港饮食文化与历史的全景式纵览。本书对街头巷尾的民间滋味逐一梳理，既回顾各类食品的历史，也介绍制作流程，并邀香港演艺明星和文化名流参与讲述。作者自述“不求甚饱，唯独好吃不倦”，把具体的饮食与人生、经历与记忆交织起来。文字之外，该书兼具香港美食地图的性质，可按图索骥寻找散布香港街巷的具体味道。",
-    "recommended_date": "2026-11-16",
-    "detail_url": "book.html?id=13",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E9%A6%99%E6%B8%AF%E5%91%B3%E9%81%932%20%3A%20%E8%A1%97%E5%A4%B4%E5%B7%B7%E5%B0%BE%E6%B0%91%E9%97%B4%E6%BB%8B%E5%91%B3"
-  },
-  {
-    "title": "吃着吃着就老了",
-    "author": "陈晓卿",
-    "rating": "⭐8.0",
-    "cover": "https://danag-tech.github.io/paige-daily-book/covers/be7a3ec15adbb1f0.jpg",
-    "summary": "陈晓卿是现象级美食纪录片的总导演。本书以作者的人生经历为经线，以对食物的认识和态度为纬线，收录围绕饮食展开的个人记忆与人生故事。饭桌旁的日常、小脏馆里的人间烟火、只有至亲才懂的私密饮食偏好，以及菜市场、粉店、豌杂面等城市寻味现场，都进入叙述。食物承载记忆，也见证岁月；书中把美食放回大多数人的一日三餐，并在故乡与世界的行走中呈现日常生活的具体滋味。",
-    "recommended_date": "2026-11-16",
     "detail_url": "book.html?id=14",
-    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E5%90%83%E7%9D%80%E5%90%83%E7%9D%80%E5%B0%B1%E8%80%81%E4%BA%86"
+    "weread_url": "https://weread.qq.com/web/search/books?keyword=%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4%E4%B8%8E%E6%B2%9F%E9%80%9A%20%3A%20%E7%90%86%E6%80%A7%E5%9C%A8%E8%AE%BA%E8%AF%81%E4%B8%AD%E7%9A%84%E8%BF%90%E7%94%A8"
   }
 ]
